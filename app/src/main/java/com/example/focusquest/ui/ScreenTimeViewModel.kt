@@ -37,6 +37,12 @@ class ScreenTimeViewModel(application: Application) : AndroidViewModel(applicati
         initialValue = emptySet()
     )
 
+    val appProtectionEnabled: StateFlow<Boolean> = repository.appProtectionEnabled.stateIn(
+        scope = viewModelScope,
+        started = SharingStarted.WhileSubscribed(5_000),
+        initialValue = true
+    )
+
     val screenTimeState: StateFlow<ScreenTimeState> = repository.screenTimeState.stateIn(
         scope = viewModelScope,
         started = SharingStarted.WhileSubscribed(5_000),
@@ -62,6 +68,12 @@ class ScreenTimeViewModel(application: Application) : AndroidViewModel(applicati
     fun setBaseDailyMinutes(minutes: Int) {
         viewModelScope.launch {
             repository.setBaseDailyMinutes(minutes)
+        }
+    }
+
+    fun setAppProtectionEnabled(enabled: Boolean) {
+        viewModelScope.launch {
+            repository.setAppProtectionEnabled(enabled)
         }
     }
 

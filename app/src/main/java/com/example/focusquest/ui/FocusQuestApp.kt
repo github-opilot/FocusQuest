@@ -2,6 +2,7 @@ package com.example.focusquest.ui
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
+import android.app.Activity
 import android.provider.Settings
 import android.widget.Toast
 import androidx.activity.compose.BackHandler
@@ -42,9 +43,12 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import com.example.focusquest.FocusQuestAccessibilityService
 import com.example.focusquest.data.OnboardingRepository
 import com.example.focusquest.data.catalog.ChapterQuestionRepository
 import com.example.focusquest.data.catalog.CurriculumRepository
+import com.example.focusquest.ui.components.FocusQuestButton
+import com.example.focusquest.ui.components.FocusQuestCard
 import com.example.focusquest.model.Grade
 import com.example.focusquest.ui.catalog.ActivityPickerScreen
 import com.example.focusquest.ui.catalog.ChapterCardUi
@@ -88,10 +92,17 @@ fun FocusQuestApp(
     val selectedPackages by screenTimeViewModel.selectedPackages.collectAsState()
     val usageAccessGranted by screenTimeViewModel.usageAccessGranted.collectAsState()
     val isRefreshing by screenTimeViewModel.isRefreshing.collectAsState()
+    val appProtectionEnabled by screenTimeViewModel.appProtectionEnabled.collectAsState()
+    var accessibilityServiceEnabled by remember {
+        mutableStateOf(FocusQuestAccessibilityService.isEnabled(context))
+    }
 
     DisposableEffect(lifecycleOwner, screenTimeViewModel) {
         val observer = LifecycleEventObserver { _, event ->
-            if (event == Lifecycle.Event.ON_RESUME) screenTimeViewModel.refreshUsage()
+            if (event == Lifecycle.Event.ON_RESUME) {
+                screenTimeViewModel.refreshUsage()
+                accessibilityServiceEnabled = FocusQuestAccessibilityService.isEnabled(context)
+            }
         }
         lifecycleOwner.lifecycle.addObserver(observer)
         onDispose { lifecycleOwner.lifecycle.removeObserver(observer) }
@@ -106,6 +117,32 @@ fun FocusQuestApp(
         if (initialStartDestination == null && hasSeenOnboarding != null) {
             initialStartDestination = if (hasSeenOnboarding == true) HOME_ROUTE else ONBOARDING_ROUTE
         }
+    }
+
+    fun openAccessibilitySettings() {
+        try {
+            context.startActivity(Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS))
+        } catch (_: ActivityNotFoundException) {
+            Toast.makeText(
+                context,
+                "Les réglages d'accessibilité ne sont pas disponibles sur cet appareil.",
+                Toast.LENGTH_LONG
+            ).show()
+        } catch (_: SecurityException) {
+            Toast.makeText(
+                context,
+                "Impossible d'ouvrir les réglages Android.",
+                Toast.LENGTH_LONG
+            ).show()
+        }
+    }
+
+    if (!accessibilityServiceEnabled) {
+        AccessibilityRequiredScreen(
+            onOpenAccessibilitySettings = ::openAccessibilitySettings,
+            onExit = { (context as? Activity)?.finish() }
+        )
+        return
     }
 
     if (initialStartDestination == null) {
@@ -183,7 +220,11 @@ fun FocusQuestApp(
             composable(SETTINGS_ROUTE) {
                 SettingsScreen(
                     baseDailyMinutes = screenTimeState.baseDailyMinutes,
-                    onBaseDailyMinutesSelected = screenTimeViewModel::setBaseDailyMinutes
+                    onBaseDailyMinutesSelected = screenTimeViewModel::setBaseDailyMinutes,
+                    appProtectionEnabled = appProtectionEnabled,
+                    accessibilityServiceEnabled = accessibilityServiceEnabled,
+                    onAppProtectionEnabledChange = screenTimeViewModel::setAppProtectionEnabled,
+                    onOpenAccessibilitySettings = ::openAccessibilitySettings
                 )
             }
 
@@ -357,6 +398,76 @@ fun FocusQuestApp(
                 TextButton(onClick = { showExitMissionDialog = false }) {
                     Text("Continuer la mission")
                 }
+            }
+        )
+    }
+}
+
+@Composable
+private fun AccessibilityRequiredScreen(
+    onOpenAccessibilitySettings: () -> Unit,
+    onExit: () -> Unit
+) {
+    var showConsent by remember { mutableStateOf(false) }
+
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(24.dp),
+        verticalArrangement = androidx.compose.foundation.layout.Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text("🔒", style = MaterialTheme.typography.displayMedium)
+        Spacer(Modifier.height(20.dp))
+        Text(
+            text = "Active l’accessibilité pour continuer",
+            style = MaterialTheme.typography.headlineSmall,
+            fontWeight = FontWeight.Bold
+        )
+        Spacer(Modifier.height(16.dp))
+        FocusQuestCard(modifier = Modifier.fillMaxWidth()) {
+            Text(
+                text = "Pour utiliser FocusQuest, active son service d’accessibilité dans les paramètres Android.",
+                style = MaterialTheme.typography.bodyLarge
+            )
+            Spacer(Modifier.height(10.dp))
+            Text(
+                text = "Le service détecte uniquement le nom de l’application ouverte. Il ne lit pas le contenu de l’écran.",
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant
+            )
+        }
+        Spacer(Modifier.height(20.dp))
+        FocusQuestButton(
+            text = "Continuer vers l’accessibilité",
+            onClick = { showConsent = true },
+            modifier = Modifier.fillMaxWidth()
+        )
+        Spacer(Modifier.height(8.dp))
+        androidx.compose.material3.TextButton(onClick = onExit) {
+            Text("Quitter FocusQuest")
+        }
+    }
+
+    if (showConsent) {
+        AlertDialog(
+            onDismissRequest = { showConsent = false },
+            title = { Text("Autorisation d’accessibilité") },
+            text = {
+                Text(
+                    "FocusQuest utilise ce service pour détecter l’application ouverte et appliquer la protection du temps d’écran. Il ne lit pas le contenu des écrans. Active manuellement « Protection FocusQuest » dans Android. Si tu désactives ensuite ce service, FocusQuest restera verrouillée jusqu’à sa réactivation."
+                )
+            },
+            confirmButton = {
+                TextButton(
+                    onClick = {
+                        showConsent = false
+                        onOpenAccessibilitySettings()
+                    }
+                ) { Text("Ouvrir les paramètres") }
+            },
+            dismissButton = {
+                TextButton(onClick = { showConsent = false }) { Text("Annuler") }
             }
         )
     }

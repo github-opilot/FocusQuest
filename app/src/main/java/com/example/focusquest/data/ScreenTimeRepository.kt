@@ -3,6 +3,7 @@ package com.example.focusquest.data
 import android.content.Context
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
+import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.emptyPreferences
 import androidx.datastore.preferences.core.intPreferencesKey
@@ -57,6 +58,18 @@ class ScreenTimeRepository(
             if (exception is IOException) emit(emptyPreferences()) else throw exception
         }
         .map { preferences -> preferences[SELECTED_PACKAGES] ?: emptySet() }
+
+    val appProtectionEnabled: Flow<Boolean> = dataStore.data
+        .catch { exception ->
+            if (exception is IOException) emit(emptyPreferences()) else throw exception
+        }
+        .map { preferences -> preferences[APP_PROTECTION_ENABLED] ?: true }
+
+    suspend fun setAppProtectionEnabled(enabled: Boolean) {
+        dataStore.edit { preferences ->
+            preferences[APP_PROTECTION_ENABLED] = enabled
+        }
+    }
 
     suspend fun setBaseDailyMinutes(minutes: Int) {
         dataStore.edit { preferences ->
@@ -267,6 +280,7 @@ class ScreenTimeRepository(
         val LAST_RESET_DATE = stringPreferencesKey("last_reset_date")
         val SELECTED_PACKAGES = stringSetPreferencesKey("selected_packages")
         val KNOWN_USAGE_PACKAGES = stringSetPreferencesKey("usage_packages_with_cursor")
+        val APP_PROTECTION_ENABLED = booleanPreferencesKey("app_protection_enabled")
 
         fun usedMinutesFrom(milliseconds: Long): Int =
             (milliseconds.coerceAtLeast(0L) / ScreenTimeState.MILLIS_PER_MINUTE)

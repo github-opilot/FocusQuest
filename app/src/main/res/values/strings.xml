@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Focus Quest</string>
+    <string name="accessibility_service_label">Protection FocusQuest</string>
+    <string name="accessibility_service_description">Détecte le nom de l’application au premier plan pour afficher le blocage facultatif lorsque le temps disponible est épuisé. FocusQuest ne lit pas le contenu des écrans.</string>
 </resources>
