@@ -14,7 +14,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "L’alexandrin est un vers de douze syllabes, selon les règles de décompte poétique.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-francais-poesie-q02",
@@ -29,7 +29,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "La métaphore rapproche des réalités sans terme comparatif explicite.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-francais-poesie-q03",
@@ -44,7 +44,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’enjambement prolonge une construction syntaxique d’un vers sur le suivant.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-francais-poesie-q04",
@@ -59,7 +59,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La forme usuelle du sonnet français associe deux quatrains et deux tercets.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-francais-poesie-q05",
@@ -74,7 +74,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Les rimes A encadrent les rimes B : elles sont embrassées.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-francais-roman-q01",
@@ -89,7 +89,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un récit à la première personne emploie un narrateur qui dit « je » ; il peut être personnage, sans être l’auteur réel.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-francais-roman-q02",
@@ -104,7 +104,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le récit est limité au point de vue d’un personnage.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-francais-roman-q03",
@@ -119,7 +119,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’analepse est un retour en arrière narratif.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-francais-roman-q04",
@@ -134,7 +134,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un personnage ou narrateur raconte une histoire à l’intérieur du récit-cadre.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-francais-roman-q05",
@@ -149,7 +149,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un narrateur omniscient dispose d’un savoir étendu sur les personnages, les événements ou les temps.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-maths-second-degre-q01",
@@ -164,7 +164,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "x² − 5x + 6 = (x−2)(x−3), donc les racines sont 2 et 3.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-maths-second-degre-q02",
@@ -179,7 +179,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Δ = b² − 4ac = 16 − 16 = 0.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-maths-second-degre-q03",
@@ -194,7 +194,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Le coefficient de x² est positif, donc la parabole est tournée vers le haut.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-maths-second-degre-q04",
@@ -209,7 +209,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "C’est une différence de deux carrés : x²−3²=(x−3)(x+3).",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-maths-second-degre-q05",
@@ -224,7 +224,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le sommet donne le minimum si a>0 ou le maximum si a<0.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-maths-suites-q01",
@@ -239,7 +239,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "On ajoute 3 à chaque rang : u₁=5, u₂=8, u₃=11, u₄=14.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-maths-suites-q02",
@@ -254,7 +254,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "En remplaçant n par 5 : u₅ = 2×5 + 1 = 11.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-maths-suites-q03",
@@ -269,7 +269,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "u₃ = u₀ + 3r = 4 + 3(−2) = −2.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-maths-suites-q04",
@@ -284,7 +284,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Chaque terme s’obtient en ajoutant une quantité positive au précédent.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-maths-suites-q05",
@@ -299,7 +299,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "u₁=6, u₂=12, u₃=24.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-pc-quantite-matiere-q01",
@@ -314,7 +314,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "La relation est n=m/M, avec des unités cohérentes.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-pc-quantite-matiere-q02",
@@ -329,7 +329,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "n=18/18=1 mol.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-pc-quantite-matiere-q03",
@@ -344,7 +344,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "c=n/V=0,20/1,0=0,20 mol·L⁻¹.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-pc-quantite-matiere-q04",
@@ -359,7 +359,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "La même quantité de soluté répartie dans un volume plus grand donne une concentration plus faible.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-pc-quantite-matiere-q05",
@@ -374,7 +374,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La masse molaire exprime une masse par mole.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-pc-transformations-q01",
@@ -389,7 +389,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les atomes sont conservés et réorganisés pour former les produits.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-pc-transformations-q02",
@@ -404,7 +404,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le nombre d’atomes de chaque élément doit être identique des deux côtés.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-pc-transformations-q03",
@@ -419,7 +419,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’épuisement du réactif limitant arrête la transformation.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-pc-transformations-q04",
@@ -434,7 +434,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Les coefficients indiquent que 3 molécules de H₂ réagissent avec 1 de N₂.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-pc-transformations-q05",
@@ -449,7 +449,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un catalyseur accélère la réaction mais n’est pas consommé dans le bilan global.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-svt-evolution-q01",
@@ -464,7 +464,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une mutation modifie une séquence d’ADN et peut créer un nouvel allèle.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-svt-evolution-q02",
@@ -479,7 +479,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La dérive génétique est une variation aléatoire des fréquences d’allèles, particulièrement marquée dans les petites populations.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-svt-evolution-q03",
@@ -494,7 +494,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le hasard de la reproduction pèse davantage sur les fréquences alléliques quand l’effectif est faible.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-svt-evolution-q04",
@@ -509,7 +509,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un caractère héritable qui augmente le succès reproducteur peut devenir plus fréquent dans la population.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-svt-evolution-q05",
@@ -524,7 +524,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La sélection est liée aux différences de succès reproducteur ; la dérive correspond à un effet du hasard.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-svt-genetique-q01",
@@ -539,7 +539,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un gène porte une information utilisée notamment pour produire un ARN ou une protéine fonctionnelle.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-svt-genetique-q02",
@@ -554,7 +554,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Dans l’ADN, l’adénine s’apparie avec la thymine.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-svt-genetique-q03",
@@ -569,7 +569,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La transcription a lieu dans le noyau ; l’ARN messager peut ensuite être traduit dans le cytoplasme.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-svt-genetique-q04",
@@ -584,7 +584,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Brassages et répartitions des chromosomes rendent les gamètes génétiquement variés.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "premiere-svt-genetique-q05",
@@ -599,7 +599,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le phénotype résulte des interactions entre génotype, organisme et environnement.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     }
   ]
 }

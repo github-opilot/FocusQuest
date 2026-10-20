@@ -65,7 +65,7 @@ fun HomeScreen(
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
             }
-            SymbolBadge(symbol = "✦", accentColor = FocusYellow)
+            SymbolBadge(symbol = "🌟", accentColor = FocusYellow)
         }
 
         FocusQuestCard(
@@ -96,14 +96,14 @@ fun HomeScreen(
             StatCard(
                 label = "Temps gagné",
                 value = formatScreenTime(earnedTimeMillis),
-                symbol = "✦",
+                symbol = "🌟",
                 accentColor = FocusPink,
                 modifier = Modifier.weight(1f)
             )
             StatCard(
                 label = "Temps utilisé",
                 value = formatScreenTime(usedTimeMillis),
-                symbol = "◷",
+                symbol = "⏱️",
                 accentColor = FocusBlue,
                 modifier = Modifier.weight(1f)
             )
@@ -139,7 +139,7 @@ fun HomeScreen(
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
                 }
-                SymbolBadge(symbol = "◉", accentColor = FocusBlue, size = 42.dp)
+                SymbolBadge(symbol = "📱", accentColor = FocusBlue, size = 42.dp)
             }
 
             Spacer(Modifier.height(10.dp))

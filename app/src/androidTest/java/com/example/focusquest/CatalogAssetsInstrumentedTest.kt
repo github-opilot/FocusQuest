@@ -12,6 +12,7 @@ import com.example.focusquest.model.Subject
 import org.json.JSONObject
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
+import org.junit.Assert.assertNotNull
 import org.junit.Assert.assertTrue
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -25,10 +26,15 @@ class CatalogAssetsInstrumentedTest {
     fun catalogAndQuestionAssetsAreValidAndStrictlyRelated() {
         val curricula = CurriculumRepository(context)
         val questionRepository = ChapterQuestionRepository(context, curricula)
+        val allQuestionIds = mutableSetOf<String>()
+        val allQuestionTexts = mutableSetOf<String>()
+        var foundEmptyChapter = false
 
         CurriculumGradeIds.all.forEach { gradeId ->
             val curriculumJson = readAssetOrNull("curriculum/$gradeId.json")
             val questionsJson = readAssetOrNull("questions/$gradeId.json")
+            assertNotNull("Missing curriculum asset for $gradeId", curriculumJson)
+            assertNotNull("Missing question asset for $gradeId", questionsJson)
 
             val subjectChapterPairs = linkedSetOf<Pair<String, String>>()
             val allChapterIds = mutableSetOf<String>()
@@ -64,18 +70,27 @@ class CatalogAssetsInstrumentedTest {
                     val question = questions.getJSONObject(index)
                     val id = question.getString("id")
                     assertTrue("Duplicate question ID $gradeId/$id", questionIds.add(id))
+                    assertTrue("Question ID is duplicated across grades: $id", allQuestionIds.add(id))
+                    val normalizedText = question.getString("question")
+                        .trim()
+                        .replace(Regex("\\s+"), " ")
+                        .lowercase()
+                    assertTrue("Duplicate question text: $id", allQuestionTexts.add(normalizedText))
                     val subjectId = question.getString("subjectId")
                     val chapterId = question.getString("chapterId")
                     assertFalse(question.getString("question").isBlank())
                     assertFalse(question.getString("explanation").isBlank())
                     val answers = question.getJSONArray("answers")
                     assertEquals("Question $id must have exactly four answers", 4, answers.length())
+                    val uniqueAnswers = mutableSetOf<String>()
                     for (answerIndex in 0 until answers.length()) {
-                        assertFalse("Question $id has a blank answer", answers.getString(answerIndex).isBlank())
+                        val answer = answers.getString(answerIndex)
+                        assertFalse("Question $id has a blank answer", answer.isBlank())
+                        assertTrue("Question $id has duplicate answers", uniqueAnswers.add(answer))
                     }
                     val correctIndex = question.get("correctAnswerIndex").asExactInt()
                     assertTrue("Question $id has an invalid correct answer index", correctIndex in 0..3)
-                    assertTrue("Question $id has a negative reward", question.get("rewardMinutes").asExactInt() >= 0)
+                    assertEquals("Catalog questions award 30 seconds", 30, question.get("rewardSeconds").asExactInt())
                     if (curriculumJson != null) {
                         assertTrue(
                             "Question $id references another grade, subject, or chapter",
@@ -100,6 +115,7 @@ class CatalogAssetsInstrumentedTest {
                         questionRepository.getQuestionCount(gradeId, subject.id, chapter.id)
                     )
                     assertEquals(chapterQuestions.size, countsByChapter.getValue(chapter.id))
+                    if (chapterQuestions.isEmpty()) foundEmptyChapter = true
                     val session = questionRepository.getSessionQuestions(gradeId, subject.id, chapter.id)
                     assertTrue(session.size <= 5)
                     assertEquals(session.size, session.map { it.id }.toSet().size)
@@ -111,6 +127,19 @@ class CatalogAssetsInstrumentedTest {
         assertTrue(curricula.getChapters("grade-inconnu", "maths").isEmpty())
         assertTrue(questionRepository.getQuestions("grade-inconnu", "maths", "x").isEmpty())
         assertTrue(questionRepository.getQuestionCounts("grade-inconnu", "maths").isEmpty())
+        assertTrue("The catalog should preserve chapters without QCM", foundEmptyChapter)
+
+        assertEquals(5, questionRepository.getQuestionCount("3e", "maths", "3e-maths-equations"))
+        assertEquals(5, questionRepository.getQuestionCount("5e", "francais", "5e-francais-heroines-heros"))
+        assertEquals(5, questionRepository.getQuestionCount("seconde", "maths", "seconde-maths-arithmetique"))
+        assertEquals(
+            5,
+            questionRepository.getQuestionCount(
+                "premiere_generale",
+                "maths-spe",
+                "premiere-maths-second-degre"
+            )
+        )
     }
 
     @Test

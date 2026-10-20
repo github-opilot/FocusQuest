@@ -70,10 +70,10 @@ fun SubjectSelectionScreen(
 }
 
 private fun subjectSymbol(subject: Subject): String = when (subject) {
-    Subject.MATHS -> "∑"
-    Subject.FRANCAIS -> "Aa"
-    Subject.HISTOIRE_GEOGRAPHIE -> "◎"
-    Subject.SCIENCES -> "⚛"
+    Subject.MATHS -> "🧮"
+    Subject.FRANCAIS -> "📖"
+    Subject.HISTOIRE_GEOGRAPHIE -> "🌍"
+    Subject.SCIENCES -> "🧪"
 }
 
 private fun subjectSubtitle(subject: Subject): String = when (subject) {

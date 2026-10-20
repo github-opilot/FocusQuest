@@ -90,13 +90,13 @@ private fun ActivityChoiceCard(
             }
             Spacer(Modifier.height(20.dp))
             Text(
-                text = "QCM",
+                text = "QCM · 5 questions max",
                 style = MaterialTheme.typography.headlineSmall,
                 fontWeight = FontWeight.Bold
             )
             Text(
                 text = if (available) {
-                    "$questionCount question${if (questionCount == 1) "" else "s"} pour tester tes connaissances"
+                    "$questionCount question${if (questionCount == 1) "" else "s"} disponible${if (questionCount == 1) "" else "s"} pour ce chapitre"
                 } else {
                     "Le QCM de « $chapterTitle » sera bientôt disponible."
                 },

@@ -14,7 +14,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "La figure héroïque se construit par ses actions, ses épreuves et les valeurs qu’elle représente ; elle n’a pas besoin de pouvoirs.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-francais-heroines-heros-q02",
@@ -29,7 +29,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Affronter un danger pour aider autrui peut montrer du courage et de la solidarité.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-francais-heroines-heros-q03",
@@ -44,7 +44,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les représentations du héros évoluent avec les sociétés, leurs valeurs et les genres littéraires.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-francais-heroines-heros-q04",
@@ -59,7 +59,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Un personnage héroïque peut être imparfait ; ses doutes et ses évolutions construisent son destin romanesque.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-francais-heroines-heros-q05",
@@ -74,7 +74,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Observer les décisions du personnage face aux épreuves aide à interpréter les valeurs portées par le récit.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-francais-voyager-poesie-q01",
@@ -89,7 +89,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Le vers est une ligne de poésie.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-francais-voyager-poesie-q02",
@@ -104,7 +104,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "L’image rapproche la route d’un ruban brillant pour faire voir le paysage autrement.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-francais-voyager-poesie-q03",
@@ -119,7 +119,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les sensations et les images poétiques invitent le lecteur à imaginer le voyage extérieur ou intérieur.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-francais-voyager-poesie-q04",
@@ -134,7 +134,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "L’allitération répète des consonnes et l’assonance des voyelles ; ces sons peuvent créer un effet musical.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-francais-voyager-poesie-q05",
@@ -149,7 +149,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Une métaphore rapproche deux éléments directement pour créer une image.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-maths-operations-q01",
@@ -164,7 +164,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "La multiplication se fait avant la soustraction : 3 × 4 = 12, puis 18 − 12 = 6.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-maths-operations-q02",
@@ -179,7 +179,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Le double de 7 est 2 × 7 ; on ajoute ensuite 5.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-maths-operations-q03",
@@ -194,7 +194,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "On peut calculer 10 + 2 = 12, puis 4 × 12 = 48.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-maths-operations-q04",
@@ -209,7 +209,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "29 = 6 × 4 + 5, et le reste 5 est inférieur au diviseur 6.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-maths-operations-q05",
@@ -224,7 +224,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "La divisibilité par 3 se teste en additionnant les chiffres ; 3 246 a une somme de chiffres égale à 15.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-maths-relatifs-q01",
@@ -239,7 +239,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Sur une droite graduée, −2 est à droite de −5 ; il est donc supérieur.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-maths-relatifs-q02",
@@ -254,7 +254,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "L’augmentation est 4 − (−3) = 7 degrés.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-maths-relatifs-q03",
@@ -269,7 +269,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’opposé d’un nombre a le signe contraire ; l’opposé de −8 est 8.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-maths-relatifs-q04",
@@ -284,7 +284,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Les nombres ont des signes différents : 9 − 6 = 3, et le résultat prend le signe de 9.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-maths-relatifs-q05",
@@ -299,7 +299,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "En allant quatre unités vers la gauche depuis 1, on calcule 1 − 4 = −3.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-histoire-byzance-carolingiens-q01",
@@ -314,7 +314,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Constantinople est la capitale de l’Empire byzantin et un grand centre politique et commercial.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-histoire-byzance-carolingiens-q02",
@@ -329,7 +329,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Charlemagne est le souverain carolingien couronné empereur en l’an 800.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-histoire-byzance-carolingiens-q03",
@@ -344,7 +344,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’Empire byzantin est un empire chrétien, dont l’Église suit principalement la tradition orthodoxe.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-histoire-byzance-carolingiens-q04",
@@ -359,7 +359,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Les objets et écrits conservés sont des sources que les historiens peuvent analyser dans leur contexte.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-histoire-byzance-carolingiens-q05",
@@ -374,7 +374,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Le thème met en regard plusieurs mondes chrétiens médiévaux et leurs organisations.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-histoire-islam-bagdad-q01",
@@ -389,7 +389,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "L’islam apparaît au VIIe siècle dans la péninsule Arabique.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-histoire-islam-bagdad-q02",
@@ -404,7 +404,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Bagdad devient au VIIIe siècle la capitale du califat abbasside et un important centre urbain.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-histoire-islam-bagdad-q03",
@@ -419,7 +419,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le Coran est le texte sacré de l’islam.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-histoire-islam-bagdad-q04",
@@ -434,7 +434,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Les mondes en contact sont reliés par des échanges, des conflits, des voyages et des circulations.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-histoire-islam-bagdad-q05",
@@ -449,7 +449,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "La prise de Bagdad par les Mongols a lieu en 1258, repère qui marque la fin de la période étudiée dans l’intitulé du programme.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-geographie-croissance-population-q01",
@@ -464,7 +464,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "La croissance démographique correspond à l’augmentation de la population au cours du temps.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-geographie-croissance-population-q02",
@@ -479,7 +479,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Un solde naturel positif, avec plus de naissances que de décès, augmente la population.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-geographie-croissance-population-q03",
@@ -494,7 +494,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les effets dépendent notamment des ressources disponibles, des équipements et de l’organisation du territoire.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-geographie-croissance-population-q04",
@@ -509,7 +509,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Une courbe placée sur un axe du temps montre comment une valeur évolue d’une année à l’autre.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-geographie-croissance-population-q05",
@@ -524,7 +524,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Une population plus nombreuse peut nécessiter davantage de logements et de services, selon le territoire.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-geographie-richesse-pauvrete-q01",
@@ -539,7 +539,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Les territoires présentent des niveaux et des formes de développement différents, visibles par plusieurs indicateurs.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-geographie-richesse-pauvrete-q02",
@@ -554,7 +554,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Une valeur moyenne résume une population mais peut masquer de fortes inégalités internes.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-geographie-richesse-pauvrete-q03",
@@ -569,7 +569,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La scolarisation donne une indication sur l’accès à l’éducation.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-geographie-richesse-pauvrete-q04",
@@ -584,7 +584,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Une ressource est un élément que les sociétés peuvent utiliser pour répondre à des besoins.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-geographie-richesse-pauvrete-q05",
@@ -599,7 +599,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Plusieurs indicateurs et le contexte permettent une comparaison plus nuancée.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-emc-egalite-q01",
@@ -614,7 +614,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "L’égalité en droits signifie que les personnes disposent des mêmes droits fondamentaux et que les discriminations sont interdites.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-emc-egalite-q02",
@@ -629,7 +629,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Il faut chercher de l’aide auprès d’un adulte et protéger la personne concernée, sans amplifier l’attaque.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-emc-egalite-q03",
@@ -644,7 +644,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une aide adaptée peut compenser un obstacle afin de rendre l’accès aux droits plus égal.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-emc-egalite-q04",
@@ -659,7 +659,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "L’égalité suppose que chacun puisse participer et avoir les mêmes droits, sans stéréotype de genre.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-emc-egalite-q05",
@@ -674,7 +674,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "La fraternité valorise la solidarité et l’attention portée aux autres.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-emc-fraternite-q01",
@@ -689,7 +689,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "La fraternité implique solidarité, respect et reconnaissance de la dignité de chacun.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-emc-fraternite-q02",
@@ -704,7 +704,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Une association peut mobiliser des bénévoles et organiser des actions d’entraide.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-emc-fraternite-q03",
@@ -719,7 +719,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La solidarité mobilise différents acteurs, locaux ou nationaux, associatifs ou publics.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-emc-fraternite-q04",
@@ -734,7 +734,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Les services publics peuvent protéger les personnes et les accompagner vers les aides prévues.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-emc-fraternite-q05",
@@ -749,7 +749,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "La solidarité peut prendre plusieurs formes : aide matérielle, accompagnement, écoute et mobilisation collective.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-langues-vivantes-portrait-q01",
@@ -764,7 +764,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Les mots descriptifs et le contexte aident à construire le sens général d’un portrait.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-langues-vivantes-portrait-q02",
@@ -779,7 +779,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Préparer quelques informations pertinentes aide à organiser un autoportrait sans divulguer de données privées.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-langues-vivantes-portrait-q03",
@@ -794,7 +794,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le contexte et les mots autour du terme inconnu permettent souvent d’en déduire le sens.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-langues-vivantes-portrait-q04",
@@ -809,7 +809,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Un portrait décrit sans humilier et évite les stéréotypes ou la divulgation d’informations privées.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-langues-vivantes-portrait-q05",
@@ -824,7 +824,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Une relecture aide à vérifier l’ordre des idées et la clarté du message.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-langues-vivantes-quotidien-q01",
@@ -839,7 +839,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Les marqueurs de temps et les verbes d’action aident à reconstruire la routine.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-langues-vivantes-quotidien-q02",
@@ -854,7 +854,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Répondre puis relancer avec une question liée au sujet permet une interaction naturelle.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-langues-vivantes-quotidien-q03",
@@ -869,7 +869,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les rythmes quotidiens peuvent différer selon les personnes, les saisons et les contextes culturels.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-langues-vivantes-quotidien-q04",
@@ -884,7 +884,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Une frise et des repères comme matin, après-midi et soir permettent d’organiser un récit.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-langues-vivantes-quotidien-q05",
@@ -899,7 +899,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Reformuler et laisser du temps facilite la compréhension et respecte le rythme de l’interlocuteur.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-physique-chimie-matiere-q01",
@@ -914,7 +914,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Un corps pur contient une seule espèce chimique ; un mélange en contient plusieurs.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-physique-chimie-matiere-q02",
@@ -929,7 +929,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Quand le sel est dissous et qu’on ne distingue plus ses grains, le mélange est homogène à l’œil nu.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-physique-chimie-matiere-q03",
@@ -944,7 +944,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La fusion est un changement d’état : l’eau reste de l’eau mais passe du solide au liquide.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-physique-chimie-matiere-q04",
@@ -959,7 +959,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Le filtre retient les grains de sable tandis que l’eau traverse.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-physique-chimie-matiere-q05",
@@ -974,7 +974,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Les consignes et les équipements de protection réduisent les risques en laboratoire.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-physique-chimie-mouvements-q01",
@@ -989,7 +989,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Un objet peut sembler immobile ou en mouvement selon l’objet de référence choisi.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-physique-chimie-mouvements-q02",
@@ -1004,7 +1004,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Une trajectoire peut être une ligne droite, un cercle ou une courbe plus générale.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-physique-chimie-mouvements-q03",
@@ -1019,7 +1019,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La vitesse moyenne se calcule par distance divisée par durée : 60 ÷ 10 = 6 m/s.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-physique-chimie-mouvements-q04",
@@ -1034,7 +1034,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Le mouvement est relatif : la table et l’objet se déplacent avec la Terre autour du Soleil.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-physique-chimie-mouvements-q05",
@@ -1049,7 +1049,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Lors d’un mouvement uniforme, la distance augmente régulièrement avec le temps ; le graphique est une droite.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-svt-terre-environnement-q01",
@@ -1064,7 +1064,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "L’eau, le vent et d’autres agents d’érosion usent et déplacent des matériaux, ce qui transforme les paysages.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-svt-terre-environnement-q02",
@@ -1079,7 +1079,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "La destruction des habitats, la pollution et d’autres pressions peuvent réduire les populations et la biodiversité.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-svt-terre-environnement-q03",
@@ -1094,7 +1094,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Économiser l’eau et éviter les rejets polluants aident à préserver cette ressource.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-svt-terre-environnement-q04",
@@ -1109,7 +1109,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Les activités humaines peuvent modifier les milieux, parfois de façon positive, parfois avec des effets négatifs.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-svt-terre-environnement-q05",
@@ -1124,7 +1124,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Comparer des observations dans le temps permet d’identifier des changements et de tester des explications.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-svt-vivant-evolution-q01",
@@ -1139,7 +1139,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Les caractères partagés servent à construire une classification qui représente des liens de parenté.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-svt-vivant-evolution-q02",
@@ -1154,7 +1154,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "La biodiversité se décrit à plusieurs niveaux : diversité des espèces, diversité génétique et diversité des écosystèmes.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-svt-vivant-evolution-q03",
@@ -1169,7 +1169,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’évolution correspond aux changements des populations au fil des générations.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-svt-vivant-evolution-q04",
@@ -1184,7 +1184,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Les fossiles conservent des traces d’êtres vivants anciens et renseignent sur l’histoire du vivant.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-svt-vivant-evolution-q05",
@@ -1199,7 +1199,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Une parenté se construit à partir d’un ensemble de caractères et de données, pas d’une ressemblance isolée.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-technologie-usages-interactions-q01",
@@ -1214,7 +1214,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Un objet technique est conçu pour répondre à un ou plusieurs besoins d’utilisateurs.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-technologie-usages-interactions-q02",
@@ -1229,7 +1229,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Le choix d’un objet dépend de critères liés à l’usage, aux performances et aux contraintes.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-technologie-usages-interactions-q03",
@@ -1244,7 +1244,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un système technique peut échanger des données avec des utilisateurs et d’autres systèmes.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-technologie-usages-interactions-q04",
@@ -1259,7 +1259,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Les évolutions techniques répondent notamment à de nouveaux usages, contraintes et possibilités.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-technologie-usages-interactions-q05",
@@ -1274,7 +1274,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Une notice ou un schéma présente les consignes et les fonctions utiles de l’objet.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-technologie-structure-fonctionnement-q01",
@@ -1289,7 +1289,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Un capteur recueille une grandeur ou une information, par exemple la lumière ou la température.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-technologie-structure-fonctionnement-q02",
@@ -1304,7 +1304,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Un actionneur réalise une action, par exemple faire tourner un moteur ou allumer une lampe.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-technologie-structure-fonctionnement-q03",
@@ -1319,7 +1319,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un programme est une suite d’instructions qui indique à un système les actions à réaliser.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-technologie-structure-fonctionnement-q04",
@@ -1334,7 +1334,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "On recherche prudemment une cause simple, sans prendre de risque, et on demande de l’aide si nécessaire.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-technologie-structure-fonctionnement-q05",
@@ -1349,7 +1349,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Un schéma d’échanges aide à identifier ce qui entre et sort du système et comment il fonctionne.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-evars-corps-intimite-q01",
@@ -1364,7 +1364,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Respecter une limite, c’est prendre au sérieux le choix exprimé et ne pas exercer de pression.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-evars-corps-intimite-q02",
@@ -1379,7 +1379,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Un adulte de confiance ou un professionnel de santé peut donner une information adaptée et orienter l’élève.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-evars-corps-intimite-q03",
@@ -1394,7 +1394,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La dignité et la vie privée de chacun doivent être respectées.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-evars-corps-intimite-q04",
@@ -1409,7 +1409,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "L’élève peut demander de l’aide à un adulte de confiance et éviter tout échange risqué.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-evars-corps-intimite-q05",
@@ -1424,7 +1424,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Le développement varie d’une personne à l’autre ; il n’y a pas un rythme unique.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-evars-relations-respectueuses-q01",
@@ -1439,7 +1439,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Le consentement suppose un accord libre et peut être retiré ; la pression et la contrainte ne sont pas un accord.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-evars-relations-respectueuses-q02",
@@ -1454,7 +1454,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Le refus doit être respecté ; la photo d’une personne ne se partage pas sans son accord.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-evars-relations-respectueuses-q03",
@@ -1469,7 +1469,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une relation respectueuse prend en compte les besoins, les choix et la parole de chacun.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-evars-relations-respectueuses-q04",
@@ -1484,7 +1484,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Il faut protéger la personne, ne pas relayer les contenus et prévenir un adulte ou un service d’aide.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-evars-relations-respectueuses-q05",
@@ -1499,7 +1499,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "L’égalité est un principe commun qui garantit à chacun les mêmes droits et possibilités.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-lca-mythes-reperes-q01",
@@ -1514,7 +1514,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Les mythes antiques mettent en scène dieux et héros pour transmettre des récits et questionner les sociétés.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-lca-mythes-reperes-q02",
@@ -1529,7 +1529,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Athéna est une déesse grecque associée à la sagesse et à la stratégie.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-lca-mythes-reperes-q03",
@@ -1544,7 +1544,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les récits mythologiques renseignent sur des croyances, des représentations et des valeurs anciennes.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-lca-mythes-reperes-q04",
@@ -1559,7 +1559,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Un objet ancien découvert et étudié avec son contexte peut constituer une source archéologique.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-lca-mythes-reperes-q05",
@@ -1574,7 +1574,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Les versions d’un mythe évoluent ; leur comparaison fait apparaître les choix et les interprétations.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-lca-latin-francais-q01",
@@ -1589,7 +1589,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "? Aquatique ? est form? ? partir du latin aqua, qui signifie eau. ? Terrien ? vient de la famille de terra, qui signifie terre.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-lca-latin-francais-q02",
@@ -1604,7 +1604,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "En latin, mater signifie « mère ».",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-lca-latin-francais-q03",
@@ -1619,7 +1619,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Terrien » est formé à partir du radical terr-, lié à la terre et au latin terra.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-lca-latin-francais-q04",
@@ -1634,7 +1634,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "L’étymologie recherche l’origine des mots et les changements de leur forme ou de leur sens.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "5e-lca-latin-francais-q05",
@@ -1649,7 +1649,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Une grande partie du vocabulaire français s’est construite à partir du latin, même si les mots ont évolué.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     }
   ]
 }

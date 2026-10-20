@@ -54,7 +54,7 @@ fun SettingsScreen(
         minuteOptions.forEach { minutes ->
             FocusQuestChoiceCard(
                 title = "$minutes minutes",
-                symbol = "◷",
+                symbol = "⏱️",
                 subtitle = if (minutes == baseDailyMinutes) {
                     "Durée actuelle"
                 } else {

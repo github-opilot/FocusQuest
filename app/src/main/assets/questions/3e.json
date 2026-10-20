@@ -14,7 +14,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Avec Thalès, AE/AC = AD/AB = 4/10 ; AE = 15 x 0,4 = 6 cm.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-maths-thales-q02",
@@ -29,7 +29,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "AE/AC = AD/AB = 8/12 = 2/3, donc AE = 15 x 2/3 = 10 cm.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-maths-thales-q03",
@@ -44,7 +44,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "AD/AB = 6/9 = 2/3 et AE/AC = 8/12 = 2/3 ; la réciproque de Thalès s’applique.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-maths-thales-q04",
@@ -59,7 +59,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le théorème met en proportion les côtés correspondants des triangles ayant le sommet commun.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-maths-thales-q05",
@@ -74,7 +74,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "AD = 20 x 3/5 = 12 cm.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-maths-trigonometrie-q01",
@@ -89,7 +89,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le sinus d’un angle aigu est le rapport du côté opposé à l’hypoténuse.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-maths-trigonometrie-q02",
@@ -104,7 +104,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "sin(angle) = 6/10 = 0,6.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-maths-trigonometrie-q03",
@@ -119,7 +119,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le cosinus d’un angle aigu est le rapport du côté adjacent à l’hypoténuse.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-maths-trigonometrie-q04",
@@ -134,7 +134,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "tan(angle) = côté opposé / côté adjacent = 9/12 = 3/4.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-maths-trigonometrie-q05",
@@ -149,7 +149,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "sin(angle) = opposé/hypoténuse, donc opposé = hypoténuse x sin(angle).",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-francais-lit1-q01",
@@ -164,7 +164,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’autobiographie est le récit rétrospectif qu’une personne réelle fait de sa propre vie.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-francais-lit1-q02",
@@ -179,7 +179,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le pronom « je » ne suffit pas : il faut examiner l’identité annoncée et le pacte de lecture.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-francais-lit1-q03",
@@ -194,7 +194,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le pacte associé l’auteur, le narrateur et le personnage principal sous la même identité.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-francais-lit1-q04",
@@ -209,7 +209,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les mémoires accordent souvent une place importante aux événements historiques vécus par l’auteur.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-francais-lit1-q05",
@@ -224,7 +224,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une trace peut enrichir ou nuancer un souvenir, sans garantir à elle seule son exactitude.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-francais-lit2-q01",
@@ -239,7 +239,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La caricature accentue ou déforme des traits afin de produire un effet critique ou satirique.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-francais-lit2-q02",
@@ -254,7 +254,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La satire utilise notamment le comique et l’ironie pour dénoncer des travers.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-francais-lit2-q03",
@@ -269,7 +269,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Elle est formulée pour produire un effet et orienter la réflexion du lecteur.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-francais-lit2-q04",
@@ -284,7 +284,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le contre-argument prend en compte une objection ou une position adverse pour y répondre.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-francais-lit2-q05",
@@ -299,7 +299,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Des exemples pertinents rendent les arguments plus concrets pour le public auquel le texte s’adresse.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-hist-worldwars-q01",
@@ -314,7 +314,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’assassinat de l’archiduc François-Ferdinand à Sarajevo, le 28 juin 1914, précipite la crise internationale.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-hist-worldwars-q02",
@@ -329,7 +329,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Le traité de Versailles est signé le 28 juin 1919.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-hist-worldwars-q03",
@@ -344,7 +344,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les résistants luttent contre l’occupation et le régime de collaboration, par des actions diverses.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-hist-worldwars-q04",
@@ -359,7 +359,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’appel du 18 juin invite à poursuivre le combat après la défaite française de 1940.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-hist-worldwars-q05",
@@ -374,7 +374,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La Shoah désigne le génocide des Juifs d’Europe organisé par le régime nazi et mis en œuvre avec des collaborateurs.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-hist-world-q01",
@@ -389,7 +389,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "L’ordonnance du 21 avril 1944 accorde le droit de vote aux femmes, exercé pour la première fois en 1945.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-hist-world-q02",
@@ -404,7 +404,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Le mur de Berlin s’ouvre le 9 novembre 1989, dans le contexte de la fin de la guerre froide en Europe.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-hist-world-q03",
@@ -419,7 +419,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’expression désigne approximativement la forte croissance de l’après-guerre jusqu’au début des années 1970.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-hist-world-q04",
@@ -434,7 +434,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le traité de Rome, signé en 1957, crée la Communauté économique européenne.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-hist-world-q05",
@@ -449,7 +449,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La décolonisation est le processus par lequel des colonies deviennent des États indépendants.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-geo-dynamics-q01",
@@ -464,22 +464,22 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La métropolisation renforce le poids des grandes villes et la concentration de certaines fonctions.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-geo-dynamics-q02",
       "subjectId": "geographie",
       "chapterId": "3e-geo-dynamics",
-      "question": "Un espace de faible densité est un espace…",
+      "question": "Quel effet la métropolisation peut-elle avoir sur les espaces proches d’une grande ville ?",
       "answers": [
-        "Peu peuplé, mais pas nécessairement vide ou sans activités",
-        "Sans aucun habitant par définition",
-        "Uniquement situé à l’étranger",
-        "Toujours dépourvu de services"
+        "Elle renforce les échanges et les déplacements avec la métropole",
+        "Elle supprime tous les liens avec la ville",
+        "Elle interdit l’installation de nouveaux habitants",
+        "Elle transforme nécessairement ces espaces en zones agricoles"
       ],
       "correctAnswerIndex": 0,
-      "explanation": "Une faible densité indique peu d’habitants par unité de surface ; des habitants et activités peuvent y être présents.",
-      "rewardMinutes": 2
+      "explanation": "L’influence d’une métropole s’étend au-delà de son centre, notamment par les déplacements quotidiens, les services et les échanges.",
+      "rewardSeconds": 30
     },
     {
       "id": "3e-geo-dynamics-q03",
@@ -494,7 +494,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un espace productif accueille des activités qui produisent des biens ou des services.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-geo-dynamics-q04",
@@ -509,7 +509,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les déplacements quotidiens structurent les liens entre espaces résidentiels, pôles d’emploi et réseaux.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-geo-dynamics-q05",
@@ -524,7 +524,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’accès aux services, aux soins, à l’école et aux transports est un enjeu fréquent des espaces peu denses.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-geo-europe-q01",
@@ -539,7 +539,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’Union européenne réunit des États membres autour d’institutions et de politiques communes.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-geo-europe-q02",
@@ -554,7 +554,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les citoyens des États membres élisent les députés du Parlement européen.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-geo-europe-q03",
@@ -569,7 +569,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’euro est la monnaie de nombreux États membres ; certains conservent une autre monnaie.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-geo-europe-q04",
@@ -584,7 +584,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les politiques européennes influencent les coopérations, les financements et les échanges territoriaux.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-geo-europe-q05",
@@ -599,7 +599,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les territoires ultramarins donnent à la France une présence dans plusieurs espaces maritimes et régionaux.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-emc-rules-q01",
@@ -614,7 +614,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La Constitution définit les institutions et garantit notamment des droits et libertés.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-emc-rules-q02",
@@ -629,7 +629,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le Parlement vote la loi et exerce le contrôle de l’action gouvernementale.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-emc-rules-q03",
@@ -644,7 +644,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La séparation et l’équilibre des pouvoirs limitent l’arbitraire et organisent des contre-pouvoirs.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-emc-rules-q04",
@@ -659,7 +659,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le pluralisme rend possibles la diversité des opinions et la confrontation des informations.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-emc-rules-q05",
@@ -674,7 +674,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Des élections libres et régulières permettent aux citoyens de choisir leurs représentants.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-emc-engagement-q01",
@@ -689,7 +689,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’engagement collectif réunit des personnes autour d’une action ou d’un objectif commun.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-emc-engagement-q02",
@@ -704,7 +704,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le débat rend visibles des positions différentes et contribue à la délibération démocratique.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-emc-engagement-q03",
@@ -719,7 +719,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Des consultations et conseils locaux permettent aux habitants ou aux jeunes de contribuer à la vie collective.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-emc-engagement-q04",
@@ -734,7 +734,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Vérifier la source, la date et les éléments recoupés aide à partager une information fiable.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-emc-engagement-q05",
@@ -749,7 +749,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La liberté d’expression s’exerce dans le respect des droits d’autrui et du cadre légal.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-pc-energy-q01",
@@ -764,7 +764,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un convertisseur transforme l’énergie reçue et en transfère une partie vers d’autres formes ou l’environnement.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-pc-energy-q02",
@@ -779,7 +779,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un moteur transforme l’énergie électrique en mouvement mécanique, avec aussi des pertes thermiques.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-pc-energy-q03",
@@ -794,7 +794,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Là lampe convertit l’énergie électrique notamment en lumière et en chaleur.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-pc-energy-q04",
@@ -809,7 +809,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’énergie ne disparaît pas : elle se transfère ou se convertit, avec des échanges avec l’environnement.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-pc-energy-q05",
@@ -824,7 +824,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La chaîne aide à identifier la source, les conversions et les transferts d’énergie.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-pc-signals-q01",
@@ -839,7 +839,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le son est une vibration qui se propage dans un milieu matériel ; le vide ne la transmet pas.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-pc-signals-q02",
@@ -854,7 +854,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Contrairement au son, la lumière peut se propager dans le vide.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-pc-signals-q03",
@@ -869,7 +869,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un matériau transparent transmet la lumière et permet généralement de voir à travers.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-pc-signals-q04",
@@ -884,7 +884,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’écho correspond au retour d’un son réfléchi par une surface.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-pc-signals-q05",
@@ -899,7 +899,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une fréquence plus élevée correspond à un son plus aigu ; l’intensité est une autre caractéristique.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-svt-living-q01",
@@ -914,7 +914,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les fossiles permettent de constater des changements de biodiversité au cours des temps géologiques.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-svt-living-q02",
@@ -929,7 +929,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La sélection naturelle modifie au fil des générations la fréquence de caractères héréditaires selon le succès reproducteur.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-svt-living-q03",
@@ -944,7 +944,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Des structures homologues peuvent témoigner d’une origine commune, même si leurs fonctions diffèrent.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-svt-living-q04",
@@ -959,7 +959,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une population rassemble des individus d’une même espèce vivant dans un même espace à une période donnée.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-svt-living-q05",
@@ -974,7 +974,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’évolution des populations et des espèces s’observé généralement sur plusieurs générations et différentes durées.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-svt-earth-q01",
@@ -989,7 +989,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Aux dorsales, l’écartement des plaques accompagne la remontée de matière et la formation de lithosphère océanique.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-svt-earth-q02",
@@ -1004,7 +1004,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les déplacements des plaques accumulent des contraintes qui peuvent être libérées brutalement.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-svt-earth-q03",
@@ -1019,7 +1019,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Des constructions adaptées et une préparation aux consignes peuvent réduire les dommages et les victimes.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-svt-earth-q04",
@@ -1034,7 +1034,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’aléa décrit la probabilité et l’intensité d’un phénomène ; le risque dépend aussi des enjeux exposés et de leur vulnérabilité.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-svt-earth-q05",
@@ -1049,7 +1049,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les séries longues permettent d’analyser des tendances climatiques malgré la variabilité à court terme.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-tech-design-q01",
@@ -1064,7 +1064,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le cahier des charges formalise les fonctions de service et les exigences à respecter.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-tech-design-q02",
@@ -1079,7 +1079,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un prototype permet de tester des choix de conception avant de les valider ou de les modifier.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-tech-design-q03",
@@ -1094,7 +1094,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un protocole précise comment recueillir des résultats comparables pour vérifier une exigence.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-tech-design-q04",
@@ -1109,7 +1109,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La simulation aide à explorer un modèle ; ses résultats dépendent des hypothèses et doivent être interprétés.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-tech-design-q05",
@@ -1124,7 +1124,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une conception responsable prend en compte plusieurs étapes du cycle de vie et leurs impacts.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-tech-structure-q01",
@@ -1139,7 +1139,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une variable associé un nom à une valeur que le programme peut lire ou modifier.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-tech-structure-q02",
@@ -1154,7 +1154,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une boucle conditionnelle répète un bloc tant que la condition prévue est vraie.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-tech-structure-q03",
@@ -1169,7 +1169,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La décomposition aide à organiser la résolution et à tester des parties distinctes.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-tech-structure-q04",
@@ -1184,7 +1184,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La réponse au défaut doit être définie selon les exigences de sécurité du système.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-tech-structure-q05",
@@ -1199,7 +1199,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un test unitaire vérifie une partie isolée du programme sur des cas précisés.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-anglais-practice-q01",
@@ -1214,7 +1214,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Le present perfect relie une expérience passée à la situation présente ; « already » l’accompagne souvent.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-anglais-practice-q02",
@@ -1229,7 +1229,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Le past perfect indique que le film avait commencé avant notre arrivée.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-anglais-practice-q03",
@@ -1244,7 +1244,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Dans une condition réelle future, la proposition avec if est au présent et le résultat peut être au futur.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-anglais-practice-q04",
@@ -1259,7 +1259,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La forme passive associé ici « was » au participe passé « built » ; le sujet reçoit l’action.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-anglais-practice-q05",
@@ -1274,7 +1274,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Although » signifie « bien que » et introduit une concession.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-anglais-languages-q01",
@@ -1289,7 +1289,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« By Friday » signifie au plus tard vendredi.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-anglais-languages-q02",
@@ -1304,7 +1304,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Cette formule reconnaît le point de vue puis présente poliment un désaccord.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-anglais-languages-q03",
@@ -1319,7 +1319,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« So » introduit la conséquence : elle a marché parce qu’elle avait raté le bus.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-anglais-languages-q04",
@@ -1334,7 +1334,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Why » demande une raison.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-anglais-languages-q05",
@@ -1349,7 +1349,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« For instance » signifie « par exemple ».",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-lca-language-q01",
@@ -1364,7 +1364,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Manuel » vient de manus, la main ; le mot désigne notamment un ouvrage qu’on a sous la main.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-lca-language-q02",
@@ -1379,7 +1379,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les racines grecques philo et sophia renvoient à l’amour de la sagesse.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-lca-language-q03",
@@ -1394,7 +1394,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’expression décrit un récit qui commence au cœur de l’action.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-lca-language-q04",
@@ -1409,7 +1409,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Transporter » appartient à la famille de portare, porter.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-lca-language-q05",
@@ -1424,7 +1424,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Géographie et géologie utilisent la racine grecque geo, qui signifie la Terre.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-lca-cultures-q01",
@@ -1439,7 +1439,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Athéna est notamment déesse de la sagesse, des arts et de la stratégie.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-lca-cultures-q02",
@@ -1454,7 +1454,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le Sénat romain joue un rôle majeur dans les affaires politiques, même si les institutions évoluent.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-lca-cultures-q03",
@@ -1469,7 +1469,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’Odyssée raconte notamment le long retour d’Ulysse après la guerre de Troie.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-lca-cultures-q04",
@@ -1484,7 +1484,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le forum est un espace central de la vie publique dans les villes romaines.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-lca-cultures-q05",
@@ -1499,7 +1499,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les mythes antiques ont durablement nourri les arts, la littérature et des références culturelles.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-espagnol-practice-q01",
@@ -1514,7 +1514,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’imparfait « vivía » convient pour décrire une situation habituelle dans le passé.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-espagnol-practice-q02",
@@ -1529,7 +1529,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« El año pasado » situe le voyage dans le passé ; « viajamos » est ici le prétérit.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-espagnol-practice-q03",
@@ -1544,7 +1544,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La phrase associé une hypothèse avec « si » et un conditionnel « visitaría ».",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-espagnol-practice-q04",
@@ -1559,7 +1559,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Creo que » signifie « je pense que » et introduit ici une opinion.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-espagnol-practice-q05",
@@ -1574,7 +1574,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Aunque » signifie « bien que » et introduit une concession.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-espagnol-languages-q01",
@@ -1589,7 +1589,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« De lunes a viernes » signifie « du lundi au vendredi ».",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-espagnol-languages-q02",
@@ -1604,7 +1604,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Empieza » signifie commence et l’heure indiquée est 18 h 30.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-espagnol-languages-q03",
@@ -1619,7 +1619,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Traer » signifie apporter et « cuaderno » signifie cahier.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-espagnol-languages-q04",
@@ -1634,7 +1634,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Por eso » introduit une conséquence : c’est pourquoi nous sommes restés à la maison.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-espagnol-languages-q05",
@@ -1649,7 +1649,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Aunque » signifie « bien que » ou « même si ».",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-allemand-practice-q01",
@@ -1664,7 +1664,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Als Kind » situe une habitude passée ; « spielte » est le prétérit de « spielen ».",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-allemand-practice-q02",
@@ -1679,7 +1679,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le verbe de déplacement « gehen » forme ici le parfait avec l’auxiliaire « sein ».",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-allemand-practice-q03",
@@ -1694,7 +1694,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Dans une subordonnée introduite par « weil », le verbe conjugué se place à la fin : « krank bin ».",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-allemand-practice-q04",
@@ -1709,7 +1709,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Avec « du », le verbe modal « müssen » se conjugue « musst ».",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-allemand-practice-q05",
@@ -1724,7 +1724,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Dans une comparaison de supériorité, l’allemand emploie « als » après le comparatif.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-allemand-languages-q01",
@@ -1739,7 +1739,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Schließt um 20 Uhr » indique une fermeture à 20 heures.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-allemand-languages-q02",
@@ -1754,7 +1754,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Vom 3. bis zum 12. Mai » signifie « du 3 au 12 mai ».",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-allemand-languages-q03",
@@ -1769,7 +1769,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Fahrräder » signifie vélos et « am Eingang lassen » signifie les laisser à l’entrée.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-allemand-languages-q04",
@@ -1784,7 +1784,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Wegen » introduit ici la cause : à cause de la pluie.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-allemand-languages-q05",
@@ -1799,7 +1799,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Links neben » signifie « à gauche, à côté de » et « Rathaus » désigne la mairie.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-art-representation-q01",
@@ -1814,7 +1814,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le point de vue modifie la perception et peut servir l’intention de l’artiste.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-art-representation-q02",
@@ -1829,7 +1829,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La variation de cadrage peut organiser une séquence et suggérer un mouvement ou un changement.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-art-representation-q03",
@@ -1844,7 +1844,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les choix de couleur peuvent être expressifs et ne visent pas toujours à imiter la réalité.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-art-representation-q04",
@@ -1859,7 +1859,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’échelle participe à la hiérarchie visuelle et à la signification de l’image.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-art-representation-q05",
@@ -1874,7 +1874,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Comparer des représentations révèle les intentions et les procédés choisis.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-art-materiality-q01",
@@ -1889,7 +1889,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une texture peut être physiquement présente ou seulement évoquée par des effets visuels.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-art-materiality-q02",
@@ -1904,7 +1904,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La combinaison de médiums peut créer des relations et des significations nouvelles.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-art-materiality-q03",
@@ -1919,7 +1919,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’emplacement, l’éclairage et le parcours modifient la rencontre avec l’œuvre.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-art-materiality-q04",
@@ -1934,7 +1934,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La transformation du matériau participe à la fabrication et au sens de l’œuvre.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-art-materiality-q05",
@@ -1949,7 +1949,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les traces rendent visible la démarche et les décisions prises durant le projet.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-music-production-q01",
@@ -1964,7 +1964,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les contrastes d’intensité peuvent organiser les phrases et rendre l’interprétation expressive.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-music-production-q02",
@@ -1979,7 +1979,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La répartition des parties organise les sons et les interactions entre interprètes.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-music-production-q03",
@@ -1994,7 +1994,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’improvisation consiste à inventer ou varier pendant l’interprétation, souvent avec des règles ou repères.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-music-production-q04",
@@ -2009,7 +2009,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le tempo caractérise la vitesse à laquelle la pulsation est jouée.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-music-production-q05",
@@ -2024,7 +2024,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’écoute mutuelle aide à ajuster l’équilibre, le rythme et les entrées.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-music-perception-q01",
@@ -2039,7 +2039,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une polyphonie fait entendre plusieurs lignes musicales simultanées.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-music-perception-q02",
@@ -2054,7 +2054,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’écoute repère les motifs ou sections qui reviennent dans une forme musicale.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-music-perception-q03",
@@ -2069,7 +2069,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La comparaison permet d’entendre des choix différents liés au lieu, aux interprètes et aux moyens utilisés.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-music-perception-q04",
@@ -2084,7 +2084,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La durée indique la longueur temporelle d’un son.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-music-perception-q05",
@@ -2099,7 +2099,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La forme couplet-refrain organise l’œuvre par alternance et retour de sections.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-eps-perform-q01",
@@ -2114,7 +2114,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’analyse aide à identifier les réussites et à choisir des axes de progression.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-eps-perform-q02",
@@ -2129,7 +2129,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une allure adaptée permet de soutenir l’effort et de réagir aux sensations corporelles.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-eps-perform-q03",
@@ -2144,7 +2144,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les conditions influencent les résultats ; les préciser rend la comparaison plus valable.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-eps-perform-q04",
@@ -2159,7 +2159,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un retour fondé sur des critères aide à cibler les ajustements techniques.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-eps-perform-q05",
@@ -2174,7 +2174,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Il faut signaler une douleur inhabituelle et suivre les consignes de l’encadrement.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-eps-opposition-q01",
@@ -2189,7 +2189,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Observer les déplacements aide à anticiper et à prendre une décision tactique.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-eps-opposition-q02",
@@ -2204,7 +2204,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La stratégie peut évoluer selon la situation de jeu et les réponses de l’équipe adverse.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-eps-opposition-q03",
@@ -2219,7 +2219,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Des indications simples facilitent la coopération et les choix collectifs.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-eps-opposition-q04",
@@ -2234,7 +2234,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’arbitrage permet de résoudre les désaccords dans le cadre de la rencontre.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-eps-opposition-q05",
@@ -2249,7 +2249,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une défense collective coordonne les joueurs pour limiter les possibilités de progression adverse.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-emi-desinformation-q01",
@@ -2264,7 +2264,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un extrait peut étre coupé ou manipulé ; il faut retrouver le contexte et comparer avec des sources fiables.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-emi-desinformation-q02",
@@ -2279,7 +2279,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’échelle et les unités permettent de juger si le graphique représente les écarts de façon fidèle.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-emi-desinformation-q03",
@@ -2294,7 +2294,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une affirmation, même catégorique, doit étre appuyée par des éléments vérifiables et des sources identifiables.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-emi-desinformation-q04",
@@ -2309,7 +2309,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une image authentique peut induire en erreur si sa date ou son contexte d’origine sont modifiés.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-emi-desinformation-q05",
@@ -2324,7 +2324,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le recoupement aide à confronter les éléments et à retrouver si plusieurs publications reposent sur une même source.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-emi-publier-q01",
@@ -2339,7 +2339,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Demander l’accord de la personne et respecter les règles de l’établissement évite de diffuser son image sans précaution.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-emi-publier-q02",
@@ -2354,7 +2354,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Ne pas amplifier le contenu, garder les éléments nécessaires et solliciter un adulte de confiance permet d’obtenir de l’aide.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-emi-publier-q03",
@@ -2369,7 +2369,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les licences Creative Commons ont des conditions différentes ; il faut les lire et attribuer l’œuvre comme demandé.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-emi-publier-q04",
@@ -2384,7 +2384,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une réponse générée peut contenir des erreurs ; les affirmations doivent étre vérifiées avec des références consultables.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-emi-publier-q05",
@@ -2399,7 +2399,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Limiter la diffusion de données personnelles réduit les risques liés à leur réutilisation par des inconnus.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-hda-works-q01",
@@ -2414,7 +2414,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Pablo Picasso peint Guernica en 1937, dans le contexte de la guerre d’Espagne et du bombardement de la ville.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-hda-works-q02",
@@ -2429,7 +2429,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une affiche de propagande cherche à orienter les idées ou les comportements au moyen d’images et de textes.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-hda-works-q03",
@@ -2444,7 +2444,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Nuit et Brouillard, réalisé par Alain Resnais en 1956, traite de la mémoire des camps nazis.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-hda-works-q04",
@@ -2459,7 +2459,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un mémorial inscrit le souvenir des victimes dans l’espace public et permet un geste de commémoration.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-hda-works-q05",
@@ -2474,7 +2474,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le contexte, l’auteur et le public aident à comprendre la fonction et la portée d’une œuvre.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-hda-circulation-q01",
@@ -2489,7 +2489,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le cinéma présente une succession rapide d’images fixes qui produit une impression de mouvement.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-hda-circulation-q02",
@@ -2504,7 +2504,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les informations de provenance et de contexte permettent d’interpréter correctement une archive intégrée au film.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-hda-circulation-q03",
@@ -2519,7 +2519,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La reproduction diffuse l’image mais peut modifier son échelle, son contexte et l’expérience du spectateur.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-hda-circulation-q04",
@@ -2534,7 +2534,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Documenter les interventions rend le travail de conservation transparent et aide à comprendre l’état actuel de l’œuvre.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "3e-hda-circulation-q05",
@@ -2549,7 +2549,57 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le lieu de présentation et son public participent à la réception et à l’interprétation de l’œuvre.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-maths-equations-q01",
+      "subjectId": "maths",
+      "chapterId": "3e-maths-equations",
+      "question": "Quelle valeur de x vérifie 4x − 7 = 13 ?",
+      "answers": ["3", "4", "5", "6"],
+      "correctAnswerIndex": 2,
+      "explanation": "On ajoute 7 aux deux membres : 4x = 20, puis on divise par 4. Donc x = 5.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-maths-equations-q02",
+      "subjectId": "maths",
+      "chapterId": "3e-maths-equations",
+      "question": "Résous l’équation 2(x + 3) = 18.",
+      "answers": ["x = 3", "x = 6", "x = 9", "x = 12"],
+      "correctAnswerIndex": 1,
+      "explanation": "On divise les deux membres par 2 : x + 3 = 9. On soustrait 3, donc x = 6.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-maths-equations-q03",
+      "subjectId": "maths",
+      "chapterId": "3e-maths-equations",
+      "question": "Quelle solution vérifie 5x + 4 = 2x + 19 ?",
+      "answers": ["x = 3", "x = 4", "x = 5", "x = 6"],
+      "correctAnswerIndex": 2,
+      "explanation": "On regroupe les x d’un côté et les nombres de l’autre : 5x − 2x = 19 − 4, soit 3x = 15. Donc x = 5.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-maths-equations-q04",
+      "subjectId": "maths",
+      "chapterId": "3e-maths-equations",
+      "question": "Dans x/3 + 2 = 6, quelle est la valeur de x ?",
+      "answers": ["8", "10", "12", "18"],
+      "correctAnswerIndex": 2,
+      "explanation": "On soustrait 2 : x/3 = 4. On multiplie par 3, donc x = 12.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-maths-equations-q05",
+      "subjectId": "maths",
+      "chapterId": "3e-maths-equations",
+      "question": "Un nombre augmenté de son triple vaut 28. Quelle équation permet de trouver ce nombre x ?",
+      "answers": ["x + 3 = 28", "3(x + 1) = 28", "x + 3x = 28", "x − 3x = 28"],
+      "correctAnswerIndex": 2,
+      "explanation": "Le nombre est x et son triple est 3x. Leur somme vaut 28, donc l’équation est x + 3x = 28.",
+      "rewardSeconds": 30
     }
   ]
 }

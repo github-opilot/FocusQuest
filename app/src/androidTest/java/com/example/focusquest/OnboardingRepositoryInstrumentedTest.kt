@@ -15,13 +15,14 @@ class OnboardingRepositoryInstrumentedTest {
     @Test
     fun completionFlagIsSavedAndReadBack() = runBlocking {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
-        val repository = OnboardingRepository(context)
+        val dataStore = isolatedPreferencesDataStore(context, "onboarding")
+        val repository = OnboardingRepository(context, dataStore)
         try {
             repository.setHasSeenOnboarding(false)
             assertFalse(repository.hasSeenOnboarding.first())
 
             repository.setHasSeenOnboarding(true)
-            val reopenedRepository = OnboardingRepository(context)
+            val reopenedRepository = OnboardingRepository(context, dataStore)
             assertTrue(reopenedRepository.hasSeenOnboarding.first())
         } finally {
             repository.setHasSeenOnboarding(false)

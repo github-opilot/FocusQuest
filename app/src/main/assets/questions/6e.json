@@ -14,7 +14,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Les récits des origines mettent en scène une explication imagée ou symbolique du monde et des croyances d’une société.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-francais-recits-origines-q02",
@@ -29,7 +29,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "La séparation du ciel et de la mer raconte symboliquement la mise en ordre du monde : c’est un motif fréquent des récits des origines.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-francais-recits-origines-q03",
@@ -44,7 +44,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les personnages extraordinaires donnent forme aux croyances et aux réponses imaginées par une culture.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-francais-recits-origines-q04",
@@ -59,7 +59,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Un mythe transmet un récit et une vision du monde ; une explication scientifique est construite à partir d’observations et peut être testée.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-francais-recits-origines-q05",
@@ -74,7 +74,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Comparer les récits permet de repérer leurs ressemblances, leurs différences et les croyances ou valeurs qu’ils expriment.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-francais-poesie-q01",
@@ -89,7 +89,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Un vers est une ligne de poème ; plusieurs vers peuvent former une strophe.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-francais-poesie-q02",
@@ -104,7 +104,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "La strophe regroupe des vers, comme le paragraphe regroupe des phrases en prose.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-francais-poesie-q03",
@@ -119,7 +119,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La lune est présentée comme une personne qui veille : c’est une image poétique.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-francais-poesie-q04",
@@ -134,7 +134,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Les répétitions de sons ou de mots peuvent produire un rythme et renforcer une impression.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-francais-poesie-q05",
@@ -149,7 +149,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "La poésie du voyage explore des lieux et des sensations, réels ou imaginaires, grâce au langage.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-maths-nombres-q01",
@@ -164,7 +164,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Dans 3 482, le 4 représente quatre centaines.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-maths-nombres-q02",
@@ -179,7 +179,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "On peut écrire 5,8 sous la forme 5,80. Or 5,80 est supérieur à 5,18, 5,08 et 5,008.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-maths-nombres-q03",
@@ -194,7 +194,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "6 205 contient 6 milliers, 2 centaines, 0 dizaine et 5 unités.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-maths-nombres-q04",
@@ -209,7 +209,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Le premier chiffre à droite de la virgule correspond aux dixièmes : c’est 3.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-maths-nombres-q05",
@@ -224,7 +224,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "8,6 est supérieur à 8 et inférieur à 9.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-maths-fractions-q01",
@@ -239,7 +239,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "La fraction indique le nombre de parts prises sur le nombre total de parts égales : 3 sur 8.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-maths-fractions-q02",
@@ -254,7 +254,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "En multipliant le numérateur et le dénominateur de 1/2 par 3, on obtient 3/6.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-maths-fractions-q03",
@@ -269,7 +269,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Avec le même dénominateur, la fraction au numérateur le plus grand est la plus grande : 3/5.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-maths-fractions-q04",
@@ -284,7 +284,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Un quart signifie partager en 4 parts égales : 20 ÷ 4 = 5.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-maths-fractions-q05",
@@ -299,7 +299,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Le dénominateur indique 4 parts par unité et le numérateur indique que l’on en compte 7.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-histoire-humanite-migrations-q01",
@@ -314,7 +314,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Au Paléolithique, les humains vivent principalement de chasse, de pêche et de cueillette et se déplacent selon les ressources.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-histoire-humanite-migrations-q02",
@@ -329,7 +329,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Les fossiles, les outils et d’autres traces matérielles aident à reconstituer les modes de vie anciens.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-histoire-humanite-migrations-q03",
@@ -344,7 +344,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une migration est un déplacement de population, temporaire ou durable, d’un territoire vers un autre.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-histoire-humanite-migrations-q04",
@@ -359,7 +359,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Les déplacements de groupes humains et leur adaptation à divers environnements expliquent le peuplement progressif de régions différentes.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-histoire-humanite-migrations-q05",
@@ -374,7 +374,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Un outil découvert en contexte archéologique est une trace matérielle que les chercheurs peuvent étudier.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-histoire-neolithique-q01",
@@ -389,7 +389,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Au Néolithique, la culture des plantes et la domestication d’animaux se développent dans plusieurs régions.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-histoire-neolithique-q02",
@@ -404,7 +404,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Cultiver des champs et élever des animaux conduisent souvent des communautés à s’installer durablement près de leurs ressources.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-histoire-neolithique-q03",
@@ -419,7 +419,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La domestication correspond à une relation durable où les humains sélectionnent et élèvent certaines espèces animales.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-histoire-neolithique-q04",
@@ -434,7 +434,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Les récoltes peuvent être stockées afin de disposer de nourriture plus tard.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-histoire-neolithique-q05",
@@ -449,7 +449,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Des maisons installées durablement et des traces d’agriculture sont des indices de sédentarisation.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-geographie-metropole-q01",
@@ -464,7 +464,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Une métropole rassemble de nombreux habitants et concentre des activités et services qui rayonnent sur un territoire.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-geographie-metropole-q02",
@@ -479,7 +479,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Les métropoles associent des quartiers bâtis, des activités variées et des réseaux de transport.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-geographie-metropole-q03",
@@ -494,7 +494,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les métropoles concentrent des emplois, des établissements d’enseignement et de nombreux services.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-geographie-metropole-q04",
@@ -509,7 +509,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "La périphérie désigne les espaces situés autour du centre urbain.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-geographie-metropole-q05",
@@ -524,7 +524,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Métros, bus, trains et autres transports connectent les quartiers et facilitent les déplacements.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-geographie-faible-densite-q01",
@@ -539,7 +539,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "La densité compare le nombre d’habitants à la superficie ; elle est faible quand peu de personnes vivent sur une surface donnée.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-geographie-faible-densite-q02",
@@ -554,7 +554,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Les montagnes comptent souvent des villages éloignés et une population moins dense, même si les situations varient.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-geographie-faible-densite-q03",
@@ -569,7 +569,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les paysages et l’espace disponible peuvent attirer des habitants et des activités.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-geographie-faible-densite-q04",
@@ -584,7 +584,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Quand les habitants sont éloignés, l’accès aux services et aux transports peut demander une organisation particulière.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-geographie-faible-densite-q05",
@@ -599,7 +599,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Des routes et des transports adaptés peuvent relier les villages aux services et aux pôles proches.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-emc-representants-q01",
@@ -614,7 +614,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Les représentants sont choisis pour faire entendre les besoins du groupe et contribuer à des décisions collectives.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-emc-representants-q02",
@@ -629,7 +629,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Une élection suppose un choix libre et des règles communes qui garantissent le scrutin.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-emc-representants-q03",
@@ -644,7 +644,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le dépouillement consiste à compter les votes afin d’établir le résultat.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-emc-representants-q04",
@@ -659,7 +659,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Un représentant écoute le groupe et transmet ses idées ; il ne décide pas toujours seul.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-emc-representants-q05",
@@ -674,7 +674,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "La démocratie permet d’exprimer des désaccords de manière respectueuse.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-emc-regles-laicite-q01",
@@ -689,7 +689,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Les règles définissent un cadre partagé qui protège les personnes et rend possible la vie en commun.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-emc-regles-laicite-q02",
@@ -704,7 +704,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "La laïcité protège la liberté de conscience et garantit la neutralité de l’école publique.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-emc-regles-laicite-q03",
@@ -719,7 +719,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Comprendre une règle aide à la respecter ; on peut demander à un adulte d’en expliquer le sens.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-emc-regles-laicite-q04",
@@ -734,7 +734,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Une règle commune s’applique aux membres du groupe et aide chacun à utiliser le matériel équitablement.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-emc-regles-laicite-q05",
@@ -749,7 +749,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Une conséquence éducative rappelle la règle et vise à préserver le cadre collectif, sans humilier.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-langues-vivantes-personnes-q01",
@@ -764,7 +764,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Les mots connus, le contexte et le ton donnent des indices pour comprendre même si un mot manque.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-langues-vivantes-personnes-q02",
@@ -779,7 +779,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Une présentation courte peut donner son prénom et une information adaptée, sans partager de données privées.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-langues-vivantes-personnes-q03",
@@ -794,7 +794,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Repérer le verbe d’action et les mots connus aide à identifier ce que demande la consigne.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-langues-vivantes-personnes-q04",
@@ -809,7 +809,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Demander une répétition ou un débit plus lent est une stratégie normale pour maintenir l’échange.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-langues-vivantes-personnes-q05",
@@ -824,7 +824,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Les gestes, les images et la situation complètent les indices entendus.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-langues-vivantes-quotidien-q01",
@@ -839,7 +839,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Une frise du temps aide à ordonner les activités de la journée avant de les exprimer.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-langues-vivantes-quotidien-q02",
@@ -854,7 +854,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Une question liée aux goûts de l’interlocuteur permet de poursuivre un échange sur les loisirs.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-langues-vivantes-quotidien-q03",
@@ -869,7 +869,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les rythmes et les habitudes varient ; il faut comprendre le contexte avant de comparer.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-langues-vivantes-quotidien-q04",
@@ -884,7 +884,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Décrire un lieu peut préciser où il se trouve, à quoi il ressemble et ce qu’on y fait.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-langues-vivantes-quotidien-q05",
@@ -899,7 +899,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Reformuler puis vérifier sa compréhension aide à maintenir une interaction claire.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-sciences-technologie-matiere-energie-q01",
@@ -914,7 +914,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Un gaz n’a pas de forme propre et se répartit dans tout le volume du récipient.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-sciences-technologie-matiere-energie-q02",
@@ -929,7 +929,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "La fusion est le passage de l’état solide à l’état liquide ; l’eau reste présente.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-sciences-technologie-matiere-energie-q03",
@@ -944,7 +944,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le fer est un matériau ferromagnétique et est attiré par un aimant.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-sciences-technologie-matiere-energie-q04",
@@ -959,7 +959,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "L’humidité peut augmenter le risque de passage du courant ; on garde les mains sèches et on suit les consignes de sécurité.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-sciences-technologie-matiere-energie-q05",
@@ -974,7 +974,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Le signal lumineux du feu donne une information utile aux piétons.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-sciences-technologie-vivant-q01",
@@ -989,7 +989,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Les êtres vivants réalisent des fonctions comme se nourrir et grandir au cours de leur vie.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-sciences-technologie-vivant-q02",
@@ -1004,7 +1004,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "La classification organise la biodiversité en comparant des caractères partagés.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-sciences-technologie-vivant-q03",
@@ -1019,7 +1019,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un jeune chêne est une plante vivante : il grandit et réalise des échanges avec son milieu.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-sciences-technologie-vivant-q04",
@@ -1034,7 +1034,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Les animaux obtiennent leur matière et leur énergie en consommant des aliments provenant du milieu.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-sciences-technologie-vivant-q05",
@@ -1049,7 +1049,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Un milieu de vie comprend un lieu et des conditions, comme la lumière, l’eau ou la température.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-evars-se-connaitre-q01",
@@ -1064,7 +1064,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "La vie privée doit être respectée. Si une information fait craindre un danger, il faut en parler à un adulte de confiance.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-evars-se-connaitre-q02",
@@ -1079,7 +1079,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Respecter l’intimité consiste notamment à demander l’accord avant d’entrer dans l’espace ou les affaires personnelles d’autrui.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-evars-se-connaitre-q03",
@@ -1094,7 +1094,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Tu peux exprimer ton inconfort et demander l’aide d’un adulte de confiance. Tu n’as pas à gérer seul une situation difficile.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-evars-se-connaitre-q04",
@@ -1109,7 +1109,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "L’adresse personnelle est une donnée privée qui ne doit pas être partagée publiquement.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-evars-se-connaitre-q05",
@@ -1124,7 +1124,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Un adulte de confiance ou un professionnel de santé peut écouter l’élève et l’orienter.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-evars-relations-respectueuses-q01",
@@ -1139,7 +1139,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Une relation respectueuse tient compte du choix de chacun et évite la pression.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-evars-relations-respectueuses-q02",
@@ -1154,7 +1154,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Écouter, c’est porter attention à la parole de l’autre et lui laisser une place.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-evars-relations-respectueuses-q03",
@@ -1169,7 +1169,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les différences de goûts ne justifient ni moquerie ni exclusion.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-evars-relations-respectueuses-q04",
@@ -1184,7 +1184,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Demander l’accord respecte le droit à l’image et la vie privée de la personne.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "6e-evars-relations-respectueuses-q05",
@@ -1199,7 +1199,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Il est important de soutenir la personne et de demander l’aide d’un adulte afin que la situation soit prise en charge.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     }
   ]
 }

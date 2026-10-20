@@ -14,7 +14,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La division 84 ÷ 7 donne 12, un entier.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-maths-arithmetique-q02",
@@ -29,7 +29,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Les diviseurs communs de 18 et 30 incluent 1, 2, 3 et 6 ; le plus grand est 6.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-maths-arithmetique-q03",
@@ -44,7 +44,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "84 = 4 × 21 = 2² × 3 × 7, où tous les facteurs sont premiers.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-maths-arithmetique-q04",
@@ -59,7 +59,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "132 = 9 × 14 + 6.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-maths-arithmetique-q05",
@@ -74,7 +74,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le PGCD de 15 et 21 est 3 ; en divisant haut et bas par 3, on obtient 5/7.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-maths-nombres-reels-q01",
@@ -89,7 +89,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "√50 = √(25 × 2) = 5√2.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-maths-nombres-reels-q02",
@@ -104,7 +104,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "L’inégalité est stricte en −1 et large en 2, d’où ]−1 ; 2].",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-maths-nombres-reels-q03",
@@ -119,7 +119,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "0,125 = 125/1000 = 1/8.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-maths-nombres-reels-q04",
@@ -134,7 +134,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "√2 ne peut pas s’écrire comme quotient de deux entiers ; son écriture décimale est illimitée et non périodique.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-maths-nombres-reels-q05",
@@ -149,7 +149,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "−3 est un entier relatif, donc appartient à Z et aussi à R.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-francais-roman-q01",
@@ -164,7 +164,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Le narrateur est l’instance qui raconte ; il peut être distinct de l’auteur et ne pas être un personnage.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-francais-roman-q02",
@@ -179,7 +179,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "L’analepse est un retour en arrière dans le récit.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-francais-roman-q03",
@@ -194,7 +194,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "En focalisation interne, les informations sont limitées à ce qu’un personnage sait ou perçoit.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-francais-roman-q04",
@@ -209,7 +209,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’incipit ouvre le récit et peut présenter le cadre, les personnages et un horizon d’attente.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-francais-roman-q05",
@@ -224,7 +224,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "L’évolution d’un personnage est fréquente, mais les autres affirmations imposent des règles fausses.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-francais-theatre-q01",
@@ -239,7 +239,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les didascalies indiquent notamment les gestes, déplacements, décors ou intonations.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-francais-theatre-q02",
@@ -254,7 +254,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "L’aparté est conventionnellement destiné au public, sans être entendu des autres personnages.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-francais-theatre-q03",
@@ -269,7 +269,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Au théâtre, une parole s’inscrit dans le dialogue de scène tout en étant entendue par le public.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-francais-theatre-q04",
@@ -284,7 +284,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La scène d’exposition met en place les données essentielles de la pièce.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-francais-theatre-q05",
@@ -299,7 +299,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le monologue est une longue prise de parole d’un personnage seul en scène.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-pc-corps-purs-q01",
@@ -314,7 +314,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Quand le sel est entièrement dissous, on ne distingue plus ses constituants à l’œil nu : la solution est homogène.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-pc-corps-purs-q02",
@@ -329,7 +329,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un corps pur contient une seule espèce chimique, qui peut elle-même être moléculaire ou ionique.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-pc-corps-purs-q03",
@@ -344,7 +344,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "L’indice 2 porte sur l’oxygène ; l’absence d’indice signifie un atome de carbone.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-pc-corps-purs-q04",
@@ -359,7 +359,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "L’eau et l’huile forment deux phases visibles : le mélange est hétérogène.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-pc-corps-purs-q05",
@@ -374,7 +374,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un filtre retient le solide insoluble tandis que le liquide traverse.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-pc-transformations-q01",
@@ -389,7 +389,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les réactifs sont les espèces chimiques présentes au départ et consommées, au moins en partie.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-pc-transformations-q02",
@@ -404,7 +404,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La masse totale est conservée ; les espèces et le nombre de molécules peuvent changer.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-pc-transformations-q03",
@@ -419,7 +419,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "L’équation équilibrée conserve deux atomes d’hydrogène par molécule d’eau et deux atomes d’oxygène au total.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-pc-transformations-q04",
@@ -434,7 +434,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les produits apparaissent au cours de la réaction.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-pc-transformations-q05",
@@ -449,7 +449,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le réactif limitant s’épuise en premier et arrête l’évolution de la transformation.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-svt-cellules-q01",
@@ -464,7 +464,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Dans une cellule eucaryote animale, l’ADN est principalement contenu dans le noyau.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-svt-cellules-q02",
@@ -479,7 +479,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un tissu regroupe des cellules organisées, souvent spécialisées, ainsi que leur environnement.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-svt-cellules-q03",
@@ -494,7 +494,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La spécialisation cellulaire repose notamment sur l’expression différenciée des gènes.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-svt-cellules-q04",
@@ -509,7 +509,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La membrane délimite la cellule et contrôle une partie des échanges avec son milieu.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-svt-cellules-q05",
@@ -524,7 +524,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Des cellules s’assemblent en tissus, puis les tissus participent à la constitution des organes.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-svt-metabolisme-q01",
@@ -539,7 +539,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La photosynthèse utilise l’énergie lumineuse pour transformer notamment CO₂ et eau en matière organique.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-svt-metabolisme-q02",
@@ -554,7 +554,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La respiration oxyde des molécules organiques et permet la production d’ATP.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-svt-metabolisme-q03",
@@ -569,7 +569,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les mitochondries sont le siège principal de la respiration cellulaire aérobie.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-svt-metabolisme-q04",
@@ -584,7 +584,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les enzymes accélèrent des réactions chimiques sans être consommées dans le bilan global.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "seconde-svt-metabolisme-q05",
@@ -599,7 +599,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’ATP joue un rôle central dans les transferts d’énergie utilisables par la cellule.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     }
   ]
 }

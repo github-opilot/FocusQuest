@@ -29,6 +29,7 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 
 @Composable
 internal fun CatalogTopBar(
@@ -50,8 +51,8 @@ internal fun CatalogTopBar(
                 .semantics { contentDescription = "Retour" }
         ) {
             Text(
-                text = "←",
-                style = MaterialTheme.typography.headlineSmall,
+                text = "👈",
+                fontSize = 22.sp,
                 color = MaterialTheme.colorScheme.primary
             )
         }
@@ -137,9 +138,9 @@ internal fun SubjectCatalogCard(
         modifier = modifier
             .fillMaxWidth()
             .defaultMinSize(minHeight = 174.dp)
-            .clickable(enabled = available, role = Role.Button, onClick = onClick)
+            .clickable(role = Role.Button, onClick = onClick)
             .semantics {
-                if (!available) contentDescription = "${subject.title}, bientôt disponible"
+                if (!available) contentDescription = "${subject.title}, catalogue à explorer"
             },
         shape = RoundedCornerShape(24.dp),
         color = MaterialTheme.colorScheme.surface,
@@ -161,7 +162,7 @@ internal fun SubjectCatalogCard(
             ) {
                 IconBubble(symbol = icon, accent = accent, size = 48.dp)
                 AvailabilityPill(
-                    text = if (available) "${subject.availableQuizCount} QCM" else "Bientôt",
+                    text = if (available) "${subject.availableQuizCount} QCM" else "Explorer",
                     available = available
                 )
             }
@@ -208,7 +209,7 @@ internal fun ChapterCatalogCard(
             verticalAlignment = Alignment.CenterVertically
         ) {
             IconBubble(
-                symbol = if (available) "✦" else "…",
+                symbol = if (available) "📘" else "⏳",
                 accent = if (available) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.outline,
                 size = 42.dp
             )
@@ -235,8 +236,8 @@ internal fun ChapterCatalogCard(
             }
             if (available) {
                 Text(
-                    text = "›",
-                    style = MaterialTheme.typography.headlineSmall,
+                    text = "👉",
+                    fontSize = 20.sp,
                     color = MaterialTheme.colorScheme.primary,
                     modifier = Modifier.clearAndSetSemantics { }
                 )
@@ -261,7 +262,7 @@ internal fun IconBubble(
         Box(contentAlignment = Alignment.Center) {
             Text(
                 text = symbol,
-                fontSize = if (size < 44.dp) MaterialTheme.typography.titleMedium.fontSize else MaterialTheme.typography.headlineSmall.fontSize,
+                fontSize = (size.value * 0.62f).sp,
                 modifier = Modifier.clearAndSetSemantics { }
             )
         }
@@ -286,7 +287,7 @@ internal fun AvailabilityPill(text: String, available: Boolean) {
 internal fun subjectIcon(title: String): String {
     val normalized = title.lowercase()
     return when {
-        "math" in normalized -> "➗"
+        "math" in normalized -> "🧮"
         "fran" in normalized || "lettre" in normalized -> "📖"
         "histoire" in normalized || "géographie" in normalized || "geographie" in normalized -> "🌍"
         "physique" in normalized || "chimie" in normalized -> "⚗️"
@@ -294,10 +295,12 @@ internal fun subjectIcon(title: String): String {
         "anglais" in normalized || "langue" in normalized || "espagnol" in normalized || "allemand" in normalized -> "💬"
         "ses" in normalized || "économ" in normalized || "econom" in normalized -> "📊"
         "numérique" in normalized || "numerique" in normalized || "informatique" in normalized || "nsi" in normalized -> "💻"
+        "technologie" in normalized -> "⚙️"
         "philo" in normalized -> "💡"
-        "art" in normalized || "musique" in normalized -> "🎨"
+        "musique" in normalized -> "🎵"
+        "art" in normalized -> "🎨"
         "eps" in normalized || "sport" in normalized -> "⚽"
-        else -> "✦"
+        else -> "🌟"
     }
 }
 

@@ -34,8 +34,8 @@ data class LegacyQuestionMigrationReport(
  * Compatibility helper for the original 120-question bank. The current bank stores no chapter
  * IDs, so callers must provide a reviewed map keyed by its stable numeric question IDs. Calling
  * [inspect] with no mapping is safe and reports the legacy questions as unresolved; it never
- * guesses a chapter. The existing [QuestionRepository] remains the quiz source until integration
- * explicitly supplies and adopts verified associations.
+ * guesses a chapter. The new catalog quiz path uses only questions explicitly bound to a chapter;
+ * the legacy [QuestionRepository] remains intact for compatibility and audit purposes.
  */
 object LegacyQuestionMigration {
     fun inspect(

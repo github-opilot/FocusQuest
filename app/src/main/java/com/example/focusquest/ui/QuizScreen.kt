@@ -36,6 +36,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableLongStateOf
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
@@ -46,6 +47,8 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.example.focusquest.model.QuizQuestionEntry
 import com.example.focusquest.model.Question
 import com.example.focusquest.ui.components.FocusQuestButton
 import com.example.focusquest.ui.components.FocusQuestCard
@@ -54,6 +57,14 @@ import com.example.focusquest.ui.components.RewardBadge
 import com.example.focusquest.ui.components.StatCard
 
 private val AnswerShape = RoundedCornerShape(18.dp)
+private data class QuizPrompt(
+    val id: String,
+    val question: String,
+    val answers: List<String>,
+    val correctAnswerIndex: Int,
+    val explanation: String,
+    val rewardTimeMillis: Long
+)
 
 @Composable
 fun QuizScreen(
@@ -64,12 +75,77 @@ fun QuizScreen(
     onNewMission: () -> Unit,
     modifier: Modifier = Modifier
 ) {
-    val quizQuestions = questions.take(5)
-    var currentQuestionIndex by rememberSaveable { mutableIntStateOf(0) }
-    var selectedAnswerIndex by rememberSaveable { mutableStateOf<Int?>(null) }
-    var score by rememberSaveable { mutableIntStateOf(0) }
-    var earnedTimeMillis by rememberSaveable { mutableLongStateOf(0L) }
-    var quizFinished by rememberSaveable { mutableStateOf(false) }
+    val prompts = remember(questions) {
+        questions.take(5).map { question ->
+            QuizPrompt(
+                id = question.id.toString(),
+                question = question.question,
+                answers = question.answers,
+                correctAnswerIndex = question.correctAnswerIndex,
+                explanation = question.explanation,
+                rewardTimeMillis = question.rewardTimeMillis
+            )
+        }
+    }
+    QuizSessionScreen(
+        questions = prompts,
+        availableTimeMillis = availableTimeMillis,
+        onTimeEarned = onTimeEarned,
+        onExitQuiz = onExitQuiz,
+        onNewMission = onNewMission,
+        modifier = modifier
+    )
+}
+
+/** Runs one catalog-bound session using each question's reward in seconds. */
+@Composable
+fun ChapterQuizScreen(
+    questions: List<QuizQuestionEntry>,
+    availableTimeMillis: Long,
+    onTimeEarned: (Long) -> Unit,
+    onExitQuiz: () -> Unit,
+    onNewMission: () -> Unit,
+    modifier: Modifier = Modifier
+) {
+    val prompts = remember(questions) {
+        questions.distinctBy { it.id }.take(5).map { question ->
+            QuizPrompt(
+                id = question.id,
+                question = question.question,
+                answers = question.answers,
+                correctAnswerIndex = question.correctAnswerIndex,
+                explanation = question.explanation,
+                rewardTimeMillis = question.rewardSeconds * 1_000L
+            )
+        }
+    }
+    QuizSessionScreen(
+        questions = prompts,
+        availableTimeMillis = availableTimeMillis,
+        onTimeEarned = onTimeEarned,
+        onExitQuiz = onExitQuiz,
+        onNewMission = onNewMission,
+        modifier = modifier
+    )
+}
+
+@Composable
+private fun QuizSessionScreen(
+    questions: List<QuizPrompt>,
+    availableTimeMillis: Long,
+    onTimeEarned: (Long) -> Unit,
+    onExitQuiz: () -> Unit,
+    onNewMission: () -> Unit,
+    modifier: Modifier = Modifier
+) {
+    val quizQuestions = remember(questions) { questions.distinctBy { it.id }.take(5) }
+    val sessionKey = remember(quizQuestions) { quizQuestions.joinToString("|") { it.id } }
+    var currentQuestionIndex by rememberSaveable(sessionKey) { mutableIntStateOf(0) }
+    var selectedAnswerIndex by rememberSaveable(sessionKey) { mutableStateOf<Int?>(null) }
+    var score by rememberSaveable(sessionKey) { mutableIntStateOf(0) }
+    var earnedTimeMillis by rememberSaveable(sessionKey) { mutableLongStateOf(0L) }
+    var rewardedQuestionIds by rememberSaveable(sessionKey) { mutableStateOf("") }
+    var quizFinished by rememberSaveable(sessionKey) { mutableStateOf(false) }
 
     if (quizQuestions.isEmpty()) {
         NoQuestionsScreen(onExitQuiz = onExitQuiz, modifier = modifier)
@@ -107,9 +183,20 @@ fun QuizScreen(
                         selectedAnswerIndex = answerIndex
                         if (answerIndex == quizQuestions[currentQuestionIndex].correctAnswerIndex) {
                             score += 1
-                            val rewardMillis = quizQuestions[currentQuestionIndex].rewardTimeMillis
-                            earnedTimeMillis += rewardMillis
-                            onTimeEarned(rewardMillis)
+                            val questionId = quizQuestions[currentQuestionIndex].id
+                            val alreadyRewarded = rewardedQuestionIds
+                                .lineSequence()
+                                .any { it == questionId }
+                            if (!alreadyRewarded) {
+                                rewardedQuestionIds = if (rewardedQuestionIds.isBlank()) {
+                                    questionId
+                                } else {
+                                    "$rewardedQuestionIds\n$questionId"
+                                }
+                                val rewardMillis = quizQuestions[currentQuestionIndex].rewardTimeMillis
+                                earnedTimeMillis += rewardMillis
+                                onTimeEarned(rewardMillis)
+                            }
                         }
                     }
                 },
@@ -129,7 +216,7 @@ fun QuizScreen(
 
 @Composable
 private fun QuizContent(
-    questions: List<Question>,
+    questions: List<QuizPrompt>,
     currentQuestionIndex: Int,
     selectedAnswerIndex: Int?,
     score: Int,
@@ -156,13 +243,13 @@ private fun QuizContent(
             StatCard(
                 label = "Score",
                 value = "$score / ${questions.size}",
-                symbol = "★",
+                symbol = "🏆",
                 modifier = Modifier.weight(1f)
             )
             StatCard(
                 label = "Temps gagné",
                 value = formatScreenTime(earnedTimeMillis),
-                symbol = "✦",
+                symbol = "🌟",
                 modifier = Modifier.weight(1f)
             )
         }
@@ -263,8 +350,8 @@ private fun AnswerButton(
         else -> MaterialTheme.colorScheme.onSurface
     }
     val marker = when {
-        revealedCorrectAnswer -> "✓"
-        isSelected -> "×"
+        revealedCorrectAnswer -> "✅"
+        isSelected -> "❌"
         else -> ('A'.code + answerIndex).toChar().toString()
     }
 
@@ -291,7 +378,7 @@ private fun AnswerButton(
         ) {
             Text(
                 text = marker,
-                style = MaterialTheme.typography.titleMedium,
+                fontSize = if (revealedCorrectAnswer || isSelected) 23.sp else MaterialTheme.typography.titleMedium.fontSize,
                 fontWeight = FontWeight.Bold,
                 modifier = Modifier.size(28.dp),
                 textAlign = TextAlign.Center
@@ -309,7 +396,7 @@ private fun AnswerButton(
 
 @Composable
 private fun AnswerFeedback(
-    question: Question,
+    question: QuizPrompt,
     isCorrect: Boolean
 ) {
     if (isCorrect) {
@@ -325,6 +412,11 @@ private fun AnswerFeedback(
             )
             Spacer(Modifier.height(10.dp))
             RewardBadge(amount = formatScreenTime(question.rewardTimeMillis))
+            Spacer(Modifier.height(8.dp))
+            Text(
+                text = question.explanation,
+                style = MaterialTheme.typography.bodyMedium
+            )
         }
     } else {
         FocusQuestCard(
@@ -369,7 +461,7 @@ private fun NoQuestionsScreen(
             contentColor = MaterialTheme.colorScheme.onSurfaceVariant
         ) {
             Text(
-                text = "Pas encore de questions disponibles pour cette classe et cette matière.",
+                text = "Pas encore de questions disponibles pour ce chapitre.",
                 style = MaterialTheme.typography.titleLarge,
                 textAlign = TextAlign.Center
             )
@@ -377,7 +469,7 @@ private fun NoQuestionsScreen(
 
         Spacer(Modifier.height(24.dp))
 
-        FocusQuestButton(text = "Choisir une autre matière", onClick = onExitQuiz)
+        FocusQuestButton(text = "Retour au chapitre", onClick = onExitQuiz)
     }
 }
 

@@ -16,8 +16,11 @@ private val Context.onboardingDataStore: DataStore<Preferences> by preferencesDa
     name = "focusquest_onboarding"
 )
 
-class OnboardingRepository(context: Context) {
-    private val dataStore = context.applicationContext.onboardingDataStore
+class OnboardingRepository(
+    context: Context,
+    dataStoreOverride: DataStore<Preferences>? = null
+) {
+    private val dataStore = dataStoreOverride ?: context.applicationContext.onboardingDataStore
 
     val hasSeenOnboarding: Flow<Boolean> = dataStore.data
         .catch { exception ->

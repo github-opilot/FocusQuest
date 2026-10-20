@@ -14,7 +14,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "On divise par 5 : x - 2 = 3, donc x = 5.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-maths-equations-q02",
@@ -29,7 +29,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "3x + 12 = 2x + 19 ; en retirant 2x puis 12, on obtient x = 7.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-maths-equations-q03",
@@ -44,7 +44,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "On multiplie par 2 : x - 3 = 8, donc x = 11.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-maths-equations-q04",
@@ -59,7 +59,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Pour x = 5, 4 x 5 - 7 = 13.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-maths-equations-q05",
@@ -74,7 +74,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "En retirant x puis 5 des deux côtés, on obtient x = -8.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-maths-pythagore-q01",
@@ -89,7 +89,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "5^2 + 12^2 = 25 + 144 = 169 = 13^2.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-maths-pythagore-q02",
@@ -104,7 +104,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Par Pythagore, le carré du côté manquant vaut 13^2 - 5^2 = 144 ; sa longueur vaut 12 cm.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-maths-pythagore-q03",
@@ -119,7 +119,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "8^2 + 15^2 = 64 + 225 = 289 = 17^2 ; le triangle est rectangle.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-maths-pythagore-q04",
@@ -134,7 +134,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Le carré du côté manquant est 10^2 - 6^2 = 64, donc sa longueur est 8 cm.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-maths-pythagore-q05",
@@ -149,7 +149,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "La réciproque s’applique si le carré du plus grand côté égale la somme des carrés des deux autres.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-francais-lit4-q01",
@@ -164,7 +164,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Le recoupement de sources distinctes et la vérification des faits réduisent le risque de reprendre une erreur.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-francais-lit4-q02",
@@ -179,7 +179,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "« À mon avis » signale un jugement subjectif, pas un fait vérifiable en lui-même.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-francais-lit4-q03",
@@ -194,7 +194,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un témoignage direct peut être une source primaire ; il doit toutefois être replacé dans son contexte et recoupé.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-francais-lit4-q04",
@@ -209,7 +209,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une image peut être ancienne ou sortie de son contexte : date, lieu et provenance sont à vérifier.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-francais-lit4-q05",
@@ -224,7 +224,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Une information expose des éléments vérifiables et indique ses sources ; un commentaire ajoute une appréciation.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-francais-language-q01",
@@ -239,7 +239,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "La subordonnée introduite par « dès que » précise quand elle range ses affaires.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-francais-language-q02",
@@ -254,7 +254,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La proposition complétive est le complément du verbe « pense ».",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-francais-language-q03",
@@ -269,7 +269,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Que tu m’as prêté » complète le nom « livre » et est introduite par le pronom relatif « que ».",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-francais-language-q04",
@@ -284,7 +284,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "« Entra » est au passé simple : ce temps présente ici une action ponctuelle dans le récit.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-francais-language-q05",
@@ -299,7 +299,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les guillemets ou les tirets signalent conventionnellement les paroles au discours direct.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-hist-lumieres-q01",
@@ -314,7 +314,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’Encyclopédie voulait réunir et diffuser les savoirs et les techniques de son temps.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-hist-lumieres-q02",
@@ -329,7 +329,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Montesquieu développe l’idée de séparation des pouvoirs dans De l’esprit des lois.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-hist-lumieres-q03",
@@ -344,7 +344,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La Constitution de 1791 maintient le roi mais encadre son pouvoir par une constitution.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-hist-lumieres-q04",
@@ -359,7 +359,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "La Convention abolit la monarchie et proclame la République en septembre 1792.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-hist-lumieres-q05",
@@ -374,7 +374,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Olympe de Gouges publie ce texte en 1791 pour revendiquer l’égalité des droits.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-hist-regimes-q01",
@@ -389,7 +389,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "En 1848, le droit de vote est étendu aux hommes citoyens adultes ; les femmes en sont encore exclues.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-hist-regimes-q02",
@@ -404,7 +404,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le développement industriel entraîne notamment l’essor des villes et du travail salarié.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-hist-regimes-q03",
@@ -419,7 +419,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "La République est proclamée le 4 septembre 1870, après la défaite de Sedan et la chute du Second Empire.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-hist-regimes-q04",
@@ -434,7 +434,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les lois de 1881-1882 rendent l’école primaire publique gratuite et l’instruction obligatoire.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-hist-regimes-q05",
@@ -449,7 +449,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Les sociétés coloniales sont structurées par une domination exercée par la puissance coloniale.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-geo-urban-q01",
@@ -464,7 +464,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La périurbanisation désigne l’extension de l’habitat et des activités urbaines vers les périphéries.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-geo-urban-q02",
@@ -479,7 +479,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le centre-ville rassemble souvent commerces, services, emplois et équipements, même si leur répartition varie.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-geo-urban-q03",
@@ -494,7 +494,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les connexions varient selon les transports, les télécommunications et les fonctions des villes.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-geo-urban-q04",
@@ -509,7 +509,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les périphéries se situent autour des secteurs centraux et comprennent des formes d’habitat et d’activités variées.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-geo-urban-q05",
@@ -524,7 +524,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une croissance rapide peut accroître les besoins en logements, transports, eau et services.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-geo-mobility-q01",
@@ -539,7 +539,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une migration internationale correspond à un changement de résidence d’un pays vers un autre.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-geo-mobility-q02",
@@ -554,7 +554,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un réfugié a fui son pays et répond aux critères de protection définis par le droit international.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-geo-mobility-q03",
@@ -569,7 +569,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le tourisme correspond à un séjour temporaire ; les motifs et situations de mobilité restent divers.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-geo-mobility-q04",
@@ -584,7 +584,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les équipements touristiques créent des activités mais peuvent aussi modifier les paysages et les milieux.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-geo-mobility-q05",
@@ -599,7 +599,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les mobilités peuvent résulter de facteurs économiques, familiaux, environnementaux, politiques ou de sécurité.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-emc-state-q01",
@@ -614,7 +614,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’État de droit soumet aussi les autorités publiques à des règles juridiques.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-emc-state-q02",
@@ -629,7 +629,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les libertés sont garanties par la loi et peuvent être encadrées pour protéger autrui et l’intérêt général.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-emc-state-q03",
@@ -644,7 +644,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La justice rend ses décisions selon une procédure et des garanties légales.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-emc-state-q04",
@@ -659,7 +659,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La présomption d’innocence protège toute personne avant une décision judiciaire définitive.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-emc-state-q05",
@@ -674,7 +674,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La liberté d’expression est protégée, mais la loi interdit notamment les menaces et les atteintes aux droits d’autrui.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-emc-defense-q01",
@@ -689,7 +689,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La défense nationale contribue à protéger la souveraineté, le territoire et la population.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-emc-defense-q02",
@@ -704,7 +704,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Police et gendarmerie sont des forces de sécurité intérieure aux missions définies par la loi.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-emc-defense-q03",
@@ -719,7 +719,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Vérifier les sources et ne pas amplifier une accusation non étayée relève d’un usage responsable de l’information.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-emc-defense-q04",
@@ -734,7 +734,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les missions de sécurité s’exercent dans le cadre légal et sous le contrôle des institutions compétentes.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-emc-defense-q05",
@@ -749,7 +749,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La protection collective est organisée par des institutions démocratiques et reste soumise au droit.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-pc-matter-q01",
@@ -764,7 +764,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le soluté est la substance dissoute ; ici, c’est le sel.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-pc-matter-q02",
@@ -779,7 +779,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un filtre retient les particules solides insolubles et laisse passer le liquide.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-pc-matter-q03",
@@ -794,7 +794,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La glace devient de l’eau liquide : l’espèce chimique reste H₂O.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-pc-matter-q04",
@@ -809,7 +809,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "À pression atmosphérique normale, la température d’ébullition de l’eau pure est proche de 100 °C.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-pc-matter-q05",
@@ -824,7 +824,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un mélange hétérogène présente plusieurs phases visibles, contrairement à un mélange homogène.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-pc-motion-q01",
@@ -839,7 +839,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le mouvement dépend du référentiel ; par rapport au sol, sa position ne change pas.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-pc-motion-q02",
@@ -854,7 +854,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La trajectoire est le chemin constitué par les positions successives de l’objet.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-pc-motion-q03",
@@ -869,7 +869,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un mouvement uniforme a une vitesse de valeur constante ; sa trajectoire peut être droite ou courbe.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-pc-motion-q04",
@@ -884,7 +884,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La gravitation agit sans contact direct entre les deux objets.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-pc-motion-q05",
@@ -899,7 +899,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une force se représente notamment par un point d’application, une direction, un sens et une valeur.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-svt-health-q01",
@@ -914,7 +914,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le cerveau et la moelle épinière constituent le système nerveux central.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-svt-health-q02",
@@ -929,7 +929,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les récepteurs sensoriels détectent des stimulations et transmettent une information nerveuse.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-svt-health-q03",
@@ -944,7 +944,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le sommeil participe à la récupération et à des fonctions utiles aux apprentissages et à la santé.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-svt-health-q04",
@@ -959,7 +959,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les antibiotiques ciblent des bactéries ; ils ne traitent pas les virus.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-svt-health-q05",
@@ -974,7 +974,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La vaccination entraîne le système immunitaire à reconnaître un agent infectieux et réduit les risques de maladie grave.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-svt-earth-q01",
@@ -989,7 +989,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un écosystème comprend les êtres vivants, leur milieu et leurs interactions.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-svt-earth-q02",
@@ -1004,7 +1004,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les décomposeurs transforment la matière organique et rendent des éléments disponibles dans le milieu.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-svt-earth-q03",
@@ -1019,7 +1019,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La perte et la fragmentation des habitats menacent les populations et leurs déplacements.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-svt-earth-q04",
@@ -1034,7 +1034,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La flèche relie l’organisme consommé à celui qui le consomme : matière et énergie sont transférées.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-svt-earth-q05",
@@ -1049,7 +1049,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’étude des impacts aide à comprendre les transformations et à comparer des mesures de gestion.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-tech-uses-q01",
@@ -1064,7 +1064,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le besoin exprime le service attendu ; la couleur et la forme sont des choix de conception possibles.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-tech-uses-q02",
@@ -1079,7 +1079,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’analyse des usages permet d’évaluer l’adéquation de l’objet aux besoins et aux utilisateurs.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-tech-uses-q03",
@@ -1094,7 +1094,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le cycle de vie considère matières premières, fabrication, transport, usage et fin de vie.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-tech-uses-q04",
@@ -1109,7 +1109,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une comparaison pertinente mobilise plusieurs exigences, dont coût, usage, sécurité et environnement.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-tech-uses-q05",
@@ -1124,7 +1124,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un capteur peut produire une donnée que le système transmet si sa conception le prévoit.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-tech-structure-q01",
@@ -1139,7 +1139,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un capteur acquiert une grandeur physique, ici la température.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-tech-structure-q02",
@@ -1154,7 +1154,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un actionneur transforme une commande en action, par exemple faire tourner un moteur.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-tech-structure-q03",
@@ -1169,7 +1169,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une structure conditionnelle sélectionne une branche selon le résultat d’un test.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-tech-structure-q04",
@@ -1184,7 +1184,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une boucle permet de répéter des instructions selon un nombre de fois ou une condition.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-tech-structure-q05",
@@ -1199,7 +1199,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le débogage s’appuie sur l’observation, l’identification de la cause et des essais contrôlés.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-anglais-practice-q01",
@@ -1214,7 +1214,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Au présent simple, on ajoute généralement -s à la troisième personne du singulier.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-anglais-practice-q02",
@@ -1229,7 +1229,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "« Visited » est le prétérit régulier ; « yesterday » situe l’action dans le passé.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-anglais-practice-q03",
@@ -1244,7 +1244,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "L’adjectif court « short » prend généralement -er au comparatif.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-anglais-practice-q04",
@@ -1259,7 +1259,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« To borrow » signifie emprunter ; « to lend » signifie prêter.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-anglais-practice-q05",
@@ -1274,7 +1274,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "« Two museums » est pluriel, on emploie « there are ».",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-anglais-languages-q01",
@@ -1289,7 +1289,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Last entry » indique l’heure limite d’entrée : 4:30 pm.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-anglais-languages-q02",
@@ -1304,7 +1304,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Because it may rain » donne la raison.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-anglais-languages-q03",
@@ -1319,7 +1319,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« How do I get to…? » demande comment se rendre à un lieu.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-anglais-languages-q04",
@@ -1334,7 +1334,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "L’horaire indiqué est 8:15.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-anglais-languages-q05",
@@ -1349,7 +1349,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Cette formule demande poliment de répéter une information.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-lca-language-q01",
@@ -1364,7 +1364,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Aquatique » est formé sur la racine latine aqua, liée à l’eau.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-lca-language-q02",
@@ -1379,7 +1379,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le mot associé bios (vie) et graphein (écrire) : une biographie raconte une vie.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-lca-language-q03",
@@ -1394,7 +1394,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Et cetera » signifie « et les autres choses » ou « et le reste ».",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-lca-language-q04",
@@ -1409,7 +1409,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Chronologie et chronomètre sont construits sur une racine grecque liée au temps.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-lca-language-q05",
@@ -1424,7 +1424,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Territoire » appartient à la famille issue de terra.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-lca-cultures-q01",
@@ -1439,7 +1439,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Dans le récit mythique, la chaleur fait fondre la cire des ailes fabriquées par Dédale.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-lca-cultures-q02",
@@ -1454,7 +1454,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La polis est une cité-État grecque et la communauté qui lui est associée.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-lca-cultures-q03",
@@ -1469,7 +1469,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les amphithéâtres accueillaient des spectacles publics, notamment des combats de gladiateurs.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-lca-cultures-q04",
@@ -1484,7 +1484,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le cheval de Troie est associé au récit légendaire de la guerre entre Grecs et Troyens.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-lca-cultures-q05",
@@ -1499,7 +1499,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La toge est un vêtement emblématique porté dans la Rome antique.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-espagnol-practice-q01",
@@ -1514,7 +1514,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Pour situer un lieu, on emploie « estar » : « ¿Dónde está el museo? ».",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-espagnol-practice-q02",
@@ -1529,7 +1529,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "« Ayer » situe l’action dans le passé ; « fuimos » est le prétérit de « ir ».",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-espagnol-practice-q03",
@@ -1544,7 +1544,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Hay » signifie « il y a » au singulier comme au pluriel.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-espagnol-practice-q04",
@@ -1559,7 +1559,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« El barrio » signifie « le quartier ».",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-espagnol-practice-q05",
@@ -1574,7 +1574,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Más… que » sert à exprimer une comparaison de supériorité.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-espagnol-languages-q01",
@@ -1589,7 +1589,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« De martes a domingo » signifie « du mardi au dimanche ».",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-espagnol-languages-q02",
@@ -1604,7 +1604,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Prohibido » signifie interdit et « fumar » signifie fumer.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-espagnol-languages-q03",
@@ -1619,7 +1619,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Gratuita » signifie gratuite.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-espagnol-languages-q04",
@@ -1634,7 +1634,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Sale à las ocho » signifie qu’il part à huit heures.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-espagnol-languages-q05",
@@ -1649,7 +1649,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La phrase indique de traverser la place pour rejoindre la gare.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-allemand-practice-q01",
@@ -1664,7 +1664,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Avec « ich », le verbe « sein » se conjugue « bin ».",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-allemand-practice-q02",
@@ -1679,7 +1679,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Wie heißt du? » demande le nom de la personne.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-allemand-practice-q03",
@@ -1694,7 +1694,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Mit dem Bus » signifie « en bus » et « zur Schule » signifie « à l’école ».",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-allemand-practice-q04",
@@ -1709,7 +1709,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Am Montag » signifie « lundi » ou « le lundi ».",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-allemand-practice-q05",
@@ -1724,7 +1724,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Avec « wir », le verbe « haben » prend la forme « haben ».",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-allemand-languages-q01",
@@ -1739,7 +1739,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Fährt … ab » signifie « part » ; l’horaire indiqué est 9 heures.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-allemand-languages-q02",
@@ -1754,7 +1754,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Eintritt frei » signifie que l’entrée est libre ou gratuite.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-allemand-languages-q03",
@@ -1769,7 +1769,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Nicht parken » signifie « ne pas se garer ».",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-allemand-languages-q04",
@@ -1784,7 +1784,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "« Heute » signifie aujourd’hui et « geschlossen » signifie fermé.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-allemand-languages-q05",
@@ -1799,7 +1799,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La question « wo ist » demande où se trouve un lieu.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-art-representation-q01",
@@ -1814,7 +1814,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le cadrage sélectionne ce qui apparaît et ce qui reste hors champ.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-art-representation-q02",
@@ -1829,7 +1829,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La perspective organise des lignes et des tailles pour suggérer la profondeur.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-art-representation-q03",
@@ -1844,7 +1844,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La juxtaposition peut créer du sens par comparaison ou contraste.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-art-representation-q04",
@@ -1859,7 +1859,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La fiction construit un monde qui peut s’inspirer du réel sans le reproduire fidèlement.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-art-representation-q05",
@@ -1874,7 +1874,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les choix de représentation servent une intention artistique et ne visent pas toujours l’imitation exacte.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-art-materiality-q01",
@@ -1889,7 +1889,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le support est le fond ou le matériau sur lequel l’œuvre est réalisée ou présentée.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-art-materiality-q02",
@@ -1904,7 +1904,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le collage assemble des éléments hétérogènes sur une même surface.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-art-materiality-q03",
@@ -1919,7 +1919,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La sculpture est une œuvre en volume, même si ses matériaux et formes sont variés.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-art-materiality-q04",
@@ -1934,7 +1934,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le changement de contexte ou de fonction invite le spectateur à interpréter autrement l’objet.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-art-materiality-q05",
@@ -1949,7 +1949,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’installation peut être conçue pour être parcourue et vue depuis plusieurs positions.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-music-production-q01",
@@ -1964,7 +1964,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un ostinato est un motif qui revient de manière répétée dans une pièce musicale.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-music-production-q02",
@@ -1979,7 +1979,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "A cappella désigne une interprétation vocale sans accompagnement instrumental.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-music-production-q03",
@@ -1994,7 +1994,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La répétition permet de coordonner les interprètes et d’améliorer la cohérence de l’ensemble.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-music-production-q04",
@@ -2009,7 +2009,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les nuances indiquent les variations de volume et d’intensité au cours d’une interprétation.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-music-production-q05",
@@ -2024,7 +2024,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’arrangement organise les parties et adapte la musique aux interprètes ou aux instruments disponibles.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-music-perception-q01",
@@ -2039,7 +2039,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le timbre caractérise la couleur sonore propre à une voix ou à un instrument.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-music-perception-q02",
@@ -2054,7 +2054,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La pulsation est un repère régulier sur lequel on peut organiser le rythme.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-music-perception-q03",
@@ -2069,7 +2069,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La hauteur correspond à la perception d’un son aigu ou grave et dépend de sa fréquence.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-music-perception-q04",
@@ -2084,7 +2084,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une écoute comparée met en évidence différentes décisions d’interprétation.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-music-perception-q05",
@@ -2099,7 +2099,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le repérage des répétitions et contrastes aide à décrire l’organisation d’une pièce.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-eps-perform-q01",
@@ -2114,7 +2114,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’échauffement prépare progressivement l’organisme à l’activité physique.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-eps-perform-q02",
@@ -2129,7 +2129,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Des conditions comparables rendent les résultats plus faciles à interpréter.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-eps-perform-q03",
@@ -2144,7 +2144,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une allure adaptée aide à soutenir l’effort et à respecter ses capacités.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-eps-perform-q04",
@@ -2159,7 +2159,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les consignes et le matériel adapté réduisent les risques pour soi et pour les autres.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-eps-perform-q05",
@@ -2174,7 +2174,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Des mesures permettent de suivre une performance et d’observer ses évolutions.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-eps-opposition-q01",
@@ -2189,7 +2189,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une passé vers un partenaire disponible peut faire avancer l’attaque et ouvrir une occasion.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-eps-opposition-q02",
@@ -2204,7 +2204,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’arbitre veille au respect des règles et au déroulement de la rencontre.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-eps-opposition-q03",
@@ -2219,7 +2219,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Se démarquer consiste à créer un espace ou une ligne de passé pour recevoir le ballon.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-eps-opposition-q04",
@@ -2234,7 +2234,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le fair-play suppose respect des personnes, des règles et de l’esprit de la rencontre.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-eps-opposition-q05",
@@ -2249,7 +2249,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Des rôles complémentaires aident l’équipe à protéger l’espace et à coopérer.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-emi-sources-q01",
@@ -2264,7 +2264,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Une annonce administrative importante doit pouvoir étre vérifiée auprès de l’organisme compétent, en contrôlant aussi la date.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-emi-sources-q02",
@@ -2279,7 +2279,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le contexte temporel peut changer le sens d’une information ; une ancienne annonce peut étre repartagée comme si elle était nouvelle.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-emi-sources-q03",
@@ -2294,7 +2294,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Identifier l’auteur ou l’éditeur aide à comprendre l’origine du contenu et à rechercher ses compétences ou ses intérêts.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-emi-sources-q04",
@@ -2309,7 +2309,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Retrouver la référence originale permet de vérifier ce que l’étude dit réellement et dans quelles limites.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-emi-sources-q05",
@@ -2324,7 +2324,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Des articles qui copient la même source ne constituent pas nécessairement deux confirmations indépendantes.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-emi-images-q01",
@@ -2339,7 +2339,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une recherche inversée ou une recherche de détails peut retrouver des publications antérieures et aider à dater l’image.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-emi-images-q02",
@@ -2354,7 +2354,7 @@
       ],
       "correctAnswerIndex": 2,
       "explanation": "Les recommandations dépendent de mécanismes de classement et d’usages ; le nombre de vues ne valide pas une affirmation.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-emi-images-q03",
@@ -2369,7 +2369,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La page d’origine aide à retrouver l’auteur, la date et le contexte qui manquent à la capture.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-emi-images-q04",
@@ -2384,7 +2384,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La mention informe le lecteur de l’existence d’une relation commerciale ou d’un financement.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-emi-images-q05",
@@ -2399,7 +2399,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La disponibilité en ligne ne signifie pas que l’image est libre de réutilisation ; il faut vérifier les droits et les conditions indiquées.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-hda-works-q01",
@@ -2414,7 +2414,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Eugène Delacroix peint cette œuvre en 1830 ; elle représente une scéne allégorique liée à la révolution de Juillet.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-hda-works-q02",
@@ -2429,7 +2429,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La fresque traditionnelle est peinte sur un enduit frais ; les pigments se fixent en séchant avec lui.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-hda-works-q03",
@@ -2444,7 +2444,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les impressionnistes explorent notamment les effets changeants de la lumière et les impressions produites par une scéne.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-hda-works-q04",
@@ -2459,7 +2459,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Dans la perspective linéaire à un point, les lignes paralléles à la profondeur semblent converger vers un point de fuite.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-hda-works-q05",
@@ -2474,7 +2474,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le daguerréotype est un procédé photographique mis au point au XIXe siècle.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-hda-circulation-q01",
@@ -2489,7 +2489,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’impression permet de reproduire et de diffuser une image auprès d’un public plus large.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-hda-circulation-q02",
@@ -2504,7 +2504,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le cadrage sélectionne une partie de la scéne et la légende oriente sa lecture ; ces choix font partie de l’analyse de l’image.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-hda-circulation-q03",
@@ -2519,7 +2519,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le commanditaire et le public visé éclairent la fonction et le contexte d’une œuvre.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-hda-circulation-q04",
@@ -2534,7 +2534,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La conservation-restauration vise à préserver l’œuvre et à documenter les interventions, en respectant les choix professionnels.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "4e-hda-circulation-q05",
@@ -2549,7 +2549,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le rapprochement d’éléments différents peut créer une relation ou un sens nouveau.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     }
   ]
 }

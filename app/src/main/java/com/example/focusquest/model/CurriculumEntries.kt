@@ -24,7 +24,7 @@ data class QuizQuestionEntry(
     val answers: List<String>,
     val correctAnswerIndex: Int,
     val explanation: String,
-    val rewardMinutes: Int
+    val rewardSeconds: Int
 )
 
 /** Stable asset identifiers accepted by the catalog repositories. */

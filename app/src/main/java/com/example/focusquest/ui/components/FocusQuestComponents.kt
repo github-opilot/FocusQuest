@@ -141,7 +141,7 @@ fun MissionCard(
                 )
             }
             SymbolBadge(
-                symbol = "✦",
+                symbol = "🌟",
                 accentColor = FocusViolet,
                 modifier = Modifier.padding(start = 8.dp)
             )
@@ -236,8 +236,8 @@ fun FocusQuestChoiceCard(
                 )
             }
             Text(
-                text = if (selected) "✓" else "›",
-                style = MaterialTheme.typography.headlineSmall,
+                text = if (selected) "✅" else "👉",
+                fontSize = 22.sp,
                 color = MaterialTheme.colorScheme.primary,
                 modifier = Modifier
                     .padding(start = 4.dp)
@@ -302,9 +302,9 @@ fun RewardBadge(
             verticalAlignment = Alignment.CenterVertically
         ) {
             Text(
-                text = "✦",
+                text = "🌟",
                 modifier = Modifier.clearAndSetSemantics { },
-                style = MaterialTheme.typography.titleMedium
+                fontSize = 23.sp
             )
             Text(
                 text = "+$amount",
@@ -365,7 +365,7 @@ fun SymbolBadge(
             Text(
                 text = symbol,
                 modifier = Modifier.clearAndSetSemantics { },
-                fontSize = if (size < 44.dp) 19.sp else 23.sp,
+                fontSize = (size.value * 0.62f).sp,
                 fontWeight = FontWeight.Bold,
                 textAlign = TextAlign.Center
             )

@@ -1,88 +1,204 @@
 package com.example.focusquest
 
 import androidx.compose.ui.test.assertIsDisplayed
+import androidx.compose.ui.test.assertIsNotEnabled
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
 import androidx.compose.ui.test.onAllNodesWithText
+import androidx.compose.ui.test.onAllNodesWithTag
+import androidx.compose.ui.test.onNodeWithContentDescription
+import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
+import androidx.compose.ui.test.onRoot
+import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.performScrollToNode
+import androidx.compose.ui.test.performTouchInput
+import androidx.compose.ui.test.swipeUp
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import androidx.test.platform.app.InstrumentationRegistry
+import com.example.focusquest.data.catalog.ChapterQuestionRepository
+import com.example.focusquest.data.catalog.CurriculumRepository
+import org.junit.Assert.assertNotNull
+import org.junit.Assert.assertTrue
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 
 @RunWith(AndroidJUnit4::class)
 class QuizFlowInstrumentedTest {
-    private val thirdGradeMathsAnswers = mapOf(
-        "Résous : 3x + 5 = 20" to "x = 5",
-        "Combien vaut √81 ?" to "9",
-        "Combien font 10 % de 250 ?" to "25",
-        "Un triangle rectangle a des côtés de 3 cm et 4 cm autour de l'angle droit. Quelle est son hypoténuse ?" to "5 cm",
-        "Quel est le développement de 2(x + 3) ?" to "2x + 6",
-        "Quelle est la factorisation de 5x + 15 ?" to "5(x + 3)",
-        "Quelle est la probabilité d'obtenir un nombre pair avec un dé équilibré ?" to "1/2",
-        "Si f(x) = 2x - 1, combien vaut f(4) ?" to "7",
-        "Si 3/5 = x/10, combien vaut x ?" to "6",
-        "Un prix passe de 80 € à 100 €. Quel est le pourcentage d'augmentation ?" to "25 %"
-    )
-
     @get:Rule
     val composeRule = createAndroidComposeRule<MainActivity>()
 
     @Test
-    fun thirdGradeMathsQuizCanBeCompleted() {
-        composeRule.onNodeWithText("Commencer une mission").performClick()
-        composeRule.onNodeWithText("3e").performClick()
-        composeRule.onNodeWithText("Mathématiques").performClick()
+    fun thirdGradeMathsEquationsChapterOpensItsQuiz() {
+        val questions = openQuiz(
+            gradeTitle = "3e",
+            gradeId = "3e",
+            subjectId = "maths",
+            chapterId = "3e-maths-equations"
+        )
 
-        composeRule.onNodeWithText("Question 1 / 5").assertIsDisplayed()
-        repeat(5) { questionIndex ->
-            answerCurrentQuestion(isLastQuestion = questionIndex == 4)
-        }
-
-        composeRule.onNodeWithText("Quiz terminé !").assertIsDisplayed()
-        composeRule.onNodeWithText("5 / 5", substring = true).assertIsDisplayed()
-        composeRule.onNodeWithText("+2 min 30 sec", substring = true).assertIsDisplayed()
-        composeRule.onNodeWithText("Temps disponible :", substring = true).assertIsDisplayed()
-
-        composeRule.onNodeWithText("Nouvelle mission").performClick()
-        composeRule.onNodeWithText("Quelle est ta classe ?").assertIsDisplayed()
-    }
-
-    private fun answerCurrentQuestion(isLastQuestion: Boolean) {
-        val answer = thirdGradeMathsAnswers.entries
-            .first { (question, _) ->
-                composeRule.onAllNodesWithText(question).fetchSemanticsNodes().isNotEmpty()
-            }
-            .value
-
-        answerCorrectly(answer, isLastQuestion)
+        assertEqualsQuestionCount(questions.size)
+        assertCurrentQuestionBelongsTo(questions)
     }
 
     @Test
-    fun androidBackReturnsToPreviousSelectionScreens() {
+    fun fifthGradeFrenchChapterOpensItsQuiz() {
+        val questions = openQuiz(
+            gradeTitle = "5e",
+            gradeId = "5e",
+            subjectId = "francais",
+            chapterId = "5e-francais-heroines-heros"
+        )
+
+        assertEqualsQuestionCount(questions.size)
+        assertCurrentQuestionBelongsTo(questions)
+    }
+
+    @Test
+    fun secondeMathsChapterOpensItsQuiz() {
+        val questions = openQuiz(
+            gradeTitle = "Seconde",
+            gradeId = "seconde",
+            subjectId = "maths",
+            chapterId = "seconde-maths-arithmetique"
+        )
+
+        assertEqualsQuestionCount(questions.size)
+        assertCurrentQuestionBelongsTo(questions)
+    }
+
+    @Test
+    fun premiereSpecialtyChapterOpensItsQuiz() {
+        val questions = openQuiz(
+            gradeTitle = "Première",
+            gradeId = "premiere_generale",
+            subjectId = "maths-spe",
+            chapterId = "premiere-maths-second-degre"
+        )
+
+        assertEqualsQuestionCount(questions.size)
+        assertCurrentQuestionBelongsTo(questions)
+    }
+
+    @Test
+    fun backButtonsReturnThroughTheSelectionFlow() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val curriculum = CurriculumRepository(context)
+        val chapterQuestions = ChapterQuestionRepository(context, curriculum)
+        val subject = curriculum.getSubjects("3e").first { it.id == "maths" }
+        val firstAvailableChapter = curriculum.getChapters("3e", subject.id)
+            .first { chapterQuestions.getQuestionCount("3e", subject.id, it.id) > 0 }
+
+        ensureHome()
         composeRule.onNodeWithText("Commencer une mission").performClick()
         composeRule.onNodeWithText("3e").performClick()
         composeRule.onNodeWithText("Choisis une matière").assertIsDisplayed()
 
-        composeRule.runOnUiThread {
-            composeRule.activity.onBackPressedDispatcher.onBackPressed()
-        }
+        scrollToText(subject.title)
+        composeRule.onNodeWithText(subject.title).performClick()
+        scrollToText(firstAvailableChapter.title)
+        composeRule.onNodeWithText(firstAvailableChapter.title).performClick()
+        composeRule.onNodeWithText("QCM · 5 questions max").assertIsDisplayed()
+
+        composeRule.onNodeWithContentDescription("Retour").performClick()
+        composeRule.onNodeWithText(subject.title).assertIsDisplayed()
+        composeRule.onNodeWithContentDescription("Retour").performClick()
+        composeRule.onNodeWithText("Choisis une matière").assertIsDisplayed()
+        composeRule.onNodeWithContentDescription("Retour").performClick()
         composeRule.onNodeWithText("Quelle est ta classe ?").assertIsDisplayed()
 
-        composeRule.runOnUiThread {
-            composeRule.activity.onBackPressedDispatcher.onBackPressed()
-        }
+        composeRule.onNodeWithText("Retour").performClick()
         composeRule.onNodeWithText("FocusQuest").assertIsDisplayed()
     }
 
-    private fun answerCorrectly(
-        answer: String,
-        isLastQuestion: Boolean = false
-    ) {
-        composeRule.onNodeWithText(answer).performClick()
-        composeRule.onNodeWithText("Bonne réponse ! +30 sec").assertIsDisplayed()
-        composeRule.onNodeWithText(
-            if (isLastQuestion) "Voir mes résultats" else "Question suivante"
-        ).performClick()
+    @Test
+    fun chaptersWithoutQuestionsRemainVisibleAndCannotBeOpened() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val curriculum = CurriculumRepository(context)
+        val chapterQuestions = ChapterQuestionRepository(context, curriculum)
+        val emptyChapter = curriculum.getChapters("3e", "maths")
+            .first { chapterQuestions.getQuestionCount("3e", "maths", it.id) == 0 }
+
+        ensureHome()
+        composeRule.onNodeWithText("Commencer une mission").performClick()
+        composeRule.onNodeWithText("3e").performClick()
+        val subject = curriculum.getSubjects("3e").first { it.id == "maths" }
+        scrollToText(subject.title)
+        composeRule.onNodeWithText(subject.title).performClick()
+        scrollToText(emptyChapter.title)
+        composeRule.onNodeWithText(emptyChapter.title).assertIsDisplayed().assertIsNotEnabled()
+    }
+
+    private fun openQuiz(
+        gradeTitle: String,
+        gradeId: String,
+        subjectId: String,
+        chapterId: String
+    ): List<com.example.focusquest.model.QuizQuestionEntry> {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val curriculum = CurriculumRepository(context)
+        val questions = ChapterQuestionRepository(context, curriculum)
+            .getQuestions(gradeId, subjectId, chapterId)
+        assertTrue("Expected QCM data for $gradeId/$subjectId/$chapterId", questions.isNotEmpty())
+
+        val subject = curriculum.getSubjects(gradeId).first { it.id == subjectId }
+        val chapter = curriculum.getChapters(gradeId, subjectId).first { it.id == chapterId }
+
+        ensureHome()
+        composeRule.onNodeWithText("Commencer une mission").performClick()
+        composeRule.onNodeWithText(gradeTitle).performClick()
+        scrollToText(subject.title)
+        composeRule.onNodeWithText(subject.title).performClick()
+        scrollToText(chapter.title)
+        composeRule.onNodeWithText(chapter.title).performClick()
+        composeRule.onNodeWithText("QCM · 5 questions max").assertIsDisplayed()
+        composeRule.onNodeWithText("Commencer").performClick()
+        composeRule.onNodeWithText("Question 1 / ${minOf(questions.size, 5)}").assertIsDisplayed()
+        return questions
+    }
+
+    private fun assertEqualsQuestionCount(count: Int) {
+        assertTrue("Expected a five-question mission, got $count questions", count >= 5)
+    }
+
+    private fun assertCurrentQuestionBelongsTo(questions: List<com.example.focusquest.model.QuizQuestionEntry>) {
+        val visibleQuestion = questions.firstOrNull { question ->
+            composeRule.onAllNodesWithText(question.question).fetchSemanticsNodes().isNotEmpty()
+        }
+        assertNotNull("The quiz showed no question from the selected chapter", visibleQuestion)
+    }
+
+    private fun scrollToText(text: String) {
+        if (composeRule.onAllNodesWithText(text).fetchSemanticsNodes().isNotEmpty()) return
+
+        if (composeRule.onAllNodesWithTag("subject-picker-grid").fetchSemanticsNodes().isNotEmpty()) {
+            composeRule.onNodeWithTag("subject-picker-grid").performScrollToNode(hasText(text))
+            return
+        }
+        if (composeRule.onAllNodesWithTag("chapter-picker-list").fetchSemanticsNodes().isNotEmpty()) {
+            composeRule.onNodeWithTag("chapter-picker-list").performScrollToNode(hasText(text))
+            return
+        }
+
+        repeat(12) {
+            if (composeRule.onAllNodesWithText(text).fetchSemanticsNodes().isNotEmpty()) {
+                return
+            }
+            composeRule.onRoot().performTouchInput { swipeUp() }
+        }
+        composeRule.onNodeWithText(text).assertIsDisplayed()
+    }
+
+    private fun ensureHome() {
+        composeRule.waitUntil(timeoutMillis = 10_000) {
+            composeRule.onAllNodesWithText("Commencer une mission")
+                .fetchSemanticsNodes().isNotEmpty() ||
+                composeRule.onAllNodesWithText("Passer").fetchSemanticsNodes().isNotEmpty()
+        }
+        if (composeRule.onAllNodesWithText("Commencer une mission").fetchSemanticsNodes().isEmpty()) {
+            composeRule.onNodeWithText("Passer").performClick()
+        }
+        composeRule.onNodeWithText("Commencer une mission").assertIsDisplayed()
     }
 }

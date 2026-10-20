@@ -81,8 +81,8 @@ class ChapterQuestionRepository(
             val correctAnswerIndex = questionJson.exactInt("correctAnswerIndex") ?: continue
             if (correctAnswerIndex !in answers.indices) continue
             val explanation = questionJson.requiredString("explanation") ?: continue
-            val rewardMinutes = questionJson.exactInt("rewardMinutes") ?: continue
-            if (rewardMinutes < 0) continue
+            val rewardSeconds = questionJson.exactInt("rewardSeconds") ?: continue
+            if (rewardSeconds < 0) continue
 
             usedIds += id
             result += QuizQuestionEntry(
@@ -93,7 +93,7 @@ class ChapterQuestionRepository(
                 answers = answers,
                 correctAnswerIndex = correctAnswerIndex,
                 explanation = explanation,
-                rewardMinutes = rewardMinutes
+                rewardSeconds = rewardSeconds
             )
         }
         return result

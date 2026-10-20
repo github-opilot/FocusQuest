@@ -26,12 +26,12 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
+import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.core.graphics.drawable.toBitmap
-import androidx.compose.ui.graphics.asImageBitmap
 import com.example.focusquest.data.LaunchableApp
 import com.example.focusquest.ui.components.FocusQuestButton
 import com.example.focusquest.ui.components.FocusQuestButtonStyle
@@ -70,7 +70,7 @@ fun AppSelectionScreen(
             item {
                 Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
                     FocusQuestButton(
-                        text = "← Retour",
+                        text = "👈 Retour",
                         onClick = onBack,
                         style = FocusQuestButtonStyle.Outlined
                     )
@@ -94,7 +94,7 @@ fun AppSelectionScreen(
                                 )
                             }
                             SymbolBadge(
-                                symbol = "◉",
+                                symbol = "📱",
                                 accentColor = FocusBlue,
                                 modifier = Modifier.padding(start = 8.dp),
                                 size = 42.dp
@@ -170,7 +170,6 @@ fun AppSelectionScreen(
                     val iconBitmap = remember(app.packageName) {
                         runCatching { app.icon.toBitmap(96, 96).asImageBitmap() }.getOrNull()
                     }
-
                     Surface(
                         modifier = Modifier
                             .fillMaxWidth()
@@ -213,7 +212,7 @@ fun AppSelectionScreen(
                                 )
                             } else {
                                 SymbolBadge(
-                                    symbol = "•",
+                                    symbol = "📱",
                                     accentColor = FocusBlue,
                                     size = 44.dp
                                 )

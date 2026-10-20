@@ -14,7 +14,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "3! = 3 × 2 × 1 = 6.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-maths-combinatoire-q02",
@@ -29,7 +29,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le nombre est C(5,2)=5×4/(2×1)=10.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-maths-combinatoire-q03",
@@ -44,7 +44,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Les choix sont indépendants : 4 × 3 = 12 codes.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-maths-combinatoire-q04",
@@ -59,7 +59,7 @@
       ],
       "correctAnswerIndex": 3,
       "explanation": "Il y a 4! = 24 permutations.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-maths-combinatoire-q05",
@@ -74,7 +74,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "Choisir un livre parmi 6 donne 6 possibilités.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-maths-vecteurs-espace-q01",
@@ -89,7 +89,7 @@
       ],
       "correctAnswerIndex": 1,
       "explanation": "AB⃗ = B−A = (4−1 ; 0−2 ; 2−0) = (3 ; −2 ; 2).",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-maths-vecteurs-espace-q02",
@@ -104,7 +104,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La colinéarité signifie qu’un vecteur est un multiple scalaire de l’autre.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-maths-vecteurs-espace-q03",
@@ -119,7 +119,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "(2 ; 4 ; 0) est deux fois (1 ; 2 ; 0).",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-maths-vecteurs-espace-q04",
@@ -134,7 +134,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "On moyenne chaque coordonnée : (1 ; 3 ; 2).",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-maths-vecteurs-espace-q05",
@@ -149,7 +149,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Par définition, des vecteurs sont orthogonaux si leur produit scalaire est nul.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-pc-equilibre-q01",
@@ -164,7 +164,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "À l’équilibre, les grandeurs macroscopiques restent stables, même si les transformations directes et inverses continuent.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-pc-equilibre-q02",
@@ -179,7 +179,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La composition à l’équilibre vérifie Qᵣ = K à la température considérée.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-pc-equilibre-q03",
@@ -194,7 +194,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le catalyseur accélère les transformations directes et inverses ; il ne modifie pas la composition d’équilibre.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-pc-equilibre-q04",
@@ -209,7 +209,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Si Qᵣ < K, le système évolue dans le sens direct jusqu’à l’équilibre.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-pc-equilibre-q05",
@@ -224,7 +224,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Pour une réaction donnée, la constante d’équilibre dépend de la température, pas de la composition initiale ni d’un catalyseur.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-pc-suivi-q01",
@@ -239,7 +239,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un réactif est consommé au cours de la transformation, donc sa quantité ou concentration diminue.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-pc-suivi-q02",
@@ -254,7 +254,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Un catalyseur augmente la vitesse d’évolution sans modifier l’état final d’un système à l’équilibre.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-pc-suivi-q03",
@@ -269,7 +269,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "À l’équivalence, les quantités de matière respectent les coefficients stœchiométriques.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-pc-suivi-q04",
@@ -284,7 +284,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La conductivité dépend de la nature et de la concentration des ions en solution.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-pc-suivi-q05",
@@ -299,7 +299,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La vitesse volumique s’exprime à partir de la dérivée temporelle de l’avancement divisée par le volume.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-philo-art-q01",
@@ -314,7 +314,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’esthétique interroge notamment l’art, le beau et les expériences sensibles.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-philo-art-q02",
@@ -329,7 +329,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Platon critique l’imitation qui reproduit les apparences et peut éloigner de la connaissance du vrai.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-philo-art-q03",
@@ -344,7 +344,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Dans la Poétique, la catharsis est liée aux émotions suscitées par la tragédie.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-philo-art-q04",
@@ -359,7 +359,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le jugement esthétique est une appréciation relative au beau ou à la valeur artistique.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-philo-art-q05",
@@ -374,7 +374,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La non-figuration ne cherche pas à représenter des objets reconnaissables, sans exclure la présence de formes ou d’une intention artistique.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-philo-bonheur-q01",
@@ -389,7 +389,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Aristote définit le bonheur comme une activité de l’âme conforme à la vertu accomplie.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-philo-bonheur-q02",
@@ -404,7 +404,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La distinction entre ce qui dépend de nous et ce qui n’en dépend pas est centrale dans le stoïcisme.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-philo-bonheur-q03",
@@ -419,7 +419,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’ataraxie désigne la tranquillité ou l’absence de trouble de l’âme.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-philo-bonheur-q04",
@@ -434,7 +434,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Épicure valorise l’absence de douleur et de trouble plutôt que l’excès sans mesure.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-philo-bonheur-q05",
@@ -449,7 +449,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le plaisir peut désigner une satisfaction ponctuelle ; le bonheur pose une question plus globale sur la vie.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-svt-geologie-q01",
@@ -464,7 +464,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Le principe de superposition place généralement les couches les plus anciennes sous les plus récentes.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-svt-geologie-q02",
@@ -479,7 +479,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Une durée d’existence brève et une large répartition rendent un fossile utile pour corréler des couches.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-svt-geologie-q03",
@@ -494,7 +494,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La datation relative établit l’ordre des événements sans fournir nécessairement un âge chiffré.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-svt-geologie-q04",
@@ -509,7 +509,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les rapports entre isotopes radioactifs et produits de désintégration permettent d’estimer un âge absolu.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-svt-geologie-q05",
@@ -524,7 +524,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’actualisme utilise les processus observables aujourd’hui pour comprendre les traces géologiques anciennes.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-svt-meiose-q01",
@@ -539,7 +539,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La méiose réduit de moitié le nombre de chromosomes et forme des cellules haploïdes.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-svt-meiose-q02",
@@ -554,7 +554,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les gamètes humains sont haploïdes et possèdent 23 chromosomes.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-svt-meiose-q03",
@@ -569,7 +569,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "Les échanges entre chromatides homologues se produisent en prophase I.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-svt-meiose-q04",
@@ -584,7 +584,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "La fusion de deux gamètes haploïdes reconstitue un zygote diploïde.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     },
     {
       "id": "terminale-svt-meiose-q05",
@@ -599,7 +599,7 @@
       ],
       "correctAnswerIndex": 0,
       "explanation": "L’orientation et la séparation aléatoires des chromosomes homologues brassent les combinaisons chromosomiques.",
-      "rewardMinutes": 2
+      "rewardSeconds": 30
     }
   ]
 }
