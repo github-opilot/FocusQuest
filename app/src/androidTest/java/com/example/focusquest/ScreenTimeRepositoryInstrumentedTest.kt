@@ -24,6 +24,7 @@ class ScreenTimeRepositoryInstrumentedTest {
         repository.addEarnedMinutes(6)
         repository.addEarnedTimeMillis(2 * 60_000L)
         repository.addUsedMinutes(5)
+        repository.setAppProtectionEnabled(true)
 
         val savedState = repository.screenTimeState.first()
         assertEquals(45, savedState.baseDailyMinutes)
@@ -32,9 +33,11 @@ class ScreenTimeRepositoryInstrumentedTest {
         assertEquals(5, savedState.usedMinutes)
         assertEquals(5 * 60_000L, savedState.usedTimeMillis)
         assertEquals(48, savedState.availableMinutes)
+        assertTrue(repository.appProtectionEnabled.first())
 
         val recreatedRepository = ScreenTimeRepository(testContext, dataStoreOverride = dataStore) { firstDay }
         assertEquals(savedState, recreatedRepository.screenTimeState.first())
+        assertTrue(recreatedRepository.appProtectionEnabled.first())
 
         val nextDayRepository = ScreenTimeRepository(testContext, dataStoreOverride = dataStore) { "$firstDay-next" }
         nextDayRepository.resetIfNewDay()
@@ -45,6 +48,7 @@ class ScreenTimeRepositoryInstrumentedTest {
         assertEquals(0, resetState.usedMinutes)
         assertEquals(45, resetState.availableMinutes)
         assertEquals(0L, resetState.usedTimeMillis)
+        assertTrue(nextDayRepository.appProtectionEnabled.first())
     }
 
     @Test
@@ -68,8 +72,8 @@ class ScreenTimeRepositoryInstrumentedTest {
 
         recreatedRepository.addUsageSnapshot(mapOf("com.example.youtube" to 25 * minute))
         recreatedRepository.addUsageSnapshot(mapOf("com.example.youtube" to 25 * minute))
-        assertEquals(5 * minute, recreatedRepository.screenTimeState.first().usedTimeMillis)
-        assertEquals(5, recreatedRepository.screenTimeState.first().usedMinutes)
+        assertEquals(25 * minute, recreatedRepository.screenTimeState.first().usedTimeMillis)
+        assertEquals(25, recreatedRepository.screenTimeState.first().usedMinutes)
 
         recreatedRepository.setSelectedPackages(
             packages = setOf("com.example.youtube", "com.example.tiktok"),
@@ -81,7 +85,7 @@ class ScreenTimeRepositoryInstrumentedTest {
         recreatedRepository.addUsageSnapshot(
             mapOf("com.example.youtube" to 28 * minute, "com.example.tiktok" to 16 * minute)
         )
-        assertEquals(12 * minute, recreatedRepository.screenTimeState.first().usedTimeMillis)
+        assertEquals(44 * minute, recreatedRepository.screenTimeState.first().usedTimeMillis)
 
         recreatedRepository.setSelectedPackages(
             packages = setOf("com.example.tiktok"),
@@ -89,7 +93,7 @@ class ScreenTimeRepositoryInstrumentedTest {
         )
         assertTrue("com.example.youtube" !in recreatedRepository.selectedPackages.first())
         recreatedRepository.addUsageSnapshot(mapOf("com.example.tiktok" to 17 * minute))
-        assertEquals(13 * minute, recreatedRepository.screenTimeState.first().usedTimeMillis)
+        assertEquals(45 * minute, recreatedRepository.screenTimeState.first().usedTimeMillis)
 
         val nextDayRepository = ScreenTimeRepository(testContext, dataStoreOverride = dataStore) { "$today-next" }
         nextDayRepository.resetIfNewDay()

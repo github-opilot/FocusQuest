@@ -14,7 +14,7 @@ After the onboarding shown on first launch, students can follow this path:
 - Only subjects available for the selected grade are shown. In Première and Terminale, subjects are grouped into common courses, specializations, and electives.
 - Chapters are grouped by theme. Each chapter shows its available quiz count; chapters without questions remain visible but cannot be started.
 - The only activity currently available is a **quiz with up to five questions**. A quiz is restricted to the selected grade, subject, and chapter. It uses fewer than five questions when that is all the chapter contains, and it does not repeat questions within a mission.
-- The quiz shows progress, score, and explanations. A submitted answer cannot award its reward more than once. Each correct answer currently adds **30 seconds** to earned time, up to 2 minutes 30 seconds for a perfect mission. The results screen summarizes the mission.
+- The quiz shows progress, score, and explanations. A submitted answer cannot award its reward more than once. Each correct answer currently adds **30 seconds** to earned time, up to 2 minutes 30 seconds for a perfect five-question mission. The results screen summarizes the mission.
 - Back buttons return to previous steps; leaving an in-progress mission requires confirmation.
 
 ### Available time and app usage tracking
@@ -24,7 +24,9 @@ After the onboarding shown on first launch, students can follow this path:
 - The calculation is: **base time + earned time − used time**, with a minimum of zero.
 - FocusQuest can list launchable apps on the phone, including their names and system icons. Users choose which apps to track, and their selection is saved.
 - With Android's “Usage access” permission, FocusQuest reads the foreground time of selected apps through `UsageStatsManager` and deducts it from the available balance. When an app is selected for the first time that day, usage reported by Android since midnight is included.
-- Usage is refreshed when FocusQuest launches, returns to the foreground, or when the user taps **Refresh used time**. Tracking is not continuous: apps remain launchable and FocusQuest **does not block them**.
+- Usage is refreshed when FocusQuest launches, returns to the foreground, or when the user taps **Refresh used time**. When protection is enabled, the accessibility service also checks usage every two seconds while a selected app stays in the foreground.
+- The app protection option starts enabled by default when no preference has been saved. FocusQuest requires its accessibility service to be enabled before showing the onboarding or app screens; otherwise it shows a setup screen that opens Android accessibility settings after consent. The user must enable the service manually. If a selected app is open and available time reaches zero, a full-screen FocusQuest overlay blocks interaction with that app. The overlay offers actions to start a mission in FocusQuest or return to the phone's home screen. It disappears when the user leaves the selected app or available time is restored.
+- The service reads only the foreground package name from accessibility events; it does not inspect screen text or content. FocusQuest, Android Settings, launchers, dialers, emergency dialing, and System UI are exempt from blocking. The user can disable protection in FocusQuest or Android settings at any time.
 - Earned and used time reset when the day changes; the base time and selected apps are stored locally with Preferences DataStore.
 
 ### Onboarding and navigation
@@ -52,8 +54,9 @@ The **120 legacy Kotlin questions** (for 5e, 4e, and 3e) remain in `QuestionRepo
 
 ## Current limitations
 
-- FocusQuest tracks usage of selected apps, but does not block them or run as a permanent background monitoring service.
-- Tracking requires the special Usage access permission in Android settings. Without it, app usage statistics cannot be read.
+- Usage tracking requires the special Usage access permission in Android settings. Without it, app usage statistics cannot be read.
+- Blocking requires both the in-app Protection switch and the accessibility service to be enabled manually in Android settings. Android can stop or disable the service at any time; FocusQuest never enables it automatically.
+- The accessibility service listens for app-window changes, but performs its two-second usage poll only while a selected app is in the foreground.
 - The quiz is the only learning activity currently available. Chapters without questions can be viewed but not started.
 - Teachers have not certified curriculum coverage, wording, or question difficulty.
 - Data and catalogs are stored locally in the app. The project does not require Firebase or a remote server.
