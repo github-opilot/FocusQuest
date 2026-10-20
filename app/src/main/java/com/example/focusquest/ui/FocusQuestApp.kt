@@ -1,10 +1,19 @@
 package com.example.focusquest.ui
 
+import android.content.ActivityNotFoundException
+import android.content.Intent
+import android.provider.Settings
+import android.widget.Toast
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleEventObserver
+import androidx.lifecycle.compose.LocalLifecycleOwner
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -15,6 +24,7 @@ import com.example.focusquest.model.Subject
 
 private const val HOME_ROUTE = "home"
 private const val SETTINGS_ROUTE = "settings"
+private const val APP_SELECTION_ROUTE = "appSelection"
 private const val GRADE_ROUTE = "gradeSelection"
 private const val SUBJECT_ROUTE = "subjectSelection/{grade}"
 private const val QUIZ_ROUTE = "quiz/{grade}/{subject}"
@@ -25,7 +35,26 @@ fun FocusQuestApp(
     screenTimeViewModel: ScreenTimeViewModel = viewModel()
 ) {
     val navController = rememberNavController()
+    val context = LocalContext.current
+    val lifecycleOwner = LocalLifecycleOwner.current
     val screenTimeState by screenTimeViewModel.screenTimeState.collectAsState()
+    val availableApps by screenTimeViewModel.availableApps.collectAsState()
+    val selectedPackages by screenTimeViewModel.selectedPackages.collectAsState()
+    val usageAccessGranted by screenTimeViewModel.usageAccessGranted.collectAsState()
+    val isRefreshing by screenTimeViewModel.isRefreshing.collectAsState()
+
+    DisposableEffect(lifecycleOwner, screenTimeViewModel) {
+        val observer = LifecycleEventObserver { _, event ->
+            if (event == Lifecycle.Event.ON_RESUME) screenTimeViewModel.refreshUsage()
+        }
+        lifecycleOwner.lifecycle.addObserver(observer)
+        onDispose { lifecycleOwner.lifecycle.removeObserver(observer) }
+    }
+
+    val appNames = remember(availableApps, selectedPackages) {
+        val labels = availableApps.associate { it.packageName to it.label }
+        selectedPackages.map { packageName -> labels[packageName] ?: packageName }
+    }
 
     NavHost(
         navController = navController,
@@ -35,8 +64,15 @@ fun FocusQuestApp(
         composable(HOME_ROUTE) {
             HomeScreen(
                 availableMinutes = screenTimeState.availableMinutes,
+                earnedMinutes = screenTimeState.earnedMinutes,
+                usedMinutes = screenTimeState.usedMinutes,
+                monitoredApps = appNames,
+                usageAccessGranted = usageAccessGranted,
+                isRefreshing = isRefreshing,
                 onStartMission = { navController.navigate(GRADE_ROUTE) },
-                onOpenSettings = { navController.navigate(SETTINGS_ROUTE) }
+                onOpenSettings = { navController.navigate(SETTINGS_ROUTE) },
+                onSelectApps = { navController.navigate(APP_SELECTION_ROUTE) },
+                onRefreshUsage = screenTimeViewModel::refreshUsage
             )
         }
 
@@ -44,6 +80,37 @@ fun FocusQuestApp(
             SettingsScreen(
                 baseDailyMinutes = screenTimeState.baseDailyMinutes,
                 onBaseDailyMinutesSelected = screenTimeViewModel::setBaseDailyMinutes
+            )
+        }
+
+        composable(APP_SELECTION_ROUTE) {
+            AppSelectionScreen(
+                apps = availableApps,
+                selectedPackages = selectedPackages,
+                usageAccessGranted = usageAccessGranted,
+                isRefreshing = isRefreshing,
+                onRequestUsageAccess = {
+                    try {
+                        context.startActivity(Intent(Settings.ACTION_USAGE_ACCESS_SETTINGS))
+                    } catch (_: ActivityNotFoundException) {
+                        Toast.makeText(
+                            context,
+                            "Les réglages d'accès aux statistiques ne sont pas disponibles sur cet appareil.",
+                            Toast.LENGTH_LONG
+                        ).show()
+                    } catch (_: SecurityException) {
+                        Toast.makeText(
+                            context,
+                            "Impossible d'ouvrir les réglages Android.",
+                            Toast.LENGTH_LONG
+                        ).show()
+                    }
+                },
+                onSaveSelection = { packages ->
+                    screenTimeViewModel.saveSelectedPackages(packages)
+                    navController.popBackStack()
+                },
+                onBack = { navController.popBackStack() }
             )
         }
 
