@@ -1,0 +1,28 @@
+# Android Studio
+.idea/
+*.iml
+
+# Gradle
+.gradle/
+**/build/
+
+# Configuration locale
+local.properties
+
+# Fichiers secrets
+.env
+.env.*
+!.env.example
+
+# Clés de signature Android
+*.jks
+*.keystore
+*.p12
+*.pem
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+/captures
+.externalNativeBuild/
+.cxx/
