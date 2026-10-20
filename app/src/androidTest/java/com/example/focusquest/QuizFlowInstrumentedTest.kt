@@ -41,7 +41,7 @@ class QuizFlowInstrumentedTest {
 
         composeRule.onNodeWithText("Quiz terminé !").assertIsDisplayed()
         composeRule.onNodeWithText("5 / 5", substring = true).assertIsDisplayed()
-        composeRule.onNodeWithText("+10 min", substring = true).assertIsDisplayed()
+        composeRule.onNodeWithText("+2 min 30 sec", substring = true).assertIsDisplayed()
         composeRule.onNodeWithText("Temps disponible :", substring = true).assertIsDisplayed()
 
         composeRule.onNodeWithText("Nouvelle mission").performClick()
@@ -80,7 +80,7 @@ class QuizFlowInstrumentedTest {
         isLastQuestion: Boolean = false
     ) {
         composeRule.onNodeWithText(answer).performClick()
-        composeRule.onNodeWithText("Bonne réponse ! +2 minutes").assertIsDisplayed()
+        composeRule.onNodeWithText("Bonne réponse ! +30 sec").assertIsDisplayed()
         composeRule.onNodeWithText(
             if (isLastQuestion) "Voir mes résultats" else "Question suivante"
         ).performClick()

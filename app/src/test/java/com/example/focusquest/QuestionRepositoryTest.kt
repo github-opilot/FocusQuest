@@ -51,7 +51,7 @@ class QuestionRepositoryTest {
                 question.answers.all { it.isNotBlank() }
             )
             assertTrue("Explication vide pour la question ${question.id}", question.explanation.isNotBlank())
-            assertEquals(2, question.rewardMinutes)
+            assertEquals(30_000L, question.rewardTimeMillis)
         }
     }
 

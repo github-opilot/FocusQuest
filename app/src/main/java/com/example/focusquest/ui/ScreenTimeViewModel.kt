@@ -53,6 +53,12 @@ class ScreenTimeViewModel(application: Application) : AndroidViewModel(applicati
         }
     }
 
+    fun addEarnedTimeMillis(milliseconds: Long) {
+        viewModelScope.launch {
+            repository.addEarnedTimeMillis(milliseconds)
+        }
+    }
+
     fun setBaseDailyMinutes(minutes: Int) {
         viewModelScope.launch {
             repository.setBaseDailyMinutes(minutes)

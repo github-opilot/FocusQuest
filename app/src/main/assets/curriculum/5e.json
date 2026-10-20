@@ -1,0 +1,604 @@
+{
+  "gradeId": "5e",
+  "programYear": "2026-2027",
+  "track": "college",
+  "subjects": [
+    {
+      "id": "francais",
+      "title": "Français",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "5e-francais-heroines-heros",
+          "title": "Devenir héroïne ou héros",
+          "theme": "Destins romanesques",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/document/Annexe%201%20%E2%80%93%20Programme%20de%20fran%C3%A7ais%20pour%20le%20cycle%204-480713.pdf"
+        },
+        {
+          "id": "5e-francais-voyager-poesie",
+          "title": "Voyager en poésie",
+          "theme": "Poésie",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/document/Annexe%201%20%E2%80%93%20Programme%20de%20fran%C3%A7ais%20pour%20le%20cycle%204-480713.pdf"
+        },
+        {
+          "id": "5e-francais-theatre-societe",
+          "title": "Jouer au théâtre : la société sens dessus dessous",
+          "theme": "Théâtre",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/document/Annexe%201%20%E2%80%93%20Programme%20de%20fran%C3%A7ais%20pour%20le%20cycle%204-480713.pdf"
+        },
+        {
+          "id": "5e-francais-histoires-instruire",
+          "title": "Des histoires pour plaire et instruire",
+          "theme": "Récit et fiction",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/document/Annexe%201%20%E2%80%93%20Programme%20de%20fran%C3%A7ais%20pour%20le%20cycle%204-480713.pdf"
+        },
+        {
+          "id": "5e-francais-lecture",
+          "title": "Lire, comprendre et interpréter",
+          "theme": "Lecture",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/document/Annexe%201%20%E2%80%93%20Programme%20de%20fran%C3%A7ais%20pour%20le%20cycle%204-480713.pdf"
+        },
+        {
+          "id": "5e-francais-ecriture",
+          "title": "Écrire, réviser et améliorer un texte",
+          "theme": "Écriture",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/document/Annexe%201%20%E2%80%93%20Programme%20de%20fran%C3%A7ais%20pour%20le%20cycle%204-480713.pdf"
+        },
+        {
+          "id": "5e-francais-oral",
+          "title": "Écouter, parler et jouer un texte",
+          "theme": "Oral",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/document/Annexe%201%20%E2%80%93%20Programme%20de%20fran%C3%A7ais%20pour%20le%20cycle%204-480713.pdf"
+        },
+        {
+          "id": "5e-francais-vocabulaire",
+          "title": "Vocabulaire et formation des mots",
+          "theme": "Vocabulaire et orthographe lexicale",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/document/Annexe%201%20%E2%80%93%20Programme%20de%20fran%C3%A7ais%20pour%20le%20cycle%204-480713.pdf"
+        },
+        {
+          "id": "5e-francais-grammaire",
+          "title": "Phrases et constituants",
+          "theme": "Grammaire et orthographe grammaticale",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/document/Annexe%201%20%E2%80%93%20Programme%20de%20fran%C3%A7ais%20pour%20le%20cycle%204-480713.pdf"
+        },
+        {
+          "id": "5e-francais-verbes",
+          "title": "Formes et emplois des verbes",
+          "theme": "Grammaire et orthographe grammaticale",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/document/Annexe%201%20%E2%80%93%20Programme%20de%20fran%C3%A7ais%20pour%20le%20cycle%204-480713.pdf"
+        },
+        {
+          "id": "5e-francais-accords",
+          "title": "Accords dans la phrase",
+          "theme": "Grammaire et orthographe grammaticale",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/document/Annexe%201%20%E2%80%93%20Programme%20de%20fran%C3%A7ais%20pour%20le%20cycle%204-480713.pdf"
+        }
+      ]
+    },
+    {
+      "id": "maths",
+      "title": "Mathématiques",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "5e-maths-operations",
+          "title": "Opérations et priorités",
+          "theme": "Nombres et calculs",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/document/Annexe%202%20%E2%80%93%20Programme%20de%20math%C3%A9matiques%20pour%20le%20cycle%204-480716.pdf"
+        },
+        {
+          "id": "5e-maths-relatifs",
+          "title": "Nombres relatifs",
+          "theme": "Nombres et calculs",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/document/Annexe%202%20%E2%80%93%20Programme%20de%20math%C3%A9matiques%20pour%20le%20cycle%204-480716.pdf"
+        },
+        {
+          "id": "5e-maths-rationnels",
+          "title": "Fractions et nombres rationnels",
+          "theme": "Nombres et calculs",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/document/Annexe%202%20%E2%80%93%20Programme%20de%20math%C3%A9matiques%20pour%20le%20cycle%204-480716.pdf"
+        },
+        {
+          "id": "5e-maths-puissances",
+          "title": "Puissances de nombres",
+          "theme": "Nombres et calculs",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/document/Annexe%202%20%E2%80%93%20Programme%20de%20math%C3%A9matiques%20pour%20le%20cycle%204-480716.pdf"
+        },
+        {
+          "id": "5e-maths-calcul-litteral",
+          "title": "Calcul littéral : expressions et égalités",
+          "theme": "Nombres et calculs",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/document/Annexe%202%20%E2%80%93%20Programme%20de%20math%C3%A9matiques%20pour%20le%20cycle%204-480716.pdf"
+        },
+        {
+          "id": "5e-maths-reperage",
+          "title": "Repérage sur une droite et dans le plan",
+          "theme": "Espace et géométrie",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/document/Annexe%202%20%E2%80%93%20Programme%20de%20math%C3%A9matiques%20pour%20le%20cycle%204-480716.pdf"
+        },
+        {
+          "id": "5e-maths-espace",
+          "title": "Représenter les solides",
+          "theme": "Espace et géométrie",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/document/Annexe%202%20%E2%80%93%20Programme%20de%20math%C3%A9matiques%20pour%20le%20cycle%204-480716.pdf"
+        },
+        {
+          "id": "5e-maths-transformations",
+          "title": "Transformations du plan",
+          "theme": "Espace et géométrie",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/document/Annexe%202%20%E2%80%93%20Programme%20de%20math%C3%A9matiques%20pour%20le%20cycle%204-480716.pdf"
+        },
+        {
+          "id": "5e-maths-angles",
+          "title": "Angles",
+          "theme": "Espace et géométrie",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/document/Annexe%202%20%E2%80%93%20Programme%20de%20math%C3%A9matiques%20pour%20le%20cycle%204-480716.pdf"
+        },
+        {
+          "id": "5e-maths-triangles",
+          "title": "Triangles",
+          "theme": "Espace et géométrie",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/document/Annexe%202%20%E2%80%93%20Programme%20de%20math%C3%A9matiques%20pour%20le%20cycle%204-480716.pdf"
+        },
+        {
+          "id": "5e-maths-parallelogrammes",
+          "title": "Parallélogrammes",
+          "theme": "Espace et géométrie",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/document/Annexe%202%20%E2%80%93%20Programme%20de%20math%C3%A9matiques%20pour%20le%20cycle%204-480716.pdf"
+        },
+        {
+          "id": "5e-maths-statistiques",
+          "title": "Statistiques",
+          "theme": "Organisation et gestion de données et probabilités",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/document/Annexe%202%20%E2%80%93%20Programme%20de%20math%C3%A9matiques%20pour%20le%20cycle%204-480716.pdf"
+        },
+        {
+          "id": "5e-maths-probabilites",
+          "title": "Probabilités",
+          "theme": "Organisation et gestion de données et probabilités",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/document/Annexe%202%20%E2%80%93%20Programme%20de%20math%C3%A9matiques%20pour%20le%20cycle%204-480716.pdf"
+        },
+        {
+          "id": "5e-maths-proportionnalite",
+          "title": "Proportionnalité",
+          "theme": "Proportionnalité, fonctions",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/document/Annexe%202%20%E2%80%93%20Programme%20de%20math%C3%A9matiques%20pour%20le%20cycle%204-480716.pdf"
+        },
+        {
+          "id": "5e-maths-fonctions",
+          "title": "Fonctions et représentations",
+          "theme": "Proportionnalité, fonctions",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/document/Annexe%202%20%E2%80%93%20Programme%20de%20math%C3%A9matiques%20pour%20le%20cycle%204-480716.pdf"
+        },
+        {
+          "id": "5e-maths-pensee-informatique",
+          "title": "Pensée informatique et algorithmes",
+          "theme": "La pensée informatique",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/document/Annexe%202%20%E2%80%93%20Programme%20de%20math%C3%A9matiques%20pour%20le%20cycle%204-480716.pdf"
+        }
+      ]
+    },
+    {
+      "id": "histoire",
+      "title": "Histoire",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "5e-histoire-byzance-carolingiens",
+          "title": "Byzance et l’Europe carolingienne",
+          "theme": "Chrétientés et islam (VIe-XIIIe siècles)",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-histoire-islam-bagdad",
+          "title": "De l’islam à Bagdad",
+          "theme": "Chrétientés et islam (VIe-XIIIe siècles)",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-histoire-seigneurs-paysans",
+          "title": "Seigneurs et paysans",
+          "theme": "Société et Église dans l’Occident féodal",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-histoire-villes-medievales",
+          "title": "Les villes au Moyen Âge",
+          "theme": "Société et Église dans l’Occident féodal",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-histoire-monarchie",
+          "title": "L’affirmation du pouvoir royal",
+          "theme": "Pouvoir politique dans l’Occident féodal",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-histoire-monde-xvi",
+          "title": "Le monde de Charles Quint et Soliman",
+          "theme": "Transformations de l’Europe aux XVIe-XVIIe siècles",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-histoire-humanisme-reformes",
+          "title": "Humanisme et réformes religieuses",
+          "theme": "Transformations de l’Europe aux XVIe-XVIIe siècles",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-histoire-conflits-religieux",
+          "title": "Conflits religieux",
+          "theme": "Transformations de l’Europe aux XVIe-XVIIe siècles",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-histoire-roi-absolu",
+          "title": "Du prince de la Renaissance au roi absolu",
+          "theme": "Transformations de l’Europe aux XVIe-XVIIe siècles",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "geographie",
+      "title": "Géographie",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "5e-geographie-croissance-population",
+          "title": "Croissance démographique et populations",
+          "theme": "Question démographique et inégal développement",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-geographie-richesse-pauvrete",
+          "title": "Richesse et pauvreté dans le monde",
+          "theme": "Question démographique et inégal développement",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-geographie-eau-energie",
+          "title": "Gérer l’eau et l’énergie",
+          "theme": "Des ressources limitées, à gérer et à renouveler",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-geographie-alimentation",
+          "title": "Nourrir une humanité en croissance",
+          "theme": "Des ressources limitées, à gérer et à renouveler",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-geographie-changement-global",
+          "title": "Changement global et effets régionaux",
+          "theme": "Prévenir les risques, s’adapter au changement global",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-geographie-risques-technologiques",
+          "title": "Prévenir les risques industriels et technologiques",
+          "theme": "Prévenir les risques, s’adapter au changement global",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "emc",
+      "title": "Enseignement moral et civique",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "5e-emc-egalite",
+          "title": "Égalité et lutte contre les discriminations",
+          "theme": "Égalité et fraternité",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-emc-fraternite",
+          "title": "Fraternité et solidarité",
+          "theme": "Égalité, fraternité et solidarité",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-emc-acteurs-solidarite",
+          "title": "Les acteurs de la solidarité",
+          "theme": "Action publique et solidarité",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-emc-engagement",
+          "title": "Agir ensemble dans la collectivité",
+          "theme": "Engagement citoyen",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "langues-vivantes",
+      "title": "Langues vivantes (LV1 et LV2, langues choisies selon le collège)",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "5e-langues-vivantes-portrait",
+          "title": "Portrait et autoportrait",
+          "theme": "Axe 1",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-langues-vivantes-quotidien",
+          "title": "Le quotidien : lieux, rythmes, saisons",
+          "theme": "Axe 2",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-langues-vivantes-ecole-loisirs",
+          "title": "École et loisirs",
+          "theme": "Axe 3",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-langues-vivantes-reel-imaginaire",
+          "title": "Le réel et l’imaginaire",
+          "theme": "Axe 4",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-langues-vivantes-langues-lieux-histoires",
+          "title": "Des langues, des lieux, des histoires",
+          "theme": "Axe 5",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-langues-vivantes-aire-culturelle",
+          "title": "Une région ou une spécificité culturelle",
+          "theme": "Axe 6",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-langues-vivantes-competences-langagieres",
+          "title": "Comprendre, s’exprimer et interagir",
+          "theme": "Repères linguistiques et activités langagières",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "physique-chimie",
+      "title": "Physique-chimie",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "5e-physique-chimie-matiere",
+          "title": "Organisation et transformations de la matière",
+          "theme": "Programme de cycle 4",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-physique-chimie-mouvements",
+          "title": "Mouvements et interactions",
+          "theme": "Programme de cycle 4",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-physique-chimie-energie",
+          "title": "Énergie et conversions",
+          "theme": "Programme de cycle 4",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-physique-chimie-signaux",
+          "title": "Signaux pour observer et communiquer",
+          "theme": "Programme de cycle 4",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "svt",
+      "title": "Sciences de la vie et de la Terre (SVT)",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "5e-svt-terre-environnement",
+          "title": "La planète Terre, l’environnement et l’action humaine",
+          "theme": "Programme de cycle 4",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-svt-vivant-evolution",
+          "title": "Le vivant et son évolution",
+          "theme": "Programme de cycle 4",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-svt-corps-sante",
+          "title": "Le corps humain et la santé",
+          "theme": "Programme de cycle 4",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "technologie",
+      "title": "Technologie",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "5e-technologie-usages-interactions",
+          "title": "Objets techniques : usages et interactions",
+          "theme": "Programme de cycle 4",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-technologie-structure-fonctionnement",
+          "title": "Structure et fonctionnement des systèmes",
+          "theme": "Programme de cycle 4",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-technologie-conception-realisation",
+          "title": "Concevoir, réaliser et tester un objet",
+          "theme": "Programme de cycle 4",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "arts-plastiques",
+      "title": "Arts plastiques",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "5e-arts-plastiques-images-fiction",
+          "title": "Images, réalité et fiction",
+          "theme": "La représentation",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-arts-plastiques-objet-oeuvre",
+          "title": "Matérialité, objet et œuvre",
+          "theme": "La matérialité de l’œuvre",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-arts-plastiques-espace-auteur-spectateur",
+          "title": "Œuvre, espace, auteur et spectateur",
+          "theme": "L’œuvre et sa réception",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "education-musicale",
+      "title": "Éducation musicale",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "5e-education-musicale-projets-musicaux",
+          "title": "Interpréter et créer un projet musical",
+          "theme": "Production",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-education-musicale-ecouter-comparer",
+          "title": "Écouter et comparer des musiques",
+          "theme": "Perception",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-education-musicale-culture-musicale",
+          "title": "Construire une culture musicale",
+          "theme": "Perception et repères culturels",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-education-musicale-echanger-argumenter",
+          "title": "Échanger, partager et argumenter",
+          "theme": "Pratiques musicales",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "eps",
+      "title": "Éducation physique et sportive",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "5e-eps-performance",
+          "title": "Réaliser une performance mesurée",
+          "theme": "Champs d’apprentissage",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-eps-deplacements",
+          "title": "Se déplacer dans des environnements variés",
+          "theme": "Champs d’apprentissage",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-eps-prestation",
+          "title": "S’exprimer par une prestation artistique ou acrobatique",
+          "theme": "Champs d’apprentissage",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-eps-affrontement",
+          "title": "Maîtriser un affrontement collectif ou individuel",
+          "theme": "Champs d’apprentissage",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "evars",
+      "title": "Éducation transversale : EVARS",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "5e-evars-corps-intimite",
+          "title": "Corps, développement et intimité",
+          "theme": "Se connaître, vivre et grandir sereinement avec son corps",
+          "sourceUrl": "https://www.education.gouv.fr/education-la-vie-affective-relationnelle-et-la-sexualite-le-programme-de-l-education-nationale-est-462573"
+        },
+        {
+          "id": "5e-evars-relations-respectueuses",
+          "title": "Relations respectueuses et consentement",
+          "theme": "Rencontrer les autres et construire des relations respectueuses",
+          "sourceUrl": "https://www.education.gouv.fr/education-la-vie-affective-relationnelle-et-la-sexualite-le-programme-de-l-education-nationale-est-462573"
+        },
+        {
+          "id": "5e-evars-egalite-societe",
+          "title": "Égalité et responsabilité dans la société",
+          "theme": "Trouver sa place dans la société",
+          "sourceUrl": "https://www.education.gouv.fr/education-la-vie-affective-relationnelle-et-la-sexualite-le-programme-de-l-education-nationale-est-462573"
+        }
+      ]
+    },
+    {
+      "id": "lca",
+      "title": "Langues et cultures de l’Antiquité (option facultative)",
+      "kind": "optional",
+      "chapters": [
+        {
+          "id": "5e-lca-mythes-reperes",
+          "title": "Mythes et repères de l’Antiquité",
+          "theme": "Cultures de l’Antiquité",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-lca-latin-francais",
+          "title": "Le latin et les mots français",
+          "theme": "Langue latine et héritage linguistique",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-lca-vie-antique",
+          "title": "Sociétés et vie quotidienne antiques",
+          "theme": "Civilisations anciennes",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "chant-choral",
+      "title": "Chant choral (option facultative selon l’établissement)",
+      "kind": "optional",
+      "chapters": [
+        {
+          "id": "5e-chant-choral-voix-ensemble",
+          "title": "Chanter ensemble",
+          "theme": "Projet choral",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "5e-chant-choral-concert",
+          "title": "Préparer une interprétation",
+          "theme": "Projet de concert ou spectacle",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    }
+  ]
+}

@@ -38,15 +38,16 @@ class ScreenTimeRepository(
             }
         }
         .map { preferences ->
+            val earnedTimeMillis = preferences[EARNED_TIME_MILLIS]
+                ?: (preferences[EARNED_MINUTES] ?: 0).toLong() * ScreenTimeState.MILLIS_PER_MINUTE
+            val usedTimeMillis = preferences[USED_TIME_MILLIS]
+                ?: (preferences[USED_MINUTES] ?: 0).toLong() * ScreenTimeState.MILLIS_PER_MINUTE
             ScreenTimeState(
                 baseDailyMinutes = preferences[BASE_DAILY_MINUTES] ?: DEFAULT_BASE_MINUTES,
-                earnedMinutes = preferences[EARNED_MINUTES] ?: 0,
-                usedMinutes = usedMinutesFrom(
-                    preferences[USED_TIME_MILLIS]
-                        ?: (preferences[USED_MINUTES] ?: 0).toLong() * ScreenTimeState.MILLIS_PER_MINUTE
-                ),
-                usedTimeMillis = preferences[USED_TIME_MILLIS]
-                    ?: (preferences[USED_MINUTES] ?: 0).toLong() * ScreenTimeState.MILLIS_PER_MINUTE
+                earnedMinutes = earnedMinutesFrom(earnedTimeMillis),
+                usedMinutes = usedMinutesFrom(usedTimeMillis),
+                usedTimeMillis = usedTimeMillis,
+                earnedTimeMillis = earnedTimeMillis
             )
         }
 
@@ -64,10 +65,18 @@ class ScreenTimeRepository(
 
     suspend fun addEarnedMinutes(minutes: Int) {
         if (minutes <= 0) return
+        addEarnedTimeMillis(minutes.toLong() * ScreenTimeState.MILLIS_PER_MINUTE)
+    }
+
+    suspend fun addEarnedTimeMillis(milliseconds: Long) {
+        if (milliseconds <= 0L) return
 
         dataStore.edit { preferences ->
-            val currentMinutes = preferences[EARNED_MINUTES] ?: 0
-            preferences[EARNED_MINUTES] = currentMinutes + minutes
+            val currentMillis = preferences[EARNED_TIME_MILLIS]
+                ?: (preferences[EARNED_MINUTES] ?: 0).toLong() * ScreenTimeState.MILLIS_PER_MINUTE
+            val updatedMillis = saturatingAdd(currentMillis.coerceAtLeast(0L), milliseconds)
+            preferences[EARNED_TIME_MILLIS] = updatedMillis
+            preferences[EARNED_MINUTES] = earnedMinutesFrom(updatedMillis)
         }
     }
 
@@ -179,6 +188,7 @@ class ScreenTimeRepository(
         if (preferences[LAST_RESET_DATE] == today) return
 
         preferences[EARNED_MINUTES] = 0
+        preferences[EARNED_TIME_MILLIS] = 0L
         preferences[USED_MINUTES] = 0
         preferences[USED_TIME_MILLIS] = 0L
         preferences[LAST_RESET_DATE] = today
@@ -201,6 +211,7 @@ class ScreenTimeRepository(
 
         val BASE_DAILY_MINUTES = intPreferencesKey("base_daily_minutes")
         val EARNED_MINUTES = intPreferencesKey("earned_minutes")
+        val EARNED_TIME_MILLIS = longPreferencesKey("earned_time_millis")
         val USED_MINUTES = intPreferencesKey("used_minutes")
         val USED_TIME_MILLIS = longPreferencesKey("used_time_millis")
         val LAST_RESET_DATE = stringPreferencesKey("last_reset_date")
@@ -210,6 +221,8 @@ class ScreenTimeRepository(
             (milliseconds.coerceAtLeast(0L) / ScreenTimeState.MILLIS_PER_MINUTE)
                 .coerceAtMost(Int.MAX_VALUE.toLong())
                 .toInt()
+
+        fun earnedMinutesFrom(milliseconds: Long): Int = usedMinutesFrom(milliseconds)
 
         fun saturatingAdd(first: Long, second: Long): Long =
             if (Long.MAX_VALUE - first < second) Long.MAX_VALUE else first + second

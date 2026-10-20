@@ -1,0 +1,1205 @@
+{
+  "gradeId": "6e",
+  "questions": [
+    {
+      "id": "6e-francais-recits-origines-q01",
+      "subjectId": "francais",
+      "chapterId": "6e-francais-recits-origines",
+      "question": "À quoi sert souvent un récit des origines ?",
+      "answers": [
+        "À donner une mesure exacte avec un instrument",
+        "À raconter uniquement un fait récent vérifié",
+        "À proposer un récit symbolique sur la naissance du monde ou d’un phénomène",
+        "À dresser la liste des personnages d’une pièce"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Les récits des origines mettent en scène une explication imagée ou symbolique du monde et des croyances d’une société.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-francais-recits-origines-q02",
+      "subjectId": "francais",
+      "chapterId": "6e-francais-recits-origines",
+      "question": "Dans « Au premier matin, la mer et le ciel se séparèrent », quel indice évoque un récit des origines ?",
+      "answers": [
+        "Le texte donne un itinéraire précis",
+        "Le récit explique une transformation du monde",
+        "Le narrateur annonce une recette",
+        "Le texte décrit une expérience reproductible"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "La séparation du ciel et de la mer raconte symboliquement la mise en ordre du monde : c’est un motif fréquent des récits des origines.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-francais-recits-origines-q03",
+      "subjectId": "francais",
+      "chapterId": "6e-francais-recits-origines",
+      "question": "Pourquoi un récit des origines peut-il faire intervenir des dieux ou des êtres extraordinaires ?",
+      "answers": [
+        "Pour exprimer des croyances et donner une explication symbolique",
+        "Pour prouver un résultat de laboratoire",
+        "Pour situer une scène dans l’actualité",
+        "Pour remplacer tous les personnages humains"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les personnages extraordinaires donnent forme aux croyances et aux réponses imaginées par une culture.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-francais-recits-origines-q04",
+      "subjectId": "francais",
+      "chapterId": "6e-francais-recits-origines",
+      "question": "Quelle phrase décrit le mieux la différence entre un mythe et un résultat scientifique ?",
+      "answers": [
+        "Le mythe est toujours faux et la science n’évolue jamais",
+        "Les deux sont des consignes de jeu",
+        "La science utilise seulement des personnages imaginaires",
+        "Le mythe relève d’un récit culturel ; un résultat scientifique repose sur des observations et des vérifications"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Un mythe transmet un récit et une vision du monde ; une explication scientifique est construite à partir d’observations et peut être testée.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-francais-recits-origines-q05",
+      "subjectId": "francais",
+      "chapterId": "6e-francais-recits-origines",
+      "question": "Quand on compare deux récits des origines, que peut-on chercher ?",
+      "answers": [
+        "Le nombre de pages uniquement",
+        "Le prix des livres",
+        "Leur façon différente d’expliquer le monde et les valeurs qu’ils transmettent",
+        "La date de naissance des lecteurs"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Comparer les récits permet de repérer leurs ressemblances, leurs différences et les croyances ou valeurs qu’ils expriment.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-francais-poesie-q01",
+      "subjectId": "francais",
+      "chapterId": "6e-francais-poesie",
+      "question": "En poésie, comment appelle-t-on une ligne écrite dans un poème ?",
+      "answers": [
+        "Un paragraphe",
+        "Une réplique",
+        "Un vers",
+        "Une légende"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Un vers est une ligne de poème ; plusieurs vers peuvent former une strophe.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-francais-poesie-q02",
+      "subjectId": "francais",
+      "chapterId": "6e-francais-poesie",
+      "question": "Un groupe de plusieurs vers séparé des autres dans un poème s’appelle…",
+      "answers": [
+        "Un chapitre",
+        "Une strophe",
+        "Une scène",
+        "Une didascalie"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "La strophe regroupe des vers, comme le paragraphe regroupe des phrases en prose.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-francais-poesie-q03",
+      "subjectId": "francais",
+      "chapterId": "6e-francais-poesie",
+      "question": "Dans « La lune veille sur le village », quel effet produit surtout le verbe « veille » ?",
+      "answers": [
+        "Il donne à la lune une action humaine",
+        "Il indique une mesure de longueur",
+        "Il annonce un dialogue théâtral",
+        "Il donne un ordre au lecteur"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La lune est présentée comme une personne qui veille : c’est une image poétique.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-francais-poesie-q04",
+      "subjectId": "francais",
+      "chapterId": "6e-francais-poesie",
+      "question": "Pourquoi un poète peut-il répéter un son ou un mot ?",
+      "answers": [
+        "Pour rendre le texte impossible à lire",
+        "Pour remplacer le titre",
+        "Pour donner la définition d’un mot",
+        "Pour créer un rythme ou attirer l’attention sur une idée"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Les répétitions de sons ou de mots peuvent produire un rythme et renforcer une impression.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-francais-poesie-q05",
+      "subjectId": "francais",
+      "chapterId": "6e-francais-poesie",
+      "question": "Quelle proposition peut décrire un poème de voyage ?",
+      "answers": [
+        "Il doit obligatoirement donner des coordonnées GPS",
+        "Il ne peut parler que de transports",
+        "Il peut faire découvrir un lieu réel ou imaginaire et les sensations du voyageur",
+        "Il ne contient jamais d’images"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "La poésie du voyage explore des lieux et des sensations, réels ou imaginaires, grâce au langage.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-maths-nombres-q01",
+      "subjectId": "maths",
+      "chapterId": "6e-maths-nombres",
+      "question": "Dans 3 482, quel chiffre est au rang des centaines ?",
+      "answers": [
+        "3",
+        "8",
+        "4",
+        "2"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Dans 3 482, le 4 représente quatre centaines.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-maths-nombres-q02",
+      "subjectId": "maths",
+      "chapterId": "6e-maths-nombres",
+      "question": "Quel nombre est le plus grand ?",
+      "answers": [
+        "5,08",
+        "5,8",
+        "5,18",
+        "5,008"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "On peut écrire 5,8 sous la forme 5,80. Or 5,80 est supérieur à 5,18, 5,08 et 5,008.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-maths-nombres-q03",
+      "subjectId": "maths",
+      "chapterId": "6e-maths-nombres",
+      "question": "Quelle décomposition correspond à 6 205 ?",
+      "answers": [
+        "6 000 + 200 + 5",
+        "6 000 + 20 + 5",
+        "600 + 200 + 5",
+        "6 000 + 200 + 50"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "6 205 contient 6 milliers, 2 centaines, 0 dizaine et 5 unités.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-maths-nombres-q04",
+      "subjectId": "maths",
+      "chapterId": "6e-maths-nombres",
+      "question": "Quel est le chiffre des dixièmes dans 14,37 ?",
+      "answers": [
+        "7",
+        "4",
+        "1",
+        "3"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Le premier chiffre à droite de la virgule correspond aux dixièmes : c’est 3.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-maths-nombres-q05",
+      "subjectId": "maths",
+      "chapterId": "6e-maths-nombres",
+      "question": "Quel encadrement à l’unité convient pour 8,6 ?",
+      "answers": [
+        "7 < 8,6 < 8",
+        "8,6 < 8",
+        "8 < 8,6 < 9",
+        "9 < 8,6 < 10"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "8,6 est supérieur à 8 et inférieur à 9.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-maths-fractions-q01",
+      "subjectId": "maths",
+      "chapterId": "6e-maths-fractions",
+      "question": "Une pizza est partagée en 8 parts égales. Lina en prend 3. Quelle fraction de la pizza a-t-elle prise ?",
+      "answers": [
+        "8/3",
+        "5/8",
+        "3/8",
+        "3/5"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "La fraction indique le nombre de parts prises sur le nombre total de parts égales : 3 sur 8.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-maths-fractions-q02",
+      "subjectId": "maths",
+      "chapterId": "6e-maths-fractions",
+      "question": "Quelle fraction est égale à 1/2 ?",
+      "answers": [
+        "2/3",
+        "3/6",
+        "1/3",
+        "4/6"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "En multipliant le numérateur et le dénominateur de 1/2 par 3, on obtient 3/6.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-maths-fractions-q03",
+      "subjectId": "maths",
+      "chapterId": "6e-maths-fractions",
+      "question": "Quelle fraction est la plus grande ?",
+      "answers": [
+        "3/5",
+        "2/5",
+        "1/5",
+        "4/10"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Avec le même dénominateur, la fraction au numérateur le plus grand est la plus grande : 3/5.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-maths-fractions-q04",
+      "subjectId": "maths",
+      "chapterId": "6e-maths-fractions",
+      "question": "Combien vaut le quart de 20 ?",
+      "answers": [
+        "4",
+        "10",
+        "16",
+        "5"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Un quart signifie partager en 4 parts égales : 20 ÷ 4 = 5.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-maths-fractions-q05",
+      "subjectId": "maths",
+      "chapterId": "6e-maths-fractions",
+      "question": "Quelle fraction représente 7 parts lorsque l’unité est partagée en 4 parts égales ?",
+      "answers": [
+        "4/7",
+        "3/4",
+        "7/4",
+        "7/3"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Le dénominateur indique 4 parts par unité et le numérateur indique que l’on en compte 7.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-histoire-humanite-migrations-q01",
+      "subjectId": "histoire",
+      "chapterId": "6e-histoire-humanite-migrations",
+      "question": "Quel mode de vie caractérise surtout les premiers groupes humains du Paléolithique ?",
+      "answers": [
+        "Ils vivent tous dans de grandes villes",
+        "Ils cultivent des champs à l’aide de tracteurs",
+        "Ils se déplacent pour chasser, pêcher et cueillir",
+        "Ils écrivent des lois sur du papier"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Au Paléolithique, les humains vivent principalement de chasse, de pêche et de cueillette et se déplacent selon les ressources.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-histoire-humanite-migrations-q02",
+      "subjectId": "histoire",
+      "chapterId": "6e-histoire-humanite-migrations",
+      "question": "Comment les historiens et les archéologues étudient-ils les débuts de l’humanité ?",
+      "answers": [
+        "En s’appuyant uniquement sur des récits inventés aujourd’hui",
+        "En confrontant des traces comme les fossiles et les outils",
+        "En observant des photographies de la Préhistoire",
+        "En lisant des journaux écrits par les premiers humains"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Les fossiles, les outils et d’autres traces matérielles aident à reconstituer les modes de vie anciens.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-histoire-humanite-migrations-q03",
+      "subjectId": "histoire",
+      "chapterId": "6e-histoire-humanite-migrations",
+      "question": "Que signifie le mot « migration » ?",
+      "answers": [
+        "Le déplacement de personnes d’un lieu vers un autre",
+        "La fabrication d’un outil en pierre",
+        "La culture de céréales",
+        "La création d’un alphabet"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une migration est un déplacement de population, temporaire ou durable, d’un territoire vers un autre.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-histoire-humanite-migrations-q04",
+      "subjectId": "histoire",
+      "chapterId": "6e-histoire-humanite-migrations",
+      "question": "Pourquoi les premiers humains ont-ils peuplé différentes régions du monde au fil du temps ?",
+      "answers": [
+        "Tous les humains sont apparus simultanément dans chaque région",
+        "Les océans ont été construits par les humains",
+        "Les villes les ont attirés dès le Paléolithique",
+        "Des groupes se sont déplacés et adaptés à de nouveaux milieux"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Les déplacements de groupes humains et leur adaptation à divers environnements expliquent le peuplement progressif de régions différentes.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-histoire-humanite-migrations-q05",
+      "subjectId": "histoire",
+      "chapterId": "6e-histoire-humanite-migrations",
+      "question": "Quelle source peut fournir un indice sur l’activité d’un groupe préhistorique ?",
+      "answers": [
+        "Un roman écrit aujourd’hui",
+        "Une affiche publicitaire",
+        "Un outil taillé retrouvé lors de fouilles",
+        "Un plan de métro moderne"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Un outil découvert en contexte archéologique est une trace matérielle que les chercheurs peuvent étudier.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-histoire-neolithique-q01",
+      "subjectId": "histoire",
+      "chapterId": "6e-histoire-neolithique",
+      "question": "Quel grand changement marque le Néolithique ?",
+      "answers": [
+        "L’invention de l’imprimerie",
+        "La construction des chemins de fer",
+        "Le développement de l’agriculture et de l’élevage",
+        "La navigation à vapeur"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Au Néolithique, la culture des plantes et la domestication d’animaux se développent dans plusieurs régions.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-histoire-neolithique-q02",
+      "subjectId": "histoire",
+      "chapterId": "6e-histoire-neolithique",
+      "question": "Quel effet l’agriculture a-t-elle souvent sur le mode de vie ?",
+      "answers": [
+        "Elle oblige chacun à vivre dans une grotte",
+        "Elle favorise l’installation durable de communautés",
+        "Elle supprime tout échange entre villages",
+        "Elle fait disparaître les outils"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Cultiver des champs et élever des animaux conduisent souvent des communautés à s’installer durablement près de leurs ressources.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-histoire-neolithique-q03",
+      "subjectId": "histoire",
+      "chapterId": "6e-histoire-neolithique",
+      "question": "Que signifie « domestiquer un animal » ?",
+      "answers": [
+        "L’élever et le faire vivre sous le contrôle des humains",
+        "Le chasser une seule fois",
+        "Le représenter sur une carte",
+        "Le transformer en plante"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La domestication correspond à une relation durable où les humains sélectionnent et élèvent certaines espèces animales.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-histoire-neolithique-q04",
+      "subjectId": "histoire",
+      "chapterId": "6e-histoire-neolithique",
+      "question": "Pourquoi les villages néolithiques ont-ils besoin de réserves ?",
+      "answers": [
+        "Pour remplacer les outils de pierre",
+        "Pour empêcher les plantes de pousser",
+        "Pour éviter tout travail agricole",
+        "Pour conserver des récoltes et traverser les périodes où la nourriture manque"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Les récoltes peuvent être stockées afin de disposer de nourriture plus tard.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-histoire-neolithique-q05",
+      "subjectId": "histoire",
+      "chapterId": "6e-histoire-neolithique",
+      "question": "Quel indice peut montrer qu’un groupe s’est sédentarisé ?",
+      "answers": [
+        "Des traces de véhicules motorisés",
+        "Une carte routière récente",
+        "Des traces d’habitations durables et de champs cultivés",
+        "Un texte imprimé au Moyen Âge"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Des maisons installées durablement et des traces d’agriculture sont des indices de sédentarisation.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-geographie-metropole-q01",
+      "subjectId": "geographie",
+      "chapterId": "6e-geographie-metropole",
+      "question": "Qu’est-ce qu’une métropole ?",
+      "answers": [
+        "Un espace sans habitants",
+        "Une région uniquement agricole",
+        "Une grande ville qui concentre des habitants, des activités et des fonctions de commandement",
+        "Un petit village isolé"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Une métropole rassemble de nombreux habitants et concentre des activités et services qui rayonnent sur un territoire.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-geographie-metropole-q02",
+      "subjectId": "geographie",
+      "chapterId": "6e-geographie-metropole",
+      "question": "Quel élément est typique d’un paysage métropolitain ?",
+      "answers": [
+        "Uniquement des champs éloignés",
+        "Des quartiers denses reliés par des transports",
+        "L’absence de routes et de bâtiments",
+        "Une forêt sans aménagement"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Les métropoles associent des quartiers bâtis, des activités variées et des réseaux de transport.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-geographie-metropole-q03",
+      "subjectId": "geographie",
+      "chapterId": "6e-geographie-metropole",
+      "question": "Pourquoi des personnes se rendent-elles souvent dans une métropole ?",
+      "answers": [
+        "Pour accéder à des emplois, des services ou des études",
+        "Pour trouver uniquement des pâturages",
+        "Parce qu’aucune activité n’y existe",
+        "Pour éviter tout déplacement"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les métropoles concentrent des emplois, des établissements d’enseignement et de nombreux services.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-geographie-metropole-q04",
+      "subjectId": "geographie",
+      "chapterId": "6e-geographie-metropole",
+      "question": "Comment appelle-t-on l’espace situé autour du centre d’une grande ville ?",
+      "answers": [
+        "Le sommet",
+        "Le bassin versant",
+        "La frontière maritime",
+        "La périphérie"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "La périphérie désigne les espaces situés autour du centre urbain.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-geographie-metropole-q05",
+      "subjectId": "geographie",
+      "chapterId": "6e-geographie-metropole",
+      "question": "Quel moyen aide à relier différents quartiers d’une métropole ?",
+      "answers": [
+        "Une barrière qui ferme les rues",
+        "Un glacier",
+        "Un réseau de transports en commun",
+        "Une frontière entre continents"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Métros, bus, trains et autres transports connectent les quartiers et facilitent les déplacements.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-geographie-faible-densite-q01",
+      "subjectId": "geographie",
+      "chapterId": "6e-geographie-faible-densite",
+      "question": "Un espace de faible densité est un espace…",
+      "answers": [
+        "où vivent nécessairement des millions de personnes",
+        "qui se trouve toujours au bord de la mer",
+        "où le nombre d’habitants par kilomètre carré est relativement bas",
+        "sans aucun paysage"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "La densité compare le nombre d’habitants à la superficie ; elle est faible quand peu de personnes vivent sur une surface donnée.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-geographie-faible-densite-q02",
+      "subjectId": "geographie",
+      "chapterId": "6e-geographie-faible-densite",
+      "question": "Quel exemple peut être un espace de faible densité ?",
+      "answers": [
+        "Le centre très peuplé d’une capitale",
+        "Un massif montagneux avec des villages espacés",
+        "Une avenue commerciale bondée",
+        "Un grand quartier d’affaires"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Les montagnes comptent souvent des villages éloignés et une population moins dense, même si les situations varient.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-geographie-faible-densite-q03",
+      "subjectId": "geographie",
+      "chapterId": "6e-geographie-faible-densite",
+      "question": "Quel avantage peut attirer des habitants dans un espace rural ?",
+      "answers": [
+        "Un cadre naturel et des logements plus espacés",
+        "La présence de métro à chaque rue",
+        "Une densité toujours supérieure aux centres urbains",
+        "L’absence de toute activité"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les paysages et l’espace disponible peuvent attirer des habitants et des activités.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-geographie-faible-densite-q04",
+      "subjectId": "geographie",
+      "chapterId": "6e-geographie-faible-densite",
+      "question": "Quel défi rencontre parfois une commune peu dense ?",
+      "answers": [
+        "Gérer un métro souterrain surpeuplé partout",
+        "Trouver assez d’espace pour les champs",
+        "Éviter que les routes existent",
+        "Organiser l’accès aux services malgré les distances"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Quand les habitants sont éloignés, l’accès aux services et aux transports peut demander une organisation particulière.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-geographie-faible-densite-q05",
+      "subjectId": "geographie",
+      "chapterId": "6e-geographie-faible-densite",
+      "question": "Quel aménagement peut faciliter les déplacements en zone peu dense ?",
+      "answers": [
+        "Un mur empêchant toute circulation",
+        "Un port spatial",
+        "Une route reliant les villages aux services voisins",
+        "Un tunnel sous chaque maison"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Des routes et des transports adaptés peuvent relier les villages aux services et aux pôles proches.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-emc-representants-q01",
+      "subjectId": "emc",
+      "chapterId": "6e-emc-representants",
+      "question": "Pourquoi une classe ou une commune peut-elle élire des représentants ?",
+      "answers": [
+        "Pour supprimer toutes les règles",
+        "Pour empêcher les autres de s’exprimer",
+        "Pour que des personnes portent la parole du groupe et participent aux décisions",
+        "Pour remplacer les élections par le hasard"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Les représentants sont choisis pour faire entendre les besoins du groupe et contribuer à des décisions collectives.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-emc-representants-q02",
+      "subjectId": "emc",
+      "chapterId": "6e-emc-representants",
+      "question": "Quel geste respecte une élection démocratique ?",
+      "answers": [
+        "Forcer un camarade à voter comme soi",
+        "Choisir librement son candidat et déposer son vote selon les règles",
+        "Ouvrir l’urne avant le dépouillement",
+        "Empêcher une partie du groupe de voter sans raison"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Une élection suppose un choix libre et des règles communes qui garantissent le scrutin.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-emc-representants-q03",
+      "subjectId": "emc",
+      "chapterId": "6e-emc-representants",
+      "question": "À quoi sert le dépouillement ?",
+      "answers": [
+        "À compter les bulletins et connaître le résultat",
+        "À choisir les candidats après le vote",
+        "À écrire une nouvelle règle de classe",
+        "À cacher les résultats"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le dépouillement consiste à compter les votes afin d’établir le résultat.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-emc-representants-q04",
+      "subjectId": "emc",
+      "chapterId": "6e-emc-representants",
+      "question": "Quelle qualité est importante pour représenter un groupe ?",
+      "answers": [
+        "Décider seul sans écouter personne",
+        "Promettre que chaque choix sera accepté",
+        "Garder les décisions secrètes",
+        "Écouter les personnes représentées et rendre compte des échanges"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Un représentant écoute le groupe et transmet ses idées ; il ne décide pas toujours seul.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-emc-representants-q05",
+      "subjectId": "emc",
+      "chapterId": "6e-emc-representants",
+      "question": "Dans une décision collective, que peut faire un représentant qui n’est pas d’accord avec la majorité ?",
+      "answers": [
+        "Empêcher toute personne de parler",
+        "Effacer les règles du vote",
+        "Exprimer son avis avec respect et expliquer son point de vue",
+        "Insulter les autres participants"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "La démocratie permet d’exprimer des désaccords de manière respectueuse.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-emc-regles-laicite-q01",
+      "subjectId": "emc",
+      "chapterId": "6e-emc-regles-laicite",
+      "question": "À quoi servent les règles communes dans un établissement ?",
+      "answers": [
+        "À favoriser uniquement les élèves les plus rapides",
+        "À remplacer toutes les lois",
+        "À protéger les personnes et permettre la vie collective",
+        "À empêcher les élèves d’apprendre"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Les règles définissent un cadre partagé qui protège les personnes et rend possible la vie en commun.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-emc-regles-laicite-q02",
+      "subjectId": "emc",
+      "chapterId": "6e-emc-regles-laicite",
+      "question": "Que garantit la laïcité à l’école publique ?",
+      "answers": [
+        "L’obligation de suivre une religion",
+        "La liberté de conscience et la neutralité du service public",
+        "L’interdiction de penser librement",
+        "Le droit de se moquer des croyances"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "La laïcité protège la liberté de conscience et garantit la neutralité de l’école publique.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-emc-regles-laicite-q03",
+      "subjectId": "emc",
+      "chapterId": "6e-emc-regles-laicite",
+      "question": "Un élève voit une règle de sécurité affichée. Que doit-il faire ?",
+      "answers": [
+        "La respecter et demander une explication s’il ne la comprend pas",
+        "L’ignorer pour aller plus vite",
+        "Demander aux autres de la cacher",
+        "La remplacer par une règle personnelle"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Comprendre une règle aide à la respecter ; on peut demander à un adulte d’en expliquer le sens.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-emc-regles-laicite-q04",
+      "subjectId": "emc",
+      "chapterId": "6e-emc-regles-laicite",
+      "question": "Quel comportement montre le respect d’une règle commune ?",
+      "answers": [
+        "Prendre le matériel des autres sans demander",
+        "Empêcher le groupe de travailler",
+        "Décider qu’une règle ne concerne que les autres",
+        "Attendre son tour pour utiliser un matériel partagé"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Une règle commune s’applique aux membres du groupe et aide chacun à utiliser le matériel équitablement.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-emc-regles-laicite-q05",
+      "subjectId": "emc",
+      "chapterId": "6e-emc-regles-laicite",
+      "question": "Pourquoi une règle peut-elle prévoir une conséquence en cas de non-respect ?",
+      "answers": [
+        "Pour humilier la personne",
+        "Pour donner plus de droits à certains",
+        "Pour rappeler le cadre et protéger le collectif",
+        "Pour rendre la règle secrète"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Une conséquence éducative rappelle la règle et vise à préserver le cadre collectif, sans humilier.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-langues-vivantes-personnes-q01",
+      "subjectId": "langues-vivantes",
+      "chapterId": "6e-langues-vivantes-personnes",
+      "question": "Dans une langue étudiée, tu ne comprends pas un mot mais connais le sujet de la conversation. Quelle stratégie aide le plus ?",
+      "answers": [
+        "Arrêter immédiatement d’écouter",
+        "Traduire chaque son au hasard",
+        "Repérer les mots connus, le ton et le contexte pour déduire le sens",
+        "Changer de sujet sans prévenir"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Les mots connus, le contexte et le ton donnent des indices pour comprendre même si un mot manque.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-langues-vivantes-personnes-q02",
+      "subjectId": "langues-vivantes",
+      "chapterId": "6e-langues-vivantes-personnes",
+      "question": "Pour te présenter clairement dans une langue vivante, quelle information est la plus utile au début ?",
+      "answers": [
+        "Le numéro de carte bancaire d’un adulte",
+        "Ton prénom et une information simple sur toi",
+        "Une longue liste de mots inconnus",
+        "Une adresse privée complète"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Une présentation courte peut donner son prénom et une information adaptée, sans partager de données privées.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-langues-vivantes-personnes-q03",
+      "subjectId": "langues-vivantes",
+      "chapterId": "6e-langues-vivantes-personnes",
+      "question": "Tu entends une consigne dans la langue étudiée. Que peux-tu écouter en premier pour en comprendre l’action ?",
+      "answers": [
+        "Le verbe ou le mot qui indique ce qu’il faut faire",
+        "Le dernier bruit dans la salle",
+        "Le nom du livre uniquement",
+        "Le nombre de lettres dans chaque mot"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Repérer le verbe d’action et les mots connus aide à identifier ce que demande la consigne.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-langues-vivantes-personnes-q04",
+      "subjectId": "langues-vivantes",
+      "chapterId": "6e-langues-vivantes-personnes",
+      "question": "Que faire si tu as besoin de faire répéter une phrase dans la langue étudiée ?",
+      "answers": [
+        "Faire semblant d’avoir compris et partir",
+        "Te moquer de la personne",
+        "Répondre par un mot sans rapport",
+        "Demander poliment de répéter ou de parler plus lentement"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Demander une répétition ou un débit plus lent est une stratégie normale pour maintenir l’échange.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-langues-vivantes-personnes-q05",
+      "subjectId": "langues-vivantes",
+      "chapterId": "6e-langues-vivantes-personnes",
+      "question": "Pourquoi observe-t-on aussi les gestes et les images quand on écoute une langue ?",
+      "answers": [
+        "Ils remplacent toujours la langue parlée",
+        "Ils prouvent que chaque pays a les mêmes habitudes",
+        "Ils apportent des indices sur le sens",
+        "Ils empêchent toute compréhension"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Les gestes, les images et la situation complètent les indices entendus.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-langues-vivantes-quotidien-q01",
+      "subjectId": "langues-vivantes",
+      "chapterId": "6e-langues-vivantes-quotidien",
+      "question": "Pour parler des activités de la journée dans une langue étudiée, quel support peut aider à préparer ses idées ?",
+      "answers": [
+        "Un plan des étoiles sans légende",
+        "Une liste de numéros confidentiels",
+        "Une petite frise avec matin, après-midi et soir",
+        "Un tableau sans rapport avec le sujet"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Une frise du temps aide à ordonner les activités de la journée avant de les exprimer.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-langues-vivantes-quotidien-q02",
+      "subjectId": "langues-vivantes",
+      "chapterId": "6e-langues-vivantes-quotidien",
+      "question": "Dans un dialogue sur les loisirs, quelle question permet de relancer l’échange ?",
+      "answers": [
+        "Répéter la même phrase sans écouter",
+        "Demander à l’autre ce qu’il aime faire",
+        "Parler uniquement de la météo d’hier",
+        "Demander une information privée sans raison"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Une question liée aux goûts de l’interlocuteur permet de poursuivre un échange sur les loisirs.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-langues-vivantes-quotidien-q03",
+      "subjectId": "langues-vivantes",
+      "chapterId": "6e-langues-vivantes-quotidien",
+      "question": "Tu compares les emplois du temps de deux élèves. Que dois-tu faire pour éviter une conclusion trop rapide ?",
+      "answers": [
+        "Tenir compte du contexte et accepter que les habitudes puissent différer",
+        "Supposer que tous les élèves vivent pareil",
+        "Dire qu’une habitude est forcément meilleure",
+        "Ignorer les informations données"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les rythmes et les habitudes varient ; il faut comprendre le contexte avant de comparer.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-langues-vivantes-quotidien-q04",
+      "subjectId": "langues-vivantes",
+      "chapterId": "6e-langues-vivantes-quotidien",
+      "question": "Quel élément est pertinent dans une description d’un lieu de vie ?",
+      "answers": [
+        "Le mot le plus long du dictionnaire",
+        "Une information secrète sur un voisin",
+        "Un résultat de calcul sans lien",
+        "Sa position, son aspect et les activités qu’on y fait"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Décrire un lieu peut préciser où il se trouve, à quoi il ressemble et ce qu’on y fait.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-langues-vivantes-quotidien-q05",
+      "subjectId": "langues-vivantes",
+      "chapterId": "6e-langues-vivantes-quotidien",
+      "question": "Pour vérifier que tu as compris un camarade qui parle de sa routine, que peux-tu faire ?",
+      "answers": [
+        "Changer de sujet sans prévenir",
+        "Répéter toute la conversation mot pour mot",
+        "Reformuler une information simple et lui demander si tu as bien compris",
+        "Ne jamais poser de question"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Reformuler puis vérifier sa compréhension aide à maintenir une interaction claire.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-sciences-technologie-matiere-energie-q01",
+      "subjectId": "sciences-technologie",
+      "chapterId": "6e-sciences-technologie-matiere-energie",
+      "question": "Dans quel état la matière prend-elle la forme du récipient et occupe tout l’espace disponible ?",
+      "answers": [
+        "À l’état solide uniquement",
+        "À l’état liquide uniquement",
+        "À l’état gazeux",
+        "À aucun état"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Un gaz n’a pas de forme propre et se répartit dans tout le volume du récipient.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-sciences-technologie-matiere-energie-q02",
+      "subjectId": "sciences-technologie",
+      "chapterId": "6e-sciences-technologie-matiere-energie",
+      "question": "Que devient un glaçon laissé dans une pièce chaude ?",
+      "answers": [
+        "Il devient immédiatement du métal",
+        "Il fond et devient de l’eau liquide",
+        "Il disparaît sans laisser de matière",
+        "Il se transforme en sable"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "La fusion est le passage de l’état solide à l’état liquide ; l’eau reste présente.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-sciences-technologie-matiere-energie-q03",
+      "subjectId": "sciences-technologie",
+      "chapterId": "6e-sciences-technologie-matiere-energie",
+      "question": "Quel matériau est généralement attiré par un aimant ?",
+      "answers": [
+        "Le fer",
+        "Le bois",
+        "Le verre",
+        "Le papier"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le fer est un matériau ferromagnétique et est attiré par un aimant.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-sciences-technologie-matiere-energie-q04",
+      "subjectId": "sciences-technologie",
+      "chapterId": "6e-sciences-technologie-matiere-energie",
+      "question": "Pourquoi faut-il éviter de toucher un appareil électrique avec les mains mouillées ?",
+      "answers": [
+        "L’eau arrête toujours le courant sans danger",
+        "Les mains mouillées rendent le courant visible",
+        "Le courant ne circule jamais dans un objet",
+        "L’eau peut faciliter le passage du courant et augmenter le risque d’accident"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "L’humidité peut augmenter le risque de passage du courant ; on garde les mains sèches et on suit les consignes de sécurité.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-sciences-technologie-matiere-energie-q05",
+      "subjectId": "sciences-technologie",
+      "chapterId": "6e-sciences-technologie-matiere-energie",
+      "question": "Quel exemple montre une information transmise par un signal ?",
+      "answers": [
+        "Une pierre immobile indique l’heure",
+        "Un cahier fermé produit toujours un son",
+        "Un feu piéton lumineux indique quand traverser",
+        "Une chaise choisit un itinéraire"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Le signal lumineux du feu donne une information utile aux piétons.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-sciences-technologie-vivant-q01",
+      "subjectId": "sciences-technologie",
+      "chapterId": "6e-sciences-technologie-vivant",
+      "question": "Quel indice permet de classer un animal parmi les êtres vivants ?",
+      "answers": [
+        "Il est fabriqué en métal",
+        "Il ne change jamais",
+        "Il naît, grandit et se nourrit",
+        "Il ne reçoit aucune matière"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Les êtres vivants réalisent des fonctions comme se nourrir et grandir au cours de leur vie.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-sciences-technologie-vivant-q02",
+      "subjectId": "sciences-technologie",
+      "chapterId": "6e-sciences-technologie-vivant",
+      "question": "Pourquoi les scientifiques classent-ils des êtres vivants ?",
+      "answers": [
+        "Pour affirmer que toutes les espèces sont identiques",
+        "Pour organiser leur diversité et comparer des caractères observables",
+        "Pour supprimer les espèces rares",
+        "Pour connaître leur couleur préférée"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "La classification organise la biodiversité en comparant des caractères partagés.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-sciences-technologie-vivant-q03",
+      "subjectId": "sciences-technologie",
+      "chapterId": "6e-sciences-technologie-vivant",
+      "question": "Quel élément est vivant ?",
+      "answers": [
+        "Un jeune chêne",
+        "Un caillou",
+        "Une goutte d’eau",
+        "Un morceau de verre"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un jeune chêne est une plante vivante : il grandit et réalise des échanges avec son milieu.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-sciences-technologie-vivant-q04",
+      "subjectId": "sciences-technologie",
+      "chapterId": "6e-sciences-technologie-vivant",
+      "question": "De quoi un animal a-t-il besoin pour se nourrir ?",
+      "answers": [
+        "Uniquement de lumière, comme une plante verte",
+        "De plastique pour fabriquer ses os",
+        "De sable uniquement",
+        "De matière provenant de son milieu ou d’autres êtres vivants"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Les animaux obtiennent leur matière et leur énergie en consommant des aliments provenant du milieu.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-sciences-technologie-vivant-q05",
+      "subjectId": "sciences-technologie",
+      "chapterId": "6e-sciences-technologie-vivant",
+      "question": "Qu’appelle-t-on un milieu de vie ?",
+      "answers": [
+        "Un objet utilisé seulement en classe",
+        "Une liste de planètes",
+        "L’endroit et les conditions dans lesquels des êtres vivants vivent",
+        "Un produit fabriqué en usine"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Un milieu de vie comprend un lieu et des conditions, comme la lumière, l’eau ou la température.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-evars-se-connaitre-q01",
+      "subjectId": "evars",
+      "chapterId": "6e-evars-se-connaitre",
+      "question": "Une personne te confie une information personnelle et te demande de ne pas la partager. Quelle attitude respecte sa vie privée ?",
+      "answers": [
+        "La publier dans un groupe de discussion",
+        "La raconter pour faire rire",
+        "Ne pas la diffuser et demander conseil à un adulte de confiance si la sécurité est en jeu",
+        "L’envoyer à des inconnus"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "La vie privée doit être respectée. Si une information fait craindre un danger, il faut en parler à un adulte de confiance.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-evars-se-connaitre-q02",
+      "subjectId": "evars",
+      "chapterId": "6e-evars-se-connaitre",
+      "question": "Quel comportement aide à respecter l’intimité d’un camarade ?",
+      "answers": [
+        "Lire son journal sans permission",
+        "Demander son accord avant de toucher ses affaires personnelles",
+        "Photographier ses messages privés",
+        "Insister après un refus"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Respecter l’intimité consiste notamment à demander l’accord avant d’entrer dans l’espace ou les affaires personnelles d’autrui.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-evars-se-connaitre-q03",
+      "subjectId": "evars",
+      "chapterId": "6e-evars-se-connaitre",
+      "question": "Tu ne te sens pas à l’aise dans une situation. Que peux-tu faire ?",
+      "answers": [
+        "Dire stop si tu le peux et en parler à un adulte de confiance",
+        "Garder le problème secret quoi qu’il arrive",
+        "Te reprocher automatiquement la situation",
+        "Accepter pour ne pas décevoir"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Tu peux exprimer ton inconfort et demander l’aide d’un adulte de confiance. Tu n’as pas à gérer seul une situation difficile.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-evars-se-connaitre-q04",
+      "subjectId": "evars",
+      "chapterId": "6e-evars-se-connaitre",
+      "question": "Quelle information est généralement prudente à garder privée en ligne ?",
+      "answers": [
+        "Le titre d’un livre lu en classe",
+        "Le nom d’un personnage fictif",
+        "Une règle de calcul",
+        "Son adresse personnelle"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "L’adresse personnelle est une donnée privée qui ne doit pas être partagée publiquement.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-evars-se-connaitre-q05",
+      "subjectId": "evars",
+      "chapterId": "6e-evars-se-connaitre",
+      "question": "Qui peut aider un élève qui a une question sur son corps ou son bien-être ?",
+      "answers": [
+        "Un inconnu rencontré en ligne",
+        "Personne, il doit toujours se débrouiller seul",
+        "Un adulte de confiance ou un professionnel de santé de l’établissement",
+        "Un camarade obligé de garder tout secret"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Un adulte de confiance ou un professionnel de santé peut écouter l’élève et l’orienter.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-evars-relations-respectueuses-q01",
+      "subjectId": "evars",
+      "chapterId": "6e-evars-relations-respectueuses",
+      "question": "Un camarade dit qu’il ne souhaite pas participer à un jeu. Que faut-il faire ?",
+      "answers": [
+        "Insister jusqu’à ce qu’il cède",
+        "Le punir de son refus",
+        "Respecter son choix et lui proposer une autre possibilité sans pression",
+        "Décider à sa place"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Une relation respectueuse tient compte du choix de chacun et évite la pression.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-evars-relations-respectueuses-q02",
+      "subjectId": "evars",
+      "chapterId": "6e-evars-relations-respectueuses",
+      "question": "Que signifie écouter activement une personne ?",
+      "answers": [
+        "Préparer une moquerie pendant qu’elle parle",
+        "Lui laisser le temps de parler et essayer de comprendre ce qu’elle dit",
+        "L’interrompre à chaque phrase",
+        "Répéter ses propos à tout le monde"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Écouter, c’est porter attention à la parole de l’autre et lui laisser une place.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-evars-relations-respectueuses-q03",
+      "subjectId": "evars",
+      "chapterId": "6e-evars-relations-respectueuses",
+      "question": "Deux élèves n’ont pas les mêmes goûts. Quelle réponse respecte leur différence ?",
+      "answers": [
+        "« Nous pouvons aimer des choses différentes et nous respecter »",
+        "« Tu dois aimer exactement ce que j’aime »",
+        "« Je vais me moquer de toi »",
+        "« Tu n’as pas le droit de participer »"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les différences de goûts ne justifient ni moquerie ni exclusion.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-evars-relations-respectueuses-q04",
+      "subjectId": "evars",
+      "chapterId": "6e-evars-relations-respectueuses",
+      "question": "Pourquoi est-il utile de demander l’accord avant de publier une photo d’un camarade ?",
+      "answers": [
+        "Parce qu’une photo publiée s’efface toujours toute seule",
+        "Parce que tout le monde accepte automatiquement",
+        "Parce que cela évite de vérifier les faits",
+        "Parce que son image et sa vie privée lui appartiennent aussi"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Demander l’accord respecte le droit à l’image et la vie privée de la personne.",
+      "rewardMinutes": 2
+    },
+    {
+      "id": "6e-evars-relations-respectueuses-q05",
+      "subjectId": "evars",
+      "chapterId": "6e-evars-relations-respectueuses",
+      "question": "Tu es témoin de moqueries répétées contre un élève. Quelle action est la plus aidante ?",
+      "answers": [
+        "Partager les moqueries",
+        "Dire que cela ne concerne personne",
+        "Soutenir l’élève sans l’exposer davantage et prévenir un adulte",
+        "Répondre par des insultes"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Il est important de soutenir la personne et de demander l’aide d’un adulte afin que la situation soit prise en charge.",
+      "rewardMinutes": 2
+    }
+  ]
+}

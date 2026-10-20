@@ -1,0 +1,707 @@
+{
+  "gradeId": "4e",
+  "programYear": "2026-2027",
+  "track": "college",
+  "subjects": [
+    {
+      "id": "maths",
+      "title": "Mathématiques",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "4e-maths-nombres",
+          "title": "Nombres, calculs, fractions, puissances et racines",
+          "theme": "Nombres et calculs",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5736/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-4"
+        },
+        {
+          "id": "4e-maths-algebre",
+          "title": "Calcul littéral et identités remarquables",
+          "theme": "Nombres et calculs",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5736/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-4"
+        },
+        {
+          "id": "4e-maths-equations",
+          "title": "Équations et mise en équation de problèmes",
+          "theme": "Nombres et calculs",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5736/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-4"
+        },
+        {
+          "id": "4e-maths-proportionnalite",
+          "title": "Proportionnalit?, pourcentages et ?chelles",
+          "theme": "Grandeurs et fonctions",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5736/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-4"
+        },
+        {
+          "id": "4e-maths-geometrie",
+          "title": "Géométrie plane, transformations et démonstration",
+          "theme": "Espace et géométrie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5736/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-4"
+        },
+        {
+          "id": "4e-maths-pythagore",
+          "title": "Théorème de Pythagore et réciproque",
+          "theme": "Espace et géométrie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5736/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-4"
+        },
+        {
+          "id": "4e-maths-donnees",
+          "title": "Statistiques et traitement de données",
+          "theme": "Organisation et gestion de données",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5736/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-4"
+        },
+        {
+          "id": "4e-maths-probabilites",
+          "title": "Probabilités",
+          "theme": "Organisation et gestion de données",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5736/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-4"
+        },
+        {
+          "id": "4e-maths-algorithmique",
+          "title": "Algorithmique et programmation",
+          "theme": "Pensée informatique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5736/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-4"
+        },
+        {
+          "id": "4e-maths-grandeurs-mesures",
+          "title": "Grandeurs, mesures et conversions",
+          "theme": "Grandeurs et mesures",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5736/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-4"
+        }
+      ]
+    },
+    {
+      "id": "francais",
+      "title": "Français",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "4e-francais-lit1",
+          "title": "Culture littéraire et artistique : Dire l’amour",
+          "theme": "Culture littéraire",
+          "sourceUrl": "https://www.education.gouv.fr/bo/15/Special11/MENE1526483Aannexe3.htm"
+        },
+        {
+          "id": "4e-francais-lit2",
+          "title": "Culture littéraire et artistique : Individu et société : confrontations de valeurs ?",
+          "theme": "Culture littéraire",
+          "sourceUrl": "https://www.education.gouv.fr/bo/15/Special11/MENE1526483Aannexe3.htm"
+        },
+        {
+          "id": "4e-francais-lit3",
+          "title": "Culture littéraire et artistique : La fiction pour interroger le réel",
+          "theme": "Culture littéraire",
+          "sourceUrl": "https://www.education.gouv.fr/bo/15/Special11/MENE1526483Aannexe3.htm"
+        },
+        {
+          "id": "4e-francais-lit4",
+          "title": "Culture littéraire et artistique : Informer, s’informer, déformer ?",
+          "theme": "Culture littéraire",
+          "sourceUrl": "https://www.education.gouv.fr/bo/15/Special11/MENE1526483Aannexe3.htm"
+        },
+        {
+          "id": "4e-francais-language",
+          "title": "Grammaire, syntaxe, conjugaison et orthographe",
+          "theme": "Étude de la langue",
+          "sourceUrl": "https://www.education.gouv.fr/bo/15/Special11/MENE1526483Aannexe3.htm"
+        },
+        {
+          "id": "4e-francais-lexicon",
+          "title": "Lexique, formation des mots et nuances de sens",
+          "theme": "Étude de la langue",
+          "sourceUrl": "https://www.education.gouv.fr/bo/15/Special11/MENE1526483Aannexe3.htm"
+        },
+        {
+          "id": "4e-francais-expression",
+          "title": "Lire, écrire, parler et comprendre des documents",
+          "theme": "Pratiques langagières",
+          "sourceUrl": "https://www.education.gouv.fr/bo/15/Special11/MENE1526483Aannexe3.htm"
+        },
+        {
+          "id": "4e-francais-ville",
+          "title": "Culture littéraire et artistique : La ville, lieu de tous les possibles",
+          "theme": "Questionnement complémentaire — imaginer et habiter la ville",
+          "sourceUrl": "https://www.education.gouv.fr/bo/15/Special11/MENE1526483Aannexe3.htm"
+        }
+      ]
+    },
+    {
+      "id": "histoire",
+      "title": "Histoire",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "4e-hist-lumieres",
+          "title": "Le XVIIIe siècle : expansions, Lumières et révolutions",
+          "theme": "XVIIIe siècle",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "4e-hist-traite",
+          "title": "Négoces atlantiques, traites et esclavage",
+          "theme": "XVIIIe siècle",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "4e-hist-revolutions",
+          "title": "Révolution française et Empire",
+          "theme": "XVIIIe siècle",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "4e-hist-industry",
+          "title": "Industrialisation et transformations de l’Europe au XIXe siècle",
+          "theme": "XIXe siècle",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "4e-hist-colonial",
+          "title": "Conquêtes et sociétés coloniales",
+          "theme": "XIXe siècle",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "4e-hist-regimes",
+          "title": "Société, culture et politique dans la France du XIXe siècle",
+          "theme": "XIXe siècle",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "4e-hist-republique",
+          "title": "Vote, régimes politiques et République",
+          "theme": "XIXe siècle",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "4e-hist-women",
+          "title": "Transformations sociales et place des femmes",
+          "theme": "XIXe siècle",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        }
+      ]
+    },
+    {
+      "id": "geographie",
+      "title": "Géographie",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "4e-geo-urban",
+          "title": "L’urbanisation du monde",
+          "theme": "Dynamiques urbaines",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "4e-geo-centres",
+          "title": "Centres, périphéries et paysages urbains",
+          "theme": "Dynamiques urbaines",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "4e-geo-mobility",
+          "title": "Les mobilités humaines transnationales",
+          "theme": "Mobilités",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "4e-geo-migration",
+          "title": "Migrations, parcours et facteurs de mobilité",
+          "theme": "Mobilités",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "4e-geo-tourism",
+          "title": "Tourisme international et transformations des territoires",
+          "theme": "Mobilités",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "4e-geo-global",
+          "title": "Des espaces transformés par la mondialisation",
+          "theme": "Mondialisation",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "4e-geo-maritime",
+          "title": "Espaces maritimes, productifs et réseaux mondialisés",
+          "theme": "Mondialisation",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        }
+      ]
+    },
+    {
+      "id": "emc",
+      "title": "Enseignement moral et civique",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "4e-emc-state",
+          "title": "Défendre les droits et les libertés : l’État de droit",
+          "theme": "Droits et libertés",
+          "sourceUrl": "https://www.education.gouv.fr/l-enseignement-moral-et-civique-emc-415043"
+        },
+        {
+          "id": "4e-emc-law",
+          "title": "Libertés, loi, justice et ordre public",
+          "theme": "Droits et libertés",
+          "sourceUrl": "https://www.education.gouv.fr/l-enseignement-moral-et-civique-emc-415043"
+        },
+        {
+          "id": "4e-emc-defense",
+          "title": "Défendre le cadre démocratique : sécurité et défense",
+          "theme": "Défense et démocratie",
+          "sourceUrl": "https://www.education.gouv.fr/l-enseignement-moral-et-civique-emc-415043"
+        }
+      ]
+    },
+    {
+      "id": "physique-chimie",
+      "title": "Physique-Chimie",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "4e-pc-matter",
+          "title": "Organisation et transformations de la matière",
+          "theme": "Matière",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "4e-pc-motion",
+          "title": "Mouvements et interactions",
+          "theme": "Mécanique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "4e-pc-energy",
+          "title": "Énergie, transferts et conversions",
+          "theme": "Énergie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "4e-pc-signals",
+          "title": "Signaux pour observer et communiquer",
+          "theme": "Signaux",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        }
+      ]
+    },
+    {
+      "id": "svt",
+      "title": "Sciences de la vie et de la Terre",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "4e-svt-earth",
+          "title": "Planète Terre, environnement et action humaine",
+          "theme": "Terre et environnement",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "4e-svt-living",
+          "title": "Vivant, diversité et évolution",
+          "theme": "Vivant et évolution",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "4e-svt-health",
+          "title": "Corps humain et santé",
+          "theme": "Santé",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        }
+      ]
+    },
+    {
+      "id": "technologie",
+      "title": "Technologie",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "4e-tech-uses",
+          "title": "Objets et systèmes techniques : usages et interactions",
+          "theme": "Usages et société",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/ensel802_annexe.pdf"
+        },
+        {
+          "id": "4e-tech-structure",
+          "title": "Structure, fonctionnement, comportement et programmation",
+          "theme": "Systèmes et informatique",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/ensel802_annexe.pdf"
+        },
+        {
+          "id": "4e-tech-design",
+          "title": "Création, conception, réalisation et validation",
+          "theme": "Conception et innovation",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/ensel802_annexe.pdf"
+        }
+      ]
+    },
+    {
+      "id": "anglais",
+      "title": "Anglais (selon le parcours)",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "4e-anglais-languages",
+          "title": "Langages, communication et médias",
+          "theme": "Compétences langagières",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "4e-anglais-school",
+          "title": "École et société",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "4e-anglais-travel",
+          "title": "Voyages et migrations",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "4e-anglais-encounters",
+          "title": "Rencontres avec d’autres cultures",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "4e-anglais-practice",
+          "title": "Comprendre, parler, interagir et écrire",
+          "theme": "Activités langagières",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "espagnol",
+      "title": "Espagnol (selon le parcours)",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "4e-espagnol-languages",
+          "title": "Langages, communication et médias",
+          "theme": "Compétences langagières",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "4e-espagnol-school",
+          "title": "École et société",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "4e-espagnol-travel",
+          "title": "Voyages et migrations",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "4e-espagnol-encounters",
+          "title": "Rencontres avec d’autres cultures",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "4e-espagnol-practice",
+          "title": "Comprendre, parler, interagir et écrire",
+          "theme": "Activités langagières",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "allemand",
+      "title": "Allemand (selon le parcours)",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "4e-allemand-languages",
+          "title": "Langages, communication et médias",
+          "theme": "Compétences langagières",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "4e-allemand-school",
+          "title": "École et société",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "4e-allemand-travel",
+          "title": "Voyages et migrations",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "4e-allemand-encounters",
+          "title": "Rencontres avec d’autres cultures",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "4e-allemand-practice",
+          "title": "Comprendre, parler, interagir et écrire",
+          "theme": "Activités langagières",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "autres-lv",
+      "title": "Autres langues vivantes selon le parcours",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "4e-autres-lv-languages",
+          "title": "Langages, communication et médias",
+          "theme": "Compétences langagières",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "4e-autres-lv-school",
+          "title": "École et société",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "4e-autres-lv-travel",
+          "title": "Voyages et migrations",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "4e-autres-lv-encounters",
+          "title": "Rencontres avec d’autres cultures",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "4e-autres-lv-practice",
+          "title": "Comprendre, parler, interagir et écrire",
+          "theme": "Activités langagières",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "arts-plastiques",
+      "title": "Arts plastiques",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "4e-art-representation",
+          "title": "Représentation : images, réalité et fiction",
+          "theme": "Images",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "4e-art-materiality",
+          "title": "Matérialité de l’œuvre, objet et œuvre",
+          "theme": "Matériaux",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "4e-art-space",
+          "title": "Œuvre, espace, auteur et spectateur",
+          "theme": "Présentation",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        }
+      ]
+    },
+    {
+      "id": "education-musicale",
+      "title": "Éducation musicale",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "4e-music-production",
+          "title": "Production : pratique et projets musicaux",
+          "theme": "Production",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "4e-music-perception",
+          "title": "Perception : écouter, comparer et caractériser",
+          "theme": "Perception",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "4e-music-culture",
+          "title": "Repères culturels et histoire des arts musicaux",
+          "theme": "Culture musicale",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        }
+      ]
+    },
+    {
+      "id": "eps",
+      "title": "Éducation physique et sportive",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "4e-eps-perform",
+          "title": "Performance mesurable",
+          "theme": "Champ d’apprentissage 1",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "4e-eps-move",
+          "title": "Déplacements en environnements variés",
+          "theme": "Champ d’apprentissage 2",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "4e-eps-art",
+          "title": "Prestation artistique ou acrobatique",
+          "theme": "Champ d’apprentissage 3",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "4e-eps-opposition",
+          "title": "Confrontation collective ou individuelle",
+          "theme": "Champ d’apprentissage 4",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        }
+      ]
+    },
+    {
+      "id": "evars",
+      "title": "Éducation à la vie affective et relationnelle, et à la sexualité (EVARS)",
+      "kind": "transversal",
+      "chapters": [
+        {
+          "id": "4e-evars-body",
+          "title": "Se connaître, vivre et grandir sereinement avec son corps",
+          "theme": "Axe 1",
+          "sourceUrl": "https://www.education.gouv.fr/bo/2025/Hebdo6/MENE2503064A"
+        },
+        {
+          "id": "4e-evars-relations",
+          "title": "Construire des relations respectueuses",
+          "theme": "Axe 2",
+          "sourceUrl": "https://www.education.gouv.fr/bo/2025/Hebdo6/MENE2503064A"
+        },
+        {
+          "id": "4e-evars-society",
+          "title": "Trouver sa place dans la société, libre et responsable",
+          "theme": "Axe 3",
+          "sourceUrl": "https://www.education.gouv.fr/bo/2025/Hebdo6/MENE2503064A"
+        }
+      ]
+    },
+    {
+      "id": "histoire-des-arts",
+      "title": "Histoire des arts (transversal)",
+      "kind": "transversal",
+      "chapters": [
+        {
+          "id": "4e-hda-works",
+          "title": "Œuvres, contextes, formes et fonctions artistiques",
+          "theme": "Culture artistique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4"
+        },
+        {
+          "id": "4e-hda-circulation",
+          "title": "Circulation des œuvres, techniques et sensibilités",
+          "theme": "Culture artistique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4"
+        }
+      ]
+    },
+    {
+      "id": "lca",
+      "title": "Langues et cultures de l’Antiquité (latin et/ou grec, option)",
+      "kind": "optional",
+      "chapters": [
+        {
+          "id": "4e-lca-language",
+          "title": "Lexique, formes et étymologies anciennes",
+          "theme": "Langue ancienne",
+          "sourceUrl": "https://www.education.gouv.fr/le-college-4940"
+        },
+        {
+          "id": "4e-lca-cultures",
+          "title": "Textes, mythes, sociétés et héritages antiques",
+          "theme": "Cultures antiques",
+          "sourceUrl": "https://www.education.gouv.fr/le-college-4940"
+        }
+      ]
+    },
+    {
+      "id": "langues-regionales",
+      "title": "Langues et cultures régionales (option selon l’offre locale)",
+      "kind": "optional",
+      "chapters": [
+        {
+          "id": "4e-regional-language",
+          "title": "Langue et expressions régionales",
+          "theme": "Langues et cultures",
+          "sourceUrl": "https://www.education.gouv.fr/le-college-4940"
+        },
+        {
+          "id": "4e-regional-cultures",
+          "title": "Territoires, patrimoines et créations régionales",
+          "theme": "Langues et cultures",
+          "sourceUrl": "https://www.education.gouv.fr/le-college-4940"
+        }
+      ]
+    },
+    {
+      "id": "lce",
+      "title": "Langues et cultures européennes (option locale)",
+      "kind": "optional",
+      "chapters": [
+        {
+          "id": "4e-lce-language",
+          "title": "Pratiques langagières en contexte européen",
+          "theme": "Langues et cultures",
+          "sourceUrl": "https://www.education.gouv.fr/le-college-4940"
+        },
+        {
+          "id": "4e-lce-cultures",
+          "title": "Cultures, territoires et projets européens",
+          "theme": "Langues et cultures",
+          "sourceUrl": "https://www.education.gouv.fr/le-college-4940"
+        }
+      ]
+    },
+    {
+      "id": "chant-choral",
+      "title": "Chant choral (enseignement facultatif)",
+      "kind": "optional",
+      "chapters": [
+        {
+          "id": "4e-choral-practice",
+          "title": "Pratique vocale collective et écoute",
+          "theme": "Projet choral",
+          "sourceUrl": "https://www.education.gouv.fr/le-college-4940"
+        },
+        {
+          "id": "4e-choral-project",
+          "title": "Interprétation, répertoire et projet de spectacle",
+          "theme": "Projet choral",
+          "sourceUrl": "https://www.education.gouv.fr/le-college-4940"
+        }
+      ]
+    },
+    {
+      "id": "emi",
+      "title": "Éducation aux médias et à l’information (EMI)",
+      "kind": "transversal",
+      "chapters": [
+        {
+          "id": "4e-emi-sources",
+          "title": "Rechercher, identifier et recouper les sources",
+          "theme": "S’informer et évaluer la fiabilité des informations",
+          "sourceUrl": "https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4"
+        },
+        {
+          "id": "4e-emi-images",
+          "title": "Vérifier les images et contenus numériques",
+          "theme": "Images, contexte et circulation en ligne",
+          "sourceUrl": "https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4"
+        }
+      ]
+    }
+  ]
+}

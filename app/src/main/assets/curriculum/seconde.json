@@ -1,0 +1,876 @@
+{
+  "gradeId": "seconde",
+  "programYear": "2026-2027",
+  "track": "generale_technologique",
+  "subjects": [
+    {
+      "id": "francais",
+      "title": "Français",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "seconde-francais-roman",
+          "title": "Le roman et le récit du XVIIIe au XXIe siècle",
+          "theme": "Littérature",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5793/programmes-et-ressources-en-francais-voie-gt"
+        },
+        {
+          "id": "seconde-francais-theatre",
+          "title": "Le théâtre du XVIIe au XXIe siècle",
+          "theme": "Littérature",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5793/programmes-et-ressources-en-francais-voie-gt"
+        },
+        {
+          "id": "seconde-francais-poesie",
+          "title": "La poésie du Moyen Âge au XVIIIe siècle",
+          "theme": "Littérature",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5793/programmes-et-ressources-en-francais-voie-gt"
+        },
+        {
+          "id": "seconde-francais-idees",
+          "title": "La littérature d’idées et la presse du XIXe au XXIe siècle",
+          "theme": "Littérature",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5793/programmes-et-ressources-en-francais-voie-gt"
+        },
+        {
+          "id": "seconde-francais-langue",
+          "title": "Étude de la langue et expression",
+          "theme": "Langue",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5793/programmes-et-ressources-en-francais-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "histoire-geographie",
+      "title": "Histoire-géographie",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "seconde-hg-histoire-monde",
+          "title": "Le monde méditerranéen : empreintes de l’Antiquité et du Moyen Âge",
+          "theme": "Histoire",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5799/programmes-et-ressources-en-histoire-geographie-voie-gt"
+        },
+        {
+          "id": "seconde-hg-histoire-moyenage",
+          "title": "XVe-XVIe siècles : un nouveau rapport au monde, un temps de mutation intellectuelle",
+          "theme": "Histoire",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5799/programmes-et-ressources-en-histoire-geographie-voie-gt"
+        },
+        {
+          "id": "seconde-hg-histoire-moderne",
+          "title": "L’État à l’époque moderne : France et Angleterre",
+          "theme": "Histoire",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5799/programmes-et-ressources-en-histoire-geographie-voie-gt"
+        },
+        {
+          "id": "seconde-hg-histoire-revolutions",
+          "title": "Dynamiques et ruptures dans les sociétés des XVIIe et XVIIIe siècles",
+          "theme": "Histoire",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5799/programmes-et-ressources-en-histoire-geographie-voie-gt"
+        },
+        {
+          "id": "seconde-hg-geo-societes",
+          "title": "Sociétés et environnements : des équilibres fragiles",
+          "theme": "Géographie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5799/programmes-et-ressources-en-histoire-geographie-voie-gt"
+        },
+        {
+          "id": "seconde-hg-geo-populations",
+          "title": "Territoires, populations et développement : quels défis ?",
+          "theme": "Géographie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5799/programmes-et-ressources-en-histoire-geographie-voie-gt"
+        },
+        {
+          "id": "seconde-hg-geo-mobilites",
+          "title": "Des mobilités généralisées",
+          "theme": "Géographie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5799/programmes-et-ressources-en-histoire-geographie-voie-gt"
+        },
+        {
+          "id": "seconde-hg-geo-afrique",
+          "title": "L’Afrique australe : un espace en profonde mutation",
+          "theme": "Géographie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5799/programmes-et-ressources-en-histoire-geographie-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "langues-vivantes",
+      "title": "Langues vivantes A et B",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "seconde-lv-axe-1",
+          "title": "Axe 1 — Représentation de soi et rapport à autrui",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "seconde-lv-axe-2",
+          "title": "Axe 2 — Vivre entre générations",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "seconde-lv-axe-3",
+          "title": "Axe 3 — Le passé dans le présent",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "seconde-lv-axe-4",
+          "title": "Axe 4 — Défis et transitions",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "seconde-lv-axe-5",
+          "title": "Axe 5 — Créer et recréer",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "seconde-lv-axe-6",
+          "title": "Axe 6 — Focale sur une aire culturelle",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "ses",
+      "title": "Sciences économiques et sociales",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "seconde-ses-menages",
+          "title": "Comment les ménages prennent-ils leurs décisions ?",
+          "theme": "Économie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5838/programmes-et-ressources-en-sciences-economiques-et-sociales-voie-gt"
+        },
+        {
+          "id": "seconde-ses-entreprises",
+          "title": "Comment les entreprises produisent-elles ?",
+          "theme": "Économie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5838/programmes-et-ressources-en-sciences-economiques-et-sociales-voie-gt"
+        },
+        {
+          "id": "seconde-ses-marches",
+          "title": "Comment se forment les prix sur un marché ?",
+          "theme": "Économie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5838/programmes-et-ressources-en-sciences-economiques-et-sociales-voie-gt"
+        },
+        {
+          "id": "seconde-ses-societe",
+          "title": "Comment devenons-nous des acteurs sociaux ?",
+          "theme": "Sociologie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5838/programmes-et-ressources-en-sciences-economiques-et-sociales-voie-gt"
+        },
+        {
+          "id": "seconde-ses-diplome",
+          "title": "Comment expliquer les différences de diplôme et de salaire ?",
+          "theme": "Sociologie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5838/programmes-et-ressources-en-sciences-economiques-et-sociales-voie-gt"
+        },
+        {
+          "id": "seconde-ses-culture",
+          "title": "Comment se forment les goûts et les pratiques culturelles ?",
+          "theme": "Sociologie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5838/programmes-et-ressources-en-sciences-economiques-et-sociales-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "maths",
+      "title": "Mathématiques",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "seconde-maths-arithmetique",
+          "title": "Arithmétique",
+          "theme": "Nombres et calculs",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "seconde-maths-nombres-reels",
+          "title": "Nombres réels",
+          "theme": "Nombres et calculs",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "seconde-maths-algebre",
+          "title": "Algèbre",
+          "theme": "Nombres et calculs",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "seconde-maths-vocabulaire-logique",
+          "title": "Vocabulaire ensembliste et logique",
+          "theme": "Transversal",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "seconde-maths-algorithmique",
+          "title": "Algorithmique et programmation",
+          "theme": "Transversal",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "seconde-maths-automatismes",
+          "title": "Automatismes",
+          "theme": "Transversal",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "seconde-maths-vecteurs",
+          "title": "Vecteurs et problèmes de géométrie",
+          "theme": "Géométrie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "seconde-maths-droites",
+          "title": "Droites du plan",
+          "theme": "Géométrie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "seconde-maths-notion-fonction",
+          "title": "Notion de fonction",
+          "theme": "Fonctions",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "seconde-maths-fonctions",
+          "title": "Représentations, variations et extremums",
+          "theme": "Fonctions",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "seconde-maths-statistique",
+          "title": "Information chiffrée et statistique descriptive",
+          "theme": "Statistiques",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "seconde-maths-variables",
+          "title": "Croisement de deux variables qualitatives",
+          "theme": "Statistiques",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "seconde-maths-probabilites",
+          "title": "Probabilités",
+          "theme": "Probabilités",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "physique-chimie",
+      "title": "Physique-chimie",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "seconde-pc-corps-purs",
+          "title": "Corps purs et mélanges",
+          "theme": "Constitution et transformations de la matière",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5829/programmes-et-ressources-en-physique-chimie-voie-gt"
+        },
+        {
+          "id": "seconde-pc-transformations",
+          "title": "Transformations chimiques",
+          "theme": "Constitution et transformations de la matière",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5829/programmes-et-ressources-en-physique-chimie-voie-gt"
+        },
+        {
+          "id": "seconde-pc-synthese",
+          "title": "Synthèse et identification d’espèces chimiques",
+          "theme": "Constitution et transformations de la matière",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5829/programmes-et-ressources-en-physique-chimie-voie-gt"
+        },
+        {
+          "id": "seconde-pc-mouvement",
+          "title": "Décrire et modéliser un mouvement",
+          "theme": "Mouvements et interactions",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5829/programmes-et-ressources-en-physique-chimie-voie-gt"
+        },
+        {
+          "id": "seconde-pc-interactions",
+          "title": "Modéliser les actions et interactions",
+          "theme": "Mouvements et interactions",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5829/programmes-et-ressources-en-physique-chimie-voie-gt"
+        },
+        {
+          "id": "seconde-pc-inertie",
+          "title": "Principe d’inertie",
+          "theme": "Mouvements et interactions",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5829/programmes-et-ressources-en-physique-chimie-voie-gt"
+        },
+        {
+          "id": "seconde-pc-son",
+          "title": "Émission et perception d’un son",
+          "theme": "Ondes et signaux",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5829/programmes-et-ressources-en-physique-chimie-voie-gt"
+        },
+        {
+          "id": "seconde-pc-vision",
+          "title": "Vision et image",
+          "theme": "Ondes et signaux",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5829/programmes-et-ressources-en-physique-chimie-voie-gt"
+        },
+        {
+          "id": "seconde-pc-signaux",
+          "title": "Signaux et capteurs",
+          "theme": "Ondes et signaux",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5829/programmes-et-ressources-en-physique-chimie-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "svt",
+      "title": "Sciences de la vie et de la Terre",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "seconde-svt-cellules",
+          "title": "L’organisme pluricellulaire, ensemble de cellules spécialisées",
+          "theme": "La Terre, la vie et l’organisation du vivant",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5835/programmes-et-ressources-en-sciences-de-la-vie-et-de-la-terre-voie-gt"
+        },
+        {
+          "id": "seconde-svt-metabolisme",
+          "title": "Le métabolisme des cellules",
+          "theme": "La Terre, la vie et l’organisation du vivant",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5835/programmes-et-ressources-en-sciences-de-la-vie-et-de-la-terre-voie-gt"
+        },
+        {
+          "id": "seconde-svt-biodiversite",
+          "title": "Biodiversité, résultat et étape de l’évolution",
+          "theme": "La Terre, la vie et l’organisation du vivant",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5835/programmes-et-ressources-en-sciences-de-la-vie-et-de-la-terre-voie-gt"
+        },
+        {
+          "id": "seconde-svt-geosciences",
+          "title": "Géosciences et dynamique des paysages",
+          "theme": "Les enjeux contemporains de la planète",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5835/programmes-et-ressources-en-sciences-de-la-vie-et-de-la-terre-voie-gt"
+        },
+        {
+          "id": "seconde-svt-agrosystemes",
+          "title": "Agrosystèmes et développement durable",
+          "theme": "Les enjeux contemporains de la planète",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5835/programmes-et-ressources-en-sciences-de-la-vie-et-de-la-terre-voie-gt"
+        },
+        {
+          "id": "seconde-svt-procreation",
+          "title": "Procréation et sexualité humaine",
+          "theme": "Le corps humain et la santé",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5835/programmes-et-ressources-en-sciences-de-la-vie-et-de-la-terre-voie-gt"
+        },
+        {
+          "id": "seconde-svt-microorganismes",
+          "title": "Microorganismes et santé",
+          "theme": "Le corps humain et la santé",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5835/programmes-et-ressources-en-sciences-de-la-vie-et-de-la-terre-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "eps",
+      "title": "Éducation physique et sportive",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "seconde-eps-performance",
+          "title": "Réaliser une performance motrice maximale mesurable",
+          "theme": "Champs d’apprentissage",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5784/programmes-et-ressources-en-education-physique-et-sportive-eps-voie-gt"
+        },
+        {
+          "id": "seconde-eps-adaptation",
+          "title": "Adapter son déplacement à des environnements variés",
+          "theme": "Champs d’apprentissage",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5784/programmes-et-ressources-en-education-physique-et-sportive-eps-voie-gt"
+        },
+        {
+          "id": "seconde-eps-artistique",
+          "title": "Réaliser une prestation corporelle destinée à être vue et appréciée",
+          "theme": "Champs d’apprentissage",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5784/programmes-et-ressources-en-education-physique-et-sportive-eps-voie-gt"
+        },
+        {
+          "id": "seconde-eps-conduite",
+          "title": "Conduire et maîtriser un affrontement collectif ou interindividuel",
+          "theme": "Champs d’apprentissage",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5784/programmes-et-ressources-en-education-physique-et-sportive-eps-voie-gt"
+        },
+        {
+          "id": "seconde-eps-entretien",
+          "title": "Réaliser et orienter son activité physique pour développer ses ressources",
+          "theme": "Champs d’apprentissage",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5784/programmes-et-ressources-en-education-physique-et-sportive-eps-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "emc",
+      "title": "Enseignement moral et civique",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "seconde-emc-liberte",
+          "title": "La liberté, nos libertés, ma liberté",
+          "theme": "Liberté",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5787/programmes-et-ressources-en-enseignement-moral-et-civique-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "snt",
+      "title": "Sciences numériques et technologie",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "seconde-snt-internet",
+          "title": "Internet",
+          "theme": "Internet",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5841/programmes-et-ressources-en-sciences-numeriques-et-technologie-voie-gt"
+        },
+        {
+          "id": "seconde-snt-web",
+          "title": "Le Web",
+          "theme": "Web",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5841/programmes-et-ressources-en-sciences-numeriques-et-technologie-voie-gt"
+        },
+        {
+          "id": "seconde-snt-reseaux",
+          "title": "Les réseaux sociaux",
+          "theme": "Réseaux sociaux",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5841/programmes-et-ressources-en-sciences-numeriques-et-technologie-voie-gt"
+        },
+        {
+          "id": "seconde-snt-donnees",
+          "title": "Les données structurées et leur traitement",
+          "theme": "Données",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5841/programmes-et-ressources-en-sciences-numeriques-et-technologie-voie-gt"
+        },
+        {
+          "id": "seconde-snt-localisation",
+          "title": "Localisation, cartographie et mobilité",
+          "theme": "Localisation",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5841/programmes-et-ressources-en-sciences-numeriques-et-technologie-voie-gt"
+        },
+        {
+          "id": "seconde-snt-objets",
+          "title": "Informatique embarquée et objets connectés",
+          "theme": "Objets connectés",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5841/programmes-et-ressources-en-sciences-numeriques-et-technologie-voie-gt"
+        },
+        {
+          "id": "seconde-snt-image",
+          "title": "Photographie numérique",
+          "theme": "Image",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5841/programmes-et-ressources-en-sciences-numeriques-et-technologie-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-latin",
+      "title": "Langues et cultures de l’Antiquité : latin",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "seconde-latin-homme-animal",
+          "title": "L’Homme et l’animal",
+          "theme": "Objets d’étude",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5808/programmes-et-ressources-en-langues-et-cultures-de-l-antiquite-voie-gt"
+        },
+        {
+          "id": "seconde-latin-divin",
+          "title": "L’Homme et le divin",
+          "theme": "Objets d’étude",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5808/programmes-et-ressources-en-langues-et-cultures-de-l-antiquite-voie-gt"
+        },
+        {
+          "id": "seconde-latin-autre",
+          "title": "Soi-même et l’autre",
+          "theme": "Objets d’étude",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5808/programmes-et-ressources-en-langues-et-cultures-de-l-antiquite-voie-gt"
+        },
+        {
+          "id": "seconde-latin-mediterranee",
+          "title": "Méditerranée : voyager, explorer, découvrir",
+          "theme": "Objets d’étude",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5808/programmes-et-ressources-en-langues-et-cultures-de-l-antiquite-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-grec",
+      "title": "Langues et cultures de l’Antiquité : grec",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "seconde-grec-homme-animal",
+          "title": "L’Homme et l’animal",
+          "theme": "Objets d’étude",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5808/programmes-et-ressources-en-langues-et-cultures-de-l-antiquite-voie-gt"
+        },
+        {
+          "id": "seconde-grec-divin",
+          "title": "L’Homme et le divin",
+          "theme": "Objets d’étude",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5808/programmes-et-ressources-en-langues-et-cultures-de-l-antiquite-voie-gt"
+        },
+        {
+          "id": "seconde-grec-autre",
+          "title": "Soi-même et l’autre",
+          "theme": "Objets d’étude",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5808/programmes-et-ressources-en-langues-et-cultures-de-l-antiquite-voie-gt"
+        },
+        {
+          "id": "seconde-grec-mediterranee",
+          "title": "Méditerranée : voyager, explorer, découvrir",
+          "theme": "Objets d’étude",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5808/programmes-et-ressources-en-langues-et-cultures-de-l-antiquite-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-lvc",
+      "title": "Langue vivante C",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "seconde-lvc-axe-1",
+          "title": "Axe 1 — Représentation de soi et rapport à autrui",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "seconde-lvc-axe-2",
+          "title": "Axe 2 — Vivre entre générations",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "seconde-lvc-axe-3",
+          "title": "Axe 3 — Le passé dans le présent",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "seconde-lvc-axe-4",
+          "title": "Axe 4 — Défis et transitions",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "seconde-lvc-axe-5",
+          "title": "Axe 5 — Créer et recréer",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "seconde-lvc-axe-6",
+          "title": "Axe 6 — Focale sur une aire culturelle",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-lsf",
+      "title": "Langue des signes française",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "seconde-lsf-communication",
+          "title": "Comprendre et communiquer en LSF",
+          "theme": "Langue et culture",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-eps",
+      "title": "Éducation physique et sportive optionnelle",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "seconde-eps-option-pratique",
+          "title": "Pratiques physiques et sportives",
+          "theme": "Pratique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5784/programmes-et-ressources-en-education-physique-et-sportive-eps-voie-gt"
+        },
+        {
+          "id": "seconde-eps-option-culture",
+          "title": "Culture sportive et santé",
+          "theme": "Culture",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5784/programmes-et-ressources-en-education-physique-et-sportive-eps-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-arts-plastiques",
+      "title": "Arts plastiques option",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "seconde-option-arts-plastiques",
+          "title": "Pratique plastique et culture artistique",
+          "theme": "Arts plastiques",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5772/programmes-et-ressources-en-arts-plastiques-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-cinema",
+      "title": "Cinéma-audiovisuel option",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "seconde-option-cinema",
+          "title": "Pratique et culture cinématographiques",
+          "theme": "Cinéma-audiovisuel",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5775/programmes-et-ressources-en-cinema-audiovisuel-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-danse",
+      "title": "Danse option",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "seconde-option-danse",
+          "title": "Pratique chorégraphique et culture de la danse",
+          "theme": "Danse",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5778/programmes-et-ressources-en-danse-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-histoire-arts",
+      "title": "Histoire des arts option",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "seconde-option-hda",
+          "title": "Œuvres, formes et contextes artistiques",
+          "theme": "Histoire des arts",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5796/programmes-et-ressources-en-histoire-des-arts-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-musique",
+      "title": "Musique option",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "seconde-option-musique",
+          "title": "Pratique musicale et culture",
+          "theme": "Musique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5820/programmes-et-ressources-en-musique-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-theatre",
+      "title": "Théâtre option",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "seconde-option-theatre",
+          "title": "Pratique théâtrale et culture dramatique",
+          "theme": "Théâtre",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5865/programmes-et-ressources-en-theatre-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-cirque",
+      "title": "Arts du cirque option",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "seconde-option-cirque",
+          "title": "Pratiques circassiennes et culture du cirque",
+          "theme": "Arts du cirque",
+          "sourceUrl": "https://eduscol.education.gouv.fr/4368/enseigner-au-lycee-generaltechnologique"
+        }
+      ]
+    },
+    {
+      "id": "option-management",
+      "title": "Management et gestion option",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "seconde-option-management",
+          "title": "Découverte du fonctionnement des organisations",
+          "theme": "Management",
+          "sourceUrl": "https://www.education.gouv.fr/programmes-scolaires-41483"
+        }
+      ]
+    },
+    {
+      "id": "option-sante-social",
+      "title": "Santé et social option",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "seconde-option-sante-social",
+          "title": "Découverte des questions sanitaires et sociales",
+          "theme": "Santé et social",
+          "sourceUrl": "https://www.education.gouv.fr/programmes-scolaires-41483"
+        }
+      ]
+    },
+    {
+      "id": "option-biotechnologies",
+      "title": "Biotechnologies option",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "seconde-option-biotech",
+          "title": "Démarches et techniques de laboratoire",
+          "theme": "Biotechnologies",
+          "sourceUrl": "https://www.education.gouv.fr/programmes-scolaires-41483"
+        }
+      ]
+    },
+    {
+      "id": "option-sciences-laboratoire",
+      "title": "Sciences et laboratoire option",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "seconde-option-labo",
+          "title": "Démarche expérimentale et projets scientifiques",
+          "theme": "Sciences et laboratoire",
+          "sourceUrl": "https://www.education.gouv.fr/programmes-scolaires-41483"
+        }
+      ]
+    },
+    {
+      "id": "option-si",
+      "title": "Sciences de l’ingénieur option",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "seconde-option-si",
+          "title": "Observation et analyse de systèmes",
+          "theme": "Sciences de l’ingénieur",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5832/programmes-et-ressources-en-sciences-de-l-ingenieur-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-cit",
+      "title": "Création et innovation technologiques option",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "seconde-option-cit",
+          "title": "Créativité, conception et innovation",
+          "theme": "Création et innovation technologiques",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5832/programmes-et-ressources-en-sciences-de-l-ingenieur-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-design",
+      "title": "Création et culture design option",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "seconde-option-design",
+          "title": "Design, création et culture",
+          "theme": "Design",
+          "sourceUrl": "https://www.education.gouv.fr/programmes-scolaires-41483"
+        }
+      ]
+    },
+    {
+      "id": "option-eco-agro",
+      "title": "Écologie-agronomie-territoires-développement durable",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "seconde-option-eco-agro",
+          "title": "Écologie, agronomie, territoires et développement durable",
+          "theme": "Enseignement agricole",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5466/seconde-generale-et-technologique"
+        }
+      ]
+    },
+    {
+      "id": "option-hippologie",
+      "title": "Hippologie et équitation",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "seconde-option-hippologie",
+          "title": "Hippologie et équitation",
+          "theme": "Enseignement agricole",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5466/seconde-generale-et-technologique"
+        }
+      ]
+    },
+    {
+      "id": "option-pratiques-sportives-agri",
+      "title": "Autres pratiques sportives (lycées agricoles)",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "seconde-option-pratiques-sportives-agri",
+          "title": "Pratiques sportives",
+          "theme": "Enseignement agricole",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5466/seconde-generale-et-technologique"
+        }
+      ]
+    },
+    {
+      "id": "option-pratiques-sociales",
+      "title": "Pratiques sociales et culturelles (lycées agricoles)",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "seconde-option-pratiques-sociales",
+          "title": "Pratiques sociales et culturelles",
+          "theme": "Enseignement agricole",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5466/seconde-generale-et-technologique"
+        }
+      ]
+    },
+    {
+      "id": "option-pratiques-professionnelles",
+      "title": "Pratiques professionnelles (lycées agricoles)",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "seconde-option-pratiques-professionnelles",
+          "title": "Pratiques professionnelles",
+          "theme": "Enseignement agricole",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5466/seconde-generale-et-technologique"
+        }
+      ]
+    },
+    {
+      "id": "option-culture-pratique-arts",
+      "title": "Culture et pratique de la danse, de la musique ou du théâtre",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "seconde-option-culture-pratique-arts",
+          "title": "Culture et pratique dans la discipline choisie",
+          "theme": "Enseignement artistique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5466/seconde-generale-et-technologique"
+        }
+      ]
+    }
+  ]
+}

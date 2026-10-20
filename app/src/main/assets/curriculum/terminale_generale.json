@@ -1,0 +1,1220 @@
+{
+  "gradeId": "terminale_generale",
+  "programYear": "2026-2027",
+  "track": "generale",
+  "subjects": [
+    {
+      "id": "philosophie",
+      "title": "Philosophie",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "terminale-philo-art",
+          "title": "Art",
+          "theme": "Notions",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5826/programmes-et-ressources-en-philosophie-voie-gt"
+        },
+        {
+          "id": "terminale-philo-bonheur",
+          "title": "Bonheur",
+          "theme": "Notions",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5826/programmes-et-ressources-en-philosophie-voie-gt"
+        },
+        {
+          "id": "terminale-philo-conscience",
+          "title": "Conscience",
+          "theme": "Notions",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5826/programmes-et-ressources-en-philosophie-voie-gt"
+        },
+        {
+          "id": "terminale-philo-devoir",
+          "title": "Devoir",
+          "theme": "Notions",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5826/programmes-et-ressources-en-philosophie-voie-gt"
+        },
+        {
+          "id": "terminale-philo-etat",
+          "title": "État",
+          "theme": "Notions",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5826/programmes-et-ressources-en-philosophie-voie-gt"
+        },
+        {
+          "id": "terminale-philo-inconscient",
+          "title": "Inconscient",
+          "theme": "Notions",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5826/programmes-et-ressources-en-philosophie-voie-gt"
+        },
+        {
+          "id": "terminale-philo-justice",
+          "title": "Justice",
+          "theme": "Notions",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5826/programmes-et-ressources-en-philosophie-voie-gt"
+        },
+        {
+          "id": "terminale-philo-langage",
+          "title": "Langage",
+          "theme": "Notions",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5826/programmes-et-ressources-en-philosophie-voie-gt"
+        },
+        {
+          "id": "terminale-philo-liberte",
+          "title": "Liberté",
+          "theme": "Notions",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5826/programmes-et-ressources-en-philosophie-voie-gt"
+        },
+        {
+          "id": "terminale-philo-nature",
+          "title": "Nature",
+          "theme": "Notions",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5826/programmes-et-ressources-en-philosophie-voie-gt"
+        },
+        {
+          "id": "terminale-philo-raison",
+          "title": "Raison",
+          "theme": "Notions",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5826/programmes-et-ressources-en-philosophie-voie-gt"
+        },
+        {
+          "id": "terminale-philo-religion",
+          "title": "Religion",
+          "theme": "Notions",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5826/programmes-et-ressources-en-philosophie-voie-gt"
+        },
+        {
+          "id": "terminale-philo-science",
+          "title": "Science",
+          "theme": "Notions",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5826/programmes-et-ressources-en-philosophie-voie-gt"
+        },
+        {
+          "id": "terminale-philo-technique",
+          "title": "Technique",
+          "theme": "Notions",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5826/programmes-et-ressources-en-philosophie-voie-gt"
+        },
+        {
+          "id": "terminale-philo-temps",
+          "title": "Temps",
+          "theme": "Notions",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5826/programmes-et-ressources-en-philosophie-voie-gt"
+        },
+        {
+          "id": "terminale-philo-travail",
+          "title": "Travail",
+          "theme": "Notions",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5826/programmes-et-ressources-en-philosophie-voie-gt"
+        },
+        {
+          "id": "terminale-philo-verite",
+          "title": "Vérité",
+          "theme": "Notions",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5826/programmes-et-ressources-en-philosophie-voie-gt"
+        },
+        {
+          "id": "terminale-philo-methode",
+          "title": "Dissertation et explication de texte",
+          "theme": "Méthodes",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5826/programmes-et-ressources-en-philosophie-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "histoire-geographie",
+      "title": "Histoire-géographie",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "terminale-hg-histoire-totalitarismes",
+          "title": "Fragilités des démocraties, totalitarismes et Seconde Guerre mondiale (1929-1945)",
+          "theme": "Histoire",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5799/programmes-et-ressources-en-histoire-geographie-voie-gt"
+        },
+        {
+          "id": "terminale-hg-histoire-guerre-froide",
+          "title": "Le monde de 1945 à nos jours",
+          "theme": "Histoire",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5799/programmes-et-ressources-en-histoire-geographie-voie-gt"
+        },
+        {
+          "id": "terminale-hg-histoire-france",
+          "title": "La France de 1945 à nos jours : une démocratie",
+          "theme": "Histoire",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5799/programmes-et-ressources-en-histoire-geographie-voie-gt"
+        },
+        {
+          "id": "terminale-hg-histoire-monde",
+          "title": "L’histoire et ses mémoires",
+          "theme": "Histoire",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5799/programmes-et-ressources-en-histoire-geographie-voie-gt"
+        },
+        {
+          "id": "terminale-hg-geo-mers",
+          "title": "Mers et océans : au cœur de la mondialisation",
+          "theme": "Géographie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5799/programmes-et-ressources-en-histoire-geographie-voie-gt"
+        },
+        {
+          "id": "terminale-hg-geo-territoires",
+          "title": "Dynamiques territoriales, coopérations et tensions dans la mondialisation",
+          "theme": "Géographie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5799/programmes-et-ressources-en-histoire-geographie-voie-gt"
+        },
+        {
+          "id": "terminale-hg-geo-union",
+          "title": "L’Union européenne dans la mondialisation",
+          "theme": "Géographie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5799/programmes-et-ressources-en-histoire-geographie-voie-gt"
+        },
+        {
+          "id": "terminale-hg-geo-france",
+          "title": "La France et ses régions dans l’Union européenne et dans la mondialisation",
+          "theme": "Géographie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5799/programmes-et-ressources-en-histoire-geographie-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "langues-vivantes",
+      "title": "Langues vivantes A et B",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "terminale-lv-axe-1",
+          "title": "Axe 1 — Espace privé et espace public",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "terminale-lv-axe-2",
+          "title": "Axe 2 — Territoire et mémoire",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "terminale-lv-axe-3",
+          "title": "Axe 3 — Fictions et réalités",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "terminale-lv-axe-4",
+          "title": "Axe 4 — Enjeux et formes de la communication",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "terminale-lv-axe-5",
+          "title": "Axe 5 — Citoyenneté et mondes virtuels",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "terminale-lv-axe-6",
+          "title": "Axe 6 — Focale sur une aire culturelle",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "enseignement-scientifique",
+      "title": "Enseignement scientifique",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "terminale-es-climat",
+          "title": "Science, climat et société",
+          "theme": "Climat",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5790/programmes-et-ressources-en-enseignement-scientifique-voie-g"
+        },
+        {
+          "id": "terminale-es-energies",
+          "title": "Le futur des énergies",
+          "theme": "Énergie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5790/programmes-et-ressources-en-enseignement-scientifique-voie-g"
+        },
+        {
+          "id": "terminale-es-vivant",
+          "title": "Une histoire du vivant",
+          "theme": "Vivant",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5790/programmes-et-ressources-en-enseignement-scientifique-voie-g"
+        },
+        {
+          "id": "terminale-es-son",
+          "title": "Son et musique, porteurs d’information",
+          "theme": "Ondes et signaux",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5790/programmes-et-ressources-en-enseignement-scientifique-voie-g"
+        }
+      ]
+    },
+    {
+      "id": "emc",
+      "title": "Enseignement moral et civique",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "terminale-emc-democratie",
+          "title": "La démocratie, les démocraties",
+          "theme": "Démocratie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5787/programmes-et-ressources-en-enseignement-moral-et-civique-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "eps",
+      "title": "Éducation physique et sportive",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "terminale-eps-performance",
+          "title": "Performance motrice",
+          "theme": "Champs d’apprentissage",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5784/programmes-et-ressources-en-education-physique-et-sportive-eps-voie-gt"
+        },
+        {
+          "id": "terminale-eps-adaptation",
+          "title": "Déplacements en environnement varié",
+          "theme": "Champs d’apprentissage",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5784/programmes-et-ressources-en-education-physique-et-sportive-eps-voie-gt"
+        },
+        {
+          "id": "terminale-eps-artistique",
+          "title": "Prestation corporelle artistique",
+          "theme": "Champs d’apprentissage",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5784/programmes-et-ressources-en-education-physique-et-sportive-eps-voie-gt"
+        },
+        {
+          "id": "terminale-eps-conduite",
+          "title": "Affrontement collectif ou individuel",
+          "theme": "Champs d’apprentissage",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5784/programmes-et-ressources-en-education-physique-et-sportive-eps-voie-gt"
+        },
+        {
+          "id": "terminale-eps-entretien",
+          "title": "Activité physique et entretien de soi",
+          "theme": "Champs d’apprentissage",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5784/programmes-et-ressources-en-education-physique-et-sportive-eps-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "maths-spe",
+      "title": "Spécialité Mathématiques",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "terminale-maths-combinatoire",
+          "title": "Combinatoire et dénombrement",
+          "theme": "Algèbre et géométrie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "terminale-maths-vecteurs-espace",
+          "title": "Vecteurs, droites et plans de l’espace",
+          "theme": "Algèbre et géométrie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "terminale-maths-logique",
+          "title": "Vocabulaire ensembliste et logique",
+          "theme": "Transversal",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "terminale-maths-algo",
+          "title": "Algorithmique et programmation",
+          "theme": "Transversal",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "terminale-maths-orthogonalite",
+          "title": "Orthogonalité et distances dans l’espace",
+          "theme": "Algèbre et géométrie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "terminale-maths-representations",
+          "title": "Représentations paramétriques et équations cartésiennes",
+          "theme": "Algèbre et géométrie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "terminale-maths-suites",
+          "title": "Suites et limites",
+          "theme": "Analyse",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "terminale-maths-limites",
+          "title": "Limites des fonctions",
+          "theme": "Analyse",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "terminale-maths-derivee",
+          "title": "Compléments sur la dérivation et continuité",
+          "theme": "Analyse",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "terminale-maths-logarithme",
+          "title": "Fonction logarithme",
+          "theme": "Analyse",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "terminale-maths-trigonometrie",
+          "title": "Fonctions sinus et cosinus",
+          "theme": "Analyse",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "terminale-maths-equations-diff",
+          "title": "Primitives et équations différentielles",
+          "theme": "Analyse",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "terminale-maths-integral",
+          "title": "Calcul intégral",
+          "theme": "Analyse",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "terminale-maths-bernoulli",
+          "title": "Épreuves indépendantes et schéma de Bernoulli",
+          "theme": "Probabilités",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "terminale-maths-sommes",
+          "title": "Sommes de variables aléatoires",
+          "theme": "Probabilités",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "terminale-maths-grands-nombres",
+          "title": "Concentration et loi des grands nombres",
+          "theme": "Probabilités",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "physique-chimie-spe",
+      "title": "Spécialité Physique-chimie",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "terminale-pc-suivi",
+          "title": "Modélisation de l’évolution temporelle d’un système chimique",
+          "theme": "Constitution et transformations de la matière",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5829/programmes-et-ressources-en-physique-chimie-voie-gt"
+        },
+        {
+          "id": "terminale-pc-equilibre",
+          "title": "Équilibres chimiques et transformations",
+          "theme": "Constitution et transformations de la matière",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5829/programmes-et-ressources-en-physique-chimie-voie-gt"
+        },
+        {
+          "id": "terminale-pc-acides",
+          "title": "Acides, bases et pH",
+          "theme": "Constitution et transformations de la matière",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5829/programmes-et-ressources-en-physique-chimie-voie-gt"
+        },
+        {
+          "id": "terminale-pc-mouvement",
+          "title": "Mouvement et interactions",
+          "theme": "Mécanique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5829/programmes-et-ressources-en-physique-chimie-voie-gt"
+        },
+        {
+          "id": "terminale-pc-energie",
+          "title": "Énergie : conversions et transferts",
+          "theme": "Énergie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5829/programmes-et-ressources-en-physique-chimie-voie-gt"
+        },
+        {
+          "id": "terminale-pc-ondes",
+          "title": "Ondes et signaux",
+          "theme": "Ondes et signaux",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5829/programmes-et-ressources-en-physique-chimie-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "svt-spe",
+      "title": "Spécialité Sciences de la vie et de la Terre",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "terminale-svt-meiose",
+          "title": "Génétique et évolution",
+          "theme": "La Terre, la vie et l’organisation du vivant",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5835/programmes-et-ressources-en-sciences-de-la-vie-et-de-la-terre-voie-gt"
+        },
+        {
+          "id": "terminale-svt-geologie",
+          "title": "À la recherche du passé géologique de notre planète",
+          "theme": "La Terre, la vie et l’organisation du vivant",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5835/programmes-et-ressources-en-sciences-de-la-vie-et-de-la-terre-voie-gt"
+        },
+        {
+          "id": "terminale-svt-ecosystemes",
+          "title": "Écosystèmes et services environnementaux",
+          "theme": "Les enjeux contemporains de la planète",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5835/programmes-et-ressources-en-sciences-de-la-vie-et-de-la-terre-voie-gt"
+        },
+        {
+          "id": "terminale-svt-climat",
+          "title": "Climat et changements climatiques",
+          "theme": "Les enjeux contemporains de la planète",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5835/programmes-et-ressources-en-sciences-de-la-vie-et-de-la-terre-voie-gt"
+        },
+        {
+          "id": "terminale-svt-immunite",
+          "title": "L’immunité et la santé",
+          "theme": "Le corps humain et la santé",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5835/programmes-et-ressources-en-sciences-de-la-vie-et-de-la-terre-voie-gt"
+        },
+        {
+          "id": "terminale-svt-systeme-nerveux",
+          "title": "Comportements, mouvement et système nerveux",
+          "theme": "Le corps humain et la santé",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5835/programmes-et-ressources-en-sciences-de-la-vie-et-de-la-terre-voie-gt"
+        },
+        {
+          "id": "terminale-svt-reproduction",
+          "title": "Corps humain et reproduction",
+          "theme": "Le corps humain et la santé",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5835/programmes-et-ressources-en-sciences-de-la-vie-et-de-la-terre-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "nsi-spe",
+      "title": "Spécialité Numérique et sciences informatiques",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "terminale-nsi-structures",
+          "title": "Structures de données",
+          "theme": "Structures de données",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5823/programmes-et-ressources-en-numerique-et-sciences-informatiques-voie-g"
+        },
+        {
+          "id": "terminale-nsi-bases",
+          "title": "Bases de données",
+          "theme": "Bases de données",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5823/programmes-et-ressources-en-numerique-et-sciences-informatiques-voie-g"
+        },
+        {
+          "id": "terminale-nsi-architecture",
+          "title": "Architectures matérielles, systèmes d’exploitation et réseaux",
+          "theme": "Architecture",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5823/programmes-et-ressources-en-numerique-et-sciences-informatiques-voie-g"
+        },
+        {
+          "id": "terminale-nsi-langages",
+          "title": "Langages et programmation",
+          "theme": "Programmation",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5823/programmes-et-ressources-en-numerique-et-sciences-informatiques-voie-g"
+        },
+        {
+          "id": "terminale-nsi-algorithmique",
+          "title": "Algorithmique",
+          "theme": "Algorithmique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5823/programmes-et-ressources-en-numerique-et-sciences-informatiques-voie-g"
+        }
+      ]
+    },
+    {
+      "id": "ses-spe",
+      "title": "Spécialité Sciences économiques et sociales",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "terminale-ses-croissance",
+          "title": "Quelles sont les sources et les défis de la croissance économique ?",
+          "theme": "Science économique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5838/programmes-et-ressources-en-sciences-economiques-et-sociales-voie-gt"
+        },
+        {
+          "id": "terminale-ses-commerce",
+          "title": "Quels sont les enjeux du commerce international ?",
+          "theme": "Science économique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5838/programmes-et-ressources-en-sciences-economiques-et-sociales-voie-gt"
+        },
+        {
+          "id": "terminale-ses-chomage",
+          "title": "Comment lutter contre le chômage ?",
+          "theme": "Science économique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5838/programmes-et-ressources-en-sciences-economiques-et-sociales-voie-gt"
+        },
+        {
+          "id": "terminale-ses-crises",
+          "title": "Comment expliquer les crises financières et réguler le système financier ?",
+          "theme": "Science économique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5838/programmes-et-ressources-en-sciences-economiques-et-sociales-voie-gt"
+        },
+        {
+          "id": "terminale-ses-politiques",
+          "title": "Quelles politiques économiques dans le cadre européen ?",
+          "theme": "Science économique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5838/programmes-et-ressources-en-sciences-economiques-et-sociales-voie-gt"
+        },
+        {
+          "id": "terminale-ses-structure",
+          "title": "Comment est structurée la société française actuelle ?",
+          "theme": "Sociologie et science politique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5838/programmes-et-ressources-en-sciences-economiques-et-sociales-voie-gt"
+        },
+        {
+          "id": "terminale-ses-ecole",
+          "title": "Quelle est l’action de l’École sur les destins individuels et la société ?",
+          "theme": "Sociologie et science politique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5838/programmes-et-ressources-en-sciences-economiques-et-sociales-voie-gt"
+        },
+        {
+          "id": "terminale-ses-mobilite",
+          "title": "Quels sont les facteurs de la mobilité sociale ?",
+          "theme": "Sociologie et science politique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5838/programmes-et-ressources-en-sciences-economiques-et-sociales-voie-gt"
+        },
+        {
+          "id": "terminale-ses-travail",
+          "title": "Quelles mutations du travail et de l’emploi ?",
+          "theme": "Sociologie et science politique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5838/programmes-et-ressources-en-sciences-economiques-et-sociales-voie-gt"
+        },
+        {
+          "id": "terminale-ses-engagement",
+          "title": "Comment expliquer l’engagement politique ?",
+          "theme": "Sociologie et science politique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5838/programmes-et-ressources-en-sciences-economiques-et-sociales-voie-gt"
+        },
+        {
+          "id": "terminale-ses-justice",
+          "title": "Quelles inégalités sont compatibles avec la justice sociale ?",
+          "theme": "Regards croisés",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5838/programmes-et-ressources-en-sciences-economiques-et-sociales-voie-gt"
+        },
+        {
+          "id": "terminale-ses-environnement",
+          "title": "Quelle action publique pour l’environnement ?",
+          "theme": "Regards croisés",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5838/programmes-et-ressources-en-sciences-economiques-et-sociales-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "hggsp-spe",
+      "title": "Spécialité Histoire-géographie, géopolitique et sciences politiques",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "terminale-hggsp-conquete",
+          "title": "De nouveaux espaces de conquête",
+          "theme": "Conquête",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5802/programmes-et-ressources-en-histoire-geographie-geopolitique-et-sciences-politiques-voie-g"
+        },
+        {
+          "id": "terminale-hggsp-guerre",
+          "title": "Faire la guerre, faire la paix : formes de conflits et modes de résolution",
+          "theme": "Guerre et paix",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5802/programmes-et-ressources-en-histoire-geographie-geopolitique-et-sciences-politiques-voie-g"
+        },
+        {
+          "id": "terminale-hggsp-memoires",
+          "title": "Histoire et mémoires",
+          "theme": "Histoire et mémoire",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5802/programmes-et-ressources-en-histoire-geographie-geopolitique-et-sciences-politiques-voie-g"
+        },
+        {
+          "id": "terminale-hggsp-patrimoine",
+          "title": "Identifier, protéger et valoriser le patrimoine : enjeux géopolitiques",
+          "theme": "Patrimoine",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5802/programmes-et-ressources-en-histoire-geographie-geopolitique-et-sciences-politiques-voie-g"
+        },
+        {
+          "id": "terminale-hggsp-environnement",
+          "title": "L’environnement, entre exploitation et protection : un enjeu planétaire",
+          "theme": "Environnement",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5802/programmes-et-ressources-en-histoire-geographie-geopolitique-et-sciences-politiques-voie-g"
+        },
+        {
+          "id": "terminale-hggsp-connaissance",
+          "title": "L’enjeu de la connaissance",
+          "theme": "Connaissance",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5802/programmes-et-ressources-en-histoire-geographie-geopolitique-et-sciences-politiques-voie-g"
+        }
+      ]
+    },
+    {
+      "id": "hlp-spe",
+      "title": "Spécialité Humanités, littérature et philosophie",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "terminale-hlp-education",
+          "title": "L’éducation, la transmission et l’émancipation",
+          "theme": "La recherche de soi",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5805/programmes-et-ressources-en-humanites-litterature-et-philosophie-voie-g"
+        },
+        {
+          "id": "terminale-hlp-sensibilite",
+          "title": "Les expressions de la sensibilité",
+          "theme": "La recherche de soi",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5805/programmes-et-ressources-en-humanites-litterature-et-philosophie-voie-g"
+        },
+        {
+          "id": "terminale-hlp-metamorphoses",
+          "title": "Les métamorphoses du moi",
+          "theme": "La recherche de soi",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5805/programmes-et-ressources-en-humanites-litterature-et-philosophie-voie-g"
+        },
+        {
+          "id": "terminale-hlp-creation",
+          "title": "Création, continuités et ruptures",
+          "theme": "L’humanité en question",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5805/programmes-et-ressources-en-humanites-litterature-et-philosophie-voie-g"
+        },
+        {
+          "id": "terminale-hlp-histoire-violence",
+          "title": "Histoire et violence",
+          "theme": "L’humanité en question",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5805/programmes-et-ressources-en-humanites-litterature-et-philosophie-voie-g"
+        },
+        {
+          "id": "terminale-hlp-limites",
+          "title": "L’humain et ses limites",
+          "theme": "L’humanité en question",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5805/programmes-et-ressources-en-humanites-litterature-et-philosophie-voie-g"
+        }
+      ]
+    },
+    {
+      "id": "llcer-spe",
+      "title": "Spécialité LLCER (programme selon la langue)",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "terminale-llcer-thematique-1",
+          "title": "Thématique 1 et ses axes propres à la langue étudiée",
+          "theme": "Programme littéraire et culturel",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5814/programmes-et-ressources-en-langues-litteratures-et-cultures-etrangeres-et-regionales-voie-g"
+        },
+        {
+          "id": "terminale-llcer-thematique-2",
+          "title": "Thématique 2 et ses axes propres à la langue étudiée",
+          "theme": "Programme littéraire et culturel",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5814/programmes-et-ressources-en-langues-litteratures-et-cultures-etrangeres-et-regionales-voie-g"
+        },
+        {
+          "id": "terminale-llcer-thematique-3",
+          "title": "Thématique 3 et ses axes propres à la langue étudiée",
+          "theme": "Programme littéraire et culturel",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5814/programmes-et-ressources-en-langues-litteratures-et-cultures-etrangeres-et-regionales-voie-g"
+        },
+        {
+          "id": "terminale-llcer-oeuvres",
+          "title": "Œuvres intégrales et parcours propres à la langue étudiée",
+          "theme": "Programme littéraire et culturel",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5814/programmes-et-ressources-en-langues-litteratures-et-cultures-etrangeres-et-regionales-voie-g"
+        }
+      ]
+    },
+    {
+      "id": "llcer-amc-spe",
+      "title": "Spécialité LLCER : anglais, monde contemporain",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "terminale-amc-societe",
+          "title": "Faire société",
+          "theme": "Thématiques",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5814/programmes-et-ressources-en-langues-litteratures-et-cultures-etrangeres-et-regionales-voie-g"
+        },
+        {
+          "id": "terminale-amc-environnements",
+          "title": "Environnements en mutation",
+          "theme": "Thématiques",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5814/programmes-et-ressources-en-langues-litteratures-et-cultures-etrangeres-et-regionales-voie-g"
+        },
+        {
+          "id": "terminale-amc-relation-monde",
+          "title": "Relation au monde",
+          "theme": "Thématiques",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5814/programmes-et-ressources-en-langues-litteratures-et-cultures-etrangeres-et-regionales-voie-g"
+        }
+      ]
+    },
+    {
+      "id": "llca-spe",
+      "title": "Spécialité Littérature et langues et cultures de l’Antiquité",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "terminale-llca-sagesse",
+          "title": "Leçons de sagesse antique",
+          "theme": "Objets d’étude",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5808/programmes-et-ressources-en-langues-et-cultures-de-l-antiquite-voie-gt"
+        },
+        {
+          "id": "terminale-llca-mediterranee",
+          "title": "Méditerranée : présence des mondes anciens",
+          "theme": "Objets d’étude",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5808/programmes-et-ressources-en-langues-et-cultures-de-l-antiquite-voie-gt"
+        },
+        {
+          "id": "terminale-llca-oeuvres",
+          "title": "Étude croisée de deux œuvres intégrales",
+          "theme": "Œuvres au programme",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5808/programmes-et-ressources-en-langues-et-cultures-de-l-antiquite-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "si-spe",
+      "title": "Spécialité Sciences de l’ingénieur",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "terminale-si-creer",
+          "title": "Créer des produits innovants",
+          "theme": "Démarche d’ingénierie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5832/programmes-et-ressources-en-sciences-de-l-ingenieur-voie-gt"
+        },
+        {
+          "id": "terminale-si-analyser",
+          "title": "Analyser les produits existants",
+          "theme": "Démarche d’ingénierie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5832/programmes-et-ressources-en-sciences-de-l-ingenieur-voie-gt"
+        },
+        {
+          "id": "terminale-si-modeliser",
+          "title": "Modéliser les produits et prévoir leurs performances",
+          "theme": "Démarche d’ingénierie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5832/programmes-et-ressources-en-sciences-de-l-ingenieur-voie-gt"
+        },
+        {
+          "id": "terminale-si-valider",
+          "title": "Valider les performances par expérimentation et simulation",
+          "theme": "Démarche d’ingénierie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5832/programmes-et-ressources-en-sciences-de-l-ingenieur-voie-gt"
+        },
+        {
+          "id": "terminale-si-projet",
+          "title": "Projet d’ingénierie et communication",
+          "theme": "Démarche d’ingénierie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5832/programmes-et-ressources-en-sciences-de-l-ingenieur-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "eppcs-spe",
+      "title": "Spécialité Éducation physique, pratiques et culture sportives",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "terminale-eppcs-pratiquer",
+          "title": "Pratiques physiques, sportives et artistiques",
+          "theme": "Pratique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5784/programmes-et-ressources-en-education-physique-et-sportive-eps-voie-gt"
+        },
+        {
+          "id": "terminale-eppcs-culture",
+          "title": "Approfondissement des connaissances sur les activités physiques et sportives",
+          "theme": "Culture",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5784/programmes-et-ressources-en-education-physique-et-sportive-eps-voie-gt"
+        },
+        {
+          "id": "terminale-eppcs-enjeux",
+          "title": "Enjeux liés à la pratique sportive dans le monde contemporain",
+          "theme": "Enjeux contemporains",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5784/programmes-et-ressources-en-education-physique-et-sportive-eps-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "arts-spe",
+      "title": "Spécialité Arts (discipline proposée par le lycée)",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "terminale-arts-pratique",
+          "title": "Pratiques artistiques dans la discipline choisie",
+          "theme": "Pratique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/4368/enseigner-au-lycee-generaltechnologique"
+        },
+        {
+          "id": "terminale-arts-culture",
+          "title": "Culture et analyse des œuvres dans la discipline choisie",
+          "theme": "Culture",
+          "sourceUrl": "https://eduscol.education.gouv.fr/4368/enseigner-au-lycee-generaltechnologique"
+        }
+      ]
+    },
+    {
+      "id": "bio-eco-spe",
+      "title": "Spécialité Biologie-écologie (lycées agricoles)",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "terminale-bio-environnement",
+          "title": "Enjeux environnementaux contemporains",
+          "theme": "Environnement",
+          "sourceUrl": "https://chlorofil.fr/fileadmin/user_upload/02-diplomes/referentiels/secondaire/bac-general/bac-general-prog-bio-eco.pdf"
+        },
+        {
+          "id": "terminale-bio-sante",
+          "title": "Enjeux de santé contemporains",
+          "theme": "Santé",
+          "sourceUrl": "https://chlorofil.fr/fileadmin/user_upload/02-diplomes/referentiels/secondaire/bac-general/bac-general-prog-bio-eco.pdf"
+        }
+      ]
+    },
+    {
+      "id": "option-latin",
+      "title": "Langues et cultures de l’Antiquité : latin",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "terminale-latin-sagesse",
+          "title": "Leçons de sagesse antique",
+          "theme": "Objets d’étude",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5808/programmes-et-ressources-en-langues-et-cultures-de-l-antiquite-voie-gt"
+        },
+        {
+          "id": "terminale-latin-mediterranee",
+          "title": "Méditerranée : présence des mondes anciens",
+          "theme": "Objets d’étude",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5808/programmes-et-ressources-en-langues-et-cultures-de-l-antiquite-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-grec",
+      "title": "Langues et cultures de l’Antiquité : grec",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "terminale-grec-sagesse",
+          "title": "Leçons de sagesse antique",
+          "theme": "Objets d’étude",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5808/programmes-et-ressources-en-langues-et-cultures-de-l-antiquite-voie-gt"
+        },
+        {
+          "id": "terminale-grec-mediterranee",
+          "title": "Méditerranée : présence des mondes anciens",
+          "theme": "Objets d’étude",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5808/programmes-et-ressources-en-langues-et-cultures-de-l-antiquite-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-lvc",
+      "title": "Langue vivante C",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "terminale-lvc-axe-1",
+          "title": "Axe 1 — Espace privé et espace public",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "terminale-lvc-axe-2",
+          "title": "Axe 2 — Territoire et mémoire",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "terminale-lvc-axe-3",
+          "title": "Axe 3 — Fictions et réalités",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "terminale-lvc-axe-4",
+          "title": "Axe 4 — Enjeux et formes de la communication",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "terminale-lvc-axe-5",
+          "title": "Axe 5 — Citoyenneté et mondes virtuels",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "terminale-lvc-axe-6",
+          "title": "Axe 6 — Focale sur une aire culturelle",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-lsf",
+      "title": "Langue des signes française",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "terminale-lsf-communication",
+          "title": "Comprendre et communiquer en LSF",
+          "theme": "Langue et culture",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-eps",
+      "title": "Éducation physique et sportive optionnelle",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "terminale-eps-option-pratique",
+          "title": "Pratiques physiques et sportives",
+          "theme": "Pratique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5784/programmes-et-ressources-en-education-physique-et-sportive-eps-voie-gt"
+        },
+        {
+          "id": "terminale-eps-option-culture",
+          "title": "Culture sportive et santé",
+          "theme": "Culture",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5784/programmes-et-ressources-en-education-physique-et-sportive-eps-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "maths-complementaires",
+      "title": "Mathématiques complémentaires",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "terminale-mc-analyse",
+          "title": "Analyse et modèles d’évolution",
+          "theme": "Analyse",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "terminale-mc-probabilites",
+          "title": "Probabilités et statistique",
+          "theme": "Probabilités et statistiques",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "terminale-mc-algorithmique",
+          "title": "Algorithmique et programmation",
+          "theme": "Algorithmique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "maths-expertes",
+      "title": "Mathématiques expertes",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "terminale-me-arithmetique",
+          "title": "Arithmétique",
+          "theme": "Arithmétique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "terminale-me-complexes",
+          "title": "Nombres complexes",
+          "theme": "Complexes",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "terminale-me-matrices",
+          "title": "Matrices et graphes",
+          "theme": "Algèbre",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "dgemc",
+      "title": "Droit et grands enjeux du monde contemporain",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "terminale-dgemc-quest-ce-droit",
+          "title": "Qu’est-ce que le droit ?",
+          "theme": "Notions fondamentales",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5781/programmes-et-ressources-en-droit-et-grands-enjeux-du-monde-contemporain-voie-gt"
+        },
+        {
+          "id": "terminale-dgemc-sources-droit",
+          "title": "Les sources du droit",
+          "theme": "Notions fondamentales",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5781/programmes-et-ressources-en-droit-et-grands-enjeux-du-monde-contemporain-voie-gt"
+        },
+        {
+          "id": "terminale-dgemc-organisation-judiciaire",
+          "title": "L’organisation judiciaire en France",
+          "theme": "Justice",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5781/programmes-et-ressources-en-droit-et-grands-enjeux-du-monde-contemporain-voie-gt"
+        },
+        {
+          "id": "terminale-dgemc-relations-internationales",
+          "title": "Relations internationales et droit",
+          "theme": "Droit international",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5781/programmes-et-ressources-en-droit-et-grands-enjeux-du-monde-contemporain-voie-gt"
+        },
+        {
+          "id": "terminale-dgemc-sujets-droit",
+          "title": "Les sujets de droit",
+          "theme": "Personnes",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5781/programmes-et-ressources-en-droit-et-grands-enjeux-du-monde-contemporain-voie-gt"
+        },
+        {
+          "id": "terminale-dgemc-liberte-egalite-fraternite",
+          "title": "Liberté, égalité, fraternité",
+          "theme": "Droits et libertés",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5781/programmes-et-ressources-en-droit-et-grands-enjeux-du-monde-contemporain-voie-gt"
+        },
+        {
+          "id": "terminale-dgemc-personne-famille",
+          "title": "Personne et famille",
+          "theme": "Personnes",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5781/programmes-et-ressources-en-droit-et-grands-enjeux-du-monde-contemporain-voie-gt"
+        },
+        {
+          "id": "terminale-dgemc-entreprise",
+          "title": "L’entreprise et le droit",
+          "theme": "Activité économique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5781/programmes-et-ressources-en-droit-et-grands-enjeux-du-monde-contemporain-voie-gt"
+        },
+        {
+          "id": "terminale-dgemc-numerique",
+          "title": "Création et technologies numériques",
+          "theme": "Droit et numérique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5781/programmes-et-ressources-en-droit-et-grands-enjeux-du-monde-contemporain-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-hippologie",
+      "title": "Hippologie et équitation (lycées agricoles)",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "terminale-option-hippologie",
+          "title": "Hippologie et équitation",
+          "theme": "Enseignement agricole",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5418/cycle-terminal-de-la-voie-generale"
+        }
+      ]
+    },
+    {
+      "id": "option-agronomie-economie-territoires",
+      "title": "Agronomie, économie et territoires (lycées agricoles)",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "terminale-option-agronomie",
+          "title": "Agronomie, économie et territoires",
+          "theme": "Enseignement agricole",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5418/cycle-terminal-de-la-voie-generale"
+        }
+      ]
+    },
+    {
+      "id": "option-pratiques-sociales",
+      "title": "Pratiques sociales et culturelles (lycées agricoles)",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "terminale-option-pratiques-sociales",
+          "title": "Pratiques sociales et culturelles",
+          "theme": "Enseignement agricole",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5418/cycle-terminal-de-la-voie-generale"
+        }
+      ]
+    },
+    {
+      "id": "option-arts-plastiques",
+      "title": "Arts plastiques",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "terminale-option-arts-plastiques",
+          "title": "Pratique plastique et culture artistique",
+          "theme": "Arts plastiques",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5772/programmes-et-ressources-en-arts-plastiques-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-cinema",
+      "title": "Cinéma-audiovisuel",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "terminale-option-cinema",
+          "title": "Pratique et culture cinématographiques",
+          "theme": "Cinéma-audiovisuel",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5775/programmes-et-ressources-en-cinema-audiovisuel-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-danse",
+      "title": "Danse",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "terminale-option-danse",
+          "title": "Pratique chorégraphique et culture de la danse",
+          "theme": "Danse",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5778/programmes-et-ressources-en-danse-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-histoire-arts",
+      "title": "Histoire des arts",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "terminale-option-histoire-arts",
+          "title": "Œuvres, formes et contextes artistiques",
+          "theme": "Histoire des arts",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5796/programmes-et-ressources-en-histoire-des-arts-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-musique",
+      "title": "Musique",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "terminale-option-musique",
+          "title": "Pratique musicale et culture",
+          "theme": "Musique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5820/programmes-et-ressources-en-musique-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-theatre",
+      "title": "Théâtre",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "terminale-option-theatre",
+          "title": "Pratique théâtrale et culture dramatique",
+          "theme": "Théâtre",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5865/programmes-et-ressources-en-theatre-voie-gt"
+        }
+      ]
+    }
+  ]
+}

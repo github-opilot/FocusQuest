@@ -1,0 +1,487 @@
+{
+  "gradeId": "6e",
+  "programYear": "2026-2027",
+  "track": "college",
+  "subjects": [
+    {
+      "id": "francais",
+      "title": "Français",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "6e-francais-recits-origines",
+          "title": "Récits des origines",
+          "theme": "Culture littéraire et artistique",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-francais-poesie",
+          "title": "Poésie : chanter et enchanter",
+          "theme": "Culture littéraire et artistique",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-francais-aventure",
+          "title": "Partir à l’aventure",
+          "theme": "Culture littéraire et artistique",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-francais-theatre-ruses",
+          "title": "Théâtre : jouer et déjouer",
+          "theme": "Culture littéraire et artistique",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-francais-monstres",
+          "title": "Rencontrer des monstres",
+          "theme": "Culture littéraire et artistique",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-francais-lecture",
+          "title": "Lire, comprendre et interpréter",
+          "theme": "Lecture",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-francais-oral",
+          "title": "Écouter et prendre la parole",
+          "theme": "Oral",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-francais-ecriture",
+          "title": "Écrire et organiser ses idées",
+          "theme": "Écriture",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-francais-vocabulaire",
+          "title": "Enrichir son vocabulaire",
+          "theme": "Vocabulaire",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-francais-grammaire",
+          "title": "La phrase et ses constituants",
+          "theme": "Grammaire et orthographe grammaticale",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-francais-conjugaison-orthographe",
+          "title": "Conjugaison et accords",
+          "theme": "Grammaire et orthographe grammaticale",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "maths",
+      "title": "Mathématiques",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "6e-maths-nombres",
+          "title": "Nombres entiers et décimaux",
+          "theme": "Nombres, calculs et résolution de problèmes",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-maths-fractions",
+          "title": "Fractions : représenter et comparer",
+          "theme": "Nombres, calculs et résolution de problèmes",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-maths-operations",
+          "title": "Opérations et priorités de calcul",
+          "theme": "Nombres, calculs et résolution de problèmes",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-maths-divisibilite",
+          "title": "Multiples et divisibilité",
+          "theme": "Nombres, calculs et résolution de problèmes",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-maths-proportionnalite",
+          "title": "Proportionnalité",
+          "theme": "La proportionnalité",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-maths-donnees",
+          "title": "Tableaux, graphiques et données",
+          "theme": "Organisation et gestion de données et probabilités",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-maths-probabilites",
+          "title": "Premières probabilités",
+          "theme": "Organisation et gestion de données et probabilités",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-maths-mesures",
+          "title": "Grandeurs et conversions",
+          "theme": "Grandeurs et mesures",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-maths-perimetres-aires",
+          "title": "Périmètres et aires",
+          "theme": "Grandeurs et mesures",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-maths-angles",
+          "title": "Angles et mesures",
+          "theme": "Espace et géométrie",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-maths-geometrie",
+          "title": "Points, droites et figures",
+          "theme": "Espace et géométrie",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-maths-symetrie",
+          "title": "Symétrie axiale",
+          "theme": "Espace et géométrie",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-maths-solides",
+          "title": "Solides, patrons et volumes",
+          "theme": "Espace et géométrie",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-maths-pensee-informatique",
+          "title": "Premiers algorithmes",
+          "theme": "Initiation à la pensée informatique",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "histoire",
+      "title": "Histoire",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "6e-histoire-humanite-migrations",
+          "title": "Les premiers humains et les migrations",
+          "theme": "La longue histoire de l’humanité et des migrations",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-histoire-neolithique",
+          "title": "La révolution néolithique",
+          "theme": "La longue histoire de l’humanité et des migrations",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-histoire-premiers-etats",
+          "title": "Premiers États et premières écritures",
+          "theme": "La longue histoire de l’humanité et des migrations",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-histoire-mediterranee",
+          "title": "Récits, croyances et citoyenneté antiques",
+          "theme": "Méditerranée antique au Ier millénaire avant J.-C.",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-histoire-grece",
+          "title": "Le monde grec",
+          "theme": "Récits, croyances et citoyenneté dans la Méditerranée antique",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-histoire-rome-conquete",
+          "title": "Rome : conquêtes et romanisation",
+          "theme": "L’empire romain dans le monde antique",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-histoire-empire-romain",
+          "title": "L’empire romain et ses habitants",
+          "theme": "L’empire romain dans le monde antique",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "geographie",
+      "title": "Géographie",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "6e-geographie-metropole",
+          "title": "Habiter une métropole",
+          "theme": "Habiter une métropole",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-geographie-faible-densite",
+          "title": "Habiter un espace de faible densité",
+          "theme": "Habiter un espace de faible densité",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-geographie-littoraux",
+          "title": "Habiter les littoraux",
+          "theme": "Habiter les littoraux",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-geographie-monde-habite",
+          "title": "Le monde habité",
+          "theme": "Le monde habité",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "emc",
+      "title": "Enseignement moral et civique",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "6e-emc-representants",
+          "title": "Élire et représenter",
+          "theme": "Apprendre à vivre dans une société démocratique",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-emc-regles-laicite",
+          "title": "Règles communes et laïcité",
+          "theme": "Apprendre à vivre dans une société démocratique",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-emc-vie-privee",
+          "title": "Dignité et vie privée",
+          "theme": "Liberté de conscience et respect de la personne",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-emc-participer",
+          "title": "Participer à la vie collective",
+          "theme": "Engagement et responsabilité",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "langues-vivantes",
+      "title": "Langue vivante (langue choisie selon le collège)",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "6e-langues-vivantes-personnes",
+          "title": "Personnes et personnages",
+          "theme": "Repères culturels de 6e",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-langues-vivantes-quotidien",
+          "title": "Le quotidien : vivre, jouer, apprendre",
+          "theme": "Repères culturels de 6e",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-langues-vivantes-pays-paysages",
+          "title": "Pays et paysages",
+          "theme": "Repères culturels de 6e",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-langues-vivantes-imaginaire",
+          "title": "Imaginaire, contes et légendes",
+          "theme": "Repères culturels de 6e",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-langues-vivantes-arts-sentiments",
+          "title": "Arts et expression des sentiments",
+          "theme": "Repères culturels de 6e",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-langues-vivantes-competences-langagieres",
+          "title": "Écouter, parler, lire et écrire",
+          "theme": "Activités langagières",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "sciences-technologie",
+      "title": "Sciences et technologie",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "6e-sciences-technologie-matiere-energie",
+          "title": "Matière, énergie et information",
+          "theme": "Matière, mouvement, énergie, information",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-sciences-technologie-vivant",
+          "title": "Le vivant et sa diversité",
+          "theme": "Le vivant, sa diversité et ses fonctions",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-sciences-technologie-objets-techniques",
+          "title": "Objets techniques et usages",
+          "theme": "Les objets techniques au cœur de la société",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-sciences-technologie-terre-habitee",
+          "title": "La Terre, une planète vivante",
+          "theme": "La Terre, une planète peuplée par des êtres vivants",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "arts-plastiques",
+      "title": "Arts plastiques",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "6e-arts-plastiques-representation",
+          "title": "Représenter et présenter",
+          "theme": "Représentation plastique et dispositifs de présentation",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-arts-plastiques-fabrication-espace",
+          "title": "Fabriquer et organiser l’espace",
+          "theme": "Fabrications et relation entre l’objet et l’espace",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-arts-plastiques-materiaux",
+          "title": "Matériaux et sensibilité",
+          "theme": "Matérialité de la production plastique",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "education-musicale",
+      "title": "Éducation musicale",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "6e-education-musicale-chanter",
+          "title": "Chanter et interpréter",
+          "theme": "Production",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-education-musicale-ecouter",
+          "title": "Écouter, comparer et commenter",
+          "theme": "Perception",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-education-musicale-creer",
+          "title": "Explorer et créer",
+          "theme": "Production et perception",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-education-musicale-echanger",
+          "title": "Échanger et argumenter",
+          "theme": "Culture musicale",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "eps",
+      "title": "Éducation physique et sportive",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "6e-eps-performance",
+          "title": "Réaliser une performance mesurée",
+          "theme": "Champs d’apprentissage",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-eps-deplacements",
+          "title": "Se déplacer dans des environnements variés",
+          "theme": "Champs d’apprentissage",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-eps-prestation",
+          "title": "S’exprimer par une prestation artistique ou acrobatique",
+          "theme": "Champs d’apprentissage",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-eps-affrontement",
+          "title": "Maîtriser un affrontement collectif ou individuel",
+          "theme": "Champs d’apprentissage",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "evars",
+      "title": "Éducation transversale : EVARS",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "6e-evars-se-connaitre",
+          "title": "Se connaître et respecter son intimité",
+          "theme": "Se connaître, vivre et grandir sereinement avec son corps",
+          "sourceUrl": "https://www.education.gouv.fr/education-la-vie-affective-relationnelle-et-la-sexualite-le-programme-de-l-education-nationale-est-462573"
+        },
+        {
+          "id": "6e-evars-relations-respectueuses",
+          "title": "Construire des relations respectueuses",
+          "theme": "Rencontrer les autres et construire des relations respectueuses",
+          "sourceUrl": "https://www.education.gouv.fr/education-la-vie-affective-relationnelle-et-la-sexualite-le-programme-de-l-education-nationale-est-462573"
+        },
+        {
+          "id": "6e-evars-place-societe",
+          "title": "Trouver sa place dans la société",
+          "theme": "Être libre et responsable",
+          "sourceUrl": "https://www.education.gouv.fr/education-la-vie-affective-relationnelle-et-la-sexualite-le-programme-de-l-education-nationale-est-462573"
+        }
+      ]
+    },
+    {
+      "id": "chant-choral",
+      "title": "Chant choral (option facultative selon l’établissement)",
+      "kind": "optional",
+      "chapters": [
+        {
+          "id": "6e-chant-choral-voix-ensemble",
+          "title": "Chanter ensemble",
+          "theme": "Projet choral",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "6e-chant-choral-concert",
+          "title": "Préparer une interprétation",
+          "theme": "Projet de concert ou spectacle",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    }
+  ]
+}
