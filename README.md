@@ -1,41 +1,41 @@
 # FocusQuest
 
-FocusQuest est une application Android de révision scolaire qui associe les bonnes réponses à du temps d’écran disponible. L’interface est en français et construite avec Kotlin, Jetpack Compose et Material 3.
+FocusQuest is an Android learning app that turns correct answers into available screen time. The app interface is in French and is built with Kotlin, Jetpack Compose, and Material 3.
 
-## Fonctionnalités
+## Features
 
-### Parcours scolaire
+### Learning path
 
-Après un onboarding présenté au premier lancement, l’élève peut suivre ce parcours :
+After the onboarding shown on first launch, students can follow this path:
 
-**Accueil → classe → matière → chapitre → activité → QCM → résultats**
+**Home → grade → subject → chapter → activity → quiz → results**
 
-- Le catalogue est chargé depuis les fichiers JSON de l’application pour les classes de 6e, 5e, 4e, 3e, Seconde, Première générale et Terminale générale.
-- Seules les matières du niveau choisi sont affichées. En Première et Terminale, elles sont classées en enseignements communs, spécialités ou options.
-- Les chapitres sont regroupés par thème. Chaque fiche indique le nombre de QCM disponibles ; les chapitres sans question restent visibles et ne peuvent pas être lancés.
-- La seule activité disponible pour l’instant est le **QCM de cinq questions maximum**. Le quiz reste limité à la classe, la matière et au chapitre choisis. Il utilise moins de cinq questions si le chapitre en contient moins et ne répète pas de question dans une même mission.
-- Le quiz affiche la progression, le score et les explications. Une réponse validée ne peut pas attribuer sa récompense une deuxième fois. Chaque bonne réponse ajoute actuellement **30 secondes** au temps gagné, soit jusqu’à 2 min 30 pour une mission parfaite. L’écran de résultats récapitule la mission.
-- Les boutons retour permettent de revenir aux étapes précédentes ; quitter une mission en cours demande confirmation.
+- The catalog is loaded from the app's JSON files and covers 6e, 5e, 4e, 3e, Seconde, Première générale, and Terminale générale.
+- Only subjects available for the selected grade are shown. In Première and Terminale, subjects are grouped into common courses, specializations, and electives.
+- Chapters are grouped by theme. Each chapter shows its available quiz count; chapters without questions remain visible but cannot be started.
+- The only activity currently available is a **quiz with up to five questions**. A quiz is restricted to the selected grade, subject, and chapter. It uses fewer than five questions when that is all the chapter contains, and it does not repeat questions within a mission.
+- The quiz shows progress, score, and explanations. A submitted answer cannot award its reward more than once. Each correct answer currently adds **30 seconds** to earned time, up to 2 minutes 30 seconds for a perfect mission. The results screen summarizes the mission.
+- Back buttons return to previous steps; leaving an in-progress mission requires confirmation.
 
-### Temps disponible et suivi des applications
+### Available time and app usage tracking
 
-- L’accueil affiche le temps disponible, le temps gagné et le temps utilisé aujourd’hui.
-- Le temps de base est de **30 minutes par jour** par défaut. Dans les réglages, il peut être choisi parmi 15, 30, 45 ou 60 minutes.
-- Le calcul est : **temps de base + temps gagné − temps utilisé**, avec un minimum de zéro.
-- FocusQuest peut lister les applications lançables du téléphone, avec leurs noms et icônes système. L’utilisateur choisit celles dont l’usage doit être comptabilisé ; sa sélection est conservée.
-- Avec l’autorisation Android « Accès aux données d’utilisation », FocusQuest lit dans `UsageStatsManager` le temps au premier plan des applications sélectionnées et le déduit du solde. L’écran de sélection guide vers le réglage système de cette autorisation. La première sélection d’une application dans la journée prend en compte le temps que les statistiques Android indiquent depuis minuit.
-- Le relevé est actualisé au lancement, au retour de l’application au premier plan et avec le bouton **Actualiser le temps utilisé**. Ce n’est pas un suivi en continu : les applications restent ouvrables et FocusQuest **ne les bloque pas**.
-- Le temps gagné et le temps utilisé sont remis à zéro au changement de journée ; le temps de base et les applications sélectionnées sont conservés localement avec Preferences DataStore.
+- The home screen shows available time, earned time, and time used today.
+- The default daily base is **30 minutes**. In Settings, it can be changed to 15, 30, 45, or 60 minutes.
+- The calculation is: **base time + earned time − used time**, with a minimum of zero.
+- FocusQuest can list launchable apps on the phone, including their names and system icons. Users choose which apps to track, and their selection is saved.
+- With Android's “Usage access” permission, FocusQuest reads the foreground time of selected apps through `UsageStatsManager` and deducts it from the available balance. When an app is selected for the first time that day, usage reported by Android since midnight is included.
+- Usage is refreshed when FocusQuest launches, returns to the foreground, or when the user taps **Refresh used time**. Tracking is not continuous: apps remain launchable and FocusQuest **does not block them**.
+- Earned and used time reset when the day changes; the base time and selected apps are stored locally with Preferences DataStore.
 
-### Onboarding et navigation
+### Onboarding and navigation
 
-L’onboarding est affiché au premier lancement et son état de fin est sauvegardé. Les lancements suivants ouvrent directement l’accueil. Depuis l’accueil, l’élève peut démarrer une mission, régler son temps de base, gérer les applications surveillées ou actualiser le relevé d’usage.
+Onboarding appears on first launch, and its completion state is saved. Later launches open the home screen directly. From home, students can start a mission, change their daily base time, manage tracked apps, or refresh usage data.
 
-## Contenu scolaire
+## Learning content
 
-Le catalogue JSON comprend actuellement :
+The JSON catalog currently contains:
 
-| Niveau | Matières du catalogue | Chapitres | Chapitres avec QCM | QCM |
+| Grade | Grade-specific subject entries | Chapters | Chapters with quizzes | Questions |
 |---|---:|---:|---:|---:|
 | 6e | 12 | 66 | 16 | 80 |
 | 5e | 15 | 82 | 22 | 110 |
@@ -46,44 +46,44 @@ Le catalogue JSON comprend actuellement :
 | Terminale générale | 37 | 159 | 8 | 40 |
 | **Total** | **178** | **732** | **131** | **655** |
 
-Les nombres de matières correspondent aux entrées propres à chaque niveau, et non au nombre de matières distinctes à l’échelle du catalogue. Tous les chapitres n’ont pas encore de QCM. La cohérence structurelle du JSON, les associations matière-chapitre, les choix et les réponses sont couverts par les tests instrumentés. Cela ne constitue pas une validation pédagogique : les contenus doivent encore être relus par des enseignants.
+Subject counts represent grade-specific entries, not the number of distinct subjects across the entire catalog. Not every chapter has quiz questions yet. Instrumented tests cover JSON structure, subject-to-chapter references, answer choices, and answer keys. This does not amount to pedagogical validation; teachers still need to review the content.
 
-Les **120 anciennes questions Kotlin** (5e, 4e et 3e) sont conservées dans `QuestionRepository` pour compatibilité. Elles ne sont pas mélangées au nouveau catalogue et aucune n’est associée automatiquement à un chapitre. Une association éventuelle doit être explicitement vérifiée. L’audit documentaire existant dans [docs/QUESTION_AUDIT.md](docs/QUESTION_AUDIT.md) porte uniquement sur cette ancienne banque, pas sur les 655 QCM du catalogue.
+The **120 legacy Kotlin questions** (for 5e, 4e, and 3e) remain in `QuestionRepository` for compatibility. They are kept separate from the new catalog, and none are automatically assigned to a chapter. Any future mapping must be reviewed explicitly. The existing [question audit](docs/QUESTION_AUDIT.md) covers only this legacy bank, not the catalog's 655 questions.
 
-## Limites connues
+## Current limitations
 
-- FocusQuest comptabilise l’usage des applications sélectionnées, mais ne les bloque pas et ne tourne pas comme un service de surveillance permanent en arrière-plan.
-- Le suivi nécessite l’autorisation spéciale d’accès aux statistiques d’utilisation dans les réglages Android. Sans cette autorisation, les relevés d’usage ne peuvent pas être lus.
-- Seul le QCM est fonctionnel comme activité de révision. Les chapitres sans questions sont consultables, mais indisponibles au lancement.
-- La couverture des programmes, la formulation et le niveau pédagogique des questions n’ont pas été certifiés par des enseignants.
-- Les données et les catalogues sont locaux à l’application. Le projet ne requiert ni Firebase ni serveur distant.
+- FocusQuest tracks usage of selected apps, but does not block them or run as a permanent background monitoring service.
+- Tracking requires the special Usage access permission in Android settings. Without it, app usage statistics cannot be read.
+- The quiz is the only learning activity currently available. Chapters without questions can be viewed but not started.
+- Teachers have not certified curriculum coverage, wording, or question difficulty.
+- Data and catalogs are stored locally in the app. The project does not require Firebase or a remote server.
 
-## Architecture et données
+## Architecture and data
 
-- `MainActivity.kt` démarre l’application Compose ; `ui/FocusQuestApp.kt` relie l’onboarding, l’accueil, le parcours du catalogue, le quiz et les résultats.
-- `data/catalog/CurriculumRepository.kt` charge les matières et chapitres ; `ChapterQuestionRepository.kt` charge les QCM associés à un chapitre depuis `app/src/main/assets/`.
-- `data/QuestionRepository.kt` contient l’ancienne banque de 120 questions.
-- `data/ScreenTimeRepository.kt` conserve le solde et la sélection d’applications avec Preferences DataStore ; `UsageStatsRepository.kt` interroge les statistiques Android.
-- `data/OnboardingRepository.kt` conserve l’état de l’onboarding.
+- `MainActivity.kt` starts the Compose app; `ui/FocusQuestApp.kt` connects onboarding, home, the catalog flow, quiz, and results.
+- `data/catalog/CurriculumRepository.kt` loads subjects and chapters; `ChapterQuestionRepository.kt` loads chapter-linked quizzes from `app/src/main/assets/`.
+- `data/QuestionRepository.kt` contains the 120-question legacy bank.
+- `data/ScreenTimeRepository.kt` stores the time balance and app selection with Preferences DataStore; `UsageStatsRepository.kt` queries Android usage statistics.
+- `data/OnboardingRepository.kt` stores onboarding completion state.
 
-## Configuration et commandes
+## Setup and commands
 
-Prérequis : Android Studio, JDK 17 et les composants Android SDK du projet. L’application cible Android 36 et prend en charge Android 7.0 (API 24) et versions ultérieures.
+Requirements: Android Studio, JDK 17, and the Android SDK components required by the project. The app targets Android 36 and supports Android 7.0 (API 24) and later.
 
-Depuis la racine du dépôt :
+From the repository root:
 
 ```powershell
 # Windows
 .\gradlew.bat :app:assembleDebug
 .\gradlew.bat :app:testDebugUnitTest
-.\gradlew.bat :app:connectedDebugAndroidTest  # nécessite un appareil ou émulateur connecté
+.\gradlew.bat :app:connectedDebugAndroidTest  # requires a connected device or emulator
 ```
 
 ```bash
 # macOS / Linux
 ./gradlew :app:assembleDebug
 ./gradlew :app:testDebugUnitTest
-./gradlew :app:connectedDebugAndroidTest  # nécessite un appareil ou émulateur connecté
+./gradlew :app:connectedDebugAndroidTest  # requires a connected device or emulator
 ```
 
-L’APK debug est généré dans `app/build/outputs/apk/debug/`. Le projet utilise Gradle 9.3.1, Android Gradle Plugin 9.1.1 et Kotlin 2.2.10.
+The debug APK is generated in `app/build/outputs/apk/debug/`. The project uses Gradle 9.3.1, Android Gradle Plugin 9.1.1, and Kotlin 2.2.10.
