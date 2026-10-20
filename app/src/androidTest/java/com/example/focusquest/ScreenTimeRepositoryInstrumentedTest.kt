@@ -14,26 +14,29 @@ import org.junit.runner.RunWith
 class ScreenTimeRepositoryInstrumentedTest {
     @Test
     fun valuesPersistAndResetAtTheStartOfANewDay() = runBlocking {
-        val testContext = InstrumentationRegistry.getInstrumentation().context
+        val testContext = InstrumentationRegistry.getInstrumentation().targetContext
+        val dataStore = isolatedPreferencesDataStore(testContext, "screen-time-values")
         val firstDay = "test-${System.nanoTime()}"
-        val repository = ScreenTimeRepository(testContext) { firstDay }
+        val repository = ScreenTimeRepository(testContext, dataStoreOverride = dataStore) { firstDay }
 
         repository.resetIfNewDay()
         repository.setBaseDailyMinutes(45)
         repository.addEarnedMinutes(6)
+        repository.addEarnedTimeMillis(2 * 60_000L)
         repository.addUsedMinutes(5)
 
         val savedState = repository.screenTimeState.first()
         assertEquals(45, savedState.baseDailyMinutes)
-        assertEquals(6, savedState.earnedMinutes)
+        assertEquals(8, savedState.earnedMinutes)
+        assertEquals(8 * 60_000L, savedState.earnedTimeMillis)
         assertEquals(5, savedState.usedMinutes)
         assertEquals(5 * 60_000L, savedState.usedTimeMillis)
-        assertEquals(46, savedState.availableMinutes)
+        assertEquals(48, savedState.availableMinutes)
 
-        val recreatedRepository = ScreenTimeRepository(testContext) { firstDay }
+        val recreatedRepository = ScreenTimeRepository(testContext, dataStoreOverride = dataStore) { firstDay }
         assertEquals(savedState, recreatedRepository.screenTimeState.first())
 
-        val nextDayRepository = ScreenTimeRepository(testContext) { "$firstDay-next" }
+        val nextDayRepository = ScreenTimeRepository(testContext, dataStoreOverride = dataStore) { "$firstDay-next" }
         nextDayRepository.resetIfNewDay()
 
         val resetState = nextDayRepository.screenTimeState.first()
@@ -46,19 +49,21 @@ class ScreenTimeRepositoryInstrumentedTest {
 
     @Test
     fun selectionBaselinesPersistAndSnapshotsOnlyAddNewUsage() = runBlocking {
-        val testContext = InstrumentationRegistry.getInstrumentation().context
+        val testContext = InstrumentationRegistry.getInstrumentation().targetContext
+        val dataStore = isolatedPreferencesDataStore(testContext, "screen-time-app-selection")
         val today = "selection-${System.nanoTime()}"
-        val repository = ScreenTimeRepository(testContext) { today }
+        val repository = ScreenTimeRepository(testContext, dataStoreOverride = dataStore) { today }
         val minute = 60_000L
 
         repository.resetIfNewDay()
+        repository.setSelectedPackages(emptySet())
         repository.setSelectedPackages(
             packages = setOf("com.example.youtube"),
             currentUsageMillis = mapOf("com.example.youtube" to 20 * minute)
         )
         assertEquals(setOf("com.example.youtube"), repository.selectedPackages.first())
 
-        val recreatedRepository = ScreenTimeRepository(testContext) { today }
+        val recreatedRepository = ScreenTimeRepository(testContext, dataStoreOverride = dataStore) { today }
         assertEquals(setOf("com.example.youtube"), recreatedRepository.selectedPackages.first())
 
         recreatedRepository.addUsageSnapshot(mapOf("com.example.youtube" to 25 * minute))
@@ -86,7 +91,7 @@ class ScreenTimeRepositoryInstrumentedTest {
         recreatedRepository.addUsageSnapshot(mapOf("com.example.tiktok" to 17 * minute))
         assertEquals(13 * minute, recreatedRepository.screenTimeState.first().usedTimeMillis)
 
-        val nextDayRepository = ScreenTimeRepository(testContext) { "$today-next" }
+        val nextDayRepository = ScreenTimeRepository(testContext, dataStoreOverride = dataStore) { "$today-next" }
         nextDayRepository.resetIfNewDay()
         assertEquals(0L, nextDayRepository.screenTimeState.first().usedTimeMillis)
         nextDayRepository.addUsageSnapshot(mapOf("com.example.tiktok" to 2 * minute))

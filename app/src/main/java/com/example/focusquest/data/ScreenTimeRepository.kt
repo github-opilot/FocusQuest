@@ -25,9 +25,10 @@ private val Context.screenTimeDataStore: DataStore<Preferences> by preferencesDa
 
 class ScreenTimeRepository(
     context: Context,
+    dataStoreOverride: DataStore<Preferences>? = null,
     private val currentDate: () -> String = ::getCurrentDate
 ) {
-    private val dataStore = context.applicationContext.screenTimeDataStore
+    private val dataStore = dataStoreOverride ?: context.applicationContext.screenTimeDataStore
 
     val screenTimeState: Flow<ScreenTimeState> = dataStore.data
         .catch { exception ->
@@ -38,15 +39,16 @@ class ScreenTimeRepository(
             }
         }
         .map { preferences ->
+            val earnedTimeMillis = preferences[EARNED_TIME_MILLIS]
+                ?: (preferences[EARNED_MINUTES] ?: 0).toLong() * ScreenTimeState.MILLIS_PER_MINUTE
+            val usedTimeMillis = preferences[USED_TIME_MILLIS]
+                ?: (preferences[USED_MINUTES] ?: 0).toLong() * ScreenTimeState.MILLIS_PER_MINUTE
             ScreenTimeState(
                 baseDailyMinutes = preferences[BASE_DAILY_MINUTES] ?: DEFAULT_BASE_MINUTES,
-                earnedMinutes = preferences[EARNED_MINUTES] ?: 0,
-                usedMinutes = usedMinutesFrom(
-                    preferences[USED_TIME_MILLIS]
-                        ?: (preferences[USED_MINUTES] ?: 0).toLong() * ScreenTimeState.MILLIS_PER_MINUTE
-                ),
-                usedTimeMillis = preferences[USED_TIME_MILLIS]
-                    ?: (preferences[USED_MINUTES] ?: 0).toLong() * ScreenTimeState.MILLIS_PER_MINUTE
+                earnedMinutes = earnedMinutesFrom(earnedTimeMillis),
+                usedMinutes = usedMinutesFrom(usedTimeMillis),
+                usedTimeMillis = usedTimeMillis,
+                earnedTimeMillis = earnedTimeMillis
             )
         }
 
@@ -64,10 +66,18 @@ class ScreenTimeRepository(
 
     suspend fun addEarnedMinutes(minutes: Int) {
         if (minutes <= 0) return
+        addEarnedTimeMillis(minutes.toLong() * ScreenTimeState.MILLIS_PER_MINUTE)
+    }
+
+    suspend fun addEarnedTimeMillis(milliseconds: Long) {
+        if (milliseconds <= 0L) return
 
         dataStore.edit { preferences ->
-            val currentMinutes = preferences[EARNED_MINUTES] ?: 0
-            preferences[EARNED_MINUTES] = currentMinutes + minutes
+            val currentMillis = preferences[EARNED_TIME_MILLIS]
+                ?: (preferences[EARNED_MINUTES] ?: 0).toLong() * ScreenTimeState.MILLIS_PER_MINUTE
+            val updatedMillis = saturatingAdd(currentMillis.coerceAtLeast(0L), milliseconds)
+            preferences[EARNED_TIME_MILLIS] = updatedMillis
+            preferences[EARNED_MINUTES] = earnedMinutesFrom(updatedMillis)
         }
     }
 
@@ -85,9 +95,9 @@ class ScreenTimeRepository(
     }
 
     /**
-     * Saves the app selection and records a fresh baseline for newly selected packages.
-     * A missing reading is kept as an unknown baseline and initialized on the first
-     * successful usage-stat refresh, so time before access was granted is not charged.
+     * Saves the selection. On first selection during a day, today's complete Android usage
+     * total is charged, including time before selection. Re-selecting an app in the same day
+     * resumes from its previous cursor so already charged time is not counted twice.
      */
     suspend fun setSelectedPackages(
         packages: Set<String>,
@@ -99,20 +109,44 @@ class ScreenTimeRepository(
         dataStore.edit { preferences ->
             resetForDateIfNeeded(preferences, today)
             val previousPackages = preferences[SELECTED_PACKAGES] ?: emptySet()
+            val knownToday = preferences[KNOWN_USAGE_PACKAGES] ?: emptySet()
+            var initiallyUsedMillis = 0L
             (previousPackages - normalizedPackages).forEach { packageName ->
                 preferences.remove(baselineKey(packageName))
-                preferences.remove(lastReadingKey(packageName))
             }
             (normalizedPackages - previousPackages).forEach { packageName ->
-                val reading = currentUsageMillis?.get(packageName)?.coerceAtLeast(0L) ?: UNKNOWN_READING
-                preferences[baselineKey(packageName)] = reading
-                preferences[lastReadingKey(packageName)] = reading
+                val reading = currentUsageMillis?.get(packageName)?.coerceAtLeast(0L)
+                val cursorKey = lastReadingKey(packageName)
+                val wasTrackedToday = packageName in knownToday || preferences[cursorKey] != null
+
+                if (wasTrackedToday) {
+                    // Skip usage accumulated while this app was deselected.
+                    preferences[baselineKey(packageName)] =
+                        if (reading == null) RESELECT_WITHOUT_READING else 0L
+                    if (reading != null) preferences[cursorKey] = reading
+                } else {
+                    // A first selection starts at midnight, not at the selection time.
+                    preferences[baselineKey(packageName)] = 0L
+                    preferences[cursorKey] = reading ?: 0L
+                    if (reading != null) {
+                        initiallyUsedMillis = saturatingAdd(initiallyUsedMillis, reading)
+                    }
+                }
             }
             preferences[SELECTED_PACKAGES] = normalizedPackages
+            preferences[KNOWN_USAGE_PACKAGES] = knownToday + normalizedPackages
+
+            if (initiallyUsedMillis > 0L) {
+                val previousUsedMillis = preferences[USED_TIME_MILLIS]
+                    ?: (preferences[USED_MINUTES] ?: 0).toLong() * ScreenTimeState.MILLIS_PER_MINUTE
+                val updatedUsedMillis = saturatingAdd(previousUsedMillis.coerceAtLeast(0L), initiallyUsedMillis)
+                preferences[USED_TIME_MILLIS] = updatedUsedMillis
+                preferences[USED_MINUTES] = usedMinutesFrom(updatedUsedMillis)
+            }
         }
     }
 
-    /** Adds only newly observed foreground time; repeated snapshots cannot double count. */
+    /** Adds today's uncharged Android foreground usage; repeated snapshots cannot double count. */
     suspend fun addUsageSnapshot(currentUsageMillis: Map<String, Long>) {
         val today = currentDate()
 
@@ -127,19 +161,34 @@ class ScreenTimeRepository(
                 val lastKey = lastReadingKey(packageName)
                 val baseline = preferences[baselineKey] ?: UNKNOWN_READING
 
-                if (baseline < 0L) {
-                    // The app was selected before usage access was available.
-                    preferences[baselineKey] = currentReading
+                if (baseline == RESELECT_WITHOUT_READING) {
+                    // Access was unavailable while re-selecting; don't charge the unselected gap.
+                    preferences[baselineKey] = 0L
                     preferences[lastKey] = currentReading
                     return@forEach
                 }
 
-                val previousReading = (preferences[lastKey] ?: baseline).coerceAtLeast(0L)
-                val newlyObservedMillis = UsageTimeCalculator.newlyObservedMillis(previousReading, currentReading)
+                val legacyBaseline = baseline.coerceAtLeast(0L)
+                val previousReading = (preferences[lastKey] ?: legacyBaseline).coerceAtLeast(0L)
+                val previousCursor = maxOf(previousReading, legacyBaseline)
+
+                if (currentReading < previousCursor) {
+                    // Ignore an incoherent/decreased system reading and re-anchor safely.
+                    preferences[baselineKey] = 0L
+                    preferences[lastKey] = currentReading
+                    return@forEach
+                }
+
+                // Old versions saved the selection-time reading as a baseline. Add it once
+                // so existing selections also adopt the new "count today's usage" behavior.
+                val previouslyUnchargedMillis = minOf(legacyBaseline, currentReading)
+                val newlyObservedMillis = UsageTimeCalculator.newlyObservedMillis(previousCursor, currentReading)
+                addedMillis = saturatingAdd(addedMillis, previouslyUnchargedMillis)
                 if (newlyObservedMillis > 0L) {
                     addedMillis = saturatingAdd(addedMillis, newlyObservedMillis)
-                    preferences[lastKey] = currentReading
                 }
+                preferences[baselineKey] = 0L
+                preferences[lastKey] = currentReading
             }
 
             if (addedMillis > 0L) {
@@ -149,6 +198,8 @@ class ScreenTimeRepository(
                 preferences[USED_TIME_MILLIS] = totalUsedMillis
                 preferences[USED_MINUTES] = usedMinutesFrom(totalUsedMillis)
             }
+            preferences[KNOWN_USAGE_PACKAGES] =
+                (preferences[KNOWN_USAGE_PACKAGES] ?: emptySet()) + packages
         }
     }
 
@@ -161,9 +212,10 @@ class ScreenTimeRepository(
             val kept = selected intersect installedPackages
             (selected - kept).forEach { packageName ->
                 preferences.remove(baselineKey(packageName))
-                preferences.remove(lastReadingKey(packageName))
             }
             preferences[SELECTED_PACKAGES] = kept
+            preferences[KNOWN_USAGE_PACKAGES] =
+                (preferences[KNOWN_USAGE_PACKAGES] ?: emptySet()) + selected
         }
     }
 
@@ -179,11 +231,18 @@ class ScreenTimeRepository(
         if (preferences[LAST_RESET_DATE] == today) return
 
         preferences[EARNED_MINUTES] = 0
+        preferences[EARNED_TIME_MILLIS] = 0L
         preferences[USED_MINUTES] = 0
         preferences[USED_TIME_MILLIS] = 0L
         preferences[LAST_RESET_DATE] = today
 
         val selected = preferences[SELECTED_PACKAGES] ?: emptySet()
+        val knownToday = preferences[KNOWN_USAGE_PACKAGES] ?: emptySet()
+        (knownToday + selected).forEach { packageName ->
+            preferences.remove(baselineKey(packageName))
+            preferences.remove(lastReadingKey(packageName))
+        }
+        preferences[KNOWN_USAGE_PACKAGES] = selected
         selected.forEach { packageName ->
             preferences[baselineKey(packageName)] = 0L
             preferences[lastReadingKey(packageName)] = 0L
@@ -198,18 +257,23 @@ class ScreenTimeRepository(
         const val BASELINE_PREFIX = "usage_baseline_"
         const val LAST_READING_PREFIX = "usage_last_reading_"
         const val UNKNOWN_READING = -1L
+        const val RESELECT_WITHOUT_READING = -2L
 
         val BASE_DAILY_MINUTES = intPreferencesKey("base_daily_minutes")
         val EARNED_MINUTES = intPreferencesKey("earned_minutes")
+        val EARNED_TIME_MILLIS = longPreferencesKey("earned_time_millis")
         val USED_MINUTES = intPreferencesKey("used_minutes")
         val USED_TIME_MILLIS = longPreferencesKey("used_time_millis")
         val LAST_RESET_DATE = stringPreferencesKey("last_reset_date")
         val SELECTED_PACKAGES = stringSetPreferencesKey("selected_packages")
+        val KNOWN_USAGE_PACKAGES = stringSetPreferencesKey("usage_packages_with_cursor")
 
         fun usedMinutesFrom(milliseconds: Long): Int =
             (milliseconds.coerceAtLeast(0L) / ScreenTimeState.MILLIS_PER_MINUTE)
                 .coerceAtMost(Int.MAX_VALUE.toLong())
                 .toInt()
+
+        fun earnedMinutesFrom(milliseconds: Long): Int = usedMinutesFrom(milliseconds)
 
         fun saturatingAdd(first: Long, second: Long): Long =
             if (Long.MAX_VALUE - first < second) Long.MAX_VALUE else first + second

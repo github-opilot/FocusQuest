@@ -9,13 +9,16 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.example.focusquest.model.Grade
+import com.example.focusquest.ui.components.FocusQuestChoiceCard
+import com.example.focusquest.ui.components.FocusQuestCard
+import com.example.focusquest.ui.components.subjectAccentColor
 
 @Composable
 fun GradeSelectionScreen(
@@ -26,25 +29,50 @@ fun GradeSelectionScreen(
         modifier = modifier
             .fillMaxSize()
             .verticalScroll(rememberScrollState())
-            .padding(24.dp),
-        verticalArrangement = Arrangement.Center
+            .padding(horizontal = 20.dp, vertical = 24.dp),
+        verticalArrangement = Arrangement.spacedBy(14.dp)
     ) {
-        Text(
-            text = "Quelle est ta classe ?",
-            style = MaterialTheme.typography.headlineMedium
-        )
+        FocusQuestCard(
+            modifier = Modifier.fillMaxWidth(),
+            containerColor = MaterialTheme.colorScheme.primaryContainer
+        ) {
+            Text(
+                text = "On commence par quoi ?",
+                style = MaterialTheme.typography.labelLarge,
+                color = MaterialTheme.colorScheme.primary
+            )
+            Spacer(Modifier.height(6.dp))
+            Text(
+                text = "Quelle est ta classe ?",
+                style = MaterialTheme.typography.headlineMedium,
+                fontWeight = FontWeight.Bold
+            )
+            Text(
+                text = "Choisis ton niveau pour trouver une mission adaptée.",
+                style = MaterialTheme.typography.bodyLarge,
+                color = MaterialTheme.colorScheme.onPrimaryContainer
+            )
+        }
 
-        Spacer(modifier = Modifier.height(28.dp))
-
-        Grade.entries.forEach { grade ->
-            Button(
+        Grade.entries.forEachIndexed { index, grade ->
+            FocusQuestChoiceCard(
+                title = grade.displayName,
+                symbol = gradeSymbol(grade),
+                subtitle = "Choisir ce niveau",
+                accentColor = subjectAccentColor(index),
                 onClick = { onGradeSelected(grade) },
                 modifier = Modifier.fillMaxWidth()
-            ) {
-                Text(text = grade.displayName)
-            }
-
-            Spacer(modifier = Modifier.height(12.dp))
+            )
         }
     }
+}
+
+private fun gradeSymbol(grade: Grade): String = when (grade) {
+    Grade.SIXIEME -> "6"
+    Grade.CINQUIEME -> "5"
+    Grade.QUATRIEME -> "4"
+    Grade.TROISIEME -> "3"
+    Grade.SECONDE -> "2"
+    Grade.PREMIERE -> "1"
+    Grade.TERMINALE -> "T"
 }

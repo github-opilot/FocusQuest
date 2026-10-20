@@ -1,0 +1,2555 @@
+{
+  "gradeId": "4e",
+  "questions": [
+    {
+      "id": "4e-maths-equations-q01",
+      "subjectId": "maths",
+      "chapterId": "4e-maths-equations",
+      "question": "Résous 5(x - 2) = 15.",
+      "answers": [
+        "x = 1",
+        "x = 3",
+        "x = 5",
+        "x = 17"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "On divise par 5 : x - 2 = 3, donc x = 5.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-maths-equations-q02",
+      "subjectId": "maths",
+      "chapterId": "4e-maths-equations",
+      "question": "Quelle valeur vérifie 3(x + 4) = 2x + 19 ?",
+      "answers": [
+        "x = 5",
+        "x = 7",
+        "x = 12",
+        "x = 31"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "3x + 12 = 2x + 19 ; en retirant 2x puis 12, on obtient x = 7.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-maths-equations-q03",
+      "subjectId": "maths",
+      "chapterId": "4e-maths-equations",
+      "question": "Résous (x - 3) / 2 = 4.",
+      "answers": [
+        "x = 5",
+        "x = 8",
+        "x = 11",
+        "x = 14"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "On multiplie par 2 : x - 3 = 8, donc x = 11.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-maths-equations-q04",
+      "subjectId": "maths",
+      "chapterId": "4e-maths-equations",
+      "question": "Quelle valeur est solution de 4x - 7 = 13 ?",
+      "answers": [
+        "4",
+        "5",
+        "6",
+        "20"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Pour x = 5, 4 x 5 - 7 = 13.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-maths-equations-q05",
+      "subjectId": "maths",
+      "chapterId": "4e-maths-equations",
+      "question": "Résous 2x + 5 = x - 3.",
+      "answers": [
+        "x = -8",
+        "x = -2",
+        "x = 2",
+        "x = 8"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "En retirant x puis 5 des deux côtés, on obtient x = -8.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-maths-pythagore-q01",
+      "subjectId": "maths",
+      "chapterId": "4e-maths-pythagore",
+      "question": "Un triangle rectangle a pour côtés de l’angle droit 5 cm et 12 cm. Quelle est son hypoténuse ?",
+      "answers": [
+        "13 cm",
+        "15 cm",
+        "17 cm",
+        "60 cm"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "5^2 + 12^2 = 25 + 144 = 169 = 13^2.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-maths-pythagore-q02",
+      "subjectId": "maths",
+      "chapterId": "4e-maths-pythagore",
+      "question": "Dans un triangle rectangle, l’hypoténuse mesure 13 cm et un autre côté 5 cm. Le troisième côté mesure…",
+      "answers": [
+        "8 cm",
+        "10 cm",
+        "12 cm",
+        "18 cm"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Par Pythagore, le carré du côté manquant vaut 13^2 - 5^2 = 144 ; sa longueur vaut 12 cm.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-maths-pythagore-q03",
+      "subjectId": "maths",
+      "chapterId": "4e-maths-pythagore",
+      "question": "Un triangle a des côtés de 8 cm, 15 cm et 17 cm. Que peut-on conclure ?",
+      "answers": [
+        "Il est rectangle",
+        "Il est équilatéral",
+        "Il est isocèle",
+        "On ne peut pas vérifier Pythagore"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "8^2 + 15^2 = 64 + 225 = 289 = 17^2 ; le triangle est rectangle.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-maths-pythagore-q04",
+      "subjectId": "maths",
+      "chapterId": "4e-maths-pythagore",
+      "question": "Un triangle rectangle a une hypoténuse de 10 cm et un côté de 6 cm. L’autre côté mesure…",
+      "answers": [
+        "4 cm",
+        "6 cm",
+        "8 cm",
+        "16 cm"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Le carré du côté manquant est 10^2 - 6^2 = 64, donc sa longueur est 8 cm.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-maths-pythagore-q05",
+      "subjectId": "maths",
+      "chapterId": "4e-maths-pythagore",
+      "question": "Pour prouver qu’un triangle est rectangle avec la réciproque de Pythagore, que faut-il vérifier ?",
+      "answers": [
+        "La somme des deux plus petits côtés",
+        "Le carré du plus grand côté égale la somme des carrés des deux autres",
+        "Que ses trois côtés sont égaux",
+        "Que son périmètre est pair"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "La réciproque s’applique si le carré du plus grand côté égale la somme des carrés des deux autres.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-francais-lit4-q01",
+      "subjectId": "francais",
+      "chapterId": "4e-francais-lit4",
+      "question": "Deux articles rapportent le même événement avec des versions différentes. Quel réflexe aide à vérifier l’information ?",
+      "answers": [
+        "Partager le plus spectaculaire",
+        "Comparer les sources et les éléments vérifiables",
+        "Choisir le titre qui plaît",
+        "Ne lire que les commentaires"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Le recoupement de sources distinctes et la vérification des faits réduisent le risque de reprendre une erreur.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-francais-lit4-q02",
+      "subjectId": "francais",
+      "chapterId": "4e-francais-lit4",
+      "question": "« À mon avis, cette décision est excellente. » Cette phrase exprime surtout…",
+      "answers": [
+        "Un fait date",
+        "Une opinion",
+        "Une citation de loi",
+        "Une mesure"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "« À mon avis » signale un jugement subjectif, pas un fait vérifiable en lui-même.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-francais-lit4-q03",
+      "subjectId": "francais",
+      "chapterId": "4e-francais-lit4",
+      "question": "Quel document est une source de première main pour un événement ?",
+      "answers": [
+        "Le témoignage d’une personne qui l’a observé",
+        "Un résumé publié plusieurs années après",
+        "Une publicité sans auteur",
+        "Une rumeur recopiée"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un témoignage direct peut être une source primaire ; il doit toutefois être replacé dans son contexte et recoupé.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-francais-lit4-q04",
+      "subjectId": "francais",
+      "chapterId": "4e-francais-lit4",
+      "question": "Une photo est présentée comme prise aujourd’hui. Quelle vérification est utile ?",
+      "answers": [
+        "Vérifier sa date, son lieu et sa provenance",
+        "Se fier uniquement à sa qualité",
+        "Regarder le nombre de partages",
+        "La croire si elle paraît réaliste"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une image peut être ancienne ou sortie de son contexte : date, lieu et provenance sont à vérifier.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-francais-lit4-q05",
+      "subjectId": "francais",
+      "chapterId": "4e-francais-lit4",
+      "question": "Quel élément aide à distinguer une information journalistique d’un commentaire ?",
+      "answers": [
+        "Un point de vue personnel seulement",
+        "Des faits sourcés, séparés des interprétations",
+        "Un titre en majuscules",
+        "La longueur du texte"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Une information expose des éléments vérifiables et indique ses sources ; un commentaire ajoute une appréciation.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-francais-language-q01",
+      "subjectId": "francais",
+      "chapterId": "4e-francais-language",
+      "question": "Dans « Elle range ses affaires dès que la sonnerie retentit », quelle proposition indique le moment ?",
+      "answers": [
+        "Elle range ses affaires",
+        "dès que la sonnerie retentit",
+        "ses affaires",
+        "la sonnerie"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "La subordonnée introduite par « dès que » précise quand elle range ses affaires.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-francais-language-q02",
+      "subjectId": "francais",
+      "chapterId": "4e-francais-language",
+      "question": "Dans « Je pense que le train arrivera », quelle est la fonction de « que le train arrivera » ?",
+      "answers": [
+        "Complément du verbe « pense »",
+        "Sujet de « pense »",
+        "Complément de lieu",
+        "Épithète du nom « train »"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La proposition complétive est le complément du verbe « pense ».",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-francais-language-q03",
+      "subjectId": "francais",
+      "chapterId": "4e-francais-language",
+      "question": "Quelle phrase contient une proposition subordonnée relative ?",
+      "answers": [
+        "Le livre que tu m’as prêté est passionnant.",
+        "Le livre est passionnant.",
+        "Tu m’as prêté le livre.",
+        "Le livre ! Quelle surprise !"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Que tu m’as prêté » complète le nom « livre » et est introduite par le pronom relatif « que ».",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-francais-language-q04",
+      "subjectId": "francais",
+      "chapterId": "4e-francais-language",
+      "question": "Dans « Quand il entra, la salle se tut », quel est le temps du verbe « entra » ?",
+      "answers": [
+        "L’imparfait",
+        "Le passé simple",
+        "Le présent",
+        "L’infinitif"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "« Entra » est au passé simple : ce temps présente ici une action ponctuelle dans le récit.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-francais-language-q05",
+      "subjectId": "francais",
+      "chapterId": "4e-francais-language",
+      "question": "Quelle ponctuation marque généralement les paroles rapportées directement ?",
+      "answers": [
+        "Des guillemets ou des tirets de dialogue",
+        "Des parenthèses obligatoires",
+        "Une virgule seule",
+        "Un point-virgule seul"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les guillemets ou les tirets signalent conventionnellement les paroles au discours direct.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-hist-lumieres-q01",
+      "subjectId": "histoire",
+      "chapterId": "4e-hist-lumieres",
+      "question": "Quel était l’objectif principal de l’Encyclopédie dirigée par Diderot et d’Alembert ?",
+      "answers": [
+        "Rassembler et diffuser des connaissances",
+        "Établir une nouvelle dynastie",
+        "Décrire uniquement les batailles",
+        "Interdire les sciences"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’Encyclopédie voulait réunir et diffuser les savoirs et les techniques de son temps.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-hist-lumieres-q02",
+      "subjectId": "histoire",
+      "chapterId": "4e-hist-lumieres",
+      "question": "Quel penseur est associé à la réflexion sur la séparation des pouvoirs ?",
+      "answers": [
+        "Montesquieu",
+        "Louis XIV",
+        "Charlemagne",
+        "Jules Ferry"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Montesquieu développe l’idée de séparation des pouvoirs dans De l’esprit des lois.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-hist-lumieres-q03",
+      "subjectId": "histoire",
+      "chapterId": "4e-hist-lumieres",
+      "question": "La Constitution française de 1791 instaure principalement…",
+      "answers": [
+        "Une monarchie constitutionnelle",
+        "Une république impériale",
+        "Une monarchie absolue rétablie",
+        "La Cinquième République"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La Constitution de 1791 maintient le roi mais encadre son pouvoir par une constitution.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-hist-lumieres-q04",
+      "subjectId": "histoire",
+      "chapterId": "4e-hist-lumieres",
+      "question": "En quelle année la République est-elle proclamée en France ?",
+      "answers": [
+        "1789",
+        "1792",
+        "1804",
+        "1848"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "La Convention abolit la monarchie et proclame la République en septembre 1792.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-hist-lumieres-q05",
+      "subjectId": "histoire",
+      "chapterId": "4e-hist-lumieres",
+      "question": "Quelle autrice rédige en 1791 la Déclaration des droits de la femme et de la citoyenne ?",
+      "answers": [
+        "Olympe de Gouges",
+        "George Sand",
+        "Louise Michel",
+        "Madame de Sévigné"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Olympe de Gouges publie ce texte en 1791 pour revendiquer l’égalité des droits.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-hist-regimes-q01",
+      "subjectId": "histoire",
+      "chapterId": "4e-hist-regimes",
+      "question": "En 1848, le suffrage universel masculin est instauré en France. Qui peut alors voter ?",
+      "answers": [
+        "Les hommes adultes citoyens",
+        "Toutes les femmes et tous les hommes",
+        "Uniquement les propriétaires nobles",
+        "Tous les enfants"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "En 1848, le droit de vote est étendu aux hommes citoyens adultes ; les femmes en sont encore exclues.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-hist-regimes-q02",
+      "subjectId": "histoire",
+      "chapterId": "4e-hist-regimes",
+      "question": "Quel changement accompagne souvent l’industrialisation au XIXe siècle ?",
+      "answers": [
+        "La croissance des villes industrielles",
+        "La disparition de tout travail salarié",
+        "Le retour général à l’autosubsistance",
+        "La fin des échanges commerciaux"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le développement industriel entraîne notamment l’essor des villes et du travail salarié.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-hist-regimes-q03",
+      "subjectId": "histoire",
+      "chapterId": "4e-hist-regimes",
+      "question": "La Troisième République est proclamée en France après la chute du Second Empire en…",
+      "answers": [
+        "1815",
+        "1848",
+        "1870",
+        "1914"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "La République est proclamée le 4 septembre 1870, après la défaite de Sedan et la chute du Second Empire.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-hist-regimes-q04",
+      "subjectId": "histoire",
+      "chapterId": "4e-hist-regimes",
+      "question": "Quel principe caractérise les lois scolaires de Jules Ferry des années 1880 ?",
+      "answers": [
+        "École publique gratuite et instruction obligatoire",
+        "Le vote des femmes dès 1881",
+        "Suppression de toutes les écoles publiques",
+        "Instruction réservée aux adultes"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les lois de 1881-1882 rendent l’école primaire publique gratuite et l’instruction obligatoire.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-hist-regimes-q05",
+      "subjectId": "histoire",
+      "chapterId": "4e-hist-regimes",
+      "question": "Dans une société coloniale du XIXe siècle, les rapports de pouvoir sont généralement…",
+      "answers": [
+        "Égalitaires entre colonisateurs et colonisés",
+        "Marques par une domination politique et économique",
+        "Sans lien avec les métropoles",
+        "Fondés sur un vote identique pour tous"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Les sociétés coloniales sont structurées par une domination exercée par la puissance coloniale.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-geo-urban-q01",
+      "subjectId": "geographie",
+      "chapterId": "4e-geo-urban",
+      "question": "Comment appelle-t-on l’extension de la ville vers les espaces qui l’entourent ?",
+      "answers": [
+        "La périurbanisation",
+        "La désertification",
+        "La déprise industrielle",
+        "La littoralisation"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La périurbanisation désigne l’extension de l’habitat et des activités urbaines vers les périphéries.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-geo-urban-q02",
+      "subjectId": "geographie",
+      "chapterId": "4e-geo-urban",
+      "question": "Quel espace concentre souvent des fonctions centrales et des emplois dans une grande ville ?",
+      "answers": [
+        "Le centre-ville",
+        "Une zone inhabitée",
+        "Un espace polaire",
+        "Un estuaire éloigné"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le centre-ville rassemble souvent commerces, services, emplois et équipements, même si leur répartition varie.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-geo-urban-q03",
+      "subjectId": "geographie",
+      "chapterId": "4e-geo-urban",
+      "question": "Pourquoi les villes ne sont-elles pas toutes reliées de la même manière à la mondialisation ?",
+      "answers": [
+        "Leurs infrastructures et leurs fonctions diffèrent",
+        "Toutes ont exactement les mêmes réseaux",
+        "Seules les villes côtières ont des habitants",
+        "La mondialisation ne concerne aucun réseau"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les connexions varient selon les transports, les télécommunications et les fonctions des villes.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-geo-urban-q04",
+      "subjectId": "geographie",
+      "chapterId": "4e-geo-urban",
+      "question": "Quel exemple correspond à une périphérie urbaine ?",
+      "answers": [
+        "Un quartier résidentiel à la limite de l’agglomération",
+        "Le centre historique uniquement",
+        "Une chaîne de montagnes sans ville",
+        "Une frontière maritime"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les périphéries se situent autour des secteurs centraux et comprennent des formes d’habitat et d’activités variées.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-geo-urban-q05",
+      "subjectId": "geographie",
+      "chapterId": "4e-geo-urban",
+      "question": "Quel enjeu peut accompagner une croissance urbaine rapide ?",
+      "answers": [
+        "Organiser les transports et l’accès aux services",
+        "Supprimer toute planification",
+        "Interdire les déplacements",
+        "Rendre inutile l’accès à l’eau"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une croissance rapide peut accroître les besoins en logements, transports, eau et services.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-geo-mobility-q01",
+      "subjectId": "geographie",
+      "chapterId": "4e-geo-mobility",
+      "question": "Qu’est-ce qu’une migration internationale ?",
+      "answers": [
+        "Un déplacement qui implique de changer de pays de résidence",
+        "Un trajet quotidien entre domicile et collège",
+        "Un séjour au cinéma",
+        "Un déplacement dans une même salle"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une migration internationale correspond à un changement de résidence d’un pays vers un autre.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-geo-mobility-q02",
+      "subjectId": "geographie",
+      "chapterId": "4e-geo-mobility",
+      "question": "Quel terme désigne une personne contrainte de fuir son pays en raison d’un danger ou de persécutions ?",
+      "answers": [
+        "Réfugié",
+        "Touriste",
+        "Navetteur",
+        "Guide"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un réfugié a fui son pays et répond aux critères de protection définis par le droit international.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-geo-mobility-q03",
+      "subjectId": "geographie",
+      "chapterId": "4e-geo-mobility",
+      "question": "Quelle caractéristique distingue généralement le tourisme d’une migration de résidence ?",
+      "answers": [
+        "Le séjour touristique est temporaire et lié aux loisirs ou à la découverte",
+        "Le tourisme implique toujours un changement définitif de pays",
+        "Un touriste ne franchit jamais de frontière",
+        "Une migration est toujours quotidienne"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le tourisme correspond à un séjour temporaire ; les motifs et situations de mobilité restent divers.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-geo-mobility-q04",
+      "subjectId": "geographie",
+      "chapterId": "4e-geo-mobility",
+      "question": "Comment le tourisme peut-il transformer un territoire ?",
+      "answers": [
+        "En développant des hébergements et transports, avec des effets sur les paysages",
+        "En supprimant automatiquement toute activité locale",
+        "En empêchant toute circulation",
+        "Sans aucun effet sur l’économie"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les équipements touristiques créent des activités mais peuvent aussi modifier les paysages et les milieux.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-geo-mobility-q05",
+      "subjectId": "geographie",
+      "chapterId": "4e-geo-mobility",
+      "question": "Quel facteur peut contribuer à une migration ?",
+      "answers": [
+        "La recherche de sécurité ou d’un emploi",
+        "La rotation de la Terre uniquement",
+        "La couleur d’un passeport sans autre contexte",
+        "L’absence de toute décision personnelle ou contrainte"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les mobilités peuvent résulter de facteurs économiques, familiaux, environnementaux, politiques ou de sécurité.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-emc-state-q01",
+      "subjectId": "emc",
+      "chapterId": "4e-emc-state",
+      "question": "Dans un État de droit, qui doit respecter la loi ?",
+      "answers": [
+        "Les citoyens et les autorités publiques",
+        "Les seuls citoyens",
+        "Les seules associations",
+        "Personne en dehors des tribunaux"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’État de droit soumet aussi les autorités publiques à des règles juridiques.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-emc-state-q02",
+      "subjectId": "emc",
+      "chapterId": "4e-emc-state",
+      "question": "Pourquoi la loi peut-elle encadrer une liberté ?",
+      "answers": [
+        "Pour protéger les droits d’autrui et l’intérêt général",
+        "Pour supprimer toutes les libertés",
+        "Pour éviter toute règle commune",
+        "Pour remplacer les tribunaux par des sondages"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les libertés sont garanties par la loi et peuvent être encadrées pour protéger autrui et l’intérêt général.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-emc-state-q03",
+      "subjectId": "emc",
+      "chapterId": "4e-emc-state",
+      "question": "Quelle institution juge une personne soupçonnée d’avoir commis une infraction ?",
+      "answers": [
+        "Une juridiction indépendante",
+        "Un réseau social",
+        "Un sondage",
+        "Une association sportive"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La justice rend ses décisions selon une procédure et des garanties légales.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-emc-state-q04",
+      "subjectId": "emc",
+      "chapterId": "4e-emc-state",
+      "question": "Que signifie la présomption d’innocence ?",
+      "answers": [
+        "Une personne est considérée innocente tant que sa culpabilité n’a pas été légalement établie",
+        "Toute accusation est automatiquement vraie",
+        "Une personne ne peut jamais être jugée",
+        "Seul un témoin décide de la peine"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La présomption d’innocence protège toute personne avant une décision judiciaire définitive.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-emc-state-q05",
+      "subjectId": "emc",
+      "chapterId": "4e-emc-state",
+      "question": "La liberté d’expression permet-elle de publier une menace contre une personne ?",
+      "answers": [
+        "Non, la loi peut sanctionner les menaces",
+        "Oui, sans aucune limite",
+        "Oui, si le message est anonyme",
+        "Seulement dans un journal imprimé"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La liberté d’expression est protégée, mais la loi interdit notamment les menaces et les atteintes aux droits d’autrui.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-emc-defense-q01",
+      "subjectId": "emc",
+      "chapterId": "4e-emc-defense",
+      "question": "À quoi sert principalement la défense nationale ?",
+      "answers": [
+        "À protéger la population, le territoire et les intérêts de la Nation",
+        "À remplacer les élections",
+        "À décider seule des peines judiciaires",
+        "À interdire tous les débats publics"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La défense nationale contribue à protéger la souveraineté, le territoire et la population.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-emc-defense-q02",
+      "subjectId": "emc",
+      "chapterId": "4e-emc-defense",
+      "question": "Quel acteur participe à la sécurité intérieure en France ?",
+      "answers": [
+        "La police ou la gendarmerie",
+        "Une équipe de cinéma",
+        "Un club privé sans mission publique",
+        "Un réseau social"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Police et gendarmerie sont des forces de sécurité intérieure aux missions définies par la loi.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-emc-defense-q03",
+      "subjectId": "emc",
+      "chapterId": "4e-emc-defense",
+      "question": "Face à une information virale qui accuse un groupe sans preuve, quelle démarche est citoyenne ?",
+      "answers": [
+        "Vérifier les sources et éviter de relayer l’accusation",
+        "La transférer immédiatement",
+        "Ajouter un nom au hasard",
+        "La tenir pour vraie parce qu’elle est populaire"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Vérifier les sources et ne pas amplifier une accusation non étayée relève d’un usage responsable de l’information.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-emc-defense-q04",
+      "subjectId": "emc",
+      "chapterId": "4e-emc-defense",
+      "question": "Quel principe doit guider l’action des forces de sécurité ?",
+      "answers": [
+        "Agir dans le cadre de la loi et respecter les droits fondamentaux",
+        "Être au-dessus de la loi",
+        "Punir sans procédure",
+        "Interdire tout rassemblement par principe"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les missions de sécurité s’exercent dans le cadre légal et sous le contrôle des institutions compétentes.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-emc-defense-q05",
+      "subjectId": "emc",
+      "chapterId": "4e-emc-defense",
+      "question": "La sécurité et la défense sont-elles compatibles avec la démocratie ?",
+      "answers": [
+        "Oui, lorsqu’elles protègent la population dans le respect du droit",
+        "Non, elles suppriment nécessairement les droits",
+        "Oui, uniquement si le Parlement disparaît",
+        "Non, elles ne concernent jamais la République"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La protection collective est organisée par des institutions démocratiques et reste soumise au droit.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-pc-matter-q01",
+      "subjectId": "physique-chimie",
+      "chapterId": "4e-pc-matter",
+      "question": "Dans une eau salée préparée en dissolvant du sel, quel est le soluté ?",
+      "answers": [
+        "Le sel",
+        "L’eau",
+        "Le récipient",
+        "La vapeur d’eau"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le soluté est la substance dissoute ; ici, c’est le sel.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-pc-matter-q02",
+      "subjectId": "physique-chimie",
+      "chapterId": "4e-pc-matter",
+      "question": "Quelle méthode sépare un solide insoluble d’un liquide ?",
+      "answers": [
+        "La filtration",
+        "La fusion",
+        "La distillation du solide",
+        "La congélation obligatoire"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un filtre retient les particules solides insolubles et laisse passer le liquide.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-pc-matter-q03",
+      "subjectId": "physique-chimie",
+      "chapterId": "4e-pc-matter",
+      "question": "Que se passé-t-il quand de la glace fond ?",
+      "answers": [
+        "Un changement d’état physique",
+        "Une réaction qui crée une nouvelle substance",
+        "La disparition de la matière",
+        "Une combustion"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La glace devient de l’eau liquide : l’espèce chimique reste H₂O.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-pc-matter-q04",
+      "subjectId": "physique-chimie",
+      "chapterId": "4e-pc-matter",
+      "question": "À pression atmosphérique normale, l’eau pure bout aux environs de…",
+      "answers": [
+        "0 °C",
+        "50 °C",
+        "100 °C",
+        "200 °C"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "À pression atmosphérique normale, la température d’ébullition de l’eau pure est proche de 100 °C.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-pc-matter-q05",
+      "subjectId": "physique-chimie",
+      "chapterId": "4e-pc-matter",
+      "question": "Comment reconnaît-on un mélange hétérogène à l’œil nu ?",
+      "answers": [
+        "On distingue plusieurs constituants ou phases",
+        "Il ne contient qu’une seule espèce chimique",
+        "Il est toujours gazeux",
+        "Il est forcément transparent"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un mélange hétérogène présente plusieurs phases visibles, contrairement à un mélange homogène.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-pc-motion-q01",
+      "subjectId": "physique-chimie",
+      "chapterId": "4e-pc-motion",
+      "question": "Un objet reste au même endroit par rapport au sol. Comment décrit-on son mouvement dans le référentiel terrestre ?",
+      "answers": [
+        "Il est immobile",
+        "Il est nécessairement accéléré",
+        "Il suit une trajectoire circulaire",
+        "Il est en chute libre"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le mouvement dépend du référentiel ; par rapport au sol, sa position ne change pas.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-pc-motion-q02",
+      "subjectId": "physique-chimie",
+      "chapterId": "4e-pc-motion",
+      "question": "Qu’est-ce qu’une trajectoire ?",
+      "answers": [
+        "L’ensemble des positions successives d’un objet",
+        "La masse de l’objet",
+        "La durée du mouvement uniquement",
+        "La force exercée par l’objet"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La trajectoire est le chemin constitué par les positions successives de l’objet.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-pc-motion-q03",
+      "subjectId": "physique-chimie",
+      "chapterId": "4e-pc-motion",
+      "question": "Lors d’un mouvement uniforme, quelle grandeur reste constante ?",
+      "answers": [
+        "La valeur de la vitesse",
+        "La position dans tous les référentiels",
+        "La direction de la trajectoire dans tous les cas",
+        "La masse de l’objet augmente"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un mouvement uniforme a une vitesse de valeur constante ; sa trajectoire peut être droite ou courbe.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-pc-motion-q04",
+      "subjectId": "physique-chimie",
+      "chapterId": "4e-pc-motion",
+      "question": "Laquelle de ces interactions agit à distance ?",
+      "answers": [
+        "L’attraction gravitationnelle entre la Terre et la Lune",
+        "La poussée d’une main sur une porte",
+        "Le contact d’un ballon avec le sol",
+        "Le frottement entre deux surfaces en contact"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La gravitation agit sans contact direct entre les deux objets.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-pc-motion-q05",
+      "subjectId": "physique-chimie",
+      "chapterId": "4e-pc-motion",
+      "question": "Quelle information fait partie de la description complète d’une force ?",
+      "answers": [
+        "Sa direction et son sens",
+        "La couleur de l’objet seulement",
+        "Le nom de l’observateur",
+        "La température de la pièce uniquement"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une force se représente notamment par un point d’application, une direction, un sens et une valeur.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-svt-health-q01",
+      "subjectId": "svt",
+      "chapterId": "4e-svt-health",
+      "question": "Quel ensemble comprend le cerveau et la moelle épinière ?",
+      "answers": [
+        "Le système nerveux central",
+        "Le système digestif",
+        "Le système respiratoire",
+        "Le système osseux"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le cerveau et la moelle épinière constituent le système nerveux central.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-svt-health-q02",
+      "subjectId": "svt",
+      "chapterId": "4e-svt-health",
+      "question": "Quel est le rôle d’un récepteur sensoriel ?",
+      "answers": [
+        "Détecter une stimulation et produire un message nerveux",
+        "Faire circuler le sang",
+        "Fabriquer des os",
+        "Détruire tous les microbes"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les récepteurs sensoriels détectent des stimulations et transmettent une information nerveuse.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-svt-health-q03",
+      "subjectId": "svt",
+      "chapterId": "4e-svt-health",
+      "question": "Pourquoi le sommeil est-il important pour un adolescent ?",
+      "answers": [
+        "Il contribue au fonctionnement de l’organisme et aux apprentissages",
+        "Il remplace toute activité physique",
+        "Il empêche le cerveau de mémoriser",
+        "Il rend inutile une alimentation équilibrée"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le sommeil participe à la récupération et à des fonctions utiles aux apprentissages et à la santé.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-svt-health-q04",
+      "subjectId": "svt",
+      "chapterId": "4e-svt-health",
+      "question": "Sur quelles infections les antibiotiques agissent-ils ?",
+      "answers": [
+        "Certaines infections bactériennes",
+        "Toutes les infections virales",
+        "Les fractures",
+        "Les allergies uniquement"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les antibiotiques ciblent des bactéries ; ils ne traitent pas les virus.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-svt-health-q05",
+      "subjectId": "svt",
+      "chapterId": "4e-svt-health",
+      "question": "Quel est le rôle général d’un vaccin ?",
+      "answers": [
+        "Préparer le système immunitaire à reconnaître un agent infectieux",
+        "Remplacer immédiatement tous les globules blancs",
+        "Soigner toutes les maladies déjà présentes",
+        "Empêcher toute infection à vie sans exception"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La vaccination entraîne le système immunitaire à reconnaître un agent infectieux et réduit les risques de maladie grave.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-svt-earth-q01",
+      "subjectId": "svt",
+      "chapterId": "4e-svt-earth",
+      "question": "Dans un écosystème, que désigne le milieu de vie ?",
+      "answers": [
+        "Les conditions physiques et les ressources du lieu",
+        "Uniquement les animaux",
+        "Uniquement les plantes",
+        "Les objets fabriqués par les humains seulement"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un écosystème comprend les êtres vivants, leur milieu et leurs interactions.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-svt-earth-q02",
+      "subjectId": "svt",
+      "chapterId": "4e-svt-earth",
+      "question": "Quel rôle jouent les décomposeurs ?",
+      "answers": [
+        "Ils transforment la matière organique morte et contribuent au recyclage de la matière",
+        "Ils produisent toujours leur nourriture par photosynthèse",
+        "Ils suppriment toute matière minérale",
+        "Ils empêchent la croissance des plantes"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les décomposeurs transforment la matière organique et rendent des éléments disponibles dans le milieu.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-svt-earth-q03",
+      "subjectId": "svt",
+      "chapterId": "4e-svt-earth",
+      "question": "Quelle action peut réduire la biodiversité d’un milieu ?",
+      "answers": [
+        "La destruction ou la fragmentation d’habitats",
+        "La création d’un inventaire des espèces",
+        "La restauration d’une zone humide",
+        "La protection d’un corridor écologique"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La perte et la fragmentation des habitats menacent les populations et leurs déplacements.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-svt-earth-q04",
+      "subjectId": "svt",
+      "chapterId": "4e-svt-earth",
+      "question": "Dans une chaîne alimentaire, une flèche de la proie vers son prédateur représente généralement…",
+      "answers": [
+        "Le transfert de matière et d’énergie",
+        "Le déplacement du prédateur vers le passé",
+        "La disparition de toute énergie",
+        "La reproduction des roches"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La flèche relie l’organisme consommé à celui qui le consomme : matière et énergie sont transférées.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-svt-earth-q05",
+      "subjectId": "svt",
+      "chapterId": "4e-svt-earth",
+      "question": "Pourquoi étudier les effets d’une activité humaine sur un milieu ?",
+      "answers": [
+        "Pour comprendre les changements et envisager des choix de gestion",
+        "Pour prouver que tout changement est bénéfique",
+        "Pour éliminer toutes les espèces sauvages",
+        "Pour éviter toute observation scientifique"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’étude des impacts aide à comprendre les transformations et à comparer des mesures de gestion.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-tech-uses-q01",
+      "subjectId": "technologie",
+      "chapterId": "4e-tech-uses",
+      "question": "Quel élément décrit le mieux le besoin auquel répond une lampe de bureau ?",
+      "answers": [
+        "Éclairer une zone de travail",
+        "Être fabriquée dans une couleur donnée",
+        "Posséder une boîte",
+        "Être placée dans un musée"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le besoin exprime le service attendu ; la couleur et la forme sont des choix de conception possibles.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-tech-uses-q02",
+      "subjectId": "technologie",
+      "chapterId": "4e-tech-uses",
+      "question": "Pourquoi prendre en compte les utilisateurs lors de l’étude d’un objet technique ?",
+      "answers": [
+        "Pour vérifier qu’il répond aux usages et contraintes réels",
+        "Pour ignorer la sécurité",
+        "Pour éviter de comparer des solutions",
+        "Pour empêcher son évolution"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’analyse des usages permet d’évaluer l’adéquation de l’objet aux besoins et aux utilisateurs.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-tech-uses-q03",
+      "subjectId": "technologie",
+      "chapterId": "4e-tech-uses",
+      "question": "Qu’est-ce que le cycle de vie d’un objet ?",
+      "answers": [
+        "Les étapes de l’extraction des matériaux à la fin de vie",
+        "La durée d’une seule utilisation",
+        "Le nombre de couleurs disponibles",
+        "L’ordre des boutons sur l’objet"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le cycle de vie considère matières premières, fabrication, transport, usage et fin de vie.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-tech-uses-q04",
+      "subjectId": "technologie",
+      "chapterId": "4e-tech-uses",
+      "question": "Quel critère aide à comparer deux solutions pour le même besoin ?",
+      "answers": [
+        "Le coût, la sécurité et l’impact environnemental",
+        "Le nom de leur concepteur seulement",
+        "Le nombre de lettres dans leur marque",
+        "Leur couleur uniquement"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une comparaison pertinente mobilise plusieurs exigences, dont coût, usage, sécurité et environnement.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-tech-uses-q05",
+      "subjectId": "technologie",
+      "chapterId": "4e-tech-uses",
+      "question": "Dans un objet connecté, quelle information peut être échangée avec un service distant ?",
+      "answers": [
+        "Une donnée mesurée par un capteur",
+        "Une masse qui n’existe pas",
+        "Une règle de grammaire",
+        "La couleur du ciel sans capteur ni entrée"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un capteur peut produire une donnée que le système transmet si sa conception le prévoit.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-tech-structure-q01",
+      "subjectId": "technologie",
+      "chapterId": "4e-tech-structure",
+      "question": "Dans un système automatisé, quel composant mesure une température ?",
+      "answers": [
+        "Un capteur",
+        "Un engrenage passif",
+        "Un châssis",
+        "Une vis"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un capteur acquiert une grandeur physique, ici la température.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-tech-structure-q02",
+      "subjectId": "technologie",
+      "chapterId": "4e-tech-structure",
+      "question": "Quel composant réalise une action sur l’environnement d’un système ?",
+      "answers": [
+        "Un actionneur",
+        "Une notice",
+        "Un cahier des charges",
+        "Un matériau brut"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un actionneur transforme une commande en action, par exemple faire tourner un moteur.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-tech-structure-q03",
+      "subjectId": "technologie",
+      "chapterId": "4e-tech-structure",
+      "question": "Dans un algorithme, à quoi sert une condition « si… alors » ?",
+      "answers": [
+        "À choisir une action selon qu’un test est vrai ou faux",
+        "À répéter toujours une action sans test",
+        "À mesurer une longueur",
+        "À dessiner automatiquement un objet"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une structure conditionnelle sélectionne une branche selon le résultat d’un test.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-tech-structure-q04",
+      "subjectId": "technologie",
+      "chapterId": "4e-tech-structure",
+      "question": "Un programme répète trois fois la même instruction. Quelle structure est adaptée ?",
+      "answers": [
+        "Une boucle",
+        "Une variable texte obligatoire",
+        "Un capteur de lumière",
+        "Une pièce mécanique"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une boucle permet de répéter des instructions selon un nombre de fois ou une condition.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-tech-structure-q05",
+      "subjectId": "technologie",
+      "chapterId": "4e-tech-structure",
+      "question": "Après une erreur dans un programme, quelle démarche est la plus utile ?",
+      "answers": [
+        "Reproduire le problème, repérer l’instruction fautive et tester une correction",
+        "Supprimer le projet sans observer",
+        "Ajouter des instructions au hasard",
+        "Ignorer le résultat du test"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le débogage s’appuie sur l’observation, l’identification de la cause et des essais contrôlés.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-anglais-practice-q01",
+      "subjectId": "anglais",
+      "chapterId": "4e-anglais-practice",
+      "question": "Complète: “My sister ___ to school by bus every day.”",
+      "answers": [
+        "go",
+        "goes",
+        "going",
+        "went"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Au présent simple, on ajoute généralement -s à la troisième personne du singulier.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-anglais-practice-q02",
+      "subjectId": "anglais",
+      "chapterId": "4e-anglais-practice",
+      "question": "Which sentence is in the past simple?",
+      "answers": [
+        "We visit the castle every year.",
+        "We visited the castle yesterday.",
+        "We are visiting the castle now.",
+        "We will visit the castle."
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "« Visited » est le prétérit régulier ; « yesterday » situe l’action dans le passé.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-anglais-practice-q03",
+      "subjectId": "anglais",
+      "chapterId": "4e-anglais-practice",
+      "question": "Choose the correct comparative: “This route is ___ than the other one.”",
+      "answers": [
+        "short",
+        "shorter",
+        "shortest",
+        "more short"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "L’adjectif court « short » prend généralement -er au comparatif.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-anglais-practice-q04",
+      "subjectId": "anglais",
+      "chapterId": "4e-anglais-practice",
+      "question": "What does “borrow a book” mean?",
+      "answers": [
+        "Emprunter un livre",
+        "Rendre un livre",
+        "Écrire un livre",
+        "Vendre un livre"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« To borrow » signifie emprunter ; « to lend » signifie prêter.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-anglais-practice-q05",
+      "subjectId": "anglais",
+      "chapterId": "4e-anglais-practice",
+      "question": "Complète: “There ___ two museums near the station.”",
+      "answers": [
+        "is",
+        "are",
+        "was",
+        "be"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "« Two museums » est pluriel, on emploie « there are ».",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-anglais-languages-q01",
+      "subjectId": "anglais",
+      "chapterId": "4e-anglais-languages",
+      "question": "A sign says “Last entry: 4:30 pm”. When must visitors enter at the latest?",
+      "answers": [
+        "At 4:30 pm",
+        "At 5:30 pm",
+        "At 6:00 pm",
+        "At midnight"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Last entry » indique l’heure limite d’entrée : 4:30 pm.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-anglais-languages-q02",
+      "subjectId": "anglais",
+      "chapterId": "4e-anglais-languages",
+      "question": "“Take an umbrella because it may rain.” Why should the person take an umbrella?",
+      "answers": [
+        "Rain is possible",
+        "It is very hot",
+        "The bus is late",
+        "The museum is closed"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Because it may rain » donne la raison.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-anglais-languages-q03",
+      "subjectId": "anglais",
+      "chapterId": "4e-anglais-languages",
+      "question": "Which question asks for directions?",
+      "answers": [
+        "How do I get to the library?",
+        "How old is your library?",
+        "Who owns this book?",
+        "What time did you sleep?"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« How do I get to…? » demande comment se rendre à un lieu.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-anglais-languages-q04",
+      "subjectId": "anglais",
+      "chapterId": "4e-anglais-languages",
+      "question": "A timetable says “The train leaves at 8:15”. What time does it leave?",
+      "answers": [
+        "8:05",
+        "8:15",
+        "8:50",
+        "9:15"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "L’horaire indiqué est 8:15.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-anglais-languages-q05",
+      "subjectId": "anglais",
+      "chapterId": "4e-anglais-languages",
+      "question": "Which reply is the most polite way to ask someone to repeat?",
+      "answers": [
+        "Could you say that again, please?",
+        "You are wrong.",
+        "Go away.",
+        "I never listen."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Cette formule demande poliment de répéter une information.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-lca-language-q01",
+      "subjectId": "lca",
+      "chapterId": "4e-lca-language",
+      "question": "Le mot latin « aqua » signifie eau. Quel mot français partage cette racine ?",
+      "answers": [
+        "Aquatique",
+        "Aiguille",
+        "Équateur",
+        "Écriture"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Aquatique » est formé sur la racine latine aqua, liée à l’eau.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-lca-language-q02",
+      "subjectId": "lca",
+      "chapterId": "4e-lca-language",
+      "question": "En grec ancien, bios signifie la vie et graphein écrire. Que signifie « biographie » ?",
+      "answers": [
+        "Récit de la vie d’une personne",
+        "Description d’une pierre",
+        "Étude des nombres",
+        "Liste de lieux"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le mot associé bios (vie) et graphein (écrire) : une biographie raconte une vie.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-lca-language-q03",
+      "subjectId": "lca",
+      "chapterId": "4e-lca-language",
+      "question": "Que signifie l’expression latine « et cetera » ?",
+      "answers": [
+        "Et le reste",
+        "Avant le début",
+        "À voix basse",
+        "Sans témoin"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Et cetera » signifie « et les autres choses » ou « et le reste ».",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-lca-language-q04",
+      "subjectId": "lca",
+      "chapterId": "4e-lca-language",
+      "question": "La racine grecque « chrono- » renvoie principalement…",
+      "answers": [
+        "Au temps",
+        "À l’eau",
+        "Au feu",
+        "À la cité"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Chronologie et chronomètre sont construits sur une racine grecque liée au temps.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-lca-language-q05",
+      "subjectId": "lca",
+      "chapterId": "4e-lca-language",
+      "question": "Quel mot français vient de la racine latine « terra », la terre ?",
+      "answers": [
+        "Territoire",
+        "Aquarium",
+        "Lunaire",
+        "Écriture"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Territoire » appartient à la famille issue de terra.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-lca-cultures-q01",
+      "subjectId": "lca",
+      "chapterId": "4e-lca-cultures",
+      "question": "Dans le mythe grec, que se passé-t-il lorsque Icare s’approche trop du Soleil ?",
+      "answers": [
+        "La cire de ses ailes fond et il tombe dans la mer",
+        "Il devient roi de Rome",
+        "Il construit le Parthénon",
+        "Il découvre l’imprimerie"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Dans le récit mythique, la chaleur fait fondre la cire des ailes fabriquées par Dédale.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-lca-cultures-q02",
+      "subjectId": "lca",
+      "chapterId": "4e-lca-cultures",
+      "question": "Dans une cité grecque antique, une « polis » désigne principalement…",
+      "answers": [
+        "Une cité-État et sa communauté politique",
+        "Une armée romaine",
+        "Un théâtre moderne",
+        "Une province française"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La polis est une cité-État grecque et la communauté qui lui est associée.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-lca-cultures-q03",
+      "subjectId": "lca",
+      "chapterId": "4e-lca-cultures",
+      "question": "À quoi servait principalement un amphithéâtre romain ?",
+      "answers": [
+        "À accueillir des spectacles publics, dont des combats de gladiateurs",
+        "À élire le Sénat chaque semaine",
+        "À conserver les récoltes",
+        "À enseigner le grec uniquement"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les amphithéâtres accueillaient des spectacles publics, notamment des combats de gladiateurs.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-lca-cultures-q04",
+      "subjectId": "lca",
+      "chapterId": "4e-lca-cultures",
+      "question": "Le récit du cheval de Troie appartient à la tradition mythologique liée…",
+      "answers": [
+        "À la guerre entre Grecs et Troyens",
+        "À la fondation de Paris au Moyen Âge",
+        "À la République romaine moderne",
+        "À l’Empire byzantin uniquement"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le cheval de Troie est associé au récit légendaire de la guerre entre Grecs et Troyens.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-lca-cultures-q05",
+      "subjectId": "lca",
+      "chapterId": "4e-lca-cultures",
+      "question": "Quel vêtement est associé aux usages de la Rome antique ?",
+      "answers": [
+        "La toge",
+        "Le kimono japonais",
+        "Le kilt écossais",
+        "L’armure de chevalier médiéval"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La toge est un vêtement emblématique porté dans la Rome antique.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-espagnol-practice-q01",
+      "subjectId": "espagnol",
+      "chapterId": "4e-espagnol-practice",
+      "question": "Completa: « ¿Dónde ___ el museo? »",
+      "answers": [
+        "es",
+        "está",
+        "son",
+        "hay"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Pour situer un lieu, on emploie « estar » : « ¿Dónde está el museo? ».",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-espagnol-practice-q02",
+      "subjectId": "espagnol",
+      "chapterId": "4e-espagnol-practice",
+      "question": "Completa: « Ayer nosotros ___ al centro. »",
+      "answers": [
+        "vamos",
+        "fuimos",
+        "iremos",
+        "somos"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "« Ayer » situe l’action dans le passé ; « fuimos » est le prétérit de « ir ».",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-espagnol-practice-q03",
+      "subjectId": "espagnol",
+      "chapterId": "4e-espagnol-practice",
+      "question": "Que signifie « Hay dos bibliotecas » ?",
+      "answers": [
+        "Il y a deux bibliothèques",
+        "Il n’y a pas de bibliothèque",
+        "Nous allons à la bibliothèque",
+        "Les bibliothèques sont fermées"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Hay » signifie « il y a » au singulier comme au pluriel.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-espagnol-practice-q04",
+      "subjectId": "espagnol",
+      "chapterId": "4e-espagnol-practice",
+      "question": "Que signifie « el barrio » ?",
+      "answers": [
+        "Le quartier",
+        "La gare",
+        "Le cahier",
+        "Le voyage"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« El barrio » signifie « le quartier ».",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-espagnol-practice-q05",
+      "subjectId": "espagnol",
+      "chapterId": "4e-espagnol-practice",
+      "question": "Dans « Marta es más alta que Ana », que signifie « más alta que » ?",
+      "answers": [
+        "Plus grande que",
+        "Moins rapide que",
+        "Aussi jeune que",
+        "À côté de"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Más… que » sert à exprimer une comparaison de supériorité.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-espagnol-languages-q01",
+      "subjectId": "espagnol",
+      "chapterId": "4e-espagnol-languages",
+      "question": "Une affiche dit « Abierto de martes a domingo ». Quand le lieu est-il ouvert ?",
+      "answers": [
+        "Du mardi au dimanche",
+        "Du dimanche au mardi seulement",
+        "Le lundi uniquement",
+        "Tous les lundis"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« De martes a domingo » signifie « du mardi au dimanche ».",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-espagnol-languages-q02",
+      "subjectId": "espagnol",
+      "chapterId": "4e-espagnol-languages",
+      "question": "Que signifie « Prohibido fumar » ?",
+      "answers": [
+        "Il est interdit de fumer",
+        "Il est obligatoire de fumer",
+        "Le musée est gratuit",
+        "La sortie est à gauche"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Prohibido » signifie interdit et « fumar » signifie fumer.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-espagnol-languages-q03",
+      "subjectId": "espagnol",
+      "chapterId": "4e-espagnol-languages",
+      "question": "Sur une affiche, « Entrada gratuita » indique que…",
+      "answers": [
+        "L’entrée est gratuite",
+        "La sortie est fermée",
+        "Le billet est obligatoire et payant",
+        "Le lieu ouvre la nuit"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Gratuita » signifie gratuite.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-espagnol-languages-q04",
+      "subjectId": "espagnol",
+      "chapterId": "4e-espagnol-languages",
+      "question": "Un panneau indique « El autobús sale à las ocho ». À quelle heure le bus part-il ?",
+      "answers": [
+        "À huit heures",
+        "À sept heures",
+        "À midi",
+        "À dix-huit heures"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Sale à las ocho » signifie qu’il part à huit heures.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-espagnol-languages-q05",
+      "subjectId": "espagnol",
+      "chapterId": "4e-espagnol-languages",
+      "question": "« Para llegar à la estación, cruzà la plaza » donne…",
+      "answers": [
+        "Une indication d’itinéraire",
+        "Une date de naissance",
+        "Une interdiction de lire",
+        "Un prix d’entrée"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La phrase indique de traverser la place pour rejoindre la gare.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-allemand-practice-q01",
+      "subjectId": "allemand",
+      "chapterId": "4e-allemand-practice",
+      "question": "Complète : « Ich ___ heute zu Hause. »",
+      "answers": [
+        "bin",
+        "bist",
+        "sind",
+        "seid"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Avec « ich », le verbe « sein » se conjugue « bin ».",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-allemand-practice-q02",
+      "subjectId": "allemand",
+      "chapterId": "4e-allemand-practice",
+      "question": "Que demande « Wie heißt du? » ?",
+      "answers": [
+        "Comment tu t’appelles ?",
+        "Où habites-tu ?",
+        "Quel âge a-t-il ?",
+        "Quelle heure est-il ?"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Wie heißt du? » demande le nom de la personne.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-allemand-practice-q03",
+      "subjectId": "allemand",
+      "chapterId": "4e-allemand-practice",
+      "question": "Que signifie « Ich fahre mit dem Bus zur Schule » ?",
+      "answers": [
+        "Je vais à l’école en bus",
+        "Je rentre de l’école à pied",
+        "Je suis professeur de bus",
+        "Je n’aime pas l’école"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Mit dem Bus » signifie « en bus » et « zur Schule » signifie « à l’école ».",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-allemand-practice-q04",
+      "subjectId": "allemand",
+      "chapterId": "4e-allemand-practice",
+      "question": "Que signifie « am Montag » ?",
+      "answers": [
+        "Lundi ou le lundi",
+        "Demain matin",
+        "À midi",
+        "Le mois prochain"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Am Montag » signifie « lundi » ou « le lundi ».",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-allemand-practice-q05",
+      "subjectId": "allemand",
+      "chapterId": "4e-allemand-practice",
+      "question": "Complète : « Wir ___ einen Hund. »",
+      "answers": [
+        "haben",
+        "hat",
+        "hast",
+        "habt"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Avec « wir », le verbe « haben » prend la forme « haben ».",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-allemand-languages-q01",
+      "subjectId": "allemand",
+      "chapterId": "4e-allemand-languages",
+      "question": "Un horaire indique « Der Zug fährt um 9 Uhr ab ». À quelle heure le train part-il ?",
+      "answers": [
+        "À 9 heures",
+        "À 8 heures",
+        "À 10 heures",
+        "À 19 heures"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Fährt … ab » signifie « part » ; l’horaire indiqué est 9 heures.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-allemand-languages-q02",
+      "subjectId": "allemand",
+      "chapterId": "4e-allemand-languages",
+      "question": "Que signifie « Eintritt frei » ?",
+      "answers": [
+        "Entrée gratuite",
+        "Entrée interdite",
+        "Ouvert uniquement le vendredi",
+        "Sortie à gauche"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Eintritt frei » signifie que l’entrée est libre ou gratuite.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-allemand-languages-q03",
+      "subjectId": "allemand",
+      "chapterId": "4e-allemand-languages",
+      "question": "Un panneau dit « Bitte hier nicht parken ». Que demande-t-il ?",
+      "answers": [
+        "De ne pas se garer ici",
+        "De payer ici",
+        "De tourner à droite",
+        "De fermer la porte"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Nicht parken » signifie « ne pas se garer ».",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-allemand-languages-q04",
+      "subjectId": "allemand",
+      "chapterId": "4e-allemand-languages",
+      "question": "Une bibliothèque affiche « Heute geschlossen ». Qu’apprend-on ?",
+      "answers": [
+        "Elle est fermée aujourd’hui",
+        "Elle ouvre toute la nuit",
+        "Elle ferme demain",
+        "Elle est gratuite aujourd’hui"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Heute » signifie aujourd’hui et « geschlossen » signifie fermé.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-allemand-languages-q05",
+      "subjectId": "allemand",
+      "chapterId": "4e-allemand-languages",
+      "question": "Que demande « Entschuldigung, wo ist der Bahnhof? » ?",
+      "answers": [
+        "Où se trouve la gare ?",
+        "Quand part le train ?",
+        "Combien coûte le billet ?",
+        "Qui conduit le bus ?"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La question « wo ist » demande où se trouve un lieu.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-art-representation-q01",
+      "subjectId": "arts-plastiques",
+      "chapterId": "4e-art-representation",
+      "question": "À quoi sert le cadrage dans une photographie ou une image ?",
+      "answers": [
+        "À choisir la partie de la scène montrée au spectateur",
+        "À mesurer le poids du papier",
+        "À fixer la date de l’œuvre",
+        "À garantir que l’image est réaliste"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le cadrage sélectionne ce qui apparaît et ce qui reste hors champ.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-art-representation-q02",
+      "subjectId": "arts-plastiques",
+      "chapterId": "4e-art-representation",
+      "question": "Quel procédé graphique aide souvent à représenter la profondeur sur une surface plane ?",
+      "answers": [
+        "La perspective",
+        "La reliure",
+        "La gravure du titre",
+        "Le collage du support"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La perspective organise des lignes et des tailles pour suggérer la profondeur.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-art-representation-q03",
+      "subjectId": "arts-plastiques",
+      "chapterId": "4e-art-representation",
+      "question": "Deux images placées côte à côte peuvent…",
+      "answers": [
+        "Produire un rapprochement ou un contraste de sens",
+        "N’avoir jamais aucun effet sur l’interprétation",
+        "Devenir une seule image originale automatiquement",
+        "Empêcher toute lecture de l’œuvre"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La juxtaposition peut créer du sens par comparaison ou contraste.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-art-representation-q04",
+      "subjectId": "arts-plastiques",
+      "chapterId": "4e-art-representation",
+      "question": "Une image de fiction représente nécessairement…",
+      "answers": [
+        "Un univers inventé ou transformé, même s’il reprend des éléments réels",
+        "Une photographie documentaire exacte",
+        "Une carte officielle",
+        "Un relevé scientifique complet"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La fiction construit un monde qui peut s’inspirer du réel sans le reproduire fidèlement.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-art-representation-q05",
+      "subjectId": "arts-plastiques",
+      "chapterId": "4e-art-representation",
+      "question": "Pourquoi un artiste peut-il déformer volontairement un objet représenté ?",
+      "answers": [
+        "Pour exprimer une intention ou modifier la perception du spectateur",
+        "Parce qu’une œuvre doit toujours être une copie exacte",
+        "Pour supprimer toute composition",
+        "Pour prouver que l’objet n’existe pas"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les choix de représentation servent une intention artistique et ne visent pas toujours l’imitation exacte.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-art-materiality-q01",
+      "subjectId": "arts-plastiques",
+      "chapterId": "4e-art-materiality",
+      "question": "Qu’appelle-t-on le support d’une œuvre ?",
+      "answers": [
+        "La surface ou le matériau qui reçoit ou porte l’œuvre",
+        "Le public qui visite l’exposition",
+        "Le titre uniquement",
+        "La date de l’exposition"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le support est le fond ou le matériau sur lequel l’œuvre est réalisée ou présentée.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-art-materiality-q02",
+      "subjectId": "arts-plastiques",
+      "chapterId": "4e-art-materiality",
+      "question": "Quel procédé consiste à assembler des fragments de matériaux ou d’images ?",
+      "answers": [
+        "Le collage",
+        "La perspective",
+        "La mise au point",
+        "Le cadrage"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le collage assemble des éléments hétérogènes sur une même surface.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-art-materiality-q03",
+      "subjectId": "arts-plastiques",
+      "chapterId": "4e-art-materiality",
+      "question": "Une sculpture se distingue d’un dessin sur feuille parce qu’elle peut…",
+      "answers": [
+        "Occuper un volume dans l’espace",
+        "Ne posséder aucune matière",
+        "Être toujours invisible",
+        "Être uniquement sonore"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La sculpture est une œuvre en volume, même si ses matériaux et formes sont variés.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-art-materiality-q04",
+      "subjectId": "arts-plastiques",
+      "chapterId": "4e-art-materiality",
+      "question": "Que peut produire le détournement d’un objet ordinaire dans une œuvre ?",
+      "answers": [
+        "Un nouveau sens en changeant son contexte ou son usage",
+        "Une garantie de fonctionnement technique",
+        "La disparition automatique de sa matière",
+        "Une mesure exacte de sa masse"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le changement de contexte ou de fonction invite le spectateur à interpréter autrement l’objet.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-art-materiality-q05",
+      "subjectId": "arts-plastiques",
+      "chapterId": "4e-art-materiality",
+      "question": "Dans une installation, pourquoi le déplacement du spectateur peut-il compter ?",
+      "answers": [
+        "Son point de vue et son parcours font partie de la rencontre avec l’œuvre",
+        "Il sert seulement à mesurer la salle",
+        "Il empêche de voir l’œuvre",
+        "Il remplace toujours le travail de l’artiste"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’installation peut être conçue pour être parcourue et vue depuis plusieurs positions.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-music-production-q01",
+      "subjectId": "education-musicale",
+      "chapterId": "4e-music-production",
+      "question": "Qu’est-ce qu’un ostinato musical ?",
+      "answers": [
+        "Un motif rythmique ou mélodique répété",
+        "Un silence final obligatoire",
+        "Un instrument à cordes",
+        "Une voix parlée sans rythme"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un ostinato est un motif qui revient de manière répétée dans une pièce musicale.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-music-production-q02",
+      "subjectId": "education-musicale",
+      "chapterId": "4e-music-production",
+      "question": "Que signifie chanter a cappella ?",
+      "answers": [
+        "Chanter sans accompagnement instrumental",
+        "Chanter uniquement très fort",
+        "Chanter en parlant",
+        "Chanter en extérieur"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "A cappella désigne une interprétation vocale sans accompagnement instrumental.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-music-production-q03",
+      "subjectId": "education-musicale",
+      "chapterId": "4e-music-production",
+      "question": "Pourquoi répéter un morceau en groupe ?",
+      "answers": [
+        "Pour coordonner rythme, départs, nuances et écoute mutuelle",
+        "Pour éviter d’écouter les autres",
+        "Pour supprimer toute interprétation",
+        "Pour jouer chaque partie à un tempo différent"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La répétition permet de coordonner les interprètes et d’améliorer la cohérence de l’ensemble.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-music-production-q04",
+      "subjectId": "education-musicale",
+      "chapterId": "4e-music-production",
+      "question": "Que désigne une nuance en musique ?",
+      "answers": [
+        "Une variation d’intensité sonore",
+        "Le nom d’une clé uniquement",
+        "La durée d’une œuvre entière",
+        "Le nombre de musiciens dans une salle"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les nuances indiquent les variations de volume et d’intensité au cours d’une interprétation.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-music-production-q05",
+      "subjectId": "education-musicale",
+      "chapterId": "4e-music-production",
+      "question": "Dans un projet musical collectif, à quoi sert un arrangement ?",
+      "answers": [
+        "À adapter une œuvre ou une idée musicale à un ensemble et à ses moyens",
+        "À interdire tout changement de timbre",
+        "À noter le prix des instruments",
+        "À remplacer l’écoute par la lecture"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’arrangement organise les parties et adapte la musique aux interprètes ou aux instruments disponibles.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-music-perception-q01",
+      "subjectId": "education-musicale",
+      "chapterId": "4e-music-perception",
+      "question": "Quel paramètre aide à distinguer deux instruments jouant la même note à la même intensité ?",
+      "answers": [
+        "Le timbre",
+        "La date",
+        "Le titre",
+        "La durée du concert"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le timbre caractérise la couleur sonore propre à une voix ou à un instrument.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-music-perception-q02",
+      "subjectId": "education-musicale",
+      "chapterId": "4e-music-perception",
+      "question": "Qu’est-ce que la pulsation d’un morceau ?",
+      "answers": [
+        "Un battement régulier qui sert de repère temporel",
+        "La hauteur de la note la plus aiguë",
+        "Le texte imprimé sur la partition",
+        "Le nombre de couplets"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La pulsation est un repère régulier sur lequel on peut organiser le rythme.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-music-perception-q03",
+      "subjectId": "education-musicale",
+      "chapterId": "4e-music-perception",
+      "question": "Quel paramètre décrit le caractère aigu ou grave d’un son ?",
+      "answers": [
+        "La hauteur",
+        "Le timbre",
+        "La durée",
+        "Le volume de la salle"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La hauteur correspond à la perception d’un son aigu ou grave et dépend de sa fréquence.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-music-perception-q04",
+      "subjectId": "education-musicale",
+      "chapterId": "4e-music-perception",
+      "question": "Pourquoi comparer deux interprétations d’une même œuvre ?",
+      "answers": [
+        "Pour repérer des choix de tempo, de timbre, de nuances ou d’expression",
+        "Pour démontrer qu’une seule interprétation est permise",
+        "Pour éviter d’écouter les œuvres",
+        "Pour calculer le nombre de pages du programme"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une écoute comparée met en évidence différentes décisions d’interprétation.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-music-perception-q05",
+      "subjectId": "education-musicale",
+      "chapterId": "4e-music-perception",
+      "question": "Dans une écoute musicale, que peut-on noter pour décrire la forme ?",
+      "answers": [
+        "Le retour ou le contraste entre des parties",
+        "La couleur des sièges",
+        "La météo du jour",
+        "Le prix du billet seulement"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le repérage des répétitions et contrastes aide à décrire l’organisation d’une pièce.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-eps-perform-q01",
+      "subjectId": "eps",
+      "chapterId": "4e-eps-perform",
+      "question": "Pourquoi commencer une activité sportive par un échauffement progressif ?",
+      "answers": [
+        "Pour préparer le corps et augmenter graduellement l’effort",
+        "Pour atteindre immédiatement l’effort maximal",
+        "Pour remplacer les consignes de sécurité",
+        "Pour éviter tout mouvement"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’échauffement prépare progressivement l’organisme à l’activité physique.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-eps-perform-q02",
+      "subjectId": "eps",
+      "chapterId": "4e-eps-perform",
+      "question": "Pour comparer deux performances chronométrées, que faut-il essayer de garder similaire ?",
+      "answers": [
+        "Les conditions de mesure et le parcours",
+        "La couleur des chaussures uniquement",
+        "Le nombre de spectateurs",
+        "La musique diffusée"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Des conditions comparables rendent les résultats plus faciles à interpréter.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-eps-perform-q03",
+      "subjectId": "eps",
+      "chapterId": "4e-eps-perform",
+      "question": "Pendant un effort prolongé, quelle conduite est généralement adaptée ?",
+      "answers": [
+        "Régler son allure et tenir compte de ses sensations",
+        "Partir au maximum sans écouter son corps",
+        "Ignorer toute consigne de sécurité",
+        "Arrêter de respirer régulièrement"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une allure adaptée aide à soutenir l’effort et à respecter ses capacités.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-eps-perform-q04",
+      "subjectId": "eps",
+      "chapterId": "4e-eps-perform",
+      "question": "Quel comportement aide à prévenir les risques pendant une activité physique ?",
+      "answers": [
+        "Respecter les consignes, le matériel et les zones de pratique",
+        "Modifier seul les règles de sécurité",
+        "Se déplacer sans regarder les autres",
+        "Utiliser un matériel inadapté"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les consignes et le matériel adapté réduisent les risques pour soi et pour les autres.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-eps-perform-q05",
+      "subjectId": "eps",
+      "chapterId": "4e-eps-perform",
+      "question": "Pourquoi peut-on relever une durée, une distance ou un nombre de répétitions ?",
+      "answers": [
+        "Pour observer et analyser une performance",
+        "Pour mesurer l’intention artistique uniquement",
+        "Pour remplacer toute pratique",
+        "Pour déterminer la taille du terrain sans outil"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Des mesures permettent de suivre une performance et d’observer ses évolutions.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-eps-opposition-q01",
+      "subjectId": "eps",
+      "chapterId": "4e-eps-opposition",
+      "question": "Dans un jeu collectif, pourquoi passer le ballon à un partenaire démarqué ?",
+      "answers": [
+        "Pour faire progresser l’action et créer une possibilité de tir ou de marque",
+        "Pour empêcher les partenaires de participer",
+        "Pour sortir volontairement du terrain",
+        "Pour interrompre le jeu sans raison"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une passé vers un partenaire disponible peut faire avancer l’attaque et ouvrir une occasion.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-eps-opposition-q02",
+      "subjectId": "eps",
+      "chapterId": "4e-eps-opposition",
+      "question": "À quoi sert l’arbitrage dans une rencontre sportive ?",
+      "answers": [
+        "À faire appliquer les règles et garantir un cadre de jeu",
+        "À choisir l’équipe gagnante à l’avance",
+        "À remplacer les joueurs",
+        "À modifier le score sans observation"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’arbitre veille au respect des règles et au déroulement de la rencontre.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-eps-opposition-q03",
+      "subjectId": "eps",
+      "chapterId": "4e-eps-opposition",
+      "question": "Que signifie se démarquer en sport collectif ?",
+      "answers": [
+        "Se déplacer pour devenir disponible pour ses partenaires",
+        "Rester caché derrière un adversaire",
+        "Quitter le terrain sans autorisation",
+        "Garder le ballon sans le jouer"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Se démarquer consiste à créer un espace ou une ligne de passé pour recevoir le ballon.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-eps-opposition-q04",
+      "subjectId": "eps",
+      "chapterId": "4e-eps-opposition",
+      "question": "Quel comportement relève du fair-play ?",
+      "answers": [
+        "Respecter les adversaires et les décisions arbitrales",
+        "Contester chaque règle par des insultes",
+        "Cacher le matériel adverse",
+        "Refuser tout résultat"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le fair-play suppose respect des personnes, des règles et de l’esprit de la rencontre.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-eps-opposition-q05",
+      "subjectId": "eps",
+      "chapterId": "4e-eps-opposition",
+      "question": "Pourquoi une équipe peut-elle se répartir des rôles en défense ?",
+      "answers": [
+        "Pour couvrir différentes zones et aider ses partenaires",
+        "Pour laisser volontairement tout l’espace libre",
+        "Pour éviter de communiquer",
+        "Pour empêcher l’arbitrage"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Des rôles complémentaires aident l’équipe à protéger l’espace et à coopérer.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-emi-sources-q01",
+      "subjectId": "emi",
+      "chapterId": "4e-emi-sources",
+      "question": "Une publication annonce la fermeture prochaine de tous les collèges de la ville sans citer de source. Quel premier réflexe est le plus fiable ?",
+      "answers": [
+        "La partager pour prévenir tout le monde",
+        "Chercher une confirmation sur le site de la mairie ou du rectorat",
+        "Se fier au nombre de commentaires",
+        "Conclure qu’elle est vraie parce qu’elle est récente"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Une annonce administrative importante doit pouvoir étre vérifiée auprès de l’organisme compétent, en contrôlant aussi la date.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-emi-sources-q02",
+      "subjectId": "emi",
+      "chapterId": "4e-emi-sources",
+      "question": "Pourquoi vérifier la date d’un article avant de le partager ?",
+      "answers": [
+        "Une information ancienne peut étre présentée à tort comme actuelle",
+        "La date indique toujours que l’auteur est expert",
+        "Les articles récents sont nécessairement exacts",
+        "La date remplace la vérification des sources"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le contexte temporel peut changer le sens d’une information ; une ancienne annonce peut étre repartagée comme si elle était nouvelle.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-emi-sources-q03",
+      "subjectId": "emi",
+      "chapterId": "4e-emi-sources",
+      "question": "Quel indice aide à savoir qui est responsable d’un contenu publié en ligne ?",
+      "answers": [
+        "La couleur de la page",
+        "Le nombre de publicités affichées",
+        "Le nom de l’auteur ou de l’organisme éditeur",
+        "La longueur du titre uniquement"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Identifier l’auteur ou l’éditeur aide à comprendre l’origine du contenu et à rechercher ses compétences ou ses intérêts.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-emi-sources-q04",
+      "subjectId": "emi",
+      "chapterId": "4e-emi-sources",
+      "question": "Un article cite une étude mais ne donne ni son titre ni son organisme. Quelle vérification est utile ?",
+      "answers": [
+        "Rechercher l’étude originale ou une référence compléte",
+        "Se fier au ton assuré de l’article",
+        "Compter les partages de l’article",
+        "Lire seulement les réactions sous la publication"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Retrouver la référence originale permet de vérifier ce que l’étude dit réellement et dans quelles limites.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-emi-sources-q05",
+      "subjectId": "emi",
+      "chapterId": "4e-emi-sources",
+      "question": "Deux sites reprennent exactement le même communiqué. Cela signifie-t-il que deux sources indépendantes ont confirmé l’information ?",
+      "answers": [
+        "Oui, deux pages suffisent toujours",
+        "Non, elles peuvent reprendre une seule et même source initiale",
+        "Oui, si leurs titres sont différents",
+        "Non, car un communiqué ne peut jamais informer"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Des articles qui copient la même source ne constituent pas nécessairement deux confirmations indépendantes.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-emi-images-q01",
+      "subjectId": "emi",
+      "chapterId": "4e-emi-images",
+      "question": "Une photo spectaculaire circule sans légende ni date. Quelle démarche peut aider à retrouver son contexte d’origine ?",
+      "answers": [
+        "Chercher l’image ou des détails distinctifs pour retrouver ses premières publications",
+        "Se fier au texte ajouté sur l’image",
+        "Supposer qu’elle a été prise le jour du partage",
+        "La recadrer pour mieux la comprendre"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une recherche inversée ou une recherche de détails peut retrouver des publications antérieures et aider à dater l’image.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-emi-images-q02",
+      "subjectId": "emi",
+      "chapterId": "4e-emi-images",
+      "question": "Une vidéo apparaît souvent dans les recommandations d’un réseau social. Que prouve cette popularité ?",
+      "answers": [
+        "Que son contenu est vérifié",
+        "Que son auteur est un spécialiste",
+        "Rien à elle seule sur la véracité de son contenu",
+        "Que des sources indépendantes l’ont confirmée"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Les recommandations dépendent de mécanismes de classement et d’usages ; le nombre de vues ne valide pas une affirmation.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-emi-images-q03",
+      "subjectId": "emi",
+      "chapterId": "4e-emi-images",
+      "question": "Une capture d’écran montre une citation mais masque le nom du site et la date. Que faut-il chercher ?",
+      "answers": [
+        "La publication d’origine et son contexte",
+        "Une autre capture sans lien",
+        "Le nombre de réactions uniquement",
+        "Un titre plus court"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La page d’origine aide à retrouver l’auteur, la date et le contexte qui manquent à la capture.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-emi-images-q04",
+      "subjectId": "emi",
+      "chapterId": "4e-emi-images",
+      "question": "Sur une page, que signale généralement la mention « contenu sponsorisé » ?",
+      "answers": [
+        "Un contenu publicitaire ou financé",
+        "Un contenu certifié par tous les lecteurs",
+        "Un message nécessairement sans opinion",
+        "Un message publié par un service public"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La mention informe le lecteur de l’existence d’une relation commerciale ou d’un financement.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-emi-images-q05",
+      "subjectId": "emi",
+      "chapterId": "4e-emi-images",
+      "question": "Avant de réutiliser une photographie trouvée en ligne dans une affiche publique, que faut-il vérifier ?",
+      "answers": [
+        "Son autorisation ou sa licence et les conditions de crédit",
+        "Seulement sa résolution",
+        "Le nombre de fois où elle a déjà été partagée",
+        "La couleur de l’arrière-plan"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La disponibilité en ligne ne signifie pas que l’image est libre de réutilisation ; il faut vérifier les droits et les conditions indiquées.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-hda-works-q01",
+      "subjectId": "histoire-des-arts",
+      "chapterId": "4e-hda-works",
+      "question": "Qui a peint « La Liberté guidant le peuple », œuvre associée aux journées révolutionnaires de juillet 1830 ?",
+      "answers": [
+        "Eugène Delacroix",
+        "Claude Monet",
+        "Auguste Rodin",
+        "Georges Seurat"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Eugène Delacroix peint cette œuvre en 1830 ; elle représente une scéne allégorique liée à la révolution de Juillet.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-hda-works-q02",
+      "subjectId": "histoire-des-arts",
+      "chapterId": "4e-hda-works",
+      "question": "Dans une peinture à fresque traditionnelle, sur quel support applique-t-on les pigments ?",
+      "answers": [
+        "Sur un enduit encore frais",
+        "Sur une plaque de verre poli",
+        "Sur une toile déjà vernie",
+        "Sur du métal chauffé"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La fresque traditionnelle est peinte sur un enduit frais ; les pigments se fixent en séchant avec lui.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-hda-works-q03",
+      "subjectId": "histoire-des-arts",
+      "chapterId": "4e-hda-works",
+      "question": "Quel aspect les peintres impressionnistes cherchent-ils souvent à saisir dans leurs tableaux ?",
+      "answers": [
+        "Les variations de lumière et les impressions visuelles",
+        "La reproduction exacte d’une photographie numérique",
+        "Des figures uniquement géométriques",
+        "La représentation exclusive de sujets mythologiques"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les impressionnistes explorent notamment les effets changeants de la lumière et les impressions produites par une scéne.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-hda-works-q04",
+      "subjectId": "histoire-des-arts",
+      "chapterId": "4e-hda-works",
+      "question": "Dans une perspective à un point de fuite, vers quoi convergent les lignes qui s’éloignent dans la profondeur ?",
+      "answers": [
+        "Vers un point de fuite",
+        "Vers le bord inférieur du cadre",
+        "Vers le centre de chaque objet",
+        "Vers plusieurs horizons obligatoires"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Dans la perspective linéaire à un point, les lignes paralléles à la profondeur semblent converger vers un point de fuite.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-hda-works-q05",
+      "subjectId": "histoire-des-arts",
+      "chapterId": "4e-hda-works",
+      "question": "Le daguerréotype est un ancien procédé de quelle technique ?",
+      "answers": [
+        "La photographie",
+        "La sculpture monumentale",
+        "La gravure sur bois médiévale",
+        "La musique enregistrée"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le daguerréotype est un procédé photographique mis au point au XIXe siècle.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-hda-circulation-q01",
+      "subjectId": "histoire-des-arts",
+      "chapterId": "4e-hda-circulation",
+      "question": "Quel effet les techniques d’impression ont-elles eu sur la circulation des images ?",
+      "answers": [
+        "Elles ont permis de diffuser des images en plusieurs exemplaires",
+        "Elles ont empéché toute reproduction d’une œuvre",
+        "Elles ont remplacé toutes les formes de peinture",
+        "Elles ont réservé les images aux seuls artistes"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’impression permet de reproduire et de diffuser une image auprès d’un public plus large.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-hda-circulation-q02",
+      "subjectId": "histoire-des-arts",
+      "chapterId": "4e-hda-circulation",
+      "question": "Pourquoi faut-il connaître le cadrage et la légende d’une photographie historique ?",
+      "answers": [
+        "Ils influencent ce que l’image montre et la manière de l’interpréter",
+        "Ils prouvent que la photographie est truquée",
+        "Ils donnent toujours la date exacte sans autre source",
+        "Ils remplacent l’étude du contexte"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le cadrage sélectionne une partie de la scéne et la légende oriente sa lecture ; ces choix font partie de l’analyse de l’image.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-hda-circulation-q03",
+      "subjectId": "histoire-des-arts",
+      "chapterId": "4e-hda-circulation",
+      "question": "Quel élément peut aider à comprendre pourquoi une œuvre a été créée ?",
+      "answers": [
+        "Le contexte de commande et le public auquel elle s’adressait",
+        "La seule dimension du cadre",
+        "Le nombre de couleurs utilisé uniquement",
+        "La date de sa derniére photographie"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le commanditaire et le public visé éclairent la fonction et le contexte d’une œuvre.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-hda-circulation-q04",
+      "subjectId": "histoire-des-arts",
+      "chapterId": "4e-hda-circulation",
+      "question": "Lorsqu’un musée restaure une œuvre, quel objectif guide principalement le travail ?",
+      "answers": [
+        "La conserver et documenter les interventions",
+        "La rendre identique à une œuvre différente",
+        "Effacer toutes les traces de son histoire",
+        "Modifier son sujet pour plaire au public"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La conservation-restauration vise à préserver l’œuvre et à documenter les interventions, en respectant les choix professionnels.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "4e-hda-circulation-q05",
+      "subjectId": "histoire-des-arts",
+      "chapterId": "4e-hda-circulation",
+      "question": "Dans un collage, quel procédé crée souvent un nouveau sens ?",
+      "answers": [
+        "Juxtaposer des images ou des matériaux différents",
+        "Peindre tous les éléments de la même couleur",
+        "Retirer toute relation entre les éléments",
+        "Reproduire une image sans la transformer"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le rapprochement d’éléments différents peut créer une relation ou un sens nouveau.",
+      "rewardSeconds": 30
+    }
+  ]
+}

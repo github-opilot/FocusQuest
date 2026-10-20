@@ -1,0 +1,605 @@
+{
+  "gradeId": "seconde",
+  "questions": [
+    {
+      "id": "seconde-maths-arithmetique-q01",
+      "subjectId": "maths",
+      "chapterId": "seconde-maths-arithmetique",
+      "question": "84 est-il divisible par 7 ?",
+      "answers": [
+        "Oui, car 84 = 7 × 12",
+        "Non, car 84 est pair",
+        "Oui, car 84 = 7 + 12",
+        "Non, car 7 est premier"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La division 84 ÷ 7 donne 12, un entier.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-maths-arithmetique-q02",
+      "subjectId": "maths",
+      "chapterId": "seconde-maths-arithmetique",
+      "question": "Quel est le plus grand diviseur commun de 18 et 30 ?",
+      "answers": [
+        "3",
+        "6",
+        "9",
+        "12"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Les diviseurs communs de 18 et 30 incluent 1, 2, 3 et 6 ; le plus grand est 6.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-maths-arithmetique-q03",
+      "subjectId": "maths",
+      "chapterId": "seconde-maths-arithmetique",
+      "question": "Quelle est la décomposition de 84 en facteurs premiers ?",
+      "answers": [
+        "2 × 3 × 14",
+        "2² × 3 × 7",
+        "2 × 6 × 7",
+        "4 × 21"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "84 = 4 × 21 = 2² × 3 × 7, où tous les facteurs sont premiers.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-maths-arithmetique-q04",
+      "subjectId": "maths",
+      "chapterId": "seconde-maths-arithmetique",
+      "question": "Quel est le reste de la division euclidienne de 132 par 9 ?",
+      "answers": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "132 = 9 × 14 + 6.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-maths-arithmetique-q05",
+      "subjectId": "maths",
+      "chapterId": "seconde-maths-arithmetique",
+      "question": "Quelle fraction est irréductible et égale à 15/21 ?",
+      "answers": [
+        "5/7",
+        "3/7",
+        "5/6",
+        "7/15"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le PGCD de 15 et 21 est 3 ; en divisant haut et bas par 3, on obtient 5/7.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-maths-nombres-reels-q01",
+      "subjectId": "maths",
+      "chapterId": "seconde-maths-nombres-reels",
+      "question": "Quelle écriture simplifiée correspond à √50 ?",
+      "answers": [
+        "25√2",
+        "5√2",
+        "10√5",
+        "2√25"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "√50 = √(25 × 2) = 5√2.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-maths-nombres-reels-q02",
+      "subjectId": "maths",
+      "chapterId": "seconde-maths-nombres-reels",
+      "question": "Quel intervalle décrit les réels x tels que −1 < x ≤ 2 ?",
+      "answers": [
+        "[−1 ; 2[",
+        "]−1 ; 2]",
+        "[−1 ; 2]",
+        "]−1 ; 2["
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "L’inégalité est stricte en −1 et large en 2, d’où ]−1 ; 2].",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-maths-nombres-reels-q03",
+      "subjectId": "maths",
+      "chapterId": "seconde-maths-nombres-reels",
+      "question": "Quelle fraction est égale à 0,125 ?",
+      "answers": [
+        "1/4",
+        "1/8",
+        "1/12",
+        "1/16"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "0,125 = 125/1000 = 1/8.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-maths-nombres-reels-q04",
+      "subjectId": "maths",
+      "chapterId": "seconde-maths-nombres-reels",
+      "question": "Laquelle de ces affirmations est vraie ?",
+      "answers": [
+        "√2 est un entier",
+        "√2 est rationnel",
+        "√2 est irrationnel",
+        "√2 est égal à 1,4 exactement"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "√2 ne peut pas s’écrire comme quotient de deux entiers ; son écriture décimale est illimitée et non périodique.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-maths-nombres-reels-q05",
+      "subjectId": "maths",
+      "chapterId": "seconde-maths-nombres-reels",
+      "question": "Le nombre −3 appartient à quel ensemble parmi ceux proposés ?",
+      "answers": [
+        "N",
+        "Z",
+        "R\\Q uniquement",
+        "Aucun de ces ensembles"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "−3 est un entier relatif, donc appartient à Z et aussi à R.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-francais-roman-q01",
+      "subjectId": "francais",
+      "chapterId": "seconde-francais-roman",
+      "question": "Dans un roman, qui est le narrateur ?",
+      "answers": [
+        "Toujours l’auteur réel",
+        "La voix qui raconte l’histoire",
+        "Le personnage principal uniquement",
+        "Le lecteur"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Le narrateur est l’instance qui raconte ; il peut être distinct de l’auteur et ne pas être un personnage.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-francais-roman-q02",
+      "subjectId": "francais",
+      "chapterId": "seconde-francais-roman",
+      "question": "Une analepse est :",
+      "answers": [
+        "Une anticipation d’un événement futur",
+        "Un retour sur un événement antérieur",
+        "Une description du décor",
+        "Un dialogue entre personnages"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "L’analepse est un retour en arrière dans le récit.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-francais-roman-q03",
+      "subjectId": "francais",
+      "chapterId": "seconde-francais-roman",
+      "question": "La focalisation interne donne principalement accès :",
+      "answers": [
+        "Aux pensées et perceptions d’un personnage",
+        "À toutes les informations sur tous les personnages",
+        "À aucun point de vue identifiable",
+        "Uniquement aux paroles de l’auteur"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "En focalisation interne, les informations sont limitées à ce qu’un personnage sait ou perçoit.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-francais-roman-q04",
+      "subjectId": "francais",
+      "chapterId": "seconde-francais-roman",
+      "question": "À quoi sert souvent l’incipit d’un roman ?",
+      "answers": [
+        "À présenter le début de l’histoire et à orienter la lecture",
+        "À résoudre forcément toute l’intrigue",
+        "À donner toujours la biographie de l’auteur",
+        "À remplacer le dénouement"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’incipit ouvre le récit et peut présenter le cadre, les personnages et un horizon d’attente.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-francais-roman-q05",
+      "subjectId": "francais",
+      "chapterId": "seconde-francais-roman",
+      "question": "Quel énoncé est exact ?",
+      "answers": [
+        "Un roman réaliste est obligatoirement un document historique",
+        "Un personnage de roman peut évoluer au cours du récit",
+        "Le narrateur est toujours omniscient",
+        "Un récit ne peut contenir de descriptions"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "L’évolution d’un personnage est fréquente, mais les autres affirmations imposent des règles fausses.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-francais-theatre-q01",
+      "subjectId": "francais",
+      "chapterId": "seconde-francais-theatre",
+      "question": "Une didascalie est :",
+      "answers": [
+        "Une indication scénique écrite dans le texte",
+        "Une réplique adressée au public",
+        "Le nom d’un acte",
+        "Une parole toujours prononcée hors scène"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les didascalies indiquent notamment les gestes, déplacements, décors ou intonations.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-francais-theatre-q02",
+      "subjectId": "francais",
+      "chapterId": "seconde-francais-theatre",
+      "question": "Un aparté est une parole :",
+      "answers": [
+        "Entendue par les autres personnages mais pas par le public",
+        "Adressée au public et censée ne pas être entendue des autres personnages",
+        "Prononcée par le chœur uniquement",
+        "Qui clôt nécessairement la pièce"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "L’aparté est conventionnellement destiné au public, sans être entendu des autres personnages.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-francais-theatre-q03",
+      "subjectId": "francais",
+      "chapterId": "seconde-francais-theatre",
+      "question": "La double énonciation théâtrale signifie qu’une réplique peut s’adresser :",
+      "answers": [
+        "Au personnage sur scène et au public",
+        "À deux auteurs simultanément",
+        "Au narrateur et au lecteur seulement",
+        "Uniquement au metteur en scène"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Au théâtre, une parole s’inscrit dans le dialogue de scène tout en étant entendue par le public.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-francais-theatre-q04",
+      "subjectId": "francais",
+      "chapterId": "seconde-francais-theatre",
+      "question": "Dans une scène d’exposition, on cherche principalement à :",
+      "answers": [
+        "Fournir des repères initiaux sur la situation et les personnages",
+        "Présenter le dénouement complet",
+        "Supprimer le conflit dramatique",
+        "Remplacer toutes les répliques par des didascalies"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La scène d’exposition met en place les données essentielles de la pièce.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-francais-theatre-q05",
+      "subjectId": "francais",
+      "chapterId": "seconde-francais-theatre",
+      "question": "Comment appelle-t-on une parole prononcée par un personnage seul sur scène pour exprimer ses pensées ?",
+      "answers": [
+        "Un monologue",
+        "Une didascalie",
+        "Un chœur",
+        "Une péripétie"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le monologue est une longue prise de parole d’un personnage seul en scène.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-pc-corps-purs-q01",
+      "subjectId": "physique-chimie",
+      "chapterId": "seconde-pc-corps-purs",
+      "question": "Dans une solution aqueuse de sel totalement dissous, le mélange est généralement :",
+      "answers": [
+        "Hétérogène, avec des cristaux visibles",
+        "Homogène à l’œil nu",
+        "Un corps pur",
+        "Un gaz"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Quand le sel est entièrement dissous, on ne distingue plus ses constituants à l’œil nu : la solution est homogène.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-pc-corps-purs-q02",
+      "subjectId": "physique-chimie",
+      "chapterId": "seconde-pc-corps-purs",
+      "question": "Quelle proposition définit un corps pur ?",
+      "answers": [
+        "Une matière constituée d’une seule espèce chimique",
+        "Un mélange de deux liquides",
+        "Toute matière transparente",
+        "Une matière composée seulement d’atomes identiques"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un corps pur contient une seule espèce chimique, qui peut elle-même être moléculaire ou ionique.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-pc-corps-purs-q03",
+      "subjectId": "physique-chimie",
+      "chapterId": "seconde-pc-corps-purs",
+      "question": "La formule CO₂ indique qu’une molécule contient :",
+      "answers": [
+        "Deux atomes de carbone et un d’oxygène",
+        "Un atome de carbone et deux d’oxygène",
+        "Deux atomes de carbone et deux d’oxygène",
+        "Un atome de carbone et un d’oxygène"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "L’indice 2 porte sur l’oxygène ; l’absence d’indice signifie un atome de carbone.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-pc-corps-purs-q04",
+      "subjectId": "physique-chimie",
+      "chapterId": "seconde-pc-corps-purs",
+      "question": "On mélange de l’eau et de l’huile sans agitation durable. Le mélange est :",
+      "answers": [
+        "Homogène",
+        "Hétérogène",
+        "Un corps pur",
+        "Un élément chimique"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "L’eau et l’huile forment deux phases visibles : le mélange est hétérogène.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-pc-corps-purs-q05",
+      "subjectId": "physique-chimie",
+      "chapterId": "seconde-pc-corps-purs",
+      "question": "Quel procédé permet de séparer un solide insoluble d’un liquide ?",
+      "answers": [
+        "La filtration",
+        "La fusion",
+        "La combustion",
+        "La distillation fractionnée uniquement"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un filtre retient le solide insoluble tandis que le liquide traverse.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-pc-transformations-q01",
+      "subjectId": "physique-chimie",
+      "chapterId": "seconde-pc-transformations",
+      "question": "Au cours d’une transformation chimique, les réactifs sont :",
+      "answers": [
+        "Les espèces consommées au cours de la transformation",
+        "Les espèces créées uniquement",
+        "Les instruments de laboratoire",
+        "Les espèces qui ne changent jamais"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les réactifs sont les espèces chimiques présentes au départ et consommées, au moins en partie.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-pc-transformations-q02",
+      "subjectId": "physique-chimie",
+      "chapterId": "seconde-pc-transformations",
+      "question": "Dans un système fermé, quelle grandeur se conserve lors d’une transformation chimique ?",
+      "answers": [
+        "La masse totale",
+        "Le volume de chaque gaz",
+        "Le nombre de molécules de chaque espèce",
+        "La température"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La masse totale est conservée ; les espèces et le nombre de molécules peuvent changer.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-pc-transformations-q03",
+      "subjectId": "physique-chimie",
+      "chapterId": "seconde-pc-transformations",
+      "question": "Quelle équation représente correctement la formation de l’eau à partir de dihydrogène et de dioxygène ?",
+      "answers": [
+        "H₂ + O₂ → H₂O",
+        "2 H₂ + O₂ → 2 H₂O",
+        "H₂ + 2 O₂ → H₂O",
+        "2 H₂ + 2 O₂ → H₂O"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "L’équation équilibrée conserve deux atomes d’hydrogène par molécule d’eau et deux atomes d’oxygène au total.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-pc-transformations-q04",
+      "subjectId": "physique-chimie",
+      "chapterId": "seconde-pc-transformations",
+      "question": "Lors d’une transformation chimique, les produits sont :",
+      "answers": [
+        "Les espèces formées",
+        "Les espèces qui déclenchent toujours la réaction",
+        "Les récipients de réaction",
+        "Les espèces consommées seulement"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les produits apparaissent au cours de la réaction.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-pc-transformations-q05",
+      "subjectId": "physique-chimie",
+      "chapterId": "seconde-pc-transformations",
+      "question": "Dans une réaction où un réactif est entièrement consommé alors qu’un autre reste présent, le réactif entièrement consommé est :",
+      "answers": [
+        "Le réactif limitant",
+        "Le catalyseur",
+        "Le solvant nécessairement",
+        "Le produit majoritaire"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le réactif limitant s’épuise en premier et arrête l’évolution de la transformation.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-svt-cellules-q01",
+      "subjectId": "svt",
+      "chapterId": "seconde-svt-cellules",
+      "question": "Dans une cellule animale, quelle structure contient la majeure partie de l’ADN ?",
+      "answers": [
+        "Le noyau",
+        "La membrane plasmique",
+        "Le cytoplasme seulement",
+        "La paroi"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Dans une cellule eucaryote animale, l’ADN est principalement contenu dans le noyau.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-svt-cellules-q02",
+      "subjectId": "svt",
+      "chapterId": "seconde-svt-cellules",
+      "question": "Un tissu est généralement constitué :",
+      "answers": [
+        "De cellules organisées assurant une fonction",
+        "D’un seul atome",
+        "Uniquement de liquide extracellulaire",
+        "D’organes sans cellules"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un tissu regroupe des cellules organisées, souvent spécialisées, ainsi que leur environnement.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-svt-cellules-q03",
+      "subjectId": "svt",
+      "chapterId": "seconde-svt-cellules",
+      "question": "Les cellules d’un même organisme peuvent être spécialisées parce qu’elles :",
+      "answers": [
+        "Expriment des ensembles différents de gènes",
+        "Ont toutes un ADN entièrement différent",
+        "Ne possèdent jamais de membrane",
+        "Se transforment en espèces chimiques"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La spécialisation cellulaire repose notamment sur l’expression différenciée des gènes.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-svt-cellules-q04",
+      "subjectId": "svt",
+      "chapterId": "seconde-svt-cellules",
+      "question": "La membrane plasmique :",
+      "answers": [
+        "Délimite la cellule et régule des échanges",
+        "Fabrique seule tout l’ADN de la cellule",
+        "Est uniquement présente chez les végétaux",
+        "Remplace le cytoplasme"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La membrane délimite la cellule et contrôle une partie des échanges avec son milieu.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-svt-cellules-q05",
+      "subjectId": "svt",
+      "chapterId": "seconde-svt-cellules",
+      "question": "Quelle organisation va du plus petit au plus grand ?",
+      "answers": [
+        "Cellule, tissu, organe",
+        "Organe, cellule, tissu",
+        "Tissu, organe, cellule",
+        "Cellule, organe, tissu"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Des cellules s’assemblent en tissus, puis les tissus participent à la constitution des organes.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-svt-metabolisme-q01",
+      "subjectId": "svt",
+      "chapterId": "seconde-svt-metabolisme",
+      "question": "Lors de la photosynthèse, une cellule chlorophyllienne utilise principalement :",
+      "answers": [
+        "L’énergie lumineuse, le dioxyde de carbone et l’eau",
+        "Le dioxygène et le glucose uniquement",
+        "Du dioxygène et des protéines",
+        "Uniquement des sels minéraux"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La photosynthèse utilise l’énergie lumineuse pour transformer notamment CO₂ et eau en matière organique.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-svt-metabolisme-q02",
+      "subjectId": "svt",
+      "chapterId": "seconde-svt-metabolisme",
+      "question": "La respiration cellulaire permet notamment :",
+      "answers": [
+        "De produire de l’ATP à partir de matière organique et de dioxygène",
+        "De fabriquer de la lumière à partir d’ATP",
+        "De supprimer tout échange de matière",
+        "De transformer directement l’ADN en glucose"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La respiration oxyde des molécules organiques et permet la production d’ATP.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-svt-metabolisme-q03",
+      "subjectId": "svt",
+      "chapterId": "seconde-svt-metabolisme",
+      "question": "Dans une cellule eucaryote, la respiration cellulaire se déroule principalement dans :",
+      "answers": [
+        "Les mitochondries",
+        "Le noyau",
+        "La paroi",
+        "Les ribosomes uniquement"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les mitochondries sont le siège principal de la respiration cellulaire aérobie.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-svt-metabolisme-q04",
+      "subjectId": "svt",
+      "chapterId": "seconde-svt-metabolisme",
+      "question": "Une enzyme est généralement :",
+      "answers": [
+        "Un catalyseur biologique qui accélère une réaction",
+        "Un déchet sans rôle biologique",
+        "Une cellule entière",
+        "Une source d’énergie lumineuse"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les enzymes accélèrent des réactions chimiques sans être consommées dans le bilan global.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "seconde-svt-metabolisme-q05",
+      "subjectId": "svt",
+      "chapterId": "seconde-svt-metabolisme",
+      "question": "L’ATP est surtout connu comme :",
+      "answers": [
+        "Une molécule impliquée dans les transferts d’énergie cellulaire",
+        "Le support universel de l’information génétique",
+        "Un pigment de la photosynthèse",
+        "Un gaz atmosphérique"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’ATP joue un rôle central dans les transferts d’énergie utilisables par la cellule.",
+      "rewardSeconds": 30
+    }
+  ]
+}

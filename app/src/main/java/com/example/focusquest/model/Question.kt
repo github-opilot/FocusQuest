@@ -8,5 +8,5 @@ data class Question(
     val answers: List<String>,
     val correctAnswerIndex: Int,
     val explanation: String,
-    val rewardMinutes: Int = 2
+    val rewardTimeMillis: Long = 30_000L
 )

@@ -1,0 +1,605 @@
+{
+  "gradeId": "terminale_generale",
+  "questions": [
+    {
+      "id": "terminale-maths-combinatoire-q01",
+      "subjectId": "maths-spe",
+      "chapterId": "terminale-maths-combinatoire",
+      "question": "Combien vaut 3! ?",
+      "answers": [
+        "3",
+        "6",
+        "9",
+        "12"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "3! = 3 × 2 × 1 = 6.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-maths-combinatoire-q02",
+      "subjectId": "maths-spe",
+      "chapterId": "terminale-maths-combinatoire",
+      "question": "Combien de façons peut-on choisir 2 personnes parmi 5, sans tenir compte de l’ordre ?",
+      "answers": [
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le nombre est C(5,2)=5×4/(2×1)=10.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-maths-combinatoire-q03",
+      "subjectId": "maths-spe",
+      "chapterId": "terminale-maths-combinatoire",
+      "question": "Un code comporte une lettre choisie parmi 4 puis un chiffre parmi 3. Combien de codes sont possibles ?",
+      "answers": [
+        "7",
+        "12",
+        "24",
+        "64"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Les choix sont indépendants : 4 × 3 = 12 codes.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-maths-combinatoire-q04",
+      "subjectId": "maths-spe",
+      "chapterId": "terminale-maths-combinatoire",
+      "question": "Combien d’ordres différents peut-on donner à 4 objets distincts ?",
+      "answers": [
+        "8",
+        "12",
+        "16",
+        "24"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Il y a 4! = 24 permutations.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-maths-combinatoire-q05",
+      "subjectId": "maths-spe",
+      "chapterId": "terminale-maths-combinatoire",
+      "question": "Parmi 6 livres différents, combien de choix d’un seul livre peut-on faire ?",
+      "answers": [
+        "1",
+        "6",
+        "12",
+        "36"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Choisir un livre parmi 6 donne 6 possibilités.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-maths-vecteurs-espace-q01",
+      "subjectId": "maths-spe",
+      "chapterId": "terminale-maths-vecteurs-espace",
+      "question": "A(1 ; 2 ; 0) et B(4 ; 0 ; 2). Quelles sont les coordonnées de AB⃗ ?",
+      "answers": [
+        "(5 ; 2 ; 2)",
+        "(3 ; −2 ; 2)",
+        "(−3 ; 2 ; −2)",
+        "(4 ; 0 ; 2)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "AB⃗ = B−A = (4−1 ; 0−2 ; 2−0) = (3 ; −2 ; 2).",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-maths-vecteurs-espace-q02",
+      "subjectId": "maths-spe",
+      "chapterId": "terminale-maths-vecteurs-espace",
+      "question": "Deux vecteurs non nuls sont colinéaires si :",
+      "answers": [
+        "L’un est un multiple de l’autre",
+        "Leur somme est toujours nulle",
+        "Ils ont toujours la même norme",
+        "Ils ont chacun trois coordonnées"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La colinéarité signifie qu’un vecteur est un multiple scalaire de l’autre.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-maths-vecteurs-espace-q03",
+      "subjectId": "maths-spe",
+      "chapterId": "terminale-maths-vecteurs-espace",
+      "question": "Quel vecteur est colinéaire à (1 ; 2 ; 0) ?",
+      "answers": [
+        "(2 ; 4 ; 0)",
+        "(2 ; 1 ; 0)",
+        "(1 ; 0 ; 2)",
+        "(0 ; 1 ; 2)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "(2 ; 4 ; 0) est deux fois (1 ; 2 ; 0).",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-maths-vecteurs-espace-q04",
+      "subjectId": "maths-spe",
+      "chapterId": "terminale-maths-vecteurs-espace",
+      "question": "Le milieu du segment reliant A(0 ; 2 ; 4) à B(2 ; 4 ; 0) est :",
+      "answers": [
+        "(1 ; 3 ; 2)",
+        "(2 ; 6 ; 4)",
+        "(1 ; 2 ; 4)",
+        "(0 ; 3 ; 2)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "On moyenne chaque coordonnée : (1 ; 3 ; 2).",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-maths-vecteurs-espace-q05",
+      "subjectId": "maths-spe",
+      "chapterId": "terminale-maths-vecteurs-espace",
+      "question": "Deux vecteurs de l’espace sont orthogonaux lorsque leur produit scalaire est :",
+      "answers": [
+        "Égal à 0",
+        "Égal à 1",
+        "Toujours positif",
+        "Égal à leur somme"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Par définition, des vecteurs sont orthogonaux si leur produit scalaire est nul.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-pc-equilibre-q01",
+      "subjectId": "physique-chimie-spe",
+      "chapterId": "terminale-pc-equilibre",
+      "question": "À l’équilibre chimique, dans un système fermé, les concentrations des espèces :",
+      "answers": [
+        "N’évoluent plus à l’échelle macroscopique",
+        "Sont toutes nécessairement égales",
+        "Sont toutes nulles",
+        "Sont égales à leurs valeurs initiales"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "À l’équilibre, les grandeurs macroscopiques restent stables, même si les transformations directes et inverses continuent.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-pc-equilibre-q02",
+      "subjectId": "physique-chimie-spe",
+      "chapterId": "terminale-pc-equilibre",
+      "question": "À température fixée, à l’équilibre d’une transformation, le quotient de réaction Qᵣ :",
+      "answers": [
+        "Est égal à la constante d’équilibre K",
+        "Est toujours égal à 0",
+        "Est égal à la concentration de chaque espèce",
+        "Dépend uniquement du volume du récipient"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La composition à l’équilibre vérifie Qᵣ = K à la température considérée.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-pc-equilibre-q03",
+      "subjectId": "physique-chimie-spe",
+      "chapterId": "terminale-pc-equilibre",
+      "question": "Pour une réaction donnée, ajouter un catalyseur permet principalement de :",
+      "answers": [
+        "Atteindre l’équilibre plus rapidement sans changer sa composition",
+        "Augmenter la constante d’équilibre à température fixe",
+        "Déplacer toujours l’équilibre vers les produits",
+        "Modifier l’équation-bilan"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le catalyseur accélère les transformations directes et inverses ; il ne modifie pas la composition d’équilibre.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-pc-equilibre-q04",
+      "subjectId": "physique-chimie-spe",
+      "chapterId": "terminale-pc-equilibre",
+      "question": "À température fixe, si le quotient de réaction est inférieur à K, l’évolution spontanée se fait :",
+      "answers": [
+        "Dans le sens direct de l’équation écrite",
+        "Dans le sens inverse uniquement",
+        "Sans aucune transformation possible",
+        "Vers une valeur de Qᵣ encore plus éloignée de K"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Si Qᵣ < K, le système évolue dans le sens direct jusqu’à l’équilibre.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-pc-equilibre-q05",
+      "subjectId": "physique-chimie-spe",
+      "chapterId": "terminale-pc-equilibre",
+      "question": "La constante d’équilibre K d’une réaction donnée dépend notamment :",
+      "answers": [
+        "De la température",
+        "Des quantités initiales uniquement",
+        "De la présence d’un catalyseur",
+        "De la forme du récipient"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Pour une réaction donnée, la constante d’équilibre dépend de la température, pas de la composition initiale ni d’un catalyseur.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-pc-suivi-q01",
+      "subjectId": "physique-chimie-spe",
+      "chapterId": "terminale-pc-suivi",
+      "question": "Au cours d’une réaction, la concentration d’un réactif consommé tend généralement à :",
+      "answers": [
+        "Diminuer",
+        "Augmenter sans limite",
+        "Rester forcément constante",
+        "Devenir négative"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un réactif est consommé au cours de la transformation, donc sa quantité ou concentration diminue.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-pc-suivi-q02",
+      "subjectId": "physique-chimie-spe",
+      "chapterId": "terminale-pc-suivi",
+      "question": "Un catalyseur agit principalement en :",
+      "answers": [
+        "Accélérant l’évolution vers l’état final",
+        "Changeant la composition finale d’un équilibre",
+        "Augmentant la quantité initiale de réactif",
+        "Empêchant toute réaction"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un catalyseur augmente la vitesse d’évolution sans modifier l’état final d’un système à l’équilibre.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-pc-suivi-q03",
+      "subjectId": "physique-chimie-spe",
+      "chapterId": "terminale-pc-suivi",
+      "question": "Lors d’un titrage à l’équivalence, les réactifs titré et titrant sont introduits dans les proportions :",
+      "answers": [
+        "Stœchiométriques de la réaction support",
+        "Toujours égales en volume",
+        "Toujours égales en masse",
+        "Sans relation avec l’équation"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "À l’équivalence, les quantités de matière respectent les coefficients stœchiométriques.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-pc-suivi-q04",
+      "subjectId": "physique-chimie-spe",
+      "chapterId": "terminale-pc-suivi",
+      "question": "Pour une réaction suivie par conductimétrie, la conductivité peut varier car :",
+      "answers": [
+        "Les ions présents ou leurs concentrations changent",
+        "La masse des atomes disparaît",
+        "Les électrons deviennent des molécules",
+        "Le récipient change de volume tout seul"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La conductivité dépend de la nature et de la concentration des ions en solution.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-pc-suivi-q05",
+      "subjectId": "physique-chimie-spe",
+      "chapterId": "terminale-pc-suivi",
+      "question": "La vitesse volumique de réaction est liée à l’évolution temporelle de :",
+      "answers": [
+        "L’avancement par unité de volume",
+        "La masse du bécher",
+        "La température extérieure seulement",
+        "La couleur du tableau périodique"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La vitesse volumique s’exprime à partir de la dérivée temporelle de l’avancement divisée par le volume.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-philo-art-q01",
+      "subjectId": "philosophie",
+      "chapterId": "terminale-philo-art",
+      "question": "L’esthétique est un domaine de la philosophie qui étudie notamment :",
+      "answers": [
+        "L’art, le beau et l’expérience sensible",
+        "Les nombres premiers uniquement",
+        "Les institutions judiciaires seulement",
+        "La grammaire des langues"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’esthétique interroge notamment l’art, le beau et les expériences sensibles.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-philo-art-q02",
+      "subjectId": "philosophie",
+      "chapterId": "terminale-philo-art",
+      "question": "Dans la théorie platonicienne de l’art exposée dans La République, l’imitation artistique est critiquée notamment parce qu’elle :",
+      "answers": [
+        "Peut éloigner de la connaissance du vrai",
+        "Est toujours une démonstration mathématique",
+        "Supprime toute apparence sensible",
+        "Est identique à une loi politique"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Platon critique l’imitation qui reproduit les apparences et peut éloigner de la connaissance du vrai.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-philo-art-q03",
+      "subjectId": "philosophie",
+      "chapterId": "terminale-philo-art",
+      "question": "Pour Aristote, la tragédie peut produire une catharsis, notion associée à :",
+      "answers": [
+        "La purgation ou transformation des émotions de crainte et de pitié",
+        "La mesure d’un angle",
+        "La preuve d’un théorème",
+        "La suppression de tout récit"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Dans la Poétique, la catharsis est liée aux émotions suscitées par la tragédie.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-philo-art-q04",
+      "subjectId": "philosophie",
+      "chapterId": "terminale-philo-art",
+      "question": "Un jugement esthétique porte d’abord sur :",
+      "answers": [
+        "Une appréciation du beau ou de l’œuvre",
+        "Une mesure de masse",
+        "Une décision de justice pénale",
+        "Une règle de conjugaison"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le jugement esthétique est une appréciation relative au beau ou à la valeur artistique.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-philo-art-q05",
+      "subjectId": "philosophie",
+      "chapterId": "terminale-philo-art",
+      "question": "Une œuvre non figurative se caractérise par le fait qu’elle :",
+      "answers": [
+        "Ne vise pas à représenter des objets reconnaissables",
+        "Est nécessairement dépourvue de toute forme",
+        "Est toujours une photographie",
+        "Ne peut être une œuvre d’art"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La non-figuration ne cherche pas à représenter des objets reconnaissables, sans exclure la présence de formes ou d’une intention artistique.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-philo-bonheur-q01",
+      "subjectId": "philosophie",
+      "chapterId": "terminale-philo-bonheur",
+      "question": "Dans l’éthique d’Aristote, l’eudaimonia (bonheur) est principalement liée :",
+      "answers": [
+        "À une activité de l’âme conforme à la vertu",
+        "À l’accumulation illimitée de biens",
+        "À l’absence de toute activité",
+        "À la chance seule"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Aristote définit le bonheur comme une activité de l’âme conforme à la vertu accomplie.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-philo-bonheur-q02",
+      "subjectId": "philosophie",
+      "chapterId": "terminale-philo-bonheur",
+      "question": "Pour les stoïciens, une voie vers la sagesse consiste à :",
+      "answers": [
+        "Distinguer ce qui dépend de nous de ce qui n’en dépend pas",
+        "Obtenir tout ce que l’on désire",
+        "Éviter toute réflexion",
+        "Chercher uniquement le plaisir immédiat"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La distinction entre ce qui dépend de nous et ce qui n’en dépend pas est centrale dans le stoïcisme.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-philo-bonheur-q03",
+      "subjectId": "philosophie",
+      "chapterId": "terminale-philo-bonheur",
+      "question": "Le terme « ataraxie » désigne :",
+      "answers": [
+        "L’absence de trouble de l’âme",
+        "La peur de la mort",
+        "Une forme de propriété privée",
+        "La connaissance géométrique"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’ataraxie désigne la tranquillité ou l’absence de trouble de l’âme.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-philo-bonheur-q04",
+      "subjectId": "philosophie",
+      "chapterId": "terminale-philo-bonheur",
+      "question": "Dans l’épicurisme, le plaisir durable est associé notamment :",
+      "answers": [
+        "À l’absence de douleur corporelle et de trouble de l’âme",
+        "À la satisfaction de tous les désirs sans distinction",
+        "À la recherche du pouvoir politique",
+        "À l’accumulation de biens coûteux"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Épicure valorise l’absence de douleur et de trouble plutôt que l’excès sans mesure.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-philo-bonheur-q05",
+      "subjectId": "philosophie",
+      "chapterId": "terminale-philo-bonheur",
+      "question": "Pourquoi peut-on distinguer plaisir et bonheur ?",
+      "answers": [
+        "Un plaisir peut être bref, tandis que le bonheur interroge une vie dans son ensemble",
+        "Ils désignent toujours exactement la même chose",
+        "Le plaisir est nécessairement moral et le bonheur jamais",
+        "Le bonheur se mesure uniquement en argent"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le plaisir peut désigner une satisfaction ponctuelle ; le bonheur pose une question plus globale sur la vie.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-svt-geologie-q01",
+      "subjectId": "svt-spe",
+      "chapterId": "terminale-svt-geologie",
+      "question": "Dans une série sédimentaire non bouleversée, les couches les plus anciennes sont en général :",
+      "answers": [
+        "En bas",
+        "En haut",
+        "Toujours au milieu",
+        "Impossible à comparer même si elles ne sont pas déformées"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le principe de superposition place généralement les couches les plus anciennes sous les plus récentes.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-svt-geologie-q02",
+      "subjectId": "svt-spe",
+      "chapterId": "terminale-svt-geologie",
+      "question": "Un fossile stratigraphique est utile pour dater relativement des couches s’il correspond à une espèce qui :",
+      "answers": [
+        "A vécu pendant une durée relativement brève et a eu une large répartition",
+        "A vécu pendant toute l’histoire de la Terre",
+        "N’a existé que dans un seul échantillon sans équivalent",
+        "N’a laissé aucune trace fossile"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une durée d’existence brève et une large répartition rendent un fossile utile pour corréler des couches.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-svt-geologie-q03",
+      "subjectId": "svt-spe",
+      "chapterId": "terminale-svt-geologie",
+      "question": "La datation relative sert principalement à :",
+      "answers": [
+        "Ordonner des événements géologiques les uns par rapport aux autres",
+        "Donner toujours un âge en années",
+        "Mesurer la masse d’une roche",
+        "Déterminer directement la température actuelle d’un volcan"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La datation relative établit l’ordre des événements sans fournir nécessairement un âge chiffré.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-svt-geologie-q04",
+      "subjectId": "svt-spe",
+      "chapterId": "terminale-svt-geologie",
+      "question": "La datation absolue d’une roche peut s’appuyer sur :",
+      "answers": [
+        "La désintégration radioactive d’isotopes",
+        "La seule couleur de la roche",
+        "Le nombre de fossiles visibles sans contexte",
+        "La hauteur actuelle d’une montagne uniquement"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les rapports entre isotopes radioactifs et produits de désintégration permettent d’estimer un âge absolu.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-svt-geologie-q05",
+      "subjectId": "svt-spe",
+      "chapterId": "terminale-svt-geologie",
+      "question": "Le principe d’actualisme consiste à :",
+      "answers": [
+        "Utiliser les phénomènes géologiques actuels pour interpréter ceux du passé",
+        "Supposer que les continents n’ont jamais bougé",
+        "Dater chaque roche par sa couleur",
+        "Considérer que les fossiles sont toujours plus jeunes que les roches"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’actualisme utilise les processus observables aujourd’hui pour comprendre les traces géologiques anciennes.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-svt-meiose-q01",
+      "subjectId": "svt-spe",
+      "chapterId": "terminale-svt-meiose",
+      "question": "À l’issue de la méiose, une cellule diploïde donne généralement :",
+      "answers": [
+        "Des cellules haploïdes",
+        "Des cellules ayant toutes doublé leur nombre de chromosomes",
+        "Un organe entier",
+        "Des cellules sans chromosomes"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La méiose réduit de moitié le nombre de chromosomes et forme des cellules haploïdes.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-svt-meiose-q02",
+      "subjectId": "svt-spe",
+      "chapterId": "terminale-svt-meiose",
+      "question": "Chez l’être humain, les gamètes contiennent normalement :",
+      "answers": [
+        "23 chromosomes",
+        "46 chromosomes",
+        "92 chromosomes",
+        "23 paires de chromosomes"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les gamètes humains sont haploïdes et possèdent 23 chromosomes.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-svt-meiose-q03",
+      "subjectId": "svt-spe",
+      "chapterId": "terminale-svt-meiose",
+      "question": "Les crossing-over ont lieu pendant :",
+      "answers": [
+        "La prophase I de méiose",
+        "La télophase II uniquement",
+        "La mitose des cellules somatiques uniquement",
+        "La fécondation"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les échanges entre chromatides homologues se produisent en prophase I.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-svt-meiose-q04",
+      "subjectId": "svt-spe",
+      "chapterId": "terminale-svt-meiose",
+      "question": "La fécondation rétablit normalement :",
+      "answers": [
+        "La diploïdie",
+        "L’haploïdie définitive",
+        "L’absence de chromosomes",
+        "La moitié du nombre de gènes"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La fusion de deux gamètes haploïdes reconstitue un zygote diploïde.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "terminale-svt-meiose-q05",
+      "subjectId": "svt-spe",
+      "chapterId": "terminale-svt-meiose",
+      "question": "Le brassage interchromosomique résulte notamment :",
+      "answers": [
+        "De la répartition aléatoire des paires de chromosomes homologues",
+        "De la réplication de l’ADN seulement",
+        "De la disparition de tous les allèles",
+        "De la traduction des protéines"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’orientation et la séparation aléatoires des chromosomes homologues brassent les combinaisons chromosomiques.",
+      "rewardSeconds": 30
+    }
+  ]
+}

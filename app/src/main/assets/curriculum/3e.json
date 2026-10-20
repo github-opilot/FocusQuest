@@ -1,0 +1,749 @@
+{
+  "gradeId": "3e",
+  "programYear": "2026-2027",
+  "track": "college",
+  "subjects": [
+    {
+      "id": "maths",
+      "title": "Mathématiques",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "3e-maths-nombres",
+          "title": "Nombres, calculs, fractions, puissances et racines",
+          "theme": "Nombres et calculs",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5736/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-4"
+        },
+        {
+          "id": "3e-maths-algebre",
+          "title": "Calcul littéral, factorisation et identités remarquables",
+          "theme": "Nombres et calculs",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5736/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-4"
+        },
+        {
+          "id": "3e-maths-equations",
+          "title": "Équations et mise en équation de problèmes",
+          "theme": "Nombres et calculs",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5736/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-4"
+        },
+        {
+          "id": "3e-maths-fonctions",
+          "title": "Fonctions linéaires et affines, représentations",
+          "theme": "Grandeurs et fonctions",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5736/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-4"
+        },
+        {
+          "id": "3e-maths-proportionnalite",
+          "title": "Proportionnalit?, pourcentages et ?chelles",
+          "theme": "Grandeurs et fonctions",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5736/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-4"
+        },
+        {
+          "id": "3e-maths-geometrie",
+          "title": "Géométrie plane, transformations et démonstration",
+          "theme": "Espace et géométrie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5736/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-4"
+        },
+        {
+          "id": "3e-maths-pythagore",
+          "title": "Théorème de Pythagore et réciproque",
+          "theme": "Espace et géométrie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5736/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-4"
+        },
+        {
+          "id": "3e-maths-thales",
+          "title": "Théorème de Thalès et réciproque",
+          "theme": "Espace et géométrie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5736/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-4"
+        },
+        {
+          "id": "3e-maths-trigonometrie",
+          "title": "Trigonométrie dans le triangle rectangle",
+          "theme": "Espace et géométrie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5736/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-4"
+        },
+        {
+          "id": "3e-maths-donnees",
+          "title": "Statistiques et traitement de données",
+          "theme": "Organisation et gestion de données",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5736/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-4"
+        },
+        {
+          "id": "3e-maths-probabilites",
+          "title": "Probabilités",
+          "theme": "Organisation et gestion de données",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5736/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-4"
+        },
+        {
+          "id": "3e-maths-algorithmique",
+          "title": "Algorithmique et programmation",
+          "theme": "Pensée informatique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5736/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-4"
+        },
+        {
+          "id": "3e-maths-grandeurs-mesures",
+          "title": "Grandeurs, mesures et conversions",
+          "theme": "Grandeurs et mesures",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5736/ressources-d-accompagnement-du-programme-de-mathematiques-au-cycle-4"
+        }
+      ]
+    },
+    {
+      "id": "francais",
+      "title": "Français",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "3e-francais-lit1",
+          "title": "Culture littéraire et artistique : Se raconter, se représenter",
+          "theme": "Culture littéraire",
+          "sourceUrl": "https://www.education.gouv.fr/bo/15/Special11/MENE1526483Aannexe3.htm"
+        },
+        {
+          "id": "3e-francais-lit2",
+          "title": "Culture littéraire et artistique : Dénoncer les travers de la société",
+          "theme": "Culture littéraire",
+          "sourceUrl": "https://www.education.gouv.fr/bo/15/Special11/MENE1526483Aannexe3.htm"
+        },
+        {
+          "id": "3e-francais-lit3",
+          "title": "Culture littéraire et artistique : Visions poétiques du monde",
+          "theme": "Culture littéraire",
+          "sourceUrl": "https://www.education.gouv.fr/bo/15/Special11/MENE1526483Aannexe3.htm"
+        },
+        {
+          "id": "3e-francais-lit4",
+          "title": "Culture littéraire et artistique : Agir dans la cité : individu et pouvoir",
+          "theme": "Culture littéraire",
+          "sourceUrl": "https://www.education.gouv.fr/bo/15/Special11/MENE1526483Aannexe3.htm"
+        },
+        {
+          "id": "3e-francais-language",
+          "title": "Grammaire, syntaxe, conjugaison et orthographe",
+          "theme": "Étude de la langue",
+          "sourceUrl": "https://www.education.gouv.fr/bo/15/Special11/MENE1526483Aannexe3.htm"
+        },
+        {
+          "id": "3e-francais-lexicon",
+          "title": "Lexique, formation des mots et nuances de sens",
+          "theme": "Étude de la langue",
+          "sourceUrl": "https://www.education.gouv.fr/bo/15/Special11/MENE1526483Aannexe3.htm"
+        },
+        {
+          "id": "3e-francais-expression",
+          "title": "Lire, écrire, parler et comprendre des documents",
+          "theme": "Pratiques langagières",
+          "sourceUrl": "https://www.education.gouv.fr/bo/15/Special11/MENE1526483Aannexe3.htm"
+        },
+        {
+          "id": "3e-francais-progres-scientifiques",
+          "title": "Culture littéraire et artistique : Progrès et rêves scientifiques",
+          "theme": "Questionnement complémentaire — progrès et rêves scientifiques",
+          "sourceUrl": "https://www.education.gouv.fr/bo/15/Special11/MENE1526483Aannexe3.htm"
+        }
+      ]
+    },
+    {
+      "id": "histoire",
+      "title": "Histoire",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "3e-hist-worldwars",
+          "title": "L’Europe, un théâtre majeur des guerres totales (1914-1945)",
+          "theme": "Guerres mondiales",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-hist-wwi",
+          "title": "Première Guerre mondiale : guerre totale et sociétés mobilisées",
+          "theme": "Guerres mondiales",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-hist-totalitarian",
+          "title": "Démocraties fragilisées et régimes totalitaires",
+          "theme": "Guerres mondiales",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-hist-wwii",
+          "title": "Seconde Guerre mondiale, Vichy, collaboration et Résistance",
+          "theme": "Guerres mondiales",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-hist-world",
+          "title": "Le monde depuis 1945",
+          "theme": "Monde contemporain",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-hist-decolonization",
+          "title": "Décolonisation et nouveaux États",
+          "theme": "Monde contemporain",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-hist-coldwar",
+          "title": "Guerre froide, projet européen et monde après 1989",
+          "theme": "Monde contemporain",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-hist-republic",
+          "title": "Françaises et Français dans une République repensée",
+          "theme": "France contemporaine",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-hist-5rep",
+          "title": "Refondation républicaine et Ve République",
+          "theme": "France contemporaine",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-hist-society",
+          "title": "Transformations sociales, culturelles et politiques depuis 1945",
+          "theme": "France contemporaine",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        }
+      ]
+    },
+    {
+      "id": "geographie",
+      "title": "Géographie",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "3e-geo-dynamics",
+          "title": "Dynamiques territoriales de la France contemporaine",
+          "theme": "Territoire français",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-geo-urban",
+          "title": "Aires urbaines, métropolisation et mobilités",
+          "theme": "Territoire français",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-geo-production",
+          "title": "Espaces productifs et faible densité",
+          "theme": "Territoire français",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-geo-planning",
+          "title": "Pourquoi et comment aménager le territoire ?",
+          "theme": "Aménagement",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-geo-inequalities",
+          "title": "Inégalités territoriales et aménagement",
+          "theme": "Aménagement",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-geo-overseas",
+          "title": "Territoires ultramarins : contraintes, atouts et intégration",
+          "theme": "Aménagement",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-geo-europe",
+          "title": "La France et l’Union européenne",
+          "theme": "Europe",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-geo-eu",
+          "title": "Union européenne : territoire et coopérations",
+          "theme": "Europe",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-geo-world",
+          "title": "France et Europe dans le monde",
+          "theme": "Europe",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        }
+      ]
+    },
+    {
+      "id": "emc",
+      "title": "Enseignement moral et civique",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "3e-emc-rules",
+          "title": "Faire vivre la démocratie : règles du jeu démocratique",
+          "theme": "Institutions",
+          "sourceUrl": "https://www.education.gouv.fr/l-enseignement-moral-et-civique-emc-415043"
+        },
+        {
+          "id": "3e-emc-opinion",
+          "title": "Opinion publique, information et débat",
+          "theme": "Citoyenneté",
+          "sourceUrl": "https://www.education.gouv.fr/l-enseignement-moral-et-civique-emc-415043"
+        },
+        {
+          "id": "3e-emc-engagement",
+          "title": "Acteurs démocratiques et engagement collectif",
+          "theme": "Citoyenneté",
+          "sourceUrl": "https://www.education.gouv.fr/l-enseignement-moral-et-civique-emc-415043"
+        }
+      ]
+    },
+    {
+      "id": "physique-chimie",
+      "title": "Physique-Chimie",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "3e-pc-matter",
+          "title": "Organisation et transformations de la matière",
+          "theme": "Matière",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-pc-motion",
+          "title": "Mouvements et interactions",
+          "theme": "Mécanique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-pc-energy",
+          "title": "Énergie, transferts et conversions",
+          "theme": "Énergie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-pc-signals",
+          "title": "Signaux pour observer et communiquer",
+          "theme": "Signaux",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        }
+      ]
+    },
+    {
+      "id": "svt",
+      "title": "Sciences de la vie et de la Terre",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "3e-svt-earth",
+          "title": "Planète Terre, environnement et action humaine",
+          "theme": "Terre et environnement",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-svt-living",
+          "title": "Vivant, diversité et évolution",
+          "theme": "Vivant et évolution",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-svt-health",
+          "title": "Corps humain et santé",
+          "theme": "Santé",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        }
+      ]
+    },
+    {
+      "id": "technologie",
+      "title": "Technologie",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "3e-tech-uses",
+          "title": "Objets et systèmes techniques : usages et interactions",
+          "theme": "Usages et société",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/ensel802_annexe.pdf"
+        },
+        {
+          "id": "3e-tech-structure",
+          "title": "Structure, fonctionnement, comportement et programmation",
+          "theme": "Systèmes et informatique",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/ensel802_annexe.pdf"
+        },
+        {
+          "id": "3e-tech-design",
+          "title": "Création, conception, réalisation et validation",
+          "theme": "Conception et innovation",
+          "sourceUrl": "https://www.education.gouv.fr/sites/default/files/ensel802_annexe.pdf"
+        }
+      ]
+    },
+    {
+      "id": "anglais",
+      "title": "Anglais (selon le parcours)",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "3e-anglais-languages",
+          "title": "Langages, communication et médias",
+          "theme": "Compétences langagières",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "3e-anglais-school",
+          "title": "École et société",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "3e-anglais-travel",
+          "title": "Voyages et migrations",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "3e-anglais-encounters",
+          "title": "Rencontres avec d’autres cultures",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "3e-anglais-practice",
+          "title": "Comprendre, parler, interagir et écrire",
+          "theme": "Activités langagières",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "espagnol",
+      "title": "Espagnol (selon le parcours)",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "3e-espagnol-languages",
+          "title": "Langages, communication et médias",
+          "theme": "Compétences langagières",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "3e-espagnol-school",
+          "title": "École et société",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "3e-espagnol-travel",
+          "title": "Voyages et migrations",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "3e-espagnol-encounters",
+          "title": "Rencontres avec d’autres cultures",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "3e-espagnol-practice",
+          "title": "Comprendre, parler, interagir et écrire",
+          "theme": "Activités langagières",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "allemand",
+      "title": "Allemand (selon le parcours)",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "3e-allemand-languages",
+          "title": "Langages, communication et médias",
+          "theme": "Compétences langagières",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "3e-allemand-school",
+          "title": "École et société",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "3e-allemand-travel",
+          "title": "Voyages et migrations",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "3e-allemand-encounters",
+          "title": "Rencontres avec d’autres cultures",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "3e-allemand-practice",
+          "title": "Comprendre, parler, interagir et écrire",
+          "theme": "Activités langagières",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "autres-lv",
+      "title": "Autres langues vivantes selon le parcours",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "3e-autres-lv-languages",
+          "title": "Langages, communication et médias",
+          "theme": "Compétences langagières",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "3e-autres-lv-school",
+          "title": "École et société",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "3e-autres-lv-travel",
+          "title": "Voyages et migrations",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "3e-autres-lv-encounters",
+          "title": "Rencontres avec d’autres cultures",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        },
+        {
+          "id": "3e-autres-lv-practice",
+          "title": "Comprendre, parler, interagir et écrire",
+          "theme": "Activités langagières",
+          "sourceUrl": "https://www.education.gouv.fr/les-programmes-du-college-470408"
+        }
+      ]
+    },
+    {
+      "id": "arts-plastiques",
+      "title": "Arts plastiques",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "3e-art-representation",
+          "title": "Représentation : images, réalité et fiction",
+          "theme": "Images",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-art-materiality",
+          "title": "Matérialité de l’œuvre, objet et œuvre",
+          "theme": "Matériaux",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-art-space",
+          "title": "Œuvre, espace, auteur et spectateur",
+          "theme": "Présentation",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        }
+      ]
+    },
+    {
+      "id": "education-musicale",
+      "title": "Éducation musicale",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "3e-music-production",
+          "title": "Production : pratique et projets musicaux",
+          "theme": "Production",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-music-perception",
+          "title": "Perception : écouter, comparer et caractériser",
+          "theme": "Perception",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-music-culture",
+          "title": "Repères culturels et histoire des arts musicaux",
+          "theme": "Culture musicale",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        }
+      ]
+    },
+    {
+      "id": "eps",
+      "title": "Éducation physique et sportive",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "3e-eps-perform",
+          "title": "Performance mesurable",
+          "theme": "Champ d’apprentissage 1",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-eps-move",
+          "title": "Déplacements en environnements variés",
+          "theme": "Champ d’apprentissage 2",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-eps-art",
+          "title": "Prestation artistique ou acrobatique",
+          "theme": "Champ d’apprentissage 3",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        },
+        {
+          "id": "3e-eps-opposition",
+          "title": "Confrontation collective ou individuelle",
+          "theme": "Champ d’apprentissage 4",
+          "sourceUrl": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf"
+        }
+      ]
+    },
+    {
+      "id": "evars",
+      "title": "Éducation à la vie affective et relationnelle, et à la sexualité (EVARS)",
+      "kind": "transversal",
+      "chapters": [
+        {
+          "id": "3e-evars-body",
+          "title": "Se connaître, vivre et grandir sereinement avec son corps",
+          "theme": "Axe 1",
+          "sourceUrl": "https://www.education.gouv.fr/bo/2025/Hebdo6/MENE2503064A"
+        },
+        {
+          "id": "3e-evars-relations",
+          "title": "Construire des relations respectueuses",
+          "theme": "Axe 2",
+          "sourceUrl": "https://www.education.gouv.fr/bo/2025/Hebdo6/MENE2503064A"
+        },
+        {
+          "id": "3e-evars-society",
+          "title": "Trouver sa place dans la société, libre et responsable",
+          "theme": "Axe 3",
+          "sourceUrl": "https://www.education.gouv.fr/bo/2025/Hebdo6/MENE2503064A"
+        }
+      ]
+    },
+    {
+      "id": "histoire-des-arts",
+      "title": "Histoire des arts (transversal)",
+      "kind": "transversal",
+      "chapters": [
+        {
+          "id": "3e-hda-works",
+          "title": "Œuvres, contextes, formes et fonctions artistiques",
+          "theme": "Culture artistique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4"
+        },
+        {
+          "id": "3e-hda-circulation",
+          "title": "Circulation des œuvres, techniques et sensibilités",
+          "theme": "Culture artistique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4"
+        }
+      ]
+    },
+    {
+      "id": "lca",
+      "title": "Langues et cultures de l’Antiquité (latin et/ou grec, option)",
+      "kind": "optional",
+      "chapters": [
+        {
+          "id": "3e-lca-language",
+          "title": "Lexique, formes et étymologies anciennes",
+          "theme": "Langue ancienne",
+          "sourceUrl": "https://www.education.gouv.fr/le-college-4940"
+        },
+        {
+          "id": "3e-lca-cultures",
+          "title": "Textes, mythes, sociétés et héritages antiques",
+          "theme": "Cultures antiques",
+          "sourceUrl": "https://www.education.gouv.fr/le-college-4940"
+        }
+      ]
+    },
+    {
+      "id": "langues-regionales",
+      "title": "Langues et cultures régionales (option selon l’offre locale)",
+      "kind": "optional",
+      "chapters": [
+        {
+          "id": "3e-regional-language",
+          "title": "Langue et expressions régionales",
+          "theme": "Langues et cultures",
+          "sourceUrl": "https://www.education.gouv.fr/le-college-4940"
+        },
+        {
+          "id": "3e-regional-cultures",
+          "title": "Territoires, patrimoines et créations régionales",
+          "theme": "Langues et cultures",
+          "sourceUrl": "https://www.education.gouv.fr/le-college-4940"
+        }
+      ]
+    },
+    {
+      "id": "lce",
+      "title": "Langues et cultures européennes (option locale)",
+      "kind": "optional",
+      "chapters": [
+        {
+          "id": "3e-lce-language",
+          "title": "Pratiques langagières en contexte européen",
+          "theme": "Langues et cultures",
+          "sourceUrl": "https://www.education.gouv.fr/le-college-4940"
+        },
+        {
+          "id": "3e-lce-cultures",
+          "title": "Cultures, territoires et projets européens",
+          "theme": "Langues et cultures",
+          "sourceUrl": "https://www.education.gouv.fr/le-college-4940"
+        }
+      ]
+    },
+    {
+      "id": "chant-choral",
+      "title": "Chant choral (enseignement facultatif)",
+      "kind": "optional",
+      "chapters": [
+        {
+          "id": "3e-choral-practice",
+          "title": "Pratique vocale collective et écoute",
+          "theme": "Projet choral",
+          "sourceUrl": "https://www.education.gouv.fr/le-college-4940"
+        },
+        {
+          "id": "3e-choral-project",
+          "title": "Interprétation, répertoire et projet de spectacle",
+          "theme": "Projet choral",
+          "sourceUrl": "https://www.education.gouv.fr/le-college-4940"
+        }
+      ]
+    },
+    {
+      "id": "emi",
+      "title": "Éducation aux médias et à l’information (EMI)",
+      "kind": "transversal",
+      "chapters": [
+        {
+          "id": "3e-emi-desinformation",
+          "title": "Désinformation, manipulations et esprit critique",
+          "theme": "Analyser des contenus médiatiques et numériques",
+          "sourceUrl": "https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4"
+        },
+        {
+          "id": "3e-emi-publier",
+          "title": "Publier, partager et exercer sa citoyenneté numérique",
+          "theme": "Responsabilité et circulation des contenus",
+          "sourceUrl": "https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4"
+        }
+      ]
+    }
+  ]
+}

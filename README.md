@@ -1,85 +1,89 @@
 # FocusQuest
 
-FocusQuest est un prototype d’application Android éducative. Il transforme de courtes révisions scolaires en missions à choix multiples et ajoute des minutes à un solde de temps disponible lorsque l’élève répond correctement.
+FocusQuest est une application Android de révision scolaire qui associe les bonnes réponses à du temps d’écran disponible. L’interface est en français et construite avec Kotlin, Jetpack Compose et Material 3.
 
-## Problème et concept
+## Fonctionnalités
 
-Les notifications, les applications et les sollicitations numériques peuvent interrompre une activité scolaire. Commencer une séance et y rester concentré peut aussi être difficile. FocusQuest explore une approche simple : proposer une mission courte, claire et liée aux apprentissages, puis associer les bonnes réponses à une récompense en minutes.
+### Parcours scolaire
 
-Cette approche est une intention de conception. Le projet ne constitue pas un traitement médical et aucune efficacité clinique n’a été démontrée.
+Après un onboarding présenté au premier lancement, l’élève peut suivre ce parcours :
 
-## Fonctionnement
+**Accueil → classe → matière → chapitre → activité → QCM → résultats**
 
-1. L’élève démarre une mission et choisit une classe puis une matière.
-2. L’application sélectionne cinq questions dans la banque disponible pour cette catégorie.
-3. Une bonne réponse ajoute la récompense configurée pour la question. Dans la banque actuelle, chaque question vaut deux minutes, soit jusqu’à dix minutes pour cinq bonnes réponses.
-4. L’application affiche le score et le solde disponible.
+- Le catalogue est chargé depuis les fichiers JSON de l’application pour les classes de 6e, 5e, 4e, 3e, Seconde, Première générale et Terminale générale.
+- Seules les matières du niveau choisi sont affichées. En Première et Terminale, elles sont classées en enseignements communs, spécialités ou options.
+- Les chapitres sont regroupés par thème. Chaque fiche indique le nombre de QCM disponibles ; les chapitres sans question restent visibles et ne peuvent pas être lancés.
+- La seule activité disponible pour l’instant est le **QCM de cinq questions maximum**. Le quiz reste limité à la classe, la matière et au chapitre choisis. Il utilise moins de cinq questions si le chapitre en contient moins et ne répète pas de question dans une même mission.
+- Le quiz affiche la progression, le score et les explications. Une réponse validée ne peut pas attribuer sa récompense une deuxième fois. Chaque bonne réponse ajoute actuellement **30 secondes** au temps gagné, soit jusqu’à 2 min 30 pour une mission parfaite. L’écran de résultats récapitule la mission.
+- Les boutons retour permettent de revenir aux étapes précédentes ; quitter une mission en cours demande confirmation.
 
-Le solde est calculé ainsi : minutes de base + minutes gagnées − minutes consommées, avec un minimum de zéro. Les minutes de base sont réglables dans l’application et le solde est conservé localement avec DataStore. Des changements en cours dans l’espace de travail ajoutent le choix d’applications et la lecture des statistiques d’usage Android pour comptabiliser les minutes utilisées. Ce suivi n’a pas encore été validé sur appareil ; il ne faut pas le présenter comme opérationnel avant intégration et vérification. FocusQuest ne bloque pas les applications Android.
+### Temps disponible et suivi des applications
 
-## Public cible et contenu
+- L’accueil affiche le temps disponible, le temps gagné et le temps utilisé aujourd’hui.
+- Le temps de base est de **30 minutes par jour** par défaut. Dans les réglages, il peut être choisi parmi 15, 30, 45 ou 60 minutes.
+- Le calcul est : **temps de base + temps gagné − temps utilisé**, avec un minimum de zéro.
+- FocusQuest peut lister les applications lançables du téléphone, avec leurs noms et icônes système. L’utilisateur choisit celles dont l’usage doit être comptabilisé ; sa sélection est conservée.
+- Avec l’autorisation Android « Accès aux données d’utilisation », FocusQuest lit dans `UsageStatsManager` le temps au premier plan des applications sélectionnées et le déduit du solde. L’écran de sélection guide vers le réglage système de cette autorisation. La première sélection d’une application dans la journée prend en compte le temps que les statistiques Android indiquent depuis minuit.
+- Le relevé est actualisé au lancement, au retour de l’application au premier plan et avec le bouton **Actualiser le temps utilisé**. Ce n’est pas un suivi en continu : les applications restent ouvrables et FocusQuest **ne les bloque pas**.
+- Le temps gagné et le temps utilisé sont remis à zéro au changement de journée ; le temps de base et les applications sélectionnées sont conservés localement avec Preferences DataStore.
 
-La banque contient 120 questions en français pour les élèves de 5e, 4e et 3e, réparties entre mathématiques, français, histoire-géographie et sciences.
+### Onboarding et navigation
 
-L’écran de choix de classe affiche également la 6e, la Seconde, la Première et la Terminale, mais aucune question n’est disponible pour ces niveaux. Les banques correspondantes restent à créer ou les choix à restreindre.
+L’onboarding est affiché au premier lancement et son état de fin est sauvegardé. Les lancements suivants ouvrent directement l’accueil. Depuis l’accueil, l’élève peut démarrer une mission, régler son temps de base, gérer les applications surveillées ou actualiser le relevé d’usage.
 
-## Technologies
+## Contenu scolaire
 
-- Kotlin et Android
-- Jetpack Compose et Material 3
-- Navigation Compose
-- AndroidX Lifecycle et ViewModel
-- Preferences DataStore
-- Gradle 9.3.1, Android Gradle Plugin 9.1.1 et Kotlin 2.2.10
-- JDK 17
+Le catalogue JSON comprend actuellement :
 
-## Architecture
+| Niveau | Matières du catalogue | Chapitres | Chapitres avec QCM | QCM |
+|---|---:|---:|---:|---:|
+| 6e | 12 | 66 | 16 | 80 |
+| 5e | 15 | 82 | 22 | 110 |
+| 4e | 22 | 91 | 34 | 170 |
+| 3e | 22 | 98 | 35 | 175 |
+| Seconde | 35 | 104 | 8 | 40 |
+| Première générale | 35 | 132 | 8 | 40 |
+| Terminale générale | 37 | 159 | 8 | 40 |
+| **Total** | **178** | **732** | **131** | **655** |
 
-- MainActivity démarre l’interface Compose et le thème.
-- ui/FocusQuestApp.kt contient les routes et relie les écrans, les questions et le solde.
-- ui/ regroupe l’accueil, le choix de classe et de matière, le quiz, les résultats et les réglages.
-- data/QuestionRepository.kt filtre et mélange les questions.
-- data/questions/ contient les banques par niveau.
-- data/ScreenTimeRepository.kt conserve le solde local avec DataStore.
-- model/ contient les modèles de question, de classe, de matière et de solde.
+Les nombres de matières correspondent aux entrées propres à chaque niveau, et non au nombre de matières distinctes à l’échelle du catalogue. Tous les chapitres n’ont pas encore de QCM. La cohérence structurelle du JSON, les associations matière-chapitre, les choix et les réponses sont couverts par les tests instrumentés. Cela ne constitue pas une validation pédagogique : les contenus doivent encore être relus par des enseignants.
 
-La description détaillée est dans [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+Les **120 anciennes questions Kotlin** (5e, 4e et 3e) sont conservées dans `QuestionRepository` pour compatibilité. Elles ne sont pas mélangées au nouveau catalogue et aucune n’est associée automatiquement à un chapitre. Une association éventuelle doit être explicitement vérifiée. L’audit documentaire existant dans [docs/QUESTION_AUDIT.md](docs/QUESTION_AUDIT.md) porte uniquement sur cette ancienne banque, pas sur les 655 QCM du catalogue.
 
-## Installation et lancement
+## Limites connues
 
-1. Installer Android Studio, JDK 17 et les composants Android SDK demandés par le projet.
-2. Cloner le dépôt et l’ouvrir dans Android Studio.
-3. Laisser Gradle synchroniser les dépendances.
-4. Construire et installer la variante debug :
+- FocusQuest comptabilise l’usage des applications sélectionnées, mais ne les bloque pas et ne tourne pas comme un service de surveillance permanent en arrière-plan.
+- Le suivi nécessite l’autorisation spéciale d’accès aux statistiques d’utilisation dans les réglages Android. Sans cette autorisation, les relevés d’usage ne peuvent pas être lus.
+- Seul le QCM est fonctionnel comme activité de révision. Les chapitres sans questions sont consultables, mais indisponibles au lancement.
+- La couverture des programmes, la formulation et le niveau pédagogique des questions n’ont pas été certifiés par des enseignants.
+- Les données et les catalogues sont locaux à l’application. Le projet ne requiert ni Firebase ni serveur distant.
 
-       Windows : .\gradlew.bat :app:assembleDebug
-       macOS/Linux : ./gradlew :app:assembleDebug
+## Architecture et données
 
-L’APK debug est généré dans app/build/outputs/apk/debug/. Un appareil ou émulateur compatible avec le minimum configuré dans Gradle (API 24) est nécessaire pour l’exécuter.
+- `MainActivity.kt` démarre l’application Compose ; `ui/FocusQuestApp.kt` relie l’onboarding, l’accueil, le parcours du catalogue, le quiz et les résultats.
+- `data/catalog/CurriculumRepository.kt` charge les matières et chapitres ; `ChapterQuestionRepository.kt` charge les QCM associés à un chapitre depuis `app/src/main/assets/`.
+- `data/QuestionRepository.kt` contient l’ancienne banque de 120 questions.
+- `data/ScreenTimeRepository.kt` conserve le solde et la sélection d’applications avec Preferences DataStore ; `UsageStatsRepository.kt` interroge les statistiques Android.
+- `data/OnboardingRepository.kt` conserve l’état de l’onboarding.
 
-Les tests unitaires et instrumentés existent dans app/src/test/ et app/src/androidTest/. Ils n’ont pas été exécutés pendant l’audit documentaire.
+## Configuration et commandes
 
-## Fonctionnalités terminées dans le périmètre du prototype
+Prérequis : Android Studio, JDK 17 et les composants Android SDK du projet. L’application cible Android 36 et prend en charge Android 7.0 (API 24) et versions ultérieures.
 
-- Accueil avec solde disponible et accès aux missions et réglages.
-- Parcours de sélection classe, matière et quiz.
-- Missions de cinq questions tirées au hasard dans une catégorie.
-- Score, retour bonne/mauvaise réponse et ajout de minutes après une bonne réponse.
-- Réglage local du temps quotidien de base.
-- Conservation du solde avec DataStore et remise à zéro quotidienne des minutes gagnées et consommées lors de l’actualisation du dépôt.
+Depuis la racine du dépôt :
 
-Cette liste décrit le code inspecté ; elle ne vaut pas validation sur téléphone. L’audit des questions et les limites relevées sont dans [docs/QUESTION_AUDIT.md](docs/QUESTION_AUDIT.md).
+```powershell
+# Windows
+.\gradlew.bat :app:assembleDebug
+.\gradlew.bat :app:testDebugUnitTest
+.\gradlew.bat :app:connectedDebugAndroidTest  # nécessite un appareil ou émulateur connecté
+```
 
-## En développement ou à vérifier
+```bash
+# macOS / Linux
+./gradlew :app:assembleDebug
+./gradlew :app:testDebugUnitTest
+./gradlew :app:connectedDebugAndroidTest  # nécessite un appareil ou émulateur connecté
+```
 
-- Le suivi réel du temps d’écran est développé en parallèle. Le code de l’espace de travail contient maintenant une demande d’accès aux statistiques d’usage, un sélecteur d’applications et des lectures de leur temps au premier plan. Ce changement n’a pas été vérifié sur appareil et reste non confirmé comme intégré.
-- Une refonte visuelle du quiz est en cours en parallèle et reste à valider après intégration.
-- La banque doit être relue par des enseignants, notamment pour les ambiguïtés et les répétitions relevées dans l’audit.
-- Les classes proposées sans banque doivent être traitées.
-- La compilation, les tests, les permissions, les relevés d’usage et le parcours sur appareil doivent être vérifiés avant toute démonstration publique.
-
-## Perspectives
-
-Intégrer et tester le suivi Android avec une explication claire des permissions, aligner les niveaux proposés sur les contenus disponibles, enrichir et faire valider les questions, puis examiner des missions progressives, des statistiques de progression et une configuration familiale. Ces pistes ne sont pas des fonctions actuelles.
-
-La présentation d’EurekaDev est dans [docs/EUREKADEV_PRESENTATION.md](docs/EUREKADEV_PRESENTATION.md), le scénario vidéo dans [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md), et les étapes de préparation dans [docs/RELEASE_CHECKLIST.md](docs/RELEASE_CHECKLIST.md).
+L’APK debug est généré dans `app/build/outputs/apk/debug/`. Le projet utilise Gradle 9.3.1, Android Gradle Plugin 9.1.1 et Kotlin 2.2.10.

@@ -1,0 +1,605 @@
+{
+  "gradeId": "premiere_generale",
+  "questions": [
+    {
+      "id": "premiere-francais-poesie-q01",
+      "subjectId": "francais",
+      "chapterId": "premiere-francais-poesie",
+      "question": "Un alexandrin classique comporte généralement :",
+      "answers": [
+        "8 syllabes",
+        "10 syllabes",
+        "12 syllabes",
+        "14 syllabes"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "L’alexandrin est un vers de douze syllabes, selon les règles de décompte poétique.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-francais-poesie-q02",
+      "subjectId": "francais",
+      "chapterId": "premiere-francais-poesie",
+      "question": "Une métaphore est une figure qui :",
+      "answers": [
+        "Compare explicitement avec « comme »",
+        "Associe deux réalités sans outil comparatif explicite",
+        "Répète une consonne uniquement",
+        "Inverse l’ordre des mots"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "La métaphore rapproche des réalités sans terme comparatif explicite.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-francais-poesie-q03",
+      "subjectId": "francais",
+      "chapterId": "premiere-francais-poesie",
+      "question": "Il y a enjambement lorsque :",
+      "answers": [
+        "Une phrase se poursuit au-delà de la fin du vers",
+        "Deux vers ont le même nombre de syllabes",
+        "Un poème n’a pas de rimes",
+        "Un vers est partagé en deux strophes"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’enjambement prolonge une construction syntaxique d’un vers sur le suivant.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-francais-poesie-q04",
+      "subjectId": "francais",
+      "chapterId": "premiere-francais-poesie",
+      "question": "Un sonnet français classique comporte le plus souvent :",
+      "answers": [
+        "Deux quatrains et deux tercets",
+        "Trois quatrains et un distique",
+        "Quatre tercets",
+        "Un seul quatrain"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La forme usuelle du sonnet français associe deux quatrains et deux tercets.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-francais-poesie-q05",
+      "subjectId": "francais",
+      "chapterId": "premiere-francais-poesie",
+      "question": "Dans un schéma de rimes ABBA, les rimes sont dites :",
+      "answers": [
+        "Croisées",
+        "Embrassées",
+        "Plates",
+        "Libres"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Les rimes A encadrent les rimes B : elles sont embrassées.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-francais-roman-q01",
+      "subjectId": "francais",
+      "chapterId": "premiere-francais-roman",
+      "question": "Dans un récit à la première personne, le narrateur est :",
+      "answers": [
+        "Désigné par « je » dans le récit",
+        "Toujours extérieur à l’histoire",
+        "Nécessairement l’auteur réel",
+        "Toujours omniscient"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un récit à la première personne emploie un narrateur qui dit « je » ; il peut être personnage, sans être l’auteur réel.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-francais-roman-q02",
+      "subjectId": "francais",
+      "chapterId": "premiere-francais-roman",
+      "question": "La focalisation interne consiste à raconter en donnant accès :",
+      "answers": [
+        "Aux perceptions et savoirs d’un personnage",
+        "À toutes les pensées de tous les personnages",
+        "À aucune information sur les personnages",
+        "Uniquement au futur"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le récit est limité au point de vue d’un personnage.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-francais-roman-q03",
+      "subjectId": "francais",
+      "chapterId": "premiere-francais-roman",
+      "question": "Une analepse permet de :",
+      "answers": [
+        "Revenir sur un événement antérieur",
+        "Annoncer obligatoirement la fin",
+        "Changer de narrateur sans raison",
+        "Décrire un lieu en détail"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’analepse est un retour en arrière narratif.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-francais-roman-q04",
+      "subjectId": "francais",
+      "chapterId": "premiere-francais-roman",
+      "question": "Le récit enchâssé est :",
+      "answers": [
+        "Un récit inclus dans un autre récit",
+        "Un récit sans personnage",
+        "Un récit uniquement composé de dialogues",
+        "Une pièce de théâtre"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un personnage ou narrateur raconte une histoire à l’intérieur du récit-cadre.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-francais-roman-q05",
+      "subjectId": "francais",
+      "chapterId": "premiere-francais-roman",
+      "question": "À quoi correspond le point de vue omniscient ?",
+      "answers": [
+        "Le narrateur peut donner des informations dépassant le savoir d’un personnage",
+        "Le récit n’a pas de narrateur",
+        "Le lecteur ignore toujours les pensées",
+        "Le narrateur est nécessairement un personnage secondaire"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un narrateur omniscient dispose d’un savoir étendu sur les personnages, les événements ou les temps.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-maths-second-degre-q01",
+      "subjectId": "maths-spe",
+      "chapterId": "premiere-maths-second-degre",
+      "question": "Quelles sont les solutions de x² − 5x + 6 = 0 ?",
+      "answers": [
+        "−2 et −3",
+        "2 et 3",
+        "1 et 6",
+        "−1 et −6"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "x² − 5x + 6 = (x−2)(x−3), donc les racines sont 2 et 3.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-maths-second-degre-q02",
+      "subjectId": "maths-spe",
+      "chapterId": "premiere-maths-second-degre",
+      "question": "Quel est le discriminant de x² + 4x + 4 ?",
+      "answers": [
+        "0",
+        "4",
+        "8",
+        "16"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Δ = b² − 4ac = 16 − 16 = 0.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-maths-second-degre-q03",
+      "subjectId": "maths-spe",
+      "chapterId": "premiere-maths-second-degre",
+      "question": "La fonction f(x)=x² a une parabole tournée :",
+      "answers": [
+        "Vers le bas",
+        "Vers le haut",
+        "Horizontalement",
+        "Sans sommet"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Le coefficient de x² est positif, donc la parabole est tournée vers le haut.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-maths-second-degre-q04",
+      "subjectId": "maths-spe",
+      "chapterId": "premiere-maths-second-degre",
+      "question": "Quelle forme factorisée correspond à x² − 9 ?",
+      "answers": [
+        "(x−9)²",
+        "(x−3)(x+3)",
+        "(x−3)²",
+        "(x−9)(x+1)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "C’est une différence de deux carrés : x²−3²=(x−3)(x+3).",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-maths-second-degre-q05",
+      "subjectId": "maths-spe",
+      "chapterId": "premiere-maths-second-degre",
+      "question": "Le sommet de la parabole d’une fonction du second degré correspond à :",
+      "answers": [
+        "Un extremum de la fonction",
+        "Une racine toujours égale à 0",
+        "L’ordonnée à l’origine uniquement",
+        "La pente constante de la droite"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le sommet donne le minimum si a>0 ou le maximum si a<0.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-maths-suites-q01",
+      "subjectId": "maths-spe",
+      "chapterId": "premiere-maths-suites",
+      "question": "Une suite est définie par u₀ = 2 et uₙ₊₁ = uₙ + 3. Quelle est la valeur de u₄ ?",
+      "answers": [
+        "11",
+        "12",
+        "14",
+        "15"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "On ajoute 3 à chaque rang : u₁=5, u₂=8, u₃=11, u₄=14.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-maths-suites-q02",
+      "subjectId": "maths-spe",
+      "chapterId": "premiere-maths-suites",
+      "question": "Si uₙ = 2n + 1, que vaut u₅ ?",
+      "answers": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "En remplaçant n par 5 : u₅ = 2×5 + 1 = 11.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-maths-suites-q03",
+      "subjectId": "maths-spe",
+      "chapterId": "premiere-maths-suites",
+      "question": "Une suite arithmétique de premier terme u₀=4 et de raison −2 vérifie :",
+      "answers": [
+        "u₃ = −2",
+        "u₃ = 2",
+        "u₃ = 6",
+        "u₃ = 10"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "u₃ = u₀ + 3r = 4 + 3(−2) = −2.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-maths-suites-q04",
+      "subjectId": "maths-spe",
+      "chapterId": "premiere-maths-suites",
+      "question": "Si une suite arithmétique a une raison positive, elle est :",
+      "answers": [
+        "Strictement croissante",
+        "Strictement décroissante",
+        "Constante",
+        "Toujours géométrique"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Chaque terme s’obtient en ajoutant une quantité positive au précédent.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-maths-suites-q05",
+      "subjectId": "maths-spe",
+      "chapterId": "premiere-maths-suites",
+      "question": "Une suite géométrique vérifie uₙ₊₁ = 2uₙ et u₀ = 3. Alors u₃ vaut :",
+      "answers": [
+        "12",
+        "18",
+        "24",
+        "27"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "u₁=6, u₂=12, u₃=24.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-pc-quantite-matiere-q01",
+      "subjectId": "physique-chimie-spe",
+      "chapterId": "premiere-pc-quantite-matiere",
+      "question": "La quantité de matière n d’un échantillon de masse m et de masse molaire M est :",
+      "answers": [
+        "n = m × M",
+        "n = m / M",
+        "n = M / m",
+        "n = m + M"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "La relation est n=m/M, avec des unités cohérentes.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-pc-quantite-matiere-q02",
+      "subjectId": "physique-chimie-spe",
+      "chapterId": "premiere-pc-quantite-matiere",
+      "question": "Un échantillon d’eau a une masse de 18 g. Avec M(H₂O)=18 g·mol⁻¹, sa quantité de matière vaut :",
+      "answers": [
+        "0,5 mol",
+        "1 mol",
+        "18 mol",
+        "324 mol"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "n=18/18=1 mol.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-pc-quantite-matiere-q03",
+      "subjectId": "physique-chimie-spe",
+      "chapterId": "premiere-pc-quantite-matiere",
+      "question": "Une solution contient 0,20 mol de soluté dans 1,0 L. Sa concentration en quantité de matière est :",
+      "answers": [
+        "0,020 mol·L⁻¹",
+        "0,20 mol·L⁻¹",
+        "1,20 mol·L⁻¹",
+        "5,0 mol·L⁻¹"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "c=n/V=0,20/1,0=0,20 mol·L⁻¹.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-pc-quantite-matiere-q04",
+      "subjectId": "physique-chimie-spe",
+      "chapterId": "premiere-pc-quantite-matiere",
+      "question": "Lors d’une dilution, si la quantité de soluté est conservée et que le volume augmente, la concentration :",
+      "answers": [
+        "Augmente",
+        "Diminue",
+        "Reste toujours identique",
+        "Devient nulle immédiatement"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "La même quantité de soluté répartie dans un volume plus grand donne une concentration plus faible.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-pc-quantite-matiere-q05",
+      "subjectId": "physique-chimie-spe",
+      "chapterId": "premiere-pc-quantite-matiere",
+      "question": "Quelle unité convient à une masse molaire ?",
+      "answers": [
+        "g·mol⁻¹",
+        "mol·L⁻¹",
+        "m·s⁻¹",
+        "J·K⁻¹"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La masse molaire exprime une masse par mole.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-pc-transformations-q01",
+      "subjectId": "physique-chimie-spe",
+      "chapterId": "premiere-pc-transformations",
+      "question": "Lors d’une transformation chimique, les atomes :",
+      "answers": [
+        "Sont conservés et réarrangés entre les espèces",
+        "Disparaissent tous",
+        "Se transforment nécessairement en énergie pure",
+        "Restent dans les molécules initiales sans changement"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les atomes sont conservés et réorganisés pour former les produits.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-pc-transformations-q02",
+      "subjectId": "physique-chimie-spe",
+      "chapterId": "premiere-pc-transformations",
+      "question": "Une équation chimique équilibrée respecte notamment la conservation :",
+      "answers": [
+        "Des atomes de chaque élément",
+        "Du nombre de molécules",
+        "De la température",
+        "Du volume du récipient"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le nombre d’atomes de chaque élément doit être identique des deux côtés.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-pc-transformations-q03",
+      "subjectId": "physique-chimie-spe",
+      "chapterId": "premiere-pc-transformations",
+      "question": "Un réactif limitant est celui qui :",
+      "answers": [
+        "Est consommé entièrement en premier",
+        "Est toujours présent en excès",
+        "Accélère sans être consommé",
+        "Est produit par la réaction"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’épuisement du réactif limitant arrête la transformation.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-pc-transformations-q04",
+      "subjectId": "physique-chimie-spe",
+      "chapterId": "premiere-pc-transformations",
+      "question": "Dans l’équation N₂ + 3 H₂ → 2 NH₃, combien de molécules de H₂ réagissent avec une molécule de N₂ ?",
+      "answers": [
+        "1",
+        "2",
+        "3",
+        "6"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Les coefficients indiquent que 3 molécules de H₂ réagissent avec 1 de N₂.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-pc-transformations-q05",
+      "subjectId": "physique-chimie-spe",
+      "chapterId": "premiere-pc-transformations",
+      "question": "Un catalyseur d’une réaction :",
+      "answers": [
+        "Modifie la vitesse sans être consommé dans le bilan global",
+        "Augmente la masse totale des produits",
+        "Devient nécessairement un produit final",
+        "Change les coefficients de conservation"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un catalyseur accélère la réaction mais n’est pas consommé dans le bilan global.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-svt-evolution-q01",
+      "subjectId": "svt-spe",
+      "chapterId": "premiere-svt-evolution",
+      "question": "Une mutation de l’ADN peut contribuer à la biodiversité en :",
+      "answers": [
+        "Créant un nouvel allèle",
+        "Supprimant toujours l’espèce entière",
+        "Transformant un individu en une autre espèce immédiatement",
+        "Empêchant toute reproduction"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une mutation modifie une séquence d’ADN et peut créer un nouvel allèle.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-svt-evolution-q02",
+      "subjectId": "svt-spe",
+      "chapterId": "premiere-svt-evolution",
+      "question": "La dérive génétique correspond à :",
+      "answers": [
+        "Une variation aléatoire des fréquences alléliques",
+        "La transformation volontaire d’un organisme",
+        "La création dirigée de mutations utiles",
+        "La disparition systématique des allèles rares"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La dérive génétique est une variation aléatoire des fréquences d’allèles, particulièrement marquée dans les petites populations.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-svt-evolution-q03",
+      "subjectId": "svt-spe",
+      "chapterId": "premiere-svt-evolution",
+      "question": "À taille égale, la dérive génétique a généralement un effet plus marqué dans une population :",
+      "answers": [
+        "Petite",
+        "Très grande",
+        "Dont les individus ne se reproduisent pas",
+        "Sans variation génétique initiale"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le hasard de la reproduction pèse davantage sur les fréquences alléliques quand l’effectif est faible.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-svt-evolution-q04",
+      "subjectId": "svt-spe",
+      "chapterId": "premiere-svt-evolution",
+      "question": "La sélection naturelle favorise plus souvent les individus dont un caractère :",
+      "answers": [
+        "Accroît le succès reproducteur dans leur environnement",
+        "Est toujours le plus grand",
+        "Est apparu parce qu’ils en avaient besoin",
+        "Est identique chez toutes les espèces"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un caractère héritable qui augmente le succès reproducteur peut devenir plus fréquent dans la population.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-svt-evolution-q05",
+      "subjectId": "svt-spe",
+      "chapterId": "premiere-svt-evolution",
+      "question": "La sélection naturelle et la dérive génétique se distinguent notamment parce que :",
+      "answers": [
+        "La sélection dépend du succès reproducteur lié aux caractères, la dérive est aléatoire",
+        "La sélection est toujours aléatoire et la dérive toujours orientée",
+        "La dérive ne modifie jamais les fréquences alléliques",
+        "La sélection n’agit que sur les roches"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La sélection est liée aux différences de succès reproducteur ; la dérive correspond à un effet du hasard.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-svt-genetique-q01",
+      "subjectId": "svt-spe",
+      "chapterId": "premiere-svt-genetique",
+      "question": "Un gène est une portion d’ADN qui :",
+      "answers": [
+        "Contribue à déterminer un caractère via un produit fonctionnel",
+        "Est toujours une cellule entière",
+        "Est un organe spécialisé",
+        "Ne contient aucune information"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un gène porte une information utilisée notamment pour produire un ARN ou une protéine fonctionnelle.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-svt-genetique-q02",
+      "subjectId": "svt-spe",
+      "chapterId": "premiere-svt-genetique",
+      "question": "Dans l’ADN, quelle base s’apparie avec l’adénine ?",
+      "answers": [
+        "Cytosine",
+        "Guanine",
+        "Thymine",
+        "Uracile"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Dans l’ADN, l’adénine s’apparie avec la thymine.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-svt-genetique-q03",
+      "subjectId": "svt-spe",
+      "chapterId": "premiere-svt-genetique",
+      "question": "Chez les eucaryotes, la transcription de l’ADN en ARN se déroule principalement :",
+      "answers": [
+        "Dans le noyau",
+        "Dans la membrane plasmique",
+        "Dans le milieu extracellulaire",
+        "Dans les lysosomes"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La transcription a lieu dans le noyau ; l’ARN messager peut ensuite être traduit dans le cytoplasme.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-svt-genetique-q04",
+      "subjectId": "svt-spe",
+      "chapterId": "premiere-svt-genetique",
+      "question": "La méiose contribue à la diversité génétique car elle :",
+      "answers": [
+        "Produit des gamètes génétiquement variés",
+        "Duplique seulement des cellules identiques",
+        "Supprime tous les chromosomes",
+        "Crée des individus sans ADN"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Brassages et répartitions des chromosomes rendent les gamètes génétiquement variés.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "premiere-svt-genetique-q05",
+      "subjectId": "svt-spe",
+      "chapterId": "premiere-svt-genetique",
+      "question": "Le phénotype d’un individu dépend notamment :",
+      "answers": [
+        "Du génotype et de l’environnement",
+        "Uniquement de son âge",
+        "Uniquement du nombre de cellules",
+        "Seulement du milieu de vie, jamais des gènes"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le phénotype résulte des interactions entre génotype, organisme et environnement.",
+      "rewardSeconds": 30
+    }
+  ]
+}

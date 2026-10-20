@@ -1,0 +1,2605 @@
+{
+  "gradeId": "3e",
+  "questions": [
+    {
+      "id": "3e-maths-thales-q01",
+      "subjectId": "maths",
+      "chapterId": "3e-maths-thales",
+      "question": "Dans ABC, D est sur AB, E sur AC et DE est parallèle à BC. Si AD/AB = 4/10 et AC = 15 cm, combien mesure AE ?",
+      "answers": [
+        "4 cm",
+        "6 cm",
+        "10 cm",
+        "12 cm"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Avec Thalès, AE/AC = AD/AB = 4/10 ; AE = 15 x 0,4 = 6 cm.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-maths-thales-q02",
+      "subjectId": "maths",
+      "chapterId": "3e-maths-thales",
+      "question": "Dans une configuration de Thalès, AD = 8 cm, AB = 12 cm et AC = 15 cm. Si DE est parallèle à BC, AE vaut…",
+      "answers": [
+        "6 cm",
+        "8 cm",
+        "10 cm",
+        "18 cm"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "AE/AC = AD/AB = 8/12 = 2/3, donc AE = 15 x 2/3 = 10 cm.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-maths-thales-q03",
+      "subjectId": "maths",
+      "chapterId": "3e-maths-thales",
+      "question": "D et E sont sur deux demi-droites issues de A. AD = 6, AB = 9, AE = 8 et AC = 12. Quelle conclusion peut-on tirer ?",
+      "answers": [
+        "DE est parallèle à BC",
+        "Les droites sont perpendiculaires",
+        "ABC est équilatéral",
+        "Aucune relation ne peut être établie"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "AD/AB = 6/9 = 2/3 et AE/AC = 8/12 = 2/3 ; la réciproque de Thalès s’applique.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-maths-thales-q04",
+      "subjectId": "maths",
+      "chapterId": "3e-maths-thales",
+      "question": "Si deux droites sécantes sont coupées par une parallèle, quelles longueurs sont proportionnelles ?",
+      "answers": [
+        "Les longueurs correspondantes mesurées depuis le sommet",
+        "Toutes les longueurs du dessin sans correspondance",
+        "Les angles et les aires uniquement",
+        "Les périmètres des deux triangles seulement"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le théorème met en proportion les côtés correspondants des triangles ayant le sommet commun.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-maths-thales-q05",
+      "subjectId": "maths",
+      "chapterId": "3e-maths-thales",
+      "question": "Dans une configuration de Thalès, AD/AB = 3/5 et AB = 20 cm. Quelle est AD ?",
+      "answers": [
+        "8 cm",
+        "12 cm",
+        "15 cm",
+        "23 cm"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "AD = 20 x 3/5 = 12 cm.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-maths-trigonometrie-q01",
+      "subjectId": "maths",
+      "chapterId": "3e-maths-trigonometrie",
+      "question": "Dans un triangle rectangle, sin(angle) est égal à…",
+      "answers": [
+        "côté opposé / hypoténuse",
+        "côté adjacent / hypoténuse",
+        "hypoténuse / côté opposé",
+        "côté adjacent / côté opposé"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le sinus d’un angle aigu est le rapport du côté opposé à l’hypoténuse.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-maths-trigonometrie-q02",
+      "subjectId": "maths",
+      "chapterId": "3e-maths-trigonometrie",
+      "question": "Un angle aigu a un côté opposé de 6 cm et une hypoténuse de 10 cm. Quelle est la valeur de son sinus ?",
+      "answers": [
+        "0,4",
+        "0,6",
+        "1,6",
+        "6"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "sin(angle) = 6/10 = 0,6.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-maths-trigonometrie-q03",
+      "subjectId": "maths",
+      "chapterId": "3e-maths-trigonometrie",
+      "question": "Dans un triangle rectangle, cos(angle) est égal à…",
+      "answers": [
+        "côté adjacent / hypoténuse",
+        "côté opposé / hypoténuse",
+        "hypoténuse / côté adjacent",
+        "côté opposé / côté adjacent"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le cosinus d’un angle aigu est le rapport du côté adjacent à l’hypoténuse.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-maths-trigonometrie-q04",
+      "subjectId": "maths",
+      "chapterId": "3e-maths-trigonometrie",
+      "question": "Pour un angle aigu, le côté opposé mesure 9 cm et le côté adjacent 12 cm. Quelle est la tangente ?",
+      "answers": [
+        "3/4",
+        "4/3",
+        "9/12²",
+        "21"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "tan(angle) = côté opposé / côté adjacent = 9/12 = 3/4.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-maths-trigonometrie-q05",
+      "subjectId": "maths",
+      "chapterId": "3e-maths-trigonometrie",
+      "question": "Quelle formule calcule le côté opposé quand on connaît l’angle et l’hypoténuse ?",
+      "answers": [
+        "opposé = hypoténuse x sin(angle)",
+        "opposé = hypoténuse + sin(angle)",
+        "opposé = hypoténuse / cos(angle)",
+        "opposé = angle x hypoténuse²"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "sin(angle) = opposé/hypoténuse, donc opposé = hypoténuse x sin(angle).",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-francais-lit1-q01",
+      "subjectId": "francais",
+      "chapterId": "3e-francais-lit1",
+      "question": "Dans un récit autobiographique, qui raconte généralement les événements ?",
+      "answers": [
+        "L’auteur raconte sa propre vie ou une partie de celle-ci",
+        "Un narrateur extérieur raconte toujours une fiction",
+        "Un journaliste anonyme rapporte la météo",
+        "Un personnage qui n’existe jamais"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’autobiographie est le récit rétrospectif qu’une personne réelle fait de sa propre vie.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-francais-lit1-q02",
+      "subjectId": "francais",
+      "chapterId": "3e-francais-lit1",
+      "question": "L’emploi de « je » suffit-il à prouver qu’un texte est autobiographique ?",
+      "answers": [
+        "Non, un récit fictif peut aussi employer « je »",
+        "Oui, toujours",
+        "Oui, seulement dans un poème",
+        "Non, car le pronom « je » n’existe pas"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le pronom « je » ne suffit pas : il faut examiner l’identité annoncée et le pacte de lecture.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-francais-lit1-q03",
+      "subjectId": "francais",
+      "chapterId": "3e-francais-lit1",
+      "question": "Que désigne le pacte autobiographique ?",
+      "answers": [
+        "L’engagement de raconter sa vie en identifiant auteur, narrateur et personnage",
+        "Une promesse de ne jamais utiliser le passé",
+        "Un contrat entre deux personnages fictifs",
+        "Une règle qui interdit les souvenirs"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le pacte associé l’auteur, le narrateur et le personnage principal sous la même identité.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-francais-lit1-q04",
+      "subjectId": "francais",
+      "chapterId": "3e-francais-lit1",
+      "question": "Quelle différence caractérise souvent les mémoires par rapport à un récit centré sur l’intime ?",
+      "answers": [
+        "Ils replacent davantage l’expérience personnelle dans l’histoire collective",
+        "Ils sont toujours écrits à la troisième personne",
+        "Ils ne contiennent aucun souvenir",
+        "Ils sont nécessairement fantastiques"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les mémoires accordent souvent une place importante aux événements historiques vécus par l’auteur.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-francais-lit1-q05",
+      "subjectId": "francais",
+      "chapterId": "3e-francais-lit1",
+      "question": "Pourquoi comparer un souvenir d’enfance à une photo ou à un document ?",
+      "answers": [
+        "Pour confronter la mémoire personnelle à une trace",
+        "Pour prouver que tout souvenir est exact",
+        "Pour transformer le récit en fiction",
+        "Pour éviter de raconter un événement"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une trace peut enrichir ou nuancer un souvenir, sans garantir à elle seule son exactitude.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-francais-lit2-q01",
+      "subjectId": "francais",
+      "chapterId": "3e-francais-lit2",
+      "question": "Quel procédé exagère certains traits pour critiquer une personne ou une situation ?",
+      "answers": [
+        "La caricature",
+        "La définition",
+        "La gradation neutre",
+        "La description scientifique"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La caricature accentue ou déforme des traits afin de produire un effet critique ou satirique.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-francais-lit2-q02",
+      "subjectId": "francais",
+      "chapterId": "3e-francais-lit2",
+      "question": "Quel est souvent l’objectif de la satire ?",
+      "answers": [
+        "Critiquer des comportements ou institutions par le rire ou l’ironie",
+        "Décrire sans point de vue une expérience de laboratoire",
+        "Donner uniquement des horaires",
+        "Raconter une recette sans intention"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La satire utilise notamment le comique et l’ironie pour dénoncer des travers.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-francais-lit2-q03",
+      "subjectId": "francais",
+      "chapterId": "3e-francais-lit2",
+      "question": "À quoi sert une question rhétorique dans un texte argumentatif ?",
+      "answers": [
+        "À faire réfléchir ou renforcer une idée sans attendre une réponse réelle",
+        "À demander toujours une donnée inconnue",
+        "À interrompre toute argumentation",
+        "À remplacer le titre"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Elle est formulée pour produire un effet et orienter la réflexion du lecteur.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-francais-lit2-q04",
+      "subjectId": "francais",
+      "chapterId": "3e-francais-lit2",
+      "question": "Qu’est-ce qu’un contre-argument ?",
+      "answers": [
+        "Un raisonnement qui répond à une objection ou défend une position opposée",
+        "Un exemple qui répète le titre",
+        "Une ponctuation finale",
+        "Un personnage secondaire"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le contre-argument prend en compte une objection ou une position adverse pour y répondre.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-francais-lit2-q05",
+      "subjectId": "francais",
+      "chapterId": "3e-francais-lit2",
+      "question": "Pourquoi choisir des exemples adaptés au public visé ?",
+      "answers": [
+        "Pour rendre le raisonnement compréhensible et pertinent pour les lecteurs",
+        "Pour cacher l’idée défendue",
+        "Pour supprimer toute preuve",
+        "Pour empêcher le lecteur de suivre le texte"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Des exemples pertinents rendent les arguments plus concrets pour le public auquel le texte s’adresse.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-hist-worldwars-q01",
+      "subjectId": "histoire",
+      "chapterId": "3e-hist-worldwars",
+      "question": "Quel assassinat contribue au déclenchement de la crise de l’été 1914 ?",
+      "answers": [
+        "Celui de l’archiduc François-Ferdinand à Sarajevo",
+        "Celui de Napoléon à Waterloo",
+        "Celui de Jules César à Rome",
+        "Celui de Jean Jaurès en 1918"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’assassinat de l’archiduc François-Ferdinand à Sarajevo, le 28 juin 1914, précipite la crise internationale.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-hist-worldwars-q02",
+      "subjectId": "histoire",
+      "chapterId": "3e-hist-worldwars",
+      "question": "Quand le traité de Versailles qui fixe la paix entre les Alliés et l’Allemagne est-il signé ?",
+      "answers": [
+        "1917",
+        "1918",
+        "1919",
+        "1923"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Le traité de Versailles est signé le 28 juin 1919.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-hist-worldwars-q03",
+      "subjectId": "histoire",
+      "chapterId": "3e-hist-worldwars",
+      "question": "Quel est un objectif de la Résistance en France occupée pendant la Seconde Guerre mondiale ?",
+      "answers": [
+        "S’opposer à l’occupation et à la collaboration",
+        "Rétablir l’Empire napoléonien",
+        "Coloniser l’Antarctique",
+        "Remplacer toutes les écoles par des usines"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les résistants luttent contre l’occupation et le régime de collaboration, par des actions diverses.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-hist-worldwars-q04",
+      "subjectId": "histoire",
+      "chapterId": "3e-hist-worldwars",
+      "question": "Quel appel le général de Gaulle lance-t-il depuis Londres le 18 juin 1940 ?",
+      "answers": [
+        "À poursuivre la lutte contre l’Allemagne nazie",
+        "À signer le traité de Versailles",
+        "À proclamer la Cinquième République",
+        "À commencer la Première Guerre mondiale"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’appel du 18 juin invite à poursuivre le combat après la défaite française de 1940.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-hist-worldwars-q05",
+      "subjectId": "histoire",
+      "chapterId": "3e-hist-worldwars",
+      "question": "Que désigne la Shoah ?",
+      "answers": [
+        "Le génocide des Juifs d’Europe par l’Allemagne nazie et ses complices",
+        "La reconstruction de l’Europe après 1945",
+        "La création de l’ONU",
+        "La décolonisation de l’Inde"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La Shoah désigne le génocide des Juifs d’Europe organisé par le régime nazi et mis en œuvre avec des collaborateurs.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-hist-world-q01",
+      "subjectId": "histoire",
+      "chapterId": "3e-hist-world",
+      "question": "En quelle année les femmes obtiennent-elles le droit de vote en France ?",
+      "answers": [
+        "1936",
+        "1944",
+        "1958",
+        "1968"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "L’ordonnance du 21 avril 1944 accorde le droit de vote aux femmes, exercé pour la première fois en 1945.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-hist-world-q02",
+      "subjectId": "histoire",
+      "chapterId": "3e-hist-world",
+      "question": "La chute du mur de Berlin a lieu en…",
+      "answers": [
+        "1975",
+        "1981",
+        "1989",
+        "1999"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Le mur de Berlin s’ouvre le 9 novembre 1989, dans le contexte de la fin de la guerre froide en Europe.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-hist-world-q03",
+      "subjectId": "histoire",
+      "chapterId": "3e-hist-world",
+      "question": "Les « Trente Glorieuses » désignent généralement…",
+      "answers": [
+        "Une période de forte croissance économique après la Seconde Guerre mondiale",
+        "Les trente années de la Révolution française",
+        "Une guerre qui dure trente ans",
+        "Une période sans transformation sociale"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’expression désigne approximativement la forte croissance de l’après-guerre jusqu’au début des années 1970.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-hist-world-q04",
+      "subjectId": "histoire",
+      "chapterId": "3e-hist-world",
+      "question": "Quel traité de 1957 fonde la Communauté économique européenne ?",
+      "answers": [
+        "Le traité de Rome",
+        "Le traité de Versailles",
+        "Le traité de Maastricht",
+        "Le traité de Lisbonne"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le traité de Rome, signé en 1957, crée la Communauté économique européenne.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-hist-world-q05",
+      "subjectId": "histoire",
+      "chapterId": "3e-hist-world",
+      "question": "Que signifie la décolonisation ?",
+      "answers": [
+        "L’accès à l’indépendance de territoires auparavant soumis à une puissance coloniale",
+        "La création de nouvelles colonies européennes",
+        "La disparition de toutes les frontières",
+        "La fusion des langues nationales"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La décolonisation est le processus par lequel des colonies deviennent des États indépendants.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-geo-dynamics-q01",
+      "subjectId": "geographie",
+      "chapterId": "3e-geo-dynamics",
+      "question": "Qu’appelle-t-on métropolisation ?",
+      "answers": [
+        "La concentration croissante de population et de fonctions dans les grandes villes",
+        "La dispersion de toutes les activités dans les montagnes",
+        "La disparition des transports",
+        "Le remplacement des villes par des villages"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La métropolisation renforce le poids des grandes villes et la concentration de certaines fonctions.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-geo-dynamics-q02",
+      "subjectId": "geographie",
+      "chapterId": "3e-geo-dynamics",
+      "question": "Quel effet la métropolisation peut-elle avoir sur les espaces proches d’une grande ville ?",
+      "answers": [
+        "Elle renforce les échanges et les déplacements avec la métropole",
+        "Elle supprime tous les liens avec la ville",
+        "Elle interdit l’installation de nouveaux habitants",
+        "Elle transforme nécessairement ces espaces en zones agricoles"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’influence d’une métropole s’étend au-delà de son centre, notamment par les déplacements quotidiens, les services et les échanges.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-geo-dynamics-q03",
+      "subjectId": "geographie",
+      "chapterId": "3e-geo-dynamics",
+      "question": "Quel exemple correspond à un espace productif ?",
+      "answers": [
+        "Une zone accueillant des activités agricoles, industrielles ou de services",
+        "Un espace sans activité humaine possible",
+        "Une frontière uniquement",
+        "Un monument sans visiteurs ni entretien"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un espace productif accueille des activités qui produisent des biens ou des services.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-geo-dynamics-q04",
+      "subjectId": "geographie",
+      "chapterId": "3e-geo-dynamics",
+      "question": "Pourquoi les mobilités domicile-travail contribuent-elles aux dynamiques territoriales ?",
+      "answers": [
+        "Elles relient les lieux de résidence aux pôles d’emploi et de services",
+        "Elles suppriment toutes les distances",
+        "Elles interdisent l’accès aux villes",
+        "Elles ne concernent aucun transport"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les déplacements quotidiens structurent les liens entre espaces résidentiels, pôles d’emploi et réseaux.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-geo-dynamics-q05",
+      "subjectId": "geographie",
+      "chapterId": "3e-geo-dynamics",
+      "question": "Quel est un enjeu d’aménagement des territoires peu denses ?",
+      "answers": [
+        "Maintenir l’accès aux services et aux transports",
+        "Concentrer tous les habitants dans une seule ville",
+        "Supprimer les activités locales",
+        "Interdire toute connexion numérique"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’accès aux services, aux soins, à l’école et aux transports est un enjeu fréquent des espaces peu denses.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-geo-europe-q01",
+      "subjectId": "geographie",
+      "chapterId": "3e-geo-europe",
+      "question": "L’Union européenne est…",
+      "answers": [
+        "Une association politique et économique d’États européens",
+        "Un État unique qui a remplacé tous les pays",
+        "L’ensemble de tous les pays du continent européen",
+        "Une organisation mondiale sans territoire"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’Union européenne réunit des États membres autour d’institutions et de politiques communes.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-geo-europe-q02",
+      "subjectId": "geographie",
+      "chapterId": "3e-geo-europe",
+      "question": "Quel organe de l’Union européenne est élu directement par les citoyens ?",
+      "answers": [
+        "Le Parlement européen",
+        "La Cour des comptes française",
+        "Le Conseil constitutionnel français",
+        "Le secrétariat de l’ONU"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les citoyens des États membres élisent les députés du Parlement européen.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-geo-europe-q03",
+      "subjectId": "geographie",
+      "chapterId": "3e-geo-europe",
+      "question": "Quel usage est partagé par beaucoup d’États membres de l’Union européenne, mais pas tous ?",
+      "answers": [
+        "L’euro comme monnaie",
+        "Le même système scolaire",
+        "La même capitale",
+        "La même langue officielle"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’euro est la monnaie de nombreux États membres ; certains conservent une autre monnaie.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-geo-europe-q04",
+      "subjectId": "geographie",
+      "chapterId": "3e-geo-europe",
+      "question": "Pourquoi la France est-elle concernée par des politiques européennes d’aménagement ?",
+      "answers": [
+        "Ses territoires participent aux échanges et aux politiques communes de l’Union",
+        "L’Union décide de chaque rue communale",
+        "Aucun territoire français n’est en Europe",
+        "La France ne partage aucune frontière"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les politiques européennes influencent les coopérations, les financements et les échanges territoriaux.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-geo-europe-q05",
+      "subjectId": "geographie",
+      "chapterId": "3e-geo-europe",
+      "question": "Quel exemple montre que la France possède une présence mondiale ?",
+      "answers": [
+        "Ses territoires ultramarins répartis dans plusieurs océans",
+        "Une frontière avec tous les pays du monde",
+        "Une capitale différente sur chaque continent",
+        "L’absence de territoires hors d’Europe"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les territoires ultramarins donnent à la France une présence dans plusieurs espaces maritimes et régionaux.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-emc-rules-q01",
+      "subjectId": "emc",
+      "chapterId": "3e-emc-rules",
+      "question": "Quel texte fixe les règles fondamentales des institutions de la Ve République ?",
+      "answers": [
+        "La Constitution",
+        "Un règlement sportif",
+        "Une affiche électorale",
+        "Un sondage"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La Constitution définit les institutions et garantit notamment des droits et libertés.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-emc-rules-q02",
+      "subjectId": "emc",
+      "chapterId": "3e-emc-rules",
+      "question": "Quel est le rôle principal du Parlement français ?",
+      "answers": [
+        "Voter la loi et contrôler l’action du Gouvernement",
+        "Rendre tous les jugements pénaux",
+        "Organiser seul les élections municipales",
+        "Diriger les associations"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le Parlement vote la loi et exerce le contrôle de l’action gouvernementale.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-emc-rules-q03",
+      "subjectId": "emc",
+      "chapterId": "3e-emc-rules",
+      "question": "Pourquoi la séparation des pouvoirs est-elle importante en démocratie ?",
+      "answers": [
+        "Elle limite la concentration du pouvoir et organise des contrôles",
+        "Elle supprime les lois",
+        "Elle donne tous les pouvoirs à une seule personne",
+        "Elle interdit les débats parlementaires"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La séparation et l’équilibre des pouvoirs limitent l’arbitraire et organisent des contre-pouvoirs.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-emc-rules-q04",
+      "subjectId": "emc",
+      "chapterId": "3e-emc-rules",
+      "question": "Que garantit le pluralisme des médias dans un débat démocratique ?",
+      "answers": [
+        "La possibilité de confronter plusieurs points de vue et sources",
+        "Que toutes les informations sont automatiquement vraies",
+        "Qu’un seul avis peut être publié",
+        "Que les citoyens ne peuvent pas s’informer"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le pluralisme rend possibles la diversité des opinions et la confrontation des informations.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-emc-rules-q05",
+      "subjectId": "emc",
+      "chapterId": "3e-emc-rules",
+      "question": "Une élection démocratique doit notamment être…",
+      "answers": [
+        "Libre et organisée selon des règles connues",
+        "Réservée à une seule personne",
+        "Sans décompte des voix",
+        "Décidée par tirage au sort des élus"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Des élections libres et régulières permettent aux citoyens de choisir leurs représentants.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-emc-engagement-q01",
+      "subjectId": "emc",
+      "chapterId": "3e-emc-engagement",
+      "question": "Quel exemple relève d’un engagement collectif ?",
+      "answers": [
+        "Participer à une association ou à un projet citoyen",
+        "Lire seul une publicité",
+        "Changer de chaîne de télévision",
+        "Acheter un objet sans échange"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’engagement collectif réunit des personnes autour d’une action ou d’un objectif commun.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-emc-engagement-q02",
+      "subjectId": "emc",
+      "chapterId": "3e-emc-engagement",
+      "question": "Quel est le rôle d’un débat public en démocratie ?",
+      "answers": [
+        "Permettre l’échange d’arguments et la confrontation des points de vue",
+        "Remplacer automatiquement les élections",
+        "Interdire toute décision",
+        "Garantir que tout le monde est d’accord"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le débat rend visibles des positions différentes et contribue à la délibération démocratique.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-emc-engagement-q03",
+      "subjectId": "emc",
+      "chapterId": "3e-emc-engagement",
+      "question": "Quel geste est une participation citoyenne à l’échelle locale ?",
+      "answers": [
+        "Prendre part à une consultation ou à un conseil de jeunes",
+        "Ignorer les règles communes",
+        "Diffuser une rumeur",
+        "Empêcher les autres de parler"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Des consultations et conseils locaux permettent aux habitants ou aux jeunes de contribuer à la vie collective.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-emc-engagement-q04",
+      "subjectId": "emc",
+      "chapterId": "3e-emc-engagement",
+      "question": "Pourquoi vérifier une information avant de la partager ?",
+      "answers": [
+        "Pour limiter la diffusion d’erreurs et de manipulations",
+        "Pour rendre toute discussion impossible",
+        "Pour supprimer les sources originales",
+        "Pour garantir qu’elle sera populaire"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Vérifier la source, la date et les éléments recoupés aide à partager une information fiable.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-emc-engagement-q05",
+      "subjectId": "emc",
+      "chapterId": "3e-emc-engagement",
+      "question": "Quelle attitude respecte le mieux la liberté d’expression dans un débat ?",
+      "answers": [
+        "Argumenter sans menacer ni discriminer les personnes",
+        "Insulter les contradicteurs",
+        "Empêcher toute réponse",
+        "Publier des données privées"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La liberté d’expression s’exerce dans le respect des droits d’autrui et du cadre légal.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-pc-energy-q01",
+      "subjectId": "physique-chimie",
+      "chapterId": "3e-pc-energy",
+      "question": "Dans une chaîne énergétique, quelle est la fonction d’un convertisseur ?",
+      "answers": [
+        "Transformer une forme d’énergie ou de transfert en une autre",
+        "Créer de l’énergie à partir de rien",
+        "Supprimer la matière",
+        "Mesurer une distance uniquement"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un convertisseur transforme l’énergie reçue et en transfère une partie vers d’autres formes ou l’environnement.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-pc-energy-q02",
+      "subjectId": "physique-chimie",
+      "chapterId": "3e-pc-energy",
+      "question": "Quel appareil convertit principalement l’énergie électrique en énergie mécanique ?",
+      "answers": [
+        "Un moteur électrique",
+        "Une lampe éteinte",
+        "Un thermomètre",
+        "Un miroir"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un moteur transforme l’énergie électrique en mouvement mécanique, avec aussi des pertes thermiques.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-pc-energy-q03",
+      "subjectId": "physique-chimie",
+      "chapterId": "3e-pc-energy",
+      "question": "Dans une lampe allumée, quelle conversion est principalement recherchée ?",
+      "answers": [
+        "Électrique vers lumineuse",
+        "Lumineuse vers chimique uniquement",
+        "Sonore vers nucléaire",
+        "Mécanique vers gravitationnelle"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Là lampe convertit l’énergie électrique notamment en lumière et en chaleur.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-pc-energy-q04",
+      "subjectId": "physique-chimie",
+      "chapterId": "3e-pc-energy",
+      "question": "Que signifie la conservation de l’énergie dans un système étudié ?",
+      "answers": [
+        "L’énergie totale se conserve ; elle peut être transférée ou convertie",
+        "L’énergie disparaît sans trace",
+        "Toute énergie devient lumière",
+        "La matière est toujours détruite"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’énergie ne disparaît pas : elle se transfère ou se convertit, avec des échanges avec l’environnement.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-pc-energy-q05",
+      "subjectId": "physique-chimie",
+      "chapterId": "3e-pc-energy",
+      "question": "À quoi sert une chaîne énergétique dans l’étude d’un appareil ?",
+      "answers": [
+        "À représenter les transferts entre source, convertisseur et récepteur",
+        "À dessiner uniquement sa couleur",
+        "À calculer son prix de vente",
+        "À remplacer toute mesure"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La chaîne aide à identifier la source, les conversions et les transferts d’énergie.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-pc-signals-q01",
+      "subjectId": "physique-chimie",
+      "chapterId": "3e-pc-signals",
+      "question": "Le son peut-il se propager dans le vide ?",
+      "answers": [
+        "Non, il a besoin d’un milieu matériel",
+        "Oui, toujours aussi vite que la lumière",
+        "Oui, mais seulement la nuit",
+        "Seulement si la source est immobile"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le son est une vibration qui se propage dans un milieu matériel ; le vide ne la transmet pas.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-pc-signals-q02",
+      "subjectId": "physique-chimie",
+      "chapterId": "3e-pc-signals",
+      "question": "La lumière peut se propager…",
+      "answers": [
+        "Dans le vide",
+        "Uniquement dans l’eau",
+        "Uniquement dans l’air",
+        "Seulement si elle rencontre un miroir"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Contrairement au son, la lumière peut se propager dans le vide.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-pc-signals-q03",
+      "subjectId": "physique-chimie",
+      "chapterId": "3e-pc-signals",
+      "question": "Que fait un matériau transparent avec la lumière visible ?",
+      "answers": [
+        "Il la transmet largement",
+        "Il la bloque complètement",
+        "Il produit toujours du son",
+        "Il la transforme en matière"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un matériau transparent transmet la lumière et permet généralement de voir à travers.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-pc-signals-q04",
+      "subjectId": "physique-chimie",
+      "chapterId": "3e-pc-signals",
+      "question": "Un écho est dû principalement à…",
+      "answers": [
+        "La réflexion d’un son sur une surface",
+        "La fusion d’un solide",
+        "La réfraction d’une odeur",
+        "La création de lumière par le son"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’écho correspond au retour d’un son réfléchi par une surface.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-pc-signals-q05",
+      "subjectId": "physique-chimie",
+      "chapterId": "3e-pc-signals",
+      "question": "Quand la fréquence d’un son augmente, sa hauteur perçue devient généralement…",
+      "answers": [
+        "Plus aiguë",
+        "Plus grave",
+        "Toujours moins intense",
+        "Inaudible par définition"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une fréquence plus élevée correspond à un son plus aigu ; l’intensité est une autre caractéristique.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-svt-living-q01",
+      "subjectId": "svt",
+      "chapterId": "3e-svt-living",
+      "question": "Que peut indiquer la présence de fossiles d’espèces différentes dans des couches d’âges différents ?",
+      "answers": [
+        "La biodiversité a changé au cours du temps",
+        "Toutes les espèces ont toujours été identiques",
+        "Les fossiles sont des organismes actuels",
+        "Les couches n’ont aucun ordre temporel"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les fossiles permettent de constater des changements de biodiversité au cours des temps géologiques.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-svt-living-q02",
+      "subjectId": "svt",
+      "chapterId": "3e-svt-living",
+      "question": "Comment la sélection naturelle peut-elle faire évoluer une population ?",
+      "answers": [
+        "Certains caractères héréditaires deviennent plus fréquents selon leur effet sur survie et reproduction",
+        "Tous les individus choisissent volontairement leurs gènes",
+        "Les caractères acquis sont toujours transmis",
+        "Une population ne peut jamais changer"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La sélection naturelle modifie au fil des générations la fréquence de caractères héréditaires selon le succès reproducteur.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-svt-living-q03",
+      "subjectId": "svt",
+      "chapterId": "3e-svt-living",
+      "question": "Des membres antérieurs ayant un plan d’organisation comparable chez plusieurs espèces peuvent indiquer…",
+      "answers": [
+        "Une parenté évolutive",
+        "Une identité parfaite des espèces",
+        "L’absence d’évolution",
+        "Une origine exclusivement minérale"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Des structures homologues peuvent témoigner d’une origine commune, même si leurs fonctions diffèrent.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-svt-living-q04",
+      "subjectId": "svt",
+      "chapterId": "3e-svt-living",
+      "question": "Qu’est-ce qu’une population biologique ?",
+      "answers": [
+        "Des individus de la même espèce vivant dans un espace et une période donnés",
+        "Tous les êtres vivants de la planète",
+        "Un groupe d’espèces sans lien",
+        "Un ensemble de roches"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une population rassemble des individus d’une même espèce vivant dans un même espace à une période donnée.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-svt-living-q05",
+      "subjectId": "svt",
+      "chapterId": "3e-svt-living",
+      "question": "Les changements de biodiversité se produisent…",
+      "answers": [
+        "À différentes échelles de temps, parfois sur de nombreuses générations",
+        "Uniquement en une journée",
+        "Seulement chez les animaux domestiques",
+        "Jamais dans les milieux naturels"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’évolution des populations et des espèces s’observé généralement sur plusieurs générations et différentes durées.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-svt-earth-q01",
+      "subjectId": "svt",
+      "chapterId": "3e-svt-earth",
+      "question": "À la limite de deux plaques tectoniques qui s’écartent, quel phénomène peut se produire ?",
+      "answers": [
+        "La formation de nouvelle lithosphère océanique",
+        "La disparition de toute activité géologique",
+        "La création immédiate d’un continent complet",
+        "L’arrêt de tout volcanisme mondial"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Aux dorsales, l’écartement des plaques accompagne la remontée de matière et la formation de lithosphère océanique.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-svt-earth-q02",
+      "subjectId": "svt",
+      "chapterId": "3e-svt-earth",
+      "question": "Pourquoi certains séismes sont-ils fréquents aux limites des plaques tectoniques ?",
+      "answers": [
+        "Les mouvements des plaques y accumulent puis libèrent des contraintes",
+        "Les plaques y sont parfaitement immobiles",
+        "Les séismes sont produits uniquement par la météo",
+        "Les océans empêchent les séismes"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les déplacements des plaques accumulent des contraintes qui peuvent être libérées brutalement.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-svt-earth-q03",
+      "subjectId": "svt",
+      "chapterId": "3e-svt-earth",
+      "question": "Quelle mesure réduit la vulnérabilité face à un risque sismique ?",
+      "answers": [
+        "Construire selon des règles parasismiques adaptées",
+        "Supprimer les cartes de risques",
+        "Bâtir sans étude de terrain",
+        "Ignorer les consignes d’évacuation"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Des constructions adaptées et une préparation aux consignes peuvent réduire les dommages et les victimes.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-svt-earth-q04",
+      "subjectId": "svt",
+      "chapterId": "3e-svt-earth",
+      "question": "Qu’est-ce qu’un aléa naturel ?",
+      "answers": [
+        "La possibilité qu’un phénomène naturel dangereux se produise en un lieu",
+        "Le nombre de bâtiments d’une ville",
+        "La richesse d’une population",
+        "Une décision politique"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’aléa décrit la probabilité et l’intensité d’un phénomène ; le risque dépend aussi des enjeux exposés et de leur vulnérabilité.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-svt-earth-q05",
+      "subjectId": "svt",
+      "chapterId": "3e-svt-earth",
+      "question": "Pourquoi l’étude du climat s’appuie-t-elle sur des séries de mesures longues ?",
+      "answers": [
+        "Pour distinguer les tendances de long terme des variations ponctuelles",
+        "Pour prévoir chaque événement avec certitude",
+        "Pour éviter de comparer des données",
+        "Parce qu’une seule mesure suffit toujours"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les séries longues permettent d’analyser des tendances climatiques malgré la variabilité à court terme.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-tech-design-q01",
+      "subjectId": "technologie",
+      "chapterId": "3e-tech-design",
+      "question": "À quoi sert un cahier des charges dans un projet technique ?",
+      "answers": [
+        "À décrire le besoin, les fonctions attendues et les contraintes",
+        "À décorer le prototype",
+        "À remplacer les essais",
+        "À imposer une solution sans justification"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le cahier des charges formalise les fonctions de service et les exigences à respecter.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-tech-design-q02",
+      "subjectId": "technologie",
+      "chapterId": "3e-tech-design",
+      "question": "Pourquoi réaliser un prototype avant la fabrication finale ?",
+      "answers": [
+        "Pour essayer une solution et repérer des améliorations",
+        "Pour éviter tout retour utilisateur",
+        "Pour empêcher la comparaison des solutions",
+        "Pour supprimer les contraintes de sécurité"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un prototype permet de tester des choix de conception avant de les valider ou de les modifier.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-tech-design-q03",
+      "subjectId": "technologie",
+      "chapterId": "3e-tech-design",
+      "question": "Quel est le but d’un protocole de test ?",
+      "answers": [
+        "Vérifier une exigence selon des conditions et critères définis",
+        "Changer le besoin après chaque essai",
+        "Choisir un résultat au hasard",
+        "Mesurer seulement la couleur"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un protocole précise comment recueillir des résultats comparables pour vérifier une exigence.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-tech-design-q04",
+      "subjectId": "technologie",
+      "chapterId": "3e-tech-design",
+      "question": "À quoi sert une simulation numérique d’un système ?",
+      "answers": [
+        "À étudier un comportement modélisé dans certaines conditions",
+        "À prouver que le modèle ne comporte aucune limite",
+        "À remplacer toujours un essai réel",
+        "À garantir la réussite commerciale"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La simulation aide à explorer un modèle ; ses résultats dépendent des hypothèses et doivent être interprétés.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-tech-design-q05",
+      "subjectId": "technologie",
+      "chapterId": "3e-tech-design",
+      "question": "Pourquoi prendre en compte le cycle de vie lors de la conception ?",
+      "answers": [
+        "Pour examiner les impacts des matériaux, de la fabrication, de l’usage et de la fin de vie",
+        "Pour choisir uniquement la couleur",
+        "Pour ignorer la consommation de ressources",
+        "Pour mesurer seulement la durée d’un test"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une conception responsable prend en compte plusieurs étapes du cycle de vie et leurs impacts.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-tech-structure-q01",
+      "subjectId": "technologie",
+      "chapterId": "3e-tech-structure",
+      "question": "Dans un programme, que contient une variable ?",
+      "answers": [
+        "Une valeur utilisée ou modifiée pendant l’exécution",
+        "Une pièce mécanique obligatoirement",
+        "Un résultat toujours fixe et inaccessible",
+        "Un câble d’alimentation"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une variable associé un nom à une valeur que le programme peut lire ou modifier.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-tech-structure-q02",
+      "subjectId": "technologie",
+      "chapterId": "3e-tech-structure",
+      "question": "Quelle instruction permet de répéter des actions jusqu’à ce qu’une condition soit satisfaite ?",
+      "answers": [
+        "Une boucle conditionnelle",
+        "Un commentaire",
+        "Un titre de fichier",
+        "Un capteur passif"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une boucle conditionnelle répète un bloc tant que la condition prévue est vraie.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-tech-structure-q03",
+      "subjectId": "technologie",
+      "chapterId": "3e-tech-structure",
+      "question": "Pourquoi découper un problème technique en sous-problèmes ?",
+      "answers": [
+        "Pour le rendre plus simple à analyser et à résoudre",
+        "Pour supprimer les exigences",
+        "Pour éviter toute modélisation",
+        "Pour rendre le programme plus aléatoire"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La décomposition aide à organiser la résolution et à tester des parties distinctes.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-tech-structure-q04",
+      "subjectId": "technologie",
+      "chapterId": "3e-tech-structure",
+      "question": "Quel comportement est préférable lorsqu’un système automatisé détecte une valeur anormale ?",
+      "answers": [
+        "Appliquer une réponse prévue et sûre, puis signaler l’état",
+        "Ignorer le capteur dans tous les cas",
+        "Désactiver toute protection",
+        "Répéter l’action dangereuse sans limite"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La réponse au défaut doit être définie selon les exigences de sécurité du système.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-tech-structure-q05",
+      "subjectId": "technologie",
+      "chapterId": "3e-tech-structure",
+      "question": "À quoi sert un test unitaire d’une fonction logicielle ?",
+      "answers": [
+        "À vérifier son comportement sur des entrées définies",
+        "À vérifier la couleur du boîtier",
+        "À tester tout le réseau électrique national",
+        "À garantir qu’il n’existera jamais de bogue"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un test unitaire vérifie une partie isolée du programme sur des cas précisés.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-anglais-practice-q01",
+      "subjectId": "anglais",
+      "chapterId": "3e-anglais-practice",
+      "question": "Complète: “I ___ this book already, so I can lend it to you.”",
+      "answers": [
+        "read",
+        "have read",
+        "am read",
+        "reads"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Le present perfect relie une expérience passée à la situation présente ; « already » l’accompagne souvent.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-anglais-practice-q02",
+      "subjectId": "anglais",
+      "chapterId": "3e-anglais-practice",
+      "question": "Choose the correct sentence: “When we arrived, the film ___.”",
+      "answers": [
+        "already starts",
+        "had already started",
+        "will start",
+        "is start"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Le past perfect indique que le film avait commencé avant notre arrivée.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-anglais-practice-q03",
+      "subjectId": "anglais",
+      "chapterId": "3e-anglais-practice",
+      "question": "Complète: “If it rains tomorrow, we ___ the match indoors.”",
+      "answers": [
+        "move",
+        "will move",
+        "moved",
+        "moving"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Dans une condition réelle future, la proposition avec if est au présent et le résultat peut être au futur.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-anglais-practice-q04",
+      "subjectId": "anglais",
+      "chapterId": "3e-anglais-practice",
+      "question": "Which sentence uses the passive voice?",
+      "answers": [
+        "The bridge was built in 1920.",
+        "They built the bridge.",
+        "They are building the bridge.",
+        "They will build the bridge."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La forme passive associé ici « was » au participe passé « built » ; le sujet reçoit l’action.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-anglais-practice-q05",
+      "subjectId": "anglais",
+      "chapterId": "3e-anglais-practice",
+      "question": "What does “although” usually introduce?",
+      "answers": [
+        "A contrast or concession",
+        "A place",
+        "A number",
+        "A greeting"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Although » signifie « bien que » et introduit une concession.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-anglais-languages-q01",
+      "subjectId": "anglais",
+      "chapterId": "3e-anglais-languages",
+      "question": "A notice says “Applications must be submitted by Friday”. What is the deadline?",
+      "answers": [
+        "Before or on Friday",
+        "Next month",
+        "Only on Sunday",
+        "There is no deadline"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« By Friday » signifie au plus tard vendredi.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-anglais-languages-q02",
+      "subjectId": "anglais",
+      "chapterId": "3e-anglais-languages",
+      "question": "Which phrase is best for politely disagreeing?",
+      "answers": [
+        "I see your point, but I think…",
+        "Be quiet forever.",
+        "You cannot speak.",
+        "That is not a reason to listen."
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Cette formule reconnaît le point de vue puis présente poliment un désaccord.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-anglais-languages-q03",
+      "subjectId": "anglais",
+      "chapterId": "3e-anglais-languages",
+      "question": "A text says, “Maya missed the bus, so she walked to school.” Why did Maya walk?",
+      "answers": [
+        "She missed the bus",
+        "She forgot her shoes",
+        "The school was closed",
+        "She took a taxi"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« So » introduit la conséquence : elle a marché parce qu’elle avait raté le bus.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-anglais-languages-q04",
+      "subjectId": "anglais",
+      "chapterId": "3e-anglais-languages",
+      "question": "Which question asks someone to explain a reason?",
+      "answers": [
+        "Why did you choose this option?",
+        "Where is the option?",
+        "How many options are there?",
+        "Who wrote the option?"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Why » demande une raison.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-anglais-languages-q05",
+      "subjectId": "anglais",
+      "chapterId": "3e-anglais-languages",
+      "question": "Which expression introduces an example?",
+      "answers": [
+        "For instance",
+        "On the contrary",
+        "At midnight",
+        "Never mind"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« For instance » signifie « par exemple ».",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-lca-language-q01",
+      "subjectId": "lca",
+      "chapterId": "3e-lca-language",
+      "question": "La racine latine « manus » signifie main. Quel mot français en est issu ?",
+      "answers": [
+        "Manuel",
+        "Marine",
+        "Montagne",
+        "Minéral"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Manuel » vient de manus, la main ; le mot désigne notamment un ouvrage qu’on a sous la main.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-lca-language-q02",
+      "subjectId": "lca",
+      "chapterId": "3e-lca-language",
+      "question": "En grec ancien, philo évoque l’amitié ou l’amour et sophià la sagesse. Que signifie « philosophie » ?",
+      "answers": [
+        "Amour de la sagesse",
+        "Mesure de la Terre",
+        "Étude des plantes",
+        "Voyage en mer"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les racines grecques philo et sophia renvoient à l’amour de la sagesse.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-lca-language-q03",
+      "subjectId": "lca",
+      "chapterId": "3e-lca-language",
+      "question": "Que signifie l’expression latine « in medias res » ?",
+      "answers": [
+        "Au milieu des choses ou de l’action",
+        "À la fin de l’année",
+        "Sous la mer",
+        "Sans parole"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’expression décrit un récit qui commence au cœur de l’action.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-lca-language-q04",
+      "subjectId": "lca",
+      "chapterId": "3e-lca-language",
+      "question": "La racine latine « portare » signifie porter. Quel verbe français lui est apparenté ?",
+      "answers": [
+        "Transporter",
+        "Dessiner",
+        "Dormir",
+        "Répondre"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Transporter » appartient à la famille de portare, porter.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-lca-language-q05",
+      "subjectId": "lca",
+      "chapterId": "3e-lca-language",
+      "question": "La racine grecque « geo- » signifie généralement…",
+      "answers": [
+        "La Terre",
+        "Le feu",
+        "Le son",
+        "Le nombre"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Géographie et géologie utilisent la racine grecque geo, qui signifie la Terre.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-lca-cultures-q01",
+      "subjectId": "lca",
+      "chapterId": "3e-lca-cultures",
+      "question": "Dans la mythologie grecque, Athéna est traditionnellement associée…",
+      "answers": [
+        "À la sagesse et à la stratégie",
+        "À la forge uniquement",
+        "Aux vendanges uniquement",
+        "À la mer exclusivement"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Athéna est notamment déesse de la sagesse, des arts et de la stratégie.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-lca-cultures-q02",
+      "subjectId": "lca",
+      "chapterId": "3e-lca-cultures",
+      "question": "Quel était le rôle du Sénat romain dans la République ?",
+      "answers": [
+        "Un rôle politique important de conseil et de délibération",
+        "La direction des Jeux olympiques grecs",
+        "La rédaction de romans modernes",
+        "L’élection directe de tous les magistrats par tirage"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le Sénat romain joue un rôle majeur dans les affaires politiques, même si les institutions évoluent.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-lca-cultures-q03",
+      "subjectId": "lca",
+      "chapterId": "3e-lca-cultures",
+      "question": "Dans la mythologie grecque, Ulysse est le héros principal de…",
+      "answers": [
+        "L’Odyssée",
+        "L’Énéide",
+        "Les Métamorphoses uniquement",
+        "La République de Platon"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’Odyssée raconte notamment le long retour d’Ulysse après la guerre de Troie.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-lca-cultures-q04",
+      "subjectId": "lca",
+      "chapterId": "3e-lca-cultures",
+      "question": "Quel espace public romain était un lieu de rencontre et de vie civique ?",
+      "answers": [
+        "Le forum",
+        "Le labyrinthe de Crète",
+        "L’acropole de Mycènes",
+        "Le théâtre de Shakespeare"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le forum est un espace central de la vie publique dans les villes romaines.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-lca-cultures-q05",
+      "subjectId": "lca",
+      "chapterId": "3e-lca-cultures",
+      "question": "Pourquoi les mythes antiques sont-ils encore étudiés ?",
+      "answers": [
+        "Ils éclairent des récits, images et références repris dans les cultures ultérieures",
+        "Ils sont des comptes rendus scientifiques modernes",
+        "Ils décrivent toujours des faits historiques vérifiés",
+        "Ils n’ont eu aucune influence artistique"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les mythes antiques ont durablement nourri les arts, la littérature et des références culturelles.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-espagnol-practice-q01",
+      "subjectId": "espagnol",
+      "chapterId": "3e-espagnol-practice",
+      "question": "Completa: « Cuando era niña, Ana ___ en Sevilla. »",
+      "answers": [
+        "vivía",
+        "vivió",
+        "vivirá",
+        "vive"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’imparfait « vivía » convient pour décrire une situation habituelle dans le passé.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-espagnol-practice-q02",
+      "subjectId": "espagnol",
+      "chapterId": "3e-espagnol-practice",
+      "question": "Completa: « El año pasado nosotros ___ por Andalucía. »",
+      "answers": [
+        "viajamos",
+        "viajaremos",
+        "viajábamos siempre",
+        "viajar"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« El año pasado » situe le voyage dans le passé ; « viajamos » est ici le prétérit.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-espagnol-practice-q03",
+      "subjectId": "espagnol",
+      "chapterId": "3e-espagnol-practice",
+      "question": "Que signifie « Si tuviera tiempo, visitaría el museo » ?",
+      "answers": [
+        "Si j’avais le temps, je visiterais le musée",
+        "Comme j’ai le temps, je ferme le musée",
+        "Je visite le musée tous les jours",
+        "Je n’ai jamais visité le musée"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La phrase associé une hypothèse avec « si » et un conditionnel « visitaría ».",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-espagnol-practice-q04",
+      "subjectId": "espagnol",
+      "chapterId": "3e-espagnol-practice",
+      "question": "Dans « Creo que esta novela es interesante », que signifie « creo que » ?",
+      "answers": [
+        "Je pense que",
+        "Je sais où",
+        "Je cherche",
+        "Je préfère"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Creo que » signifie « je pense que » et introduit ici une opinion.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-espagnol-practice-q05",
+      "subjectId": "espagnol",
+      "chapterId": "3e-espagnol-practice",
+      "question": "Quel mot relie deux idées en exprimant une opposition ?",
+      "answers": [
+        "Aunque",
+        "Porque",
+        "Entonces",
+        "Primero"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Aunque » signifie « bien que » et introduit une concession.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-espagnol-languages-q01",
+      "subjectId": "espagnol",
+      "chapterId": "3e-espagnol-languages",
+      "question": "Un avis dit « La biblioteca abre de lunes a viernes ». Quand est-elle ouverte ?",
+      "answers": [
+        "Du lundi au vendredi",
+        "Le samedi uniquement",
+        "Le dimanche uniquement",
+        "Toute la nuit"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« De lunes a viernes » signifie « du lundi au vendredi ».",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-espagnol-languages-q02",
+      "subjectId": "espagnol",
+      "chapterId": "3e-espagnol-languages",
+      "question": "« La película empieza à las 18:30 » indique que le film…",
+      "answers": [
+        "Commence à 18 h 30",
+        "Se termine à 18 h 30",
+        "Dure 18 heures 30",
+        "Est interdit aux moins de 18 ans"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Empieza » signifie commence et l’heure indiquée est 18 h 30.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-espagnol-languages-q03",
+      "subjectId": "espagnol",
+      "chapterId": "3e-espagnol-languages",
+      "question": "Que signifie « No olvides traer tu cuaderno » ?",
+      "answers": [
+        "N’oublie pas d’apporter ton cahier",
+        "N’oublie pas de lire le journal",
+        "Ne ferme pas la fenêtre",
+        "N’apporte jamais ton sac"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Traer » signifie apporter et « cuaderno » signifie cahier.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-espagnol-languages-q04",
+      "subjectId": "espagnol",
+      "chapterId": "3e-espagnol-languages",
+      "question": "Dans « Llovía, por eso nos quedamos en casa », que signifie « por eso » ?",
+      "answers": [
+        "C’est pourquoi",
+        "Même si",
+        "Avant que",
+        "À côté de"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Por eso » introduit une conséquence : c’est pourquoi nous sommes restés à la maison.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-espagnol-languages-q05",
+      "subjectId": "espagnol",
+      "chapterId": "3e-espagnol-languages",
+      "question": "« Aunque llueve, salen a caminar » signifie que les personnes…",
+      "answers": [
+        "Sortent marcher malgré la pluie",
+        "Rentrent car il fait beau",
+        "N’aiment pas marcher",
+        "Partent avant qu’il pleuve"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Aunque » signifie « bien que » ou « même si ».",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-allemand-practice-q01",
+      "subjectId": "allemand",
+      "chapterId": "3e-allemand-practice",
+      "question": "Complète : « Als Kind ___ er oft im Park. »",
+      "answers": [
+        "spielte",
+        "spielen",
+        "spielt",
+        "gespielt"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Als Kind » situe une habitude passée ; « spielte » est le prétérit de « spielen ».",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-allemand-practice-q02",
+      "subjectId": "allemand",
+      "chapterId": "3e-allemand-practice",
+      "question": "Complète : « Wir ___ gestern ins Kino gegangen. »",
+      "answers": [
+        "sind",
+        "haben",
+        "seid",
+        "wird"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le verbe de déplacement « gehen » forme ici le parfait avec l’auxiliaire « sein ».",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-allemand-practice-q03",
+      "subjectId": "allemand",
+      "chapterId": "3e-allemand-practice",
+      "question": "Complète : « Ich bleibe zu Hause, weil ich krank ___. »",
+      "answers": [
+        "bin",
+        "bist",
+        "ist",
+        "sind"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Dans une subordonnée introduite par « weil », le verbe conjugué se place à la fin : « krank bin ».",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-allemand-practice-q04",
+      "subjectId": "allemand",
+      "chapterId": "3e-allemand-practice",
+      "question": "Complète : « Du ___ deine Hausaufgaben machen. »",
+      "answers": [
+        "musst",
+        "muss",
+        "müssen",
+        "müsst"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Avec « du », le verbe modal « müssen » se conjugue « musst ».",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-allemand-practice-q05",
+      "subjectId": "allemand",
+      "chapterId": "3e-allemand-practice",
+      "question": "Complète : « Der Zug ist schneller ___ der Bus. »",
+      "answers": [
+        "als",
+        "wie",
+        "mit",
+        "von"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Dans une comparaison de supériorité, l’allemand emploie « als » après le comparatif.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-allemand-languages-q01",
+      "subjectId": "allemand",
+      "chapterId": "3e-allemand-languages",
+      "question": "Une affiche indique « Der Supermarkt schließt um 20 Uhr ». À quelle heure ferme-t-il ?",
+      "answers": [
+        "À 20 heures",
+        "À 8 heures",
+        "À midi",
+        "À 22 heures"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Schließt um 20 Uhr » indique une fermeture à 20 heures.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-allemand-languages-q02",
+      "subjectId": "allemand",
+      "chapterId": "3e-allemand-languages",
+      "question": "Que signifie « Die Ausstellung ist vom 3. bis zum 12. Mai geöffnet » ?",
+      "answers": [
+        "L’exposition est ouverte du 3 au 12 mai",
+        "Elle ouvre seulement le 12 juin",
+        "Elle est fermée tout le mois de mai",
+        "Elle ouvre à 3 heures et ferme à midi"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Vom 3. bis zum 12. Mai » signifie « du 3 au 12 mai ».",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-allemand-languages-q03",
+      "subjectId": "allemand",
+      "chapterId": "3e-allemand-languages",
+      "question": "« Bitte die Fahrräder am Eingang lassen » demande de…",
+      "answers": [
+        "Laisser les vélos à l’entrée",
+        "Prendre un vélo à la sortie",
+        "Ranger les livres dans l’entrée",
+        "Attendre le train"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Fahrräder » signifie vélos et « am Eingang lassen » signifie les laisser à l’entrée.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-allemand-languages-q04",
+      "subjectId": "allemand",
+      "chapterId": "3e-allemand-languages",
+      "question": "Que signifie « Wegen des Regens bleiben wir zu Hause » ?",
+      "answers": [
+        "À cause de la pluie, nous restons à la maison",
+        "Après la pluie, nous partons en train",
+        "Nous cherchons une maison près de la gare",
+        "La pluie s’arrête demain"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Wegen » introduit ici la cause : à cause de la pluie.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-allemand-languages-q05",
+      "subjectId": "allemand",
+      "chapterId": "3e-allemand-languages",
+      "question": "« Links neben dem Rathaus » situe un lieu…",
+      "answers": [
+        "À gauche, à côté de la mairie",
+        "À droite de la gare",
+        "Derrière l’école",
+        "Au-dessus du musée"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "« Links neben » signifie « à gauche, à côté de » et « Rathaus » désigne la mairie.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-art-representation-q01",
+      "subjectId": "arts-plastiques",
+      "chapterId": "3e-art-representation",
+      "question": "Pourquoi un artiste peut-il choisir un point de vue inhabituel pour représenter un objet ?",
+      "answers": [
+        "Pour orienter le regard et proposer une interprétation",
+        "Pour garantir une copie neutre et exacte",
+        "Pour supprimer la composition",
+        "Pour mesurer le volume de l’objet"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le point de vue modifie la perception et peut servir l’intention de l’artiste.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-art-representation-q02",
+      "subjectId": "arts-plastiques",
+      "chapterId": "3e-art-representation",
+      "question": "Dans une série d’images, que peut produire une variation progressive du cadrage ?",
+      "answers": [
+        "Une impression de mouvement ou de transformation",
+        "La disparition de toute relation entre les images",
+        "Une mesure fiable du temps réel",
+        "Une preuve que les images sont documentaires"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La variation de cadrage peut organiser une séquence et suggérer un mouvement ou un changement.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-art-representation-q03",
+      "subjectId": "arts-plastiques",
+      "chapterId": "3e-art-representation",
+      "question": "Une couleur non réaliste dans un portrait peut…",
+      "answers": [
+        "Exprimer une intention ou une émotion",
+        "Prouver que le portrait est faux",
+        "Empêcher toute interprétation",
+        "Remplacer la matière du support"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les choix de couleur peuvent être expressifs et ne visent pas toujours à imiter la réalité.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-art-representation-q04",
+      "subjectId": "arts-plastiques",
+      "chapterId": "3e-art-representation",
+      "question": "Quel effet peut produire un changement d’échelle entre des éléments d’une œuvre ?",
+      "answers": [
+        "Mettre un élément en valeur ou modifier les rapports entre eux",
+        "Garantir que les tailles sont exactes",
+        "Supprimer les contrastes",
+        "Transformer le dessin en photographie"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’échelle participe à la hiérarchie visuelle et à la signification de l’image.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-art-representation-q05",
+      "subjectId": "arts-plastiques",
+      "chapterId": "3e-art-representation",
+      "question": "Pourquoi confronter plusieurs représentations du même sujet ?",
+      "answers": [
+        "Pour observer des choix différents et comprendre leurs effets",
+        "Pour établir qu’une seule image est valable",
+        "Pour éviter toute lecture critique",
+        "Pour vérifier la date de naissance de l’artiste uniquement"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Comparer des représentations révèle les intentions et les procédés choisis.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-art-materiality-q01",
+      "subjectId": "arts-plastiques",
+      "chapterId": "3e-art-materiality",
+      "question": "Quelle différence existe entre texture réelle et texture représentée ?",
+      "answers": [
+        "La texture réelle est matérielle au toucher ; la texture représentée est suggérée visuellement",
+        "La texture réelle n’existe que dans une photographie",
+        "Les deux désignent toujours le même matériau",
+        "La texture représentée est toujours invisible"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une texture peut être physiquement présente ou seulement évoquée par des effets visuels.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-art-materiality-q02",
+      "subjectId": "arts-plastiques",
+      "chapterId": "3e-art-materiality",
+      "question": "Pourquoi un artiste peut-il associer peinture, photographie et texte dans une œuvre ?",
+      "answers": [
+        "Pour faire dialoguer plusieurs matériaux et modes de représentation",
+        "Parce qu’une œuvre ne peut utiliser qu’un matériau",
+        "Pour éliminer toute intention",
+        "Pour rendre l’œuvre impossible à regarder"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La combinaison de médiums peut créer des relations et des significations nouvelles.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-art-materiality-q03",
+      "subjectId": "arts-plastiques",
+      "chapterId": "3e-art-materiality",
+      "question": "Quel enjeu est lié à l’exposition d’une œuvre dans un espace précis ?",
+      "answers": [
+        "La manière dont l’espace et le parcours influencent sa réception",
+        "La couleur du passeport du spectateur",
+        "La température exacte de l’atelier",
+        "Le nombre d’années d’études du public"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’emplacement, l’éclairage et le parcours modifient la rencontre avec l’œuvre.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-art-materiality-q04",
+      "subjectId": "arts-plastiques",
+      "chapterId": "3e-art-materiality",
+      "question": "Que signifie transformer un matériau dans une démarche plastique ?",
+      "answers": [
+        "Le travailler ou le modifier pour produire une forme ou un effet",
+        "Le conserver toujours dans son état d’origine",
+        "Le remplacer automatiquement par une image",
+        "Le mesurer sans jamais le toucher"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La transformation du matériau participe à la fabrication et au sens de l’œuvre.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-art-materiality-q05",
+      "subjectId": "arts-plastiques",
+      "chapterId": "3e-art-materiality",
+      "question": "Pourquoi documenter les étapes d’un projet artistique ?",
+      "answers": [
+        "Pour garder trace des choix, essais et transformations",
+        "Pour empêcher toute évolution du projet",
+        "Pour remplacer l’œuvre finale par une note",
+        "Pour éviter de réfléchir aux matériaux"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les traces rendent visible la démarche et les décisions prises durant le projet.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-music-production-q01",
+      "subjectId": "education-musicale",
+      "chapterId": "3e-music-production",
+      "question": "Dans une création musicale, que permet un contraste de nuances ?",
+      "answers": [
+        "De faire varier l’intensité sonore et de structurer l’interprétation",
+        "De supprimer le tempo",
+        "De changer automatiquement les paroles",
+        "De mesurer la longueur d’une partition"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les contrastes d’intensité peuvent organiser les phrases et rendre l’interprétation expressive.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-music-production-q02",
+      "subjectId": "education-musicale",
+      "chapterId": "3e-music-production",
+      "question": "Pourquoi répartir les rôles vocaux ou instrumentaux dans un ensemble ?",
+      "answers": [
+        "Pour organiser les parties et construire une texture musicale",
+        "Pour empêcher les musiciens de s’écouter",
+        "Pour garantir que tous jouent la même note",
+        "Pour éviter toute répétition"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La répartition des parties organise les sons et les interactions entre interprètes.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-music-production-q03",
+      "subjectId": "education-musicale",
+      "chapterId": "3e-music-production",
+      "question": "Qu’est-ce qu’une improvisation en musique ?",
+      "answers": [
+        "Une création ou variation réalisée en temps réel selon des repères",
+        "Une lecture obligatoire mot à mot d’une partition",
+        "Une erreur sans intention possible",
+        "Un silence placé à la fin"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’improvisation consiste à inventer ou varier pendant l’interprétation, souvent avec des règles ou repères.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-music-production-q04",
+      "subjectId": "education-musicale",
+      "chapterId": "3e-music-production",
+      "question": "À quoi sert le tempo dans l’interprétation d’un morceau ?",
+      "answers": [
+        "À indiquer ou organiser la vitesse de la pulsation",
+        "À désigner le timbre d’un instrument",
+        "À mesurer la hauteur d’une scène",
+        "À décrire la couleur d’une partition"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le tempo caractérise la vitesse à laquelle la pulsation est jouée.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-music-production-q05",
+      "subjectId": "education-musicale",
+      "chapterId": "3e-music-production",
+      "question": "Lors d’une répétition, pourquoi écouter les autres pupitres ?",
+      "answers": [
+        "Pour ajuster son jeu et coordonner les parties",
+        "Pour jouer plus fort qu’eux en toute circonstance",
+        "Pour ignorer les départs communs",
+        "Pour supprimer le rythme"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’écoute mutuelle aide à ajuster l’équilibre, le rythme et les entrées.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-music-perception-q01",
+      "subjectId": "education-musicale",
+      "chapterId": "3e-music-perception",
+      "question": "Qu’est-ce qu’une polyphonie ?",
+      "answers": [
+        "La superposition de plusieurs lignes mélodiques",
+        "Une seule note tenue par un seul instrument",
+        "Un silence entre deux mouvements",
+        "Une liste de titres"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une polyphonie fait entendre plusieurs lignes musicales simultanées.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-music-perception-q02",
+      "subjectId": "education-musicale",
+      "chapterId": "3e-music-perception",
+      "question": "Quel élément permet de repérer le retour d’une partie musicale ?",
+      "answers": [
+        "La répétition d’un motif ou d’une section",
+        "La couleur de la salle",
+        "Le nom de l’éditeur",
+        "La date de naissance du public"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’écoute repère les motifs ou sections qui reviennent dans une forme musicale.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-music-perception-q03",
+      "subjectId": "education-musicale",
+      "chapterId": "3e-music-perception",
+      "question": "Pourquoi comparer une musique enregistrée et une interprétation en direct ?",
+      "answers": [
+        "Pour relever des différences de timbre, d’équilibre ou d’expression",
+        "Pour prouver qu’une version est toujours fausse",
+        "Pour éviter d’identifier les instruments",
+        "Pour mesurer le poids des haut-parleurs"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La comparaison permet d’entendre des choix différents liés au lieu, aux interprètes et aux moyens utilisés.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-music-perception-q04",
+      "subjectId": "education-musicale",
+      "chapterId": "3e-music-perception",
+      "question": "Quel paramètre sonore correspond au fait qu’un son dure plus ou moins longtemps ?",
+      "answers": [
+        "La durée",
+        "La hauteur",
+        "Le timbre",
+        "L’intensité"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La durée indique la longueur temporelle d’un son.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-music-perception-q05",
+      "subjectId": "education-musicale",
+      "chapterId": "3e-music-perception",
+      "question": "Comment peut-on décrire une organisation couplet-refrain ?",
+      "answers": [
+        "Comme l’alternance de sections différentes qui reviennent selon un ordre",
+        "Comme une suite sans aucune répétition",
+        "Comme un accord unique",
+        "Comme une mesure de volume"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La forme couplet-refrain organise l’œuvre par alternance et retour de sections.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-eps-perform-q01",
+      "subjectId": "eps",
+      "chapterId": "3e-eps-perform",
+      "question": "Pourquoi analyser les résultats d’une performance après l’activité ?",
+      "answers": [
+        "Pour repérer les progrès et ajuster un entraînement",
+        "Pour remplacer toute activité future",
+        "Pour comparer des élèves sans tenir compte des conditions",
+        "Pour choisir au hasard une technique"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’analyse aide à identifier les réussites et à choisir des axes de progression.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-eps-perform-q02",
+      "subjectId": "eps",
+      "chapterId": "3e-eps-perform",
+      "question": "Quel choix aide à gérer un effort d’endurance ?",
+      "answers": [
+        "Adopter une allure soutenable et l’ajuster selon ses sensations",
+        "Partir toujours au maximum",
+        "Refuser toute récupération",
+        "Ignorer les signaux de fatigue"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une allure adaptée permet de soutenir l’effort et de réagir aux sensations corporelles.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-eps-perform-q03",
+      "subjectId": "eps",
+      "chapterId": "3e-eps-perform",
+      "question": "Pourquoi les conditions d’un test physique doivent-elles être précisées ?",
+      "answers": [
+        "Pour interpréter et comparer les résultats avec prudence",
+        "Pour garantir que tout le monde obtient le même résultat",
+        "Pour supprimer la nécessité de mesurer",
+        "Pour changer les règles après chaque essai"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les conditions influencent les résultats ; les préciser rend la comparaison plus valable.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-eps-perform-q04",
+      "subjectId": "eps",
+      "chapterId": "3e-eps-perform",
+      "question": "Quel est l’intérêt d’un retour d’observation précis après un geste sportif ?",
+      "answers": [
+        "Identifier un point technique à conserver ou à améliorer",
+        "Attribuer une note sans critère",
+        "Remplacer la pratique par une opinion",
+        "Éviter toute répétition du geste"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un retour fondé sur des critères aide à cibler les ajustements techniques.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-eps-perform-q05",
+      "subjectId": "eps",
+      "chapterId": "3e-eps-perform",
+      "question": "Dans une activité physique, que faut-il faire si une douleur inhabituelle apparaît ?",
+      "answers": [
+        "S’arrêter et prévenir l’enseignant ou l’adulte responsable",
+        "Continuer plus vite sans rien dire",
+        "Cacher le problème à son équipe",
+        "Changer seul le matériel de sécurité"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Il faut signaler une douleur inhabituelle et suivre les consignes de l’encadrement.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-eps-opposition-q01",
+      "subjectId": "eps",
+      "chapterId": "3e-eps-opposition",
+      "question": "Dans un jeu d’opposition, pourquoi observer les déplacements adverses ?",
+      "answers": [
+        "Pour anticiper leurs actions et choisir une réponse adaptée",
+        "Pour éviter de respecter les règles",
+        "Pour empêcher ses partenaires de jouer",
+        "Pour connaître leur âge"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Observer les déplacements aide à anticiper et à prendre une décision tactique.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-eps-opposition-q02",
+      "subjectId": "eps",
+      "chapterId": "3e-eps-opposition",
+      "question": "Pourquoi une équipe peut-elle changer de stratégie pendant une rencontre ?",
+      "answers": [
+        "Pour s’adapter au score, aux adversaires et aux espaces disponibles",
+        "Pour ne plus tenir compte des règles",
+        "Pour éviter toute communication",
+        "Pour arrêter le jeu sans arbitre"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La stratégie peut évoluer selon la situation de jeu et les réponses de l’équipe adverse.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-eps-opposition-q03",
+      "subjectId": "eps",
+      "chapterId": "3e-eps-opposition",
+      "question": "Quel rôle joue la communication entre partenaires ?",
+      "answers": [
+        "Elle aide à coordonner les déplacements et les décisions",
+        "Elle remplace les règles du jeu",
+        "Elle sert uniquement à célébrer la victoire",
+        "Elle empêche de se démarquer"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Des indications simples facilitent la coopération et les choix collectifs.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-eps-opposition-q04",
+      "subjectId": "eps",
+      "chapterId": "3e-eps-opposition",
+      "question": "En cas de désaccord sur une règle, quelle attitude est appropriée ?",
+      "answers": [
+        "Demander calmement l’arbitrage prévu par les règles",
+        "Insulter l’adversaire",
+        "Quitter immédiatement le terrain",
+        "Modifier seul le score"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’arbitrage permet de résoudre les désaccords dans le cadre de la rencontre.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-eps-opposition-q05",
+      "subjectId": "eps",
+      "chapterId": "3e-eps-opposition",
+      "question": "Qu’est-ce qu’une stratégie de défense collective ?",
+      "answers": [
+        "Une organisation commune pour protéger des espaces et gêner les actions adverses",
+        "Une série d’actions individuelles sans lien",
+        "L’arrêt de tout déplacement",
+        "Le refus de récupérer le ballon"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une défense collective coordonne les joueurs pour limiter les possibilités de progression adverse.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-emi-desinformation-q01",
+      "subjectId": "emi",
+      "chapterId": "3e-emi-desinformation",
+      "question": "Une vidéo semble montrer une personnalité prononçant une phrase étonnante. Quel réflexe est le plus prudent ?",
+      "answers": [
+        "Chercher la séquence compléte et des confirmations indépendantes",
+        "La partager avant qu’elle disparaisse",
+        "Conclure que la voix est authentique parce qu’elle est reconnaissable",
+        "Se fier seulement au sous-titre"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un extrait peut étre coupé ou manipulé ; il faut retrouver le contexte et comparer avec des sources fiables.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-emi-desinformation-q02",
+      "subjectId": "emi",
+      "chapterId": "3e-emi-desinformation",
+      "question": "Un graphique tronque l’axe vertical, ce qui amplifie visuellement une différence. Que faut-il examiner ?",
+      "answers": [
+        "L’échelle, les unités et les valeurs représentées",
+        "La couleur des barres uniquement",
+        "Le nombre de commentaires",
+        "Le nom du fichier de l’image"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "L’échelle et les unités permettent de juger si le graphique représente les écarts de façon fidèle.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-emi-desinformation-q03",
+      "subjectId": "emi",
+      "chapterId": "3e-emi-desinformation",
+      "question": "Un compte anonyme affirme qu’une rumeur est un fait établi sans citer de preuve. Comment qualifier cette publication ?",
+      "answers": [
+        "Une affirmation à vérifier, pas une preuve suffisante",
+        "Une information confirmée par son anonymat",
+        "Un fait parce qu’elle est formulée au présent",
+        "Une source officielle"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une affirmation, même catégorique, doit étre appuyée par des éléments vérifiables et des sources identifiables.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-emi-desinformation-q04",
+      "subjectId": "emi",
+      "chapterId": "3e-emi-desinformation",
+      "question": "Une image ancienne est présentée comme la preuve d’un événement qui vient d’avoir lieu. Quel problème cela illustre-t-il ?",
+      "answers": [
+        "Une image sortie de son contexte",
+        "Une erreur de traduction",
+        "Une œuvre de fiction nécessairement",
+        "Une preuve confirmée par la date de partage"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une image authentique peut induire en erreur si sa date ou son contexte d’origine sont modifiés.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-emi-desinformation-q05",
+      "subjectId": "emi",
+      "chapterId": "3e-emi-desinformation",
+      "question": "Pourquoi comparer une affirmation avec plusieurs sources réellement indépendantes ?",
+      "answers": [
+        "Pour repérer les accords, les désaccords et les sources initiales",
+        "Pour choisir automatiquement la version la plus courte",
+        "Pour remplacer toute vérification par un vote",
+        "Pour prouver qu’une majorité a toujours raison"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le recoupement aide à confronter les éléments et à retrouver si plusieurs publications reposent sur une même source.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-emi-publier-q01",
+      "subjectId": "emi",
+      "chapterId": "3e-emi-publier",
+      "question": "Avant de publier en ligne une photo reconnaissable d’un camarade, quelle démarche respecte le mieux sa vie privée ?",
+      "answers": [
+        "Lui demander son accord et suivre les règles de l’établissement",
+        "La publier si elle a été prise dans la cour",
+        "Masquer seulement la date de la photo",
+        "La partager d’abord dans un groupe public"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Demander l’accord de la personne et respecter les règles de l’établissement évite de diffuser son image sans précaution.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-emi-publier-q02",
+      "subjectId": "emi",
+      "chapterId": "3e-emi-publier",
+      "question": "Un éléve reçoit un message humiliant diffusé dans un groupe. Quelle réaction est la plus utile ?",
+      "answers": [
+        "Ne pas le relayer, conserver les éléments utiles et en parler à un adulte de confiance",
+        "Le repartager pour demander l’avis de tous",
+        "Répondre par une humiliation similaire",
+        "Effacer les messages sans en parler à personne"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Ne pas amplifier le contenu, garder les éléments nécessaires et solliciter un adulte de confiance permet d’obtenir de l’aide.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-emi-publier-q03",
+      "subjectId": "emi",
+      "chapterId": "3e-emi-publier",
+      "question": "Tu réutilises une image sous licence Creative Commons. Que dois-tu faire ?",
+      "answers": [
+        "Respecter les conditions de la licence et citer l’auteur selon celles-ci",
+        "Supprimer le nom de l’auteur",
+        "Supposer que toutes les licences autorisent tout usage",
+        "Citer seulement le moteur de recherche"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les licences Creative Commons ont des conditions différentes ; il faut les lire et attribuer l’œuvre comme demandé.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-emi-publier-q04",
+      "subjectId": "emi",
+      "chapterId": "3e-emi-publier",
+      "question": "Un outil d’intelligence artificielle fournit une réponse convaincante pour un exposé. Que faut-il faire avant de la reprendre comme un fait ?",
+      "answers": [
+        "La vérifier avec des sources fiables et citer les sources consultées",
+        "La considérer comme vraie parce qu’elle est bien rédigée",
+        "La partager sans préciser qu’elle a été vérifiée",
+        "Remplacer les sources par une capture de la réponse"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une réponse générée peut contenir des erreurs ; les affirmations doivent étre vérifiées avec des références consultables.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-emi-publier-q05",
+      "subjectId": "emi",
+      "chapterId": "3e-emi-publier",
+      "question": "Pourquoi éviter de publier son adresse ou ses horaires quotidiens sur un compte public ?",
+      "answers": [
+        "Ces renseignements personnels peuvent étre réutilisés par des personnes inconnues",
+        "Les comptes publics interdisent toute publication",
+        "Une adresse ne constitue jamais une donnée personnelle",
+        "Les horaires sont automatiquement supprimés après une journée"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Limiter la diffusion de données personnelles réduit les risques liés à leur réutilisation par des inconnus.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-hda-works-q01",
+      "subjectId": "histoire-des-arts",
+      "chapterId": "3e-hda-works",
+      "question": "Quel peintre réalise « Guernica », tableau lié au bombardement de la ville espagnole en 1937 ?",
+      "answers": [
+        "Pablo Picasso",
+        "Claude Monet",
+        "Eugène Delacroix",
+        "Auguste Renoir"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Pablo Picasso peint Guernica en 1937, dans le contexte de la guerre d’Espagne et du bombardement de la ville.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-hda-works-q02",
+      "subjectId": "histoire-des-arts",
+      "chapterId": "3e-hda-works",
+      "question": "Quel est le but principal d’une affiche de propagande ?",
+      "answers": [
+        "Influencer les opinions ou les comportements du public",
+        "Présenter toutes les sources de façon neutre",
+        "Remplacer les documents d’archives",
+        "Décrire uniquement une technique artistique"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Une affiche de propagande cherche à orienter les idées ou les comportements au moyen d’images et de textes.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-hda-works-q03",
+      "subjectId": "histoire-des-arts",
+      "chapterId": "3e-hda-works",
+      "question": "Quel est le titre du film réalisé par Alain Resnais en 1956 sur les camps nazis ?",
+      "answers": [
+        "Nuit et Brouillard",
+        "La Grande Illusion",
+        "Les Temps modernes",
+        "Le Cuirassé Potemkine"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Nuit et Brouillard, réalisé par Alain Resnais en 1956, traite de la mémoire des camps nazis.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-hda-works-q04",
+      "subjectId": "histoire-des-arts",
+      "chapterId": "3e-hda-works",
+      "question": "À quoi sert principalement un mémorial consacré aux victimes d’une guerre ?",
+      "answers": [
+        "À entretenir la mémoire et à rendre hommage aux victimes",
+        "À fournir un relevé complet des opérations militaires",
+        "À remplacer les archives de la période",
+        "À montrer que toutes les expériences furent identiques"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Un mémorial inscrit le souvenir des victimes dans l’espace public et permet un geste de commémoration.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-hda-works-q05",
+      "subjectId": "histoire-des-arts",
+      "chapterId": "3e-hda-works",
+      "question": "Quel élément est essentiel pour analyser une œuvre créée pendant un conflit ?",
+      "answers": [
+        "Son contexte de création, son auteur et le public visé",
+        "Sa seule popularité actuelle",
+        "Le prix auquel elle serait vendue",
+        "La taille de l’écran sur lequel on la regarde"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le contexte, l’auteur et le public aident à comprendre la fonction et la portée d’une œuvre.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-hda-circulation-q01",
+      "subjectId": "histoire-des-arts",
+      "chapterId": "3e-hda-circulation",
+      "question": "Quel procédé technique est indispensable au cinéma pour créer l’impression d’images en mouvement ?",
+      "answers": [
+        "Projeter rapidement une succession d’images fixes",
+        "Afficher une seule image immobile",
+        "Peindre directement sur l’écran du spectateur",
+        "Diffuser uniquement une bande sonore"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le cinéma présente une succession rapide d’images fixes qui produit une impression de mouvement.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-hda-circulation-q02",
+      "subjectId": "histoire-des-arts",
+      "chapterId": "3e-hda-circulation",
+      "question": "Pourquoi les archives d’un film documentaire doivent-elles étre accompagnées d’informations sur leur origine ?",
+      "answers": [
+        "Pour comprendre leur date, leur contexte et leur fonction initiale",
+        "Pour garantir que le montage ne change jamais leur sens",
+        "Pour supprimer le besoin d’identifier les images",
+        "Pour prouver que toute archive est compléte"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Les informations de provenance et de contexte permettent d’interpréter correctement une archive intégrée au film.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-hda-circulation-q03",
+      "subjectId": "histoire-des-arts",
+      "chapterId": "3e-hda-circulation",
+      "question": "Quand une œuvre est reproduite sur une affiche ou dans un manuel, qu’est-ce qui peut changer ?",
+      "answers": [
+        "Son format, son contexte de présentation et la manière dont on la regarde",
+        "L’auteur de l’œuvre originale",
+        "La date à laquelle l’original a été créé",
+        "La matière de l’œuvre conservée au musée"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "La reproduction diffuse l’image mais peut modifier son échelle, son contexte et l’expérience du spectateur.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-hda-circulation-q04",
+      "subjectId": "histoire-des-arts",
+      "chapterId": "3e-hda-circulation",
+      "question": "Quel est l’intérêt d’indiquer qu’une partie d’une œuvre a été restaurée ?",
+      "answers": [
+        "Distinguer l’état de conservation et les interventions effectuées",
+        "Faire croire que l’œuvre est récente",
+        "Remplacer les documents historiques",
+        "Cacher l’identité du restaurateur dans tous les cas"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Documenter les interventions rend le travail de conservation transparent et aide à comprendre l’état actuel de l’œuvre.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-hda-circulation-q05",
+      "subjectId": "histoire-des-arts",
+      "chapterId": "3e-hda-circulation",
+      "question": "Comment une œuvre exposée dans un musée peut-elle étre comprise différemment d’une œuvre placée dans un lieu public ?",
+      "answers": [
+        "Le lieu, le public et les informations d’accompagnement influencent sa réception",
+        "Une œuvre ne peut étre comprise que par son auteur",
+        "Le musée supprime nécessairement le contexte historique",
+        "Le lieu n’a jamais d’effet sur l’interprétation"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Le lieu de présentation et son public participent à la réception et à l’interprétation de l’œuvre.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-maths-equations-q01",
+      "subjectId": "maths",
+      "chapterId": "3e-maths-equations",
+      "question": "Quelle valeur de x vérifie 4x − 7 = 13 ?",
+      "answers": ["3", "4", "5", "6"],
+      "correctAnswerIndex": 2,
+      "explanation": "On ajoute 7 aux deux membres : 4x = 20, puis on divise par 4. Donc x = 5.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-maths-equations-q02",
+      "subjectId": "maths",
+      "chapterId": "3e-maths-equations",
+      "question": "Résous l’équation 2(x + 3) = 18.",
+      "answers": ["x = 3", "x = 6", "x = 9", "x = 12"],
+      "correctAnswerIndex": 1,
+      "explanation": "On divise les deux membres par 2 : x + 3 = 9. On soustrait 3, donc x = 6.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-maths-equations-q03",
+      "subjectId": "maths",
+      "chapterId": "3e-maths-equations",
+      "question": "Quelle solution vérifie 5x + 4 = 2x + 19 ?",
+      "answers": ["x = 3", "x = 4", "x = 5", "x = 6"],
+      "correctAnswerIndex": 2,
+      "explanation": "On regroupe les x d’un côté et les nombres de l’autre : 5x − 2x = 19 − 4, soit 3x = 15. Donc x = 5.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-maths-equations-q04",
+      "subjectId": "maths",
+      "chapterId": "3e-maths-equations",
+      "question": "Dans x/3 + 2 = 6, quelle est la valeur de x ?",
+      "answers": ["8", "10", "12", "18"],
+      "correctAnswerIndex": 2,
+      "explanation": "On soustrait 2 : x/3 = 4. On multiplie par 3, donc x = 12.",
+      "rewardSeconds": 30
+    },
+    {
+      "id": "3e-maths-equations-q05",
+      "subjectId": "maths",
+      "chapterId": "3e-maths-equations",
+      "question": "Un nombre augmenté de son triple vaut 28. Quelle équation permet de trouver ce nombre x ?",
+      "answers": ["x + 3 = 28", "3(x + 1) = 28", "x + 3x = 28", "x − 3x = 28"],
+      "correctAnswerIndex": 2,
+      "explanation": "Le nombre est x et son triple est 3x. Leur somme vaut 28, donc l’équation est x + 3x = 28.",
+      "rewardSeconds": 30
+    }
+  ]
+}

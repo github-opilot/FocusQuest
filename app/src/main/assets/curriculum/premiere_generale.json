@@ -1,0 +1,1044 @@
+{
+  "gradeId": "premiere_generale",
+  "programYear": "2026-2027",
+  "track": "generale",
+  "subjects": [
+    {
+      "id": "francais",
+      "title": "Français",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "premiere-francais-poesie",
+          "title": "La poésie du XIXe siècle au XXIe siècle",
+          "theme": "Littérature",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5793/programmes-et-ressources-en-francais-voie-gt"
+        },
+        {
+          "id": "premiere-francais-roman",
+          "title": "Le roman et le récit du Moyen Âge au XXIe siècle",
+          "theme": "Littérature",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5793/programmes-et-ressources-en-francais-voie-gt"
+        },
+        {
+          "id": "premiere-francais-idees",
+          "title": "La littérature d’idées du XVIe au XVIIIe siècle",
+          "theme": "Littérature",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5793/programmes-et-ressources-en-francais-voie-gt"
+        },
+        {
+          "id": "premiere-francais-theatre",
+          "title": "Le théâtre du XVIIe au XXIe siècle",
+          "theme": "Littérature",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5793/programmes-et-ressources-en-francais-voie-gt"
+        },
+        {
+          "id": "premiere-francais-langue",
+          "title": "Étude de la langue, grammaire et expression",
+          "theme": "Langue",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5793/programmes-et-ressources-en-francais-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "histoire-geographie",
+      "title": "Histoire-géographie",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "premiere-hg-histoire-europe",
+          "title": "L’Europe face aux révolutions (1789-1848)",
+          "theme": "Histoire",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5799/programmes-et-ressources-en-histoire-geographie-voie-gt"
+        },
+        {
+          "id": "premiere-hg-histoire-france",
+          "title": "La France dans l’Europe des nationalités (1848-1871)",
+          "theme": "Histoire",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5799/programmes-et-ressources-en-histoire-geographie-voie-gt"
+        },
+        {
+          "id": "premiere-hg-histoire-republique",
+          "title": "La Troisième République avant 1914 : un régime politique, un empire colonial",
+          "theme": "Histoire",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5799/programmes-et-ressources-en-histoire-geographie-voie-gt"
+        },
+        {
+          "id": "premiere-hg-histoire-guerre",
+          "title": "La Première Guerre mondiale : le « suicide de l’Europe » et la fin des empires européens",
+          "theme": "Histoire",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5799/programmes-et-ressources-en-histoire-geographie-voie-gt"
+        },
+        {
+          "id": "premiere-hg-geo-metropolisation",
+          "title": "La métropolisation : un processus mondial différencié",
+          "theme": "Géographie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5799/programmes-et-ressources-en-histoire-geographie-voie-gt"
+        },
+        {
+          "id": "premiere-hg-geo-france",
+          "title": "Une diversification des espaces et des acteurs de la production",
+          "theme": "Géographie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5799/programmes-et-ressources-en-histoire-geographie-voie-gt"
+        },
+        {
+          "id": "premiere-hg-geo-mobilites",
+          "title": "Les espaces ruraux : multifonctionnalité ou fragmentation ?",
+          "theme": "Géographie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5799/programmes-et-ressources-en-histoire-geographie-voie-gt"
+        },
+        {
+          "id": "premiere-hg-geo-union",
+          "title": "La France et ses régions dans l’Union européenne et dans la mondialisation",
+          "theme": "Géographie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5799/programmes-et-ressources-en-histoire-geographie-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "langues-vivantes",
+      "title": "Langues vivantes A et B",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "premiere-lv-axe-1",
+          "title": "Axe 1 — Identités et échanges",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "premiere-lv-axe-2",
+          "title": "Axe 2 — Diversité et inclusion",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "premiere-lv-axe-3",
+          "title": "Axe 3 — Art et pouvoir",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "premiere-lv-axe-4",
+          "title": "Axe 4 — Innovations scientifiques et responsabilité",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "premiere-lv-axe-5",
+          "title": "Axe 5 — L’être humain et la nature",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "premiere-lv-axe-6",
+          "title": "Axe 6 — Focale sur une aire culturelle",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "enseignement-scientifique",
+      "title": "Enseignement scientifique",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "premiere-es-matiere",
+          "title": "Une longue histoire de la matière",
+          "theme": "Matière",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5790/programmes-et-ressources-en-enseignement-scientifique-voie-g"
+        },
+        {
+          "id": "premiere-es-soleil",
+          "title": "Le Soleil, notre source d’énergie",
+          "theme": "Énergie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5790/programmes-et-ressources-en-enseignement-scientifique-voie-g"
+        },
+        {
+          "id": "premiere-es-terre",
+          "title": "La Terre, un astre singulier",
+          "theme": "Terre",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5790/programmes-et-ressources-en-enseignement-scientifique-voie-g"
+        },
+        {
+          "id": "premiere-es-son",
+          "title": "Son et musique, porteurs d’information",
+          "theme": "Ondes et signaux",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5790/programmes-et-ressources-en-enseignement-scientifique-voie-g"
+        }
+      ]
+    },
+    {
+      "id": "maths-integrees",
+      "title": "Mathématiques intégrées à l’enseignement scientifique (élèves sans spécialité maths)",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "premiere-mi-information",
+          "title": "Analyse de l’information chiffrée",
+          "theme": "Statistiques",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "premiere-mi-aleatoire",
+          "title": "Phénomènes aléatoires",
+          "theme": "Probabilités",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "premiere-mi-evolution",
+          "title": "Phénomènes d’évolution et modélisation par des fonctions",
+          "theme": "Modélisation",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "premiere-mi-lineaire",
+          "title": "Variation linéaire",
+          "theme": "Modélisation",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "premiere-mi-quadratique",
+          "title": "Modélisation quadratique",
+          "theme": "Modélisation",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "premiere-mi-exponentielle",
+          "title": "Variation exponentielle",
+          "theme": "Modélisation",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "emc",
+      "title": "Enseignement moral et civique",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "premiere-emc-democratie",
+          "title": "La démocratie, les démocraties",
+          "theme": "Démocratie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5787/programmes-et-ressources-en-enseignement-moral-et-civique-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "eps",
+      "title": "Éducation physique et sportive",
+      "kind": "common",
+      "chapters": [
+        {
+          "id": "premiere-eps-performance",
+          "title": "Performance motrice",
+          "theme": "Champs d’apprentissage",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5784/programmes-et-ressources-en-education-physique-et-sportive-eps-voie-gt"
+        },
+        {
+          "id": "premiere-eps-adaptation",
+          "title": "Déplacements en environnement varié",
+          "theme": "Champs d’apprentissage",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5784/programmes-et-ressources-en-education-physique-et-sportive-eps-voie-gt"
+        },
+        {
+          "id": "premiere-eps-artistique",
+          "title": "Prestation corporelle artistique",
+          "theme": "Champs d’apprentissage",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5784/programmes-et-ressources-en-education-physique-et-sportive-eps-voie-gt"
+        },
+        {
+          "id": "premiere-eps-conduite",
+          "title": "Affrontement collectif ou individuel",
+          "theme": "Champs d’apprentissage",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5784/programmes-et-ressources-en-education-physique-et-sportive-eps-voie-gt"
+        },
+        {
+          "id": "premiere-eps-entretien",
+          "title": "Activité physique et entretien de soi",
+          "theme": "Champs d’apprentissage",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5784/programmes-et-ressources-en-education-physique-et-sportive-eps-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "maths-spe",
+      "title": "Spécialité Mathématiques",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "premiere-maths-suites",
+          "title": "Suites numériques et modèles discrets",
+          "theme": "Algèbre",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "premiere-maths-second-degre",
+          "title": "Équations et fonctions polynômes du second degré",
+          "theme": "Algèbre",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "premiere-maths-logique",
+          "title": "Vocabulaire ensembliste et logique",
+          "theme": "Transversal",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "premiere-maths-algo",
+          "title": "Algorithmique et programmation : notion de liste",
+          "theme": "Transversal",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "premiere-maths-automatismes",
+          "title": "Automatismes",
+          "theme": "Transversal",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "premiere-maths-derivee",
+          "title": "Dérivation",
+          "theme": "Analyse",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "premiere-maths-variations",
+          "title": "Variations et courbes représentatives des fonctions",
+          "theme": "Analyse",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "premiere-maths-exponentielle",
+          "title": "Fonction exponentielle",
+          "theme": "Analyse",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "premiere-maths-trigonometrie",
+          "title": "Trigonométrie",
+          "theme": "Analyse",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "premiere-maths-produit-scalaire",
+          "title": "Calcul vectoriel et produit scalaire",
+          "theme": "Géométrie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "premiere-maths-geometrie-reperee",
+          "title": "Géométrie repérée",
+          "theme": "Géométrie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "premiere-maths-proba-conditionnelle",
+          "title": "Probabilités conditionnelles et indépendance",
+          "theme": "Probabilités et statistiques",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        },
+        {
+          "id": "premiere-maths-variables",
+          "title": "Variables aléatoires réelles et expérimentations",
+          "theme": "Probabilités et statistiques",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5817/programmes-et-ressources-en-mathematiques-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "physique-chimie-spe",
+      "title": "Spécialité Physique-chimie",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "premiere-pc-quantite-matiere",
+          "title": "Constitution de la matière et quantité de matière",
+          "theme": "Matière",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5829/programmes-et-ressources-en-physique-chimie-voie-gt"
+        },
+        {
+          "id": "premiere-pc-transformations",
+          "title": "Transformations chimiques et suivi",
+          "theme": "Matière",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5829/programmes-et-ressources-en-physique-chimie-voie-gt"
+        },
+        {
+          "id": "premiere-pc-mouvement",
+          "title": "Mouvement et interactions",
+          "theme": "Mécanique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5829/programmes-et-ressources-en-physique-chimie-voie-gt"
+        },
+        {
+          "id": "premiere-pc-energie",
+          "title": "Énergie : conversions et transferts",
+          "theme": "Énergie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5829/programmes-et-ressources-en-physique-chimie-voie-gt"
+        },
+        {
+          "id": "premiere-pc-ondes",
+          "title": "Ondes et signaux",
+          "theme": "Ondes et signaux",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5829/programmes-et-ressources-en-physique-chimie-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "svt-spe",
+      "title": "Spécialité Sciences de la vie et de la Terre",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "premiere-svt-genetique",
+          "title": "Transmission, variation et expression de l’information génétique",
+          "theme": "La Terre, la vie et l’organisation du vivant",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5835/programmes-et-ressources-en-sciences-de-la-vie-et-de-la-terre-voie-gt"
+        },
+        {
+          "id": "premiere-svt-evolution",
+          "title": "La dynamique de la biodiversité et l’évolution",
+          "theme": "La Terre, la vie et l’organisation du vivant",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5835/programmes-et-ressources-en-sciences-de-la-vie-et-de-la-terre-voie-gt"
+        },
+        {
+          "id": "premiere-svt-tectonique",
+          "title": "La dynamique interne de la Terre",
+          "theme": "Les enjeux contemporains de la planète",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5835/programmes-et-ressources-en-sciences-de-la-vie-et-de-la-terre-voie-gt"
+        },
+        {
+          "id": "premiere-svt-plantes",
+          "title": "La plante et son organisation fonctionnelle",
+          "theme": "Les enjeux contemporains de la planète",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5835/programmes-et-ressources-en-sciences-de-la-vie-et-de-la-terre-voie-gt"
+        },
+        {
+          "id": "premiere-svt-activite-physique",
+          "title": "Activité physique et santé",
+          "theme": "Le corps humain et la santé",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5835/programmes-et-ressources-en-sciences-de-la-vie-et-de-la-terre-voie-gt"
+        },
+        {
+          "id": "premiere-svt-reproduction",
+          "title": "Comportements, mouvement et reproduction",
+          "theme": "Le corps humain et la santé",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5835/programmes-et-ressources-en-sciences-de-la-vie-et-de-la-terre-voie-gt"
+        },
+        {
+          "id": "premiere-svt-immunite",
+          "title": "Organisme humain et immunité",
+          "theme": "Le corps humain et la santé",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5835/programmes-et-ressources-en-sciences-de-la-vie-et-de-la-terre-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "nsi-spe",
+      "title": "Spécialité Numérique et sciences informatiques",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "premiere-nsi-donnees",
+          "title": "Représentation des données",
+          "theme": "Données",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5823/programmes-et-ressources-en-numerique-et-sciences-informatiques-voie-g"
+        },
+        {
+          "id": "premiere-nsi-types",
+          "title": "Types construits et traitement de données",
+          "theme": "Données",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5823/programmes-et-ressources-en-numerique-et-sciences-informatiques-voie-g"
+        },
+        {
+          "id": "premiere-nsi-algorithmes",
+          "title": "Algorithmique",
+          "theme": "Algorithmique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5823/programmes-et-ressources-en-numerique-et-sciences-informatiques-voie-g"
+        },
+        {
+          "id": "premiere-nsi-langages",
+          "title": "Langages et programmation",
+          "theme": "Programmation",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5823/programmes-et-ressources-en-numerique-et-sciences-informatiques-voie-g"
+        },
+        {
+          "id": "premiere-nsi-architecture",
+          "title": "Architectures matérielles et systèmes d’exploitation",
+          "theme": "Architecture",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5823/programmes-et-ressources-en-numerique-et-sciences-informatiques-voie-g"
+        },
+        {
+          "id": "premiere-nsi-web",
+          "title": "Interactions entre l’homme et la machine sur le Web",
+          "theme": "Web",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5823/programmes-et-ressources-en-numerique-et-sciences-informatiques-voie-g"
+        }
+      ]
+    },
+    {
+      "id": "ses-spe",
+      "title": "Spécialité Sciences économiques et sociales",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "premiere-ses-marche",
+          "title": "Comment un marché concurrentiel fonctionne-t-il ?",
+          "theme": "Science économique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5838/programmes-et-ressources-en-sciences-economiques-et-sociales-voie-gt"
+        },
+        {
+          "id": "premiere-ses-defaillances",
+          "title": "Comment les marchés imparfaitement concurrentiels fonctionnent-ils ?",
+          "theme": "Science économique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5838/programmes-et-ressources-en-sciences-economiques-et-sociales-voie-gt"
+        },
+        {
+          "id": "premiere-ses-financement",
+          "title": "Comment les agents économiques se financent-ils ?",
+          "theme": "Science économique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5838/programmes-et-ressources-en-sciences-economiques-et-sociales-voie-gt"
+        },
+        {
+          "id": "premiere-ses-socialisation",
+          "title": "Comment la socialisation contribue-t-elle à expliquer les différences de comportement ?",
+          "theme": "Sociologie et science politique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5838/programmes-et-ressources-en-sciences-economiques-et-sociales-voie-gt"
+        },
+        {
+          "id": "premiere-ses-liens-sociaux",
+          "title": "Comment se construisent et évoluent les liens sociaux ?",
+          "theme": "Sociologie et science politique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5838/programmes-et-ressources-en-sciences-economiques-et-sociales-voie-gt"
+        },
+        {
+          "id": "premiere-ses-deviance",
+          "title": "Quels sont les processus sociaux qui contribuent à la déviance ?",
+          "theme": "Sociologie et science politique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5838/programmes-et-ressources-en-sciences-economiques-et-sociales-voie-gt"
+        },
+        {
+          "id": "premiere-ses-opinion",
+          "title": "Comment se forme et s’exprime l’opinion publique ?",
+          "theme": "Sociologie et science politique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5838/programmes-et-ressources-en-sciences-economiques-et-sociales-voie-gt"
+        },
+        {
+          "id": "premiere-ses-vote",
+          "title": "Voter : une affaire individuelle ou collective ?",
+          "theme": "Sociologie et science politique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5838/programmes-et-ressources-en-sciences-economiques-et-sociales-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "hggsp-spe",
+      "title": "Spécialité Histoire-géographie, géopolitique et sciences politiques",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "premiere-hggsp-democratie",
+          "title": "Comprendre un régime politique : la démocratie",
+          "theme": "Comprendre un régime politique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5802/programmes-et-ressources-en-histoire-geographie-geopolitique-et-sciences-politiques-voie-g"
+        },
+        {
+          "id": "premiere-hggsp-puissances",
+          "title": "Analyser les dynamiques des puissances internationales",
+          "theme": "Dynamiques des puissances",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5802/programmes-et-ressources-en-histoire-geographie-geopolitique-et-sciences-politiques-voie-g"
+        },
+        {
+          "id": "premiere-hggsp-frontieres",
+          "title": "Étudier les divisions politiques du monde : les frontières",
+          "theme": "Étudier les divisions politiques",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5802/programmes-et-ressources-en-histoire-geographie-geopolitique-et-sciences-politiques-voie-g"
+        },
+        {
+          "id": "premiere-hggsp-information",
+          "title": "S’informer : un regard critique sur les sources et modes de communication",
+          "theme": "S’informer",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5802/programmes-et-ressources-en-histoire-geographie-geopolitique-et-sciences-politiques-voie-g"
+        },
+        {
+          "id": "premiere-hggsp-religions",
+          "title": "Analyser les relations entre États et religions",
+          "theme": "Relations entre États et religions",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5802/programmes-et-ressources-en-histoire-geographie-geopolitique-et-sciences-politiques-voie-g"
+        }
+      ]
+    },
+    {
+      "id": "hlp-spe",
+      "title": "Spécialité Humanités, littérature et philosophie",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "premiere-hlp-parole-art",
+          "title": "L’art de la parole",
+          "theme": "Les pouvoirs de la parole",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5805/programmes-et-ressources-en-humanites-litterature-et-philosophie-voie-g"
+        },
+        {
+          "id": "premiere-hlp-parole-autorite",
+          "title": "L’autorité de la parole",
+          "theme": "Les pouvoirs de la parole",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5805/programmes-et-ressources-en-humanites-litterature-et-philosophie-voie-g"
+        },
+        {
+          "id": "premiere-hlp-parole-seductions",
+          "title": "Les séductions de la parole",
+          "theme": "Les pouvoirs de la parole",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5805/programmes-et-ressources-en-humanites-litterature-et-philosophie-voie-g"
+        },
+        {
+          "id": "premiere-hlp-monde-decouverte",
+          "title": "Découverte du monde et pluralité des cultures",
+          "theme": "Les représentations du monde",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5805/programmes-et-ressources-en-humanites-litterature-et-philosophie-voie-g"
+        },
+        {
+          "id": "premiere-hlp-monde-decrire",
+          "title": "Décrire, figurer, imaginer",
+          "theme": "Les représentations du monde",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5805/programmes-et-ressources-en-humanites-litterature-et-philosophie-voie-g"
+        },
+        {
+          "id": "premiere-hlp-monde-animal",
+          "title": "L’homme et l’animal",
+          "theme": "Les représentations du monde",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5805/programmes-et-ressources-en-humanites-litterature-et-philosophie-voie-g"
+        }
+      ]
+    },
+    {
+      "id": "llcer-spe",
+      "title": "Spécialité LLCER (programme selon la langue)",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "premiere-llcer-thematique-1",
+          "title": "Thématique 1 et ses axes propres à la langue étudiée",
+          "theme": "Programme littéraire et culturel",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5814/programmes-et-ressources-en-langues-litteratures-et-cultures-etrangeres-et-regionales-voie-g"
+        },
+        {
+          "id": "premiere-llcer-thematique-2",
+          "title": "Thématique 2 et ses axes propres à la langue étudiée",
+          "theme": "Programme littéraire et culturel",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5814/programmes-et-ressources-en-langues-litteratures-et-cultures-etrangeres-et-regionales-voie-g"
+        },
+        {
+          "id": "premiere-llcer-oeuvres",
+          "title": "Œuvres intégrales et parcours propres à la langue étudiée",
+          "theme": "Programme littéraire et culturel",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5814/programmes-et-ressources-en-langues-litteratures-et-cultures-etrangeres-et-regionales-voie-g"
+        }
+      ]
+    },
+    {
+      "id": "llcer-amc-spe",
+      "title": "Spécialité LLCER : anglais, monde contemporain",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "premiere-amc-savoirs",
+          "title": "Savoirs, création, innovation",
+          "theme": "Thématiques",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5814/programmes-et-ressources-en-langues-litteratures-et-cultures-etrangeres-et-regionales-voie-g"
+        },
+        {
+          "id": "premiere-amc-representations",
+          "title": "Représentations",
+          "theme": "Thématiques",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5814/programmes-et-ressources-en-langues-litteratures-et-cultures-etrangeres-et-regionales-voie-g"
+        }
+      ]
+    },
+    {
+      "id": "llca-spe",
+      "title": "Spécialité Littérature et langues et cultures de l’Antiquité",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "premiere-llca-cite",
+          "title": "Vivre dans la cité",
+          "theme": "Objets d’étude",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5808/programmes-et-ressources-en-langues-et-cultures-de-l-antiquite-voie-gt"
+        },
+        {
+          "id": "premiere-llca-dieux",
+          "title": "Les dieux dans la cité",
+          "theme": "Objets d’étude",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5808/programmes-et-ressources-en-langues-et-cultures-de-l-antiquite-voie-gt"
+        },
+        {
+          "id": "premiere-llca-genres",
+          "title": "Masculin, féminin",
+          "theme": "Objets d’étude",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5808/programmes-et-ressources-en-langues-et-cultures-de-l-antiquite-voie-gt"
+        },
+        {
+          "id": "premiere-llca-mediterranee",
+          "title": "Méditerranée : conflits, influences et échanges",
+          "theme": "Objets d’étude",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5808/programmes-et-ressources-en-langues-et-cultures-de-l-antiquite-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "si-spe",
+      "title": "Spécialité Sciences de l’ingénieur",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "premiere-si-creer",
+          "title": "Créer des produits innovants",
+          "theme": "Démarche d’ingénierie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5832/programmes-et-ressources-en-sciences-de-l-ingenieur-voie-gt"
+        },
+        {
+          "id": "premiere-si-analyser",
+          "title": "Analyser les produits existants",
+          "theme": "Démarche d’ingénierie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5832/programmes-et-ressources-en-sciences-de-l-ingenieur-voie-gt"
+        },
+        {
+          "id": "premiere-si-modeliser",
+          "title": "Modéliser les produits et prévoir leurs performances",
+          "theme": "Démarche d’ingénierie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5832/programmes-et-ressources-en-sciences-de-l-ingenieur-voie-gt"
+        },
+        {
+          "id": "premiere-si-valider",
+          "title": "Valider les performances par expérimentation et simulation",
+          "theme": "Démarche d’ingénierie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5832/programmes-et-ressources-en-sciences-de-l-ingenieur-voie-gt"
+        },
+        {
+          "id": "premiere-si-communiquer",
+          "title": "Produire de l’information et communiquer en équipe",
+          "theme": "Démarche d’ingénierie",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5832/programmes-et-ressources-en-sciences-de-l-ingenieur-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "eppcs-spe",
+      "title": "Spécialité Éducation physique, pratiques et culture sportives",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "premiere-eppcs-pratiquer",
+          "title": "Pratiques physiques, sportives et artistiques",
+          "theme": "Pratique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5784/programmes-et-ressources-en-education-physique-et-sportive-eps-voie-gt"
+        },
+        {
+          "id": "premiere-eppcs-culture",
+          "title": "Approfondissement des connaissances sur les activités physiques et sportives",
+          "theme": "Culture",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5784/programmes-et-ressources-en-education-physique-et-sportive-eps-voie-gt"
+        },
+        {
+          "id": "premiere-eppcs-enjeux",
+          "title": "Enjeux liés à la pratique sportive dans le monde contemporain",
+          "theme": "Enjeux contemporains",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5784/programmes-et-ressources-en-education-physique-et-sportive-eps-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "arts-spe",
+      "title": "Spécialité Arts (discipline proposée par le lycée)",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "premiere-arts-pratique",
+          "title": "Pratiques artistiques dans la discipline choisie",
+          "theme": "Pratique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/4368/enseigner-au-lycee-generaltechnologique"
+        },
+        {
+          "id": "premiere-arts-culture",
+          "title": "Culture et analyse des œuvres dans la discipline choisie",
+          "theme": "Culture",
+          "sourceUrl": "https://eduscol.education.gouv.fr/4368/enseigner-au-lycee-generaltechnologique"
+        }
+      ]
+    },
+    {
+      "id": "bio-eco-spe",
+      "title": "Spécialité Biologie-écologie (lycées agricoles)",
+      "kind": "specialty",
+      "chapters": [
+        {
+          "id": "premiere-bio-environnement",
+          "title": "Enjeux environnementaux contemporains",
+          "theme": "Environnement",
+          "sourceUrl": "https://chlorofil.fr/fileadmin/user_upload/02-diplomes/referentiels/secondaire/bac-general/bac-general-prog-bio-eco.pdf"
+        },
+        {
+          "id": "premiere-bio-sante",
+          "title": "Enjeux de santé contemporains",
+          "theme": "Santé",
+          "sourceUrl": "https://chlorofil.fr/fileadmin/user_upload/02-diplomes/referentiels/secondaire/bac-general/bac-general-prog-bio-eco.pdf"
+        }
+      ]
+    },
+    {
+      "id": "option-latin",
+      "title": "Langues et cultures de l’Antiquité : latin",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "premiere-latin-cite",
+          "title": "Vivre dans la cité",
+          "theme": "Objets d’étude",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5808/programmes-et-ressources-en-langues-et-cultures-de-l-antiquite-voie-gt"
+        },
+        {
+          "id": "premiere-latin-dieux",
+          "title": "Les dieux dans la cité",
+          "theme": "Objets d’étude",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5808/programmes-et-ressources-en-langues-et-cultures-de-l-antiquite-voie-gt"
+        },
+        {
+          "id": "premiere-latin-genres",
+          "title": "Masculin, féminin",
+          "theme": "Objets d’étude",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5808/programmes-et-ressources-en-langues-et-cultures-de-l-antiquite-voie-gt"
+        },
+        {
+          "id": "premiere-latin-mediterranee",
+          "title": "Méditerranée : conflits, influences et échanges",
+          "theme": "Objets d’étude",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5808/programmes-et-ressources-en-langues-et-cultures-de-l-antiquite-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-grec",
+      "title": "Langues et cultures de l’Antiquité : grec",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "premiere-grec-cite",
+          "title": "Vivre dans la cité",
+          "theme": "Objets d’étude",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5808/programmes-et-ressources-en-langues-et-cultures-de-l-antiquite-voie-gt"
+        },
+        {
+          "id": "premiere-grec-dieux",
+          "title": "Les dieux dans la cité",
+          "theme": "Objets d’étude",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5808/programmes-et-ressources-en-langues-et-cultures-de-l-antiquite-voie-gt"
+        },
+        {
+          "id": "premiere-grec-genres",
+          "title": "Masculin, féminin",
+          "theme": "Objets d’étude",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5808/programmes-et-ressources-en-langues-et-cultures-de-l-antiquite-voie-gt"
+        },
+        {
+          "id": "premiere-grec-mediterranee",
+          "title": "Méditerranée : conflits, influences et échanges",
+          "theme": "Objets d’étude",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5808/programmes-et-ressources-en-langues-et-cultures-de-l-antiquite-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-lvc",
+      "title": "Langue vivante C",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "premiere-lvc-axe-1",
+          "title": "Axe 1 — Identités et échanges",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "premiere-lvc-axe-2",
+          "title": "Axe 2 — Diversité et inclusion",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "premiere-lvc-axe-3",
+          "title": "Axe 3 — Art et pouvoir",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "premiere-lvc-axe-4",
+          "title": "Axe 4 — Innovations scientifiques et responsabilité",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "premiere-lvc-axe-5",
+          "title": "Axe 5 — L’être humain et la nature",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        },
+        {
+          "id": "premiere-lvc-axe-6",
+          "title": "Axe 6 — Focale sur une aire culturelle",
+          "theme": "Repères culturels",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-lsf",
+      "title": "Langue des signes française",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "premiere-lsf-communication",
+          "title": "Comprendre et communiquer en LSF",
+          "theme": "Langue et culture",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5811/programmes-et-ressources-en-langues-vivantes-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-eps",
+      "title": "Éducation physique et sportive optionnelle",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "premiere-eps-option-pratique",
+          "title": "Pratiques physiques et sportives",
+          "theme": "Pratique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5784/programmes-et-ressources-en-education-physique-et-sportive-eps-voie-gt"
+        },
+        {
+          "id": "premiere-eps-option-culture",
+          "title": "Culture sportive et santé",
+          "theme": "Culture",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5784/programmes-et-ressources-en-education-physique-et-sportive-eps-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-hippologie",
+      "title": "Hippologie et équitation (lycées agricoles)",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "premiere-option-hippologie",
+          "title": "Hippologie et équitation",
+          "theme": "Enseignement agricole",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5418/cycle-terminal-de-la-voie-generale"
+        }
+      ]
+    },
+    {
+      "id": "option-agronomie-economie-territoires",
+      "title": "Agronomie, économie et territoires (lycées agricoles)",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "premiere-option-agronomie",
+          "title": "Agronomie, économie et territoires",
+          "theme": "Enseignement agricole",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5418/cycle-terminal-de-la-voie-generale"
+        }
+      ]
+    },
+    {
+      "id": "option-pratiques-sociales",
+      "title": "Pratiques sociales et culturelles (lycées agricoles)",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "premiere-option-pratiques-sociales",
+          "title": "Pratiques sociales et culturelles",
+          "theme": "Enseignement agricole",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5418/cycle-terminal-de-la-voie-generale"
+        }
+      ]
+    },
+    {
+      "id": "option-arts-plastiques",
+      "title": "Arts plastiques",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "premiere-option-arts-plastiques",
+          "title": "Pratique plastique et culture artistique",
+          "theme": "Arts plastiques",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5772/programmes-et-ressources-en-arts-plastiques-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-cinema",
+      "title": "Cinéma-audiovisuel",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "premiere-option-cinema",
+          "title": "Pratique et culture cinématographiques",
+          "theme": "Cinéma-audiovisuel",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5775/programmes-et-ressources-en-cinema-audiovisuel-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-danse",
+      "title": "Danse",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "premiere-option-danse",
+          "title": "Pratique chorégraphique et culture de la danse",
+          "theme": "Danse",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5778/programmes-et-ressources-en-danse-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-histoire-arts",
+      "title": "Histoire des arts",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "premiere-option-histoire-arts",
+          "title": "Œuvres, formes et contextes artistiques",
+          "theme": "Histoire des arts",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5796/programmes-et-ressources-en-histoire-des-arts-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-musique",
+      "title": "Musique",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "premiere-option-musique",
+          "title": "Pratique musicale et culture",
+          "theme": "Musique",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5820/programmes-et-ressources-en-musique-voie-gt"
+        }
+      ]
+    },
+    {
+      "id": "option-theatre",
+      "title": "Théâtre",
+      "kind": "option",
+      "chapters": [
+        {
+          "id": "premiere-option-theatre",
+          "title": "Pratique théâtrale et culture dramatique",
+          "theme": "Théâtre",
+          "sourceUrl": "https://eduscol.education.gouv.fr/5865/programmes-et-ressources-en-theatre-voie-gt"
+        }
+      ]
+    }
+  ]
+}

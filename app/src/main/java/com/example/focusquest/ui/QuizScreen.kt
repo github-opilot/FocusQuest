@@ -27,19 +27,16 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.Button
-import androidx.compose.material3.ButtonDefaults
-import androidx.compose.material3.Card
-import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.runtime.mutableLongStateOf
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
@@ -50,37 +47,110 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.example.focusquest.model.QuizQuestionEntry
 import com.example.focusquest.model.Question
+import com.example.focusquest.ui.components.FocusQuestButton
+import com.example.focusquest.ui.components.FocusQuestCard
+import com.example.focusquest.ui.components.ProgressIndicator
+import com.example.focusquest.ui.components.RewardBadge
+import com.example.focusquest.ui.components.StatCard
 
-private val QuizCardShape = RoundedCornerShape(24.dp)
 private val AnswerShape = RoundedCornerShape(18.dp)
+private data class QuizPrompt(
+    val id: String,
+    val question: String,
+    val answers: List<String>,
+    val correctAnswerIndex: Int,
+    val explanation: String,
+    val rewardTimeMillis: Long
+)
 
 @Composable
 fun QuizScreen(
     questions: List<Question>,
-    availableMinutes: Int,
-    onMinutesEarned: (Int) -> Unit,
+    availableTimeMillis: Long,
+    onTimeEarned: (Long) -> Unit,
     onExitQuiz: () -> Unit,
     onNewMission: () -> Unit,
     modifier: Modifier = Modifier
 ) {
-    val quizQuestions = questions.take(5)
-    var currentQuestionIndex by rememberSaveable { mutableIntStateOf(0) }
-    var selectedAnswerIndex by rememberSaveable { mutableStateOf<Int?>(null) }
-    var score by rememberSaveable { mutableIntStateOf(0) }
-    var earnedMinutes by rememberSaveable { mutableIntStateOf(0) }
-    var quizFinished by rememberSaveable { mutableStateOf(false) }
+    val prompts = remember(questions) {
+        questions.take(5).map { question ->
+            QuizPrompt(
+                id = question.id.toString(),
+                question = question.question,
+                answers = question.answers,
+                correctAnswerIndex = question.correctAnswerIndex,
+                explanation = question.explanation,
+                rewardTimeMillis = question.rewardTimeMillis
+            )
+        }
+    }
+    QuizSessionScreen(
+        questions = prompts,
+        availableTimeMillis = availableTimeMillis,
+        onTimeEarned = onTimeEarned,
+        onExitQuiz = onExitQuiz,
+        onNewMission = onNewMission,
+        modifier = modifier
+    )
+}
+
+/** Runs one catalog-bound session using each question's reward in seconds. */
+@Composable
+fun ChapterQuizScreen(
+    questions: List<QuizQuestionEntry>,
+    availableTimeMillis: Long,
+    onTimeEarned: (Long) -> Unit,
+    onExitQuiz: () -> Unit,
+    onNewMission: () -> Unit,
+    modifier: Modifier = Modifier
+) {
+    val prompts = remember(questions) {
+        questions.distinctBy { it.id }.take(5).map { question ->
+            QuizPrompt(
+                id = question.id,
+                question = question.question,
+                answers = question.answers,
+                correctAnswerIndex = question.correctAnswerIndex,
+                explanation = question.explanation,
+                rewardTimeMillis = question.rewardSeconds * 1_000L
+            )
+        }
+    }
+    QuizSessionScreen(
+        questions = prompts,
+        availableTimeMillis = availableTimeMillis,
+        onTimeEarned = onTimeEarned,
+        onExitQuiz = onExitQuiz,
+        onNewMission = onNewMission,
+        modifier = modifier
+    )
+}
+
+@Composable
+private fun QuizSessionScreen(
+    questions: List<QuizPrompt>,
+    availableTimeMillis: Long,
+    onTimeEarned: (Long) -> Unit,
+    onExitQuiz: () -> Unit,
+    onNewMission: () -> Unit,
+    modifier: Modifier = Modifier
+) {
+    val quizQuestions = remember(questions) { questions.distinctBy { it.id }.take(5) }
+    val sessionKey = remember(quizQuestions) { quizQuestions.joinToString("|") { it.id } }
+    var currentQuestionIndex by rememberSaveable(sessionKey) { mutableIntStateOf(0) }
+    var selectedAnswerIndex by rememberSaveable(sessionKey) { mutableStateOf<Int?>(null) }
+    var score by rememberSaveable(sessionKey) { mutableIntStateOf(0) }
+    var earnedTimeMillis by rememberSaveable(sessionKey) { mutableLongStateOf(0L) }
+    var rewardedQuestionIds by rememberSaveable(sessionKey) { mutableStateOf("") }
+    var quizFinished by rememberSaveable(sessionKey) { mutableStateOf(false) }
 
     if (quizQuestions.isEmpty()) {
         NoQuestionsScreen(onExitQuiz = onExitQuiz, modifier = modifier)
         return
     }
-
-    val progress by animateFloatAsState(
-        targetValue = (currentQuestionIndex + 1).toFloat() / quizQuestions.size,
-        animationSpec = tween(durationMillis = 280),
-        label = "quizProgress"
-    )
 
     AnimatedContent(
         targetState = quizFinished,
@@ -95,8 +165,8 @@ fun QuizScreen(
             QuizResult(
                 score = score,
                 questionCount = quizQuestions.size,
-                earnedMinutes = earnedMinutes,
-                availableMinutes = availableMinutes,
+                earnedTimeMillis = earnedTimeMillis,
+                availableTimeMillis = availableTimeMillis,
                 onNewMission = onNewMission,
                 modifier = Modifier.fillMaxSize()
             )
@@ -106,17 +176,27 @@ fun QuizScreen(
                 currentQuestionIndex = currentQuestionIndex,
                 selectedAnswerIndex = selectedAnswerIndex,
                 score = score,
-                earnedMinutes = earnedMinutes,
-                progress = progress,
+                earnedTimeMillis = earnedTimeMillis,
                 onAnswerSelected = { answerIndex ->
                     // The selection lock makes the reward idempotent for this question.
                     if (selectedAnswerIndex == null) {
                         selectedAnswerIndex = answerIndex
                         if (answerIndex == quizQuestions[currentQuestionIndex].correctAnswerIndex) {
                             score += 1
-                            val reward = quizQuestions[currentQuestionIndex].rewardMinutes
-                            earnedMinutes += reward
-                            onMinutesEarned(reward)
+                            val questionId = quizQuestions[currentQuestionIndex].id
+                            val alreadyRewarded = rewardedQuestionIds
+                                .lineSequence()
+                                .any { it == questionId }
+                            if (!alreadyRewarded) {
+                                rewardedQuestionIds = if (rewardedQuestionIds.isBlank()) {
+                                    questionId
+                                } else {
+                                    "$rewardedQuestionIds\n$questionId"
+                                }
+                                val rewardMillis = quizQuestions[currentQuestionIndex].rewardTimeMillis
+                                earnedTimeMillis += rewardMillis
+                                onTimeEarned(rewardMillis)
+                            }
                         }
                     }
                 },
@@ -136,12 +216,11 @@ fun QuizScreen(
 
 @Composable
 private fun QuizContent(
-    questions: List<Question>,
+    questions: List<QuizPrompt>,
     currentQuestionIndex: Int,
     selectedAnswerIndex: Int?,
     score: Int,
-    earnedMinutes: Int,
-    progress: Float,
+    earnedTimeMillis: Long,
     onAnswerSelected: (Int) -> Unit,
     onNext: () -> Unit,
     modifier: Modifier = Modifier
@@ -152,37 +231,25 @@ private fun QuizContent(
             .padding(horizontal = 20.dp, vertical = 24.dp),
         verticalArrangement = Arrangement.Top
     ) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            Text(
-                text = "Question ${currentQuestionIndex + 1} / ${questions.size}",
-                style = MaterialTheme.typography.titleLarge,
-                fontWeight = FontWeight.SemiBold
-            )
-        }
-
-        Spacer(Modifier.height(12.dp))
-
-        LinearProgressIndicator(
-            progress = { progress },
-            modifier = Modifier
-                .fillMaxWidth()
-                .height(10.dp)
-                .semantics { contentDescription = "Progression de la mission" },
-            color = MaterialTheme.colorScheme.primary,
-            trackColor = MaterialTheme.colorScheme.secondaryContainer
+        ProgressIndicator(
+            currentStep = currentQuestionIndex + 1,
+            totalSteps = questions.size,
+            modifier = Modifier.fillMaxWidth()
         )
 
         Spacer(Modifier.height(16.dp))
 
         Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-            QuizStat(
+            StatCard(
                 label = "Score",
                 value = "$score / ${questions.size}",
+                symbol = "🏆",
                 modifier = Modifier.weight(1f)
             )
-            QuizStat(
+            StatCard(
                 label = "Temps gagné",
-                value = "$earnedMinutes min",
+                value = formatScreenTime(earnedTimeMillis),
+                symbol = "🌟",
                 modifier = Modifier.weight(1f)
             )
         }
@@ -199,16 +266,13 @@ private fun QuizContent(
         ) { questionIndex ->
             val question = questions[questionIndex]
             Column {
-                Card(
+                FocusQuestCard(
                     modifier = Modifier.fillMaxWidth(),
-                    shape = QuizCardShape,
-                    colors = CardDefaults.cardColors(
-                        containerColor = MaterialTheme.colorScheme.surfaceVariant
-                    )
+                    containerColor = MaterialTheme.colorScheme.surfaceVariant,
+                    contentColor = MaterialTheme.colorScheme.onSurfaceVariant
                 ) {
                     Text(
                         text = question.question,
-                        modifier = Modifier.padding(horizontal = 22.dp, vertical = 24.dp),
                         style = MaterialTheme.typography.headlineSmall,
                         fontWeight = FontWeight.SemiBold,
                         color = MaterialTheme.colorScheme.onSurfaceVariant
@@ -244,54 +308,19 @@ private fun QuizContent(
                                 isCorrect = selectedIndex == question.correctAnswerIndex
                             )
                             Spacer(Modifier.height(18.dp))
-                            Button(
+                            FocusQuestButton(
+                                text = if (questionIndex == questions.lastIndex) {
+                                    "Voir mes résultats"
+                                } else {
+                                    "Question suivante"
+                                },
                                 onClick = onNext,
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .heightIn(min = 56.dp),
-                                shape = AnswerShape
-                            ) {
-                                Text(
-                                    text = if (questionIndex == questions.lastIndex) {
-                                        "Voir mes résultats"
-                                    } else {
-                                        "Question suivante"
-                                    },
-                                    style = MaterialTheme.typography.titleMedium
-                                )
-                            }
+                                modifier = Modifier.fillMaxWidth()
+                            )
                         }
                     }
                 }
             }
-        }
-    }
-}
-
-@Composable
-private fun QuizStat(
-    label: String,
-    value: String,
-    modifier: Modifier = Modifier
-) {
-    Surface(
-        modifier = modifier,
-        shape = RoundedCornerShape(18.dp),
-        color = MaterialTheme.colorScheme.secondaryContainer
-    ) {
-        Column(modifier = Modifier.padding(horizontal = 16.dp, vertical = 12.dp)) {
-            Text(
-                text = label,
-                style = MaterialTheme.typography.labelLarge,
-                color = MaterialTheme.colorScheme.onSecondaryContainer
-            )
-            Spacer(Modifier.height(2.dp))
-            Text(
-                text = value,
-                style = MaterialTheme.typography.titleMedium,
-                fontWeight = FontWeight.SemiBold,
-                color = MaterialTheme.colorScheme.onSecondaryContainer
-            )
         }
     }
 }
@@ -321,8 +350,8 @@ private fun AnswerButton(
         else -> MaterialTheme.colorScheme.onSurface
     }
     val marker = when {
-        revealedCorrectAnswer -> "✓"
-        isSelected -> "×"
+        revealedCorrectAnswer -> "✅"
+        isSelected -> "❌"
         else -> ('A'.code + answerIndex).toChar().toString()
     }
 
@@ -349,7 +378,7 @@ private fun AnswerButton(
         ) {
             Text(
                 text = marker,
-                style = MaterialTheme.typography.titleMedium,
+                fontSize = if (revealedCorrectAnswer || isSelected) 23.sp else MaterialTheme.typography.titleMedium.fontSize,
                 fontWeight = FontWeight.Bold,
                 modifier = Modifier.size(28.dp),
                 textAlign = TextAlign.Center
@@ -367,63 +396,50 @@ private fun AnswerButton(
 
 @Composable
 private fun AnswerFeedback(
-    question: Question,
+    question: QuizPrompt,
     isCorrect: Boolean
 ) {
     if (isCorrect) {
-        AnimatedVisibility(
-            visible = true,
-            enter = fadeIn(tween(180)) + slideInVertically(tween(180)) { it / 10 }
+        FocusQuestCard(
+            modifier = Modifier.fillMaxWidth(),
+            containerColor = MaterialTheme.colorScheme.primaryContainer,
+            contentColor = MaterialTheme.colorScheme.onPrimaryContainer
         ) {
-            Surface(
-                modifier = Modifier.fillMaxWidth(),
-                shape = QuizCardShape,
-                color = MaterialTheme.colorScheme.primaryContainer
-            ) {
-                Column(modifier = Modifier.padding(18.dp)) {
-                    Text(
-                        text = "Bonne réponse !",
-                        style = MaterialTheme.typography.titleMedium,
-                        fontWeight = FontWeight.Bold,
-                        color = MaterialTheme.colorScheme.onPrimaryContainer
-                    )
-                    Spacer(Modifier.height(4.dp))
-                    Text(
-                        text = "+${question.rewardMinutes} minutes",
-                        style = MaterialTheme.typography.headlineSmall,
-                        fontWeight = FontWeight.Bold,
-                        color = MaterialTheme.colorScheme.onPrimaryContainer
-                    )
-                }
-            }
+            Text(
+                text = "Bonne réponse !",
+                style = MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.Bold
+            )
+            Spacer(Modifier.height(10.dp))
+            RewardBadge(amount = formatScreenTime(question.rewardTimeMillis))
+            Spacer(Modifier.height(8.dp))
+            Text(
+                text = question.explanation,
+                style = MaterialTheme.typography.bodyMedium
+            )
         }
     } else {
-        Surface(
+        FocusQuestCard(
             modifier = Modifier.fillMaxWidth(),
-            shape = QuizCardShape,
-            color = MaterialTheme.colorScheme.secondaryContainer
+            containerColor = MaterialTheme.colorScheme.secondaryContainer,
+            contentColor = MaterialTheme.colorScheme.onSecondaryContainer
         ) {
-            Column(modifier = Modifier.padding(18.dp)) {
-                Text(
-                    text = "Pas tout à fait, continue !",
-                    style = MaterialTheme.typography.titleMedium,
-                    fontWeight = FontWeight.Bold,
-                    color = MaterialTheme.colorScheme.onSecondaryContainer
-                )
-                Spacer(Modifier.height(8.dp))
-                Text(
-                    text = "La bonne réponse : ${question.answers[question.correctAnswerIndex]}",
-                    style = MaterialTheme.typography.bodyLarge,
-                    fontWeight = FontWeight.SemiBold,
-                    color = MaterialTheme.colorScheme.onSecondaryContainer
-                )
-                Spacer(Modifier.height(6.dp))
-                Text(
-                    text = question.explanation,
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSecondaryContainer
-                )
-            }
+            Text(
+                text = "Pas tout à fait, continue !",
+                style = MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.Bold
+            )
+            Spacer(Modifier.height(8.dp))
+            Text(
+                text = "La bonne réponse : ${question.answers[question.correctAnswerIndex]}",
+                style = MaterialTheme.typography.bodyLarge,
+                fontWeight = FontWeight.SemiBold
+            )
+            Spacer(Modifier.height(6.dp))
+            Text(
+                text = question.explanation,
+                style = MaterialTheme.typography.bodyMedium
+            )
         }
     }
 }
@@ -440,15 +456,12 @@ private fun NoQuestionsScreen(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        Card(
-            shape = QuizCardShape,
-            colors = CardDefaults.cardColors(
-                containerColor = MaterialTheme.colorScheme.surfaceVariant
-            )
+        FocusQuestCard(
+            containerColor = MaterialTheme.colorScheme.surfaceVariant,
+            contentColor = MaterialTheme.colorScheme.onSurfaceVariant
         ) {
             Text(
-                text = "Pas encore de questions disponibles pour cette classe et cette matière.",
-                modifier = Modifier.padding(24.dp),
+                text = "Pas encore de questions disponibles pour ce chapitre.",
                 style = MaterialTheme.typography.titleLarge,
                 textAlign = TextAlign.Center
             )
@@ -456,13 +469,7 @@ private fun NoQuestionsScreen(
 
         Spacer(Modifier.height(24.dp))
 
-        Button(
-            onClick = onExitQuiz,
-            modifier = Modifier.heightIn(min = 56.dp),
-            shape = AnswerShape
-        ) {
-            Text(text = "Choisir une autre matière")
-        }
+        FocusQuestButton(text = "Retour au chapitre", onClick = onExitQuiz)
     }
 }
 
@@ -470,8 +477,8 @@ private fun NoQuestionsScreen(
 private fun QuizResult(
     score: Int,
     questionCount: Int,
-    earnedMinutes: Int,
-    availableMinutes: Int,
+    earnedTimeMillis: Long,
+    availableTimeMillis: Long,
     onNewMission: () -> Unit,
     modifier: Modifier = Modifier
 ) {
@@ -505,17 +512,13 @@ private fun QuizResult(
 
         Spacer(Modifier.height(24.dp))
 
-        Card(
+        FocusQuestCard(
             modifier = Modifier.fillMaxWidth(),
-            shape = QuizCardShape,
-            colors = CardDefaults.cardColors(
-                containerColor = MaterialTheme.colorScheme.secondaryContainer
-            )
+            containerColor = MaterialTheme.colorScheme.secondaryContainer,
+            contentColor = MaterialTheme.colorScheme.onSecondaryContainer
         ) {
             Column(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(20.dp),
+                modifier = Modifier.fillMaxWidth(),
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 Text(
@@ -525,14 +528,14 @@ private fun QuizResult(
                 )
                 Spacer(Modifier.height(4.dp))
                 Text(
-                    text = "+$earnedMinutes minutes",
+                    text = "+${formatScreenTime(earnedTimeMillis)}",
                     style = MaterialTheme.typography.headlineSmall,
                     fontWeight = FontWeight.Bold,
                     color = MaterialTheme.colorScheme.onSecondaryContainer
                 )
                 Spacer(Modifier.height(10.dp))
                 Text(
-                    text = "Temps disponible : $availableMinutes min",
+                    text = "Temps disponible : ${formatScreenTime(availableTimeMillis)}",
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSecondaryContainer
                 )
@@ -541,22 +544,11 @@ private fun QuizResult(
 
         Spacer(Modifier.height(24.dp))
 
-        Button(
+        FocusQuestButton(
+            text = "Recommencer une mission",
             onClick = onNewMission,
-            modifier = Modifier
-                .fillMaxWidth()
-                .heightIn(min = 58.dp),
-            shape = AnswerShape,
-            colors = ButtonDefaults.buttonColors(
-                containerColor = MaterialTheme.colorScheme.primary
-            )
-        ) {
-            Text(
-                text = "Recommencer une mission",
-                style = MaterialTheme.typography.titleMedium,
-                fontWeight = FontWeight.SemiBold
-            )
-        }
+            modifier = Modifier.fillMaxWidth()
+        )
     }
 }
 
